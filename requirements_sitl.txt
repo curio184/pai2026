@@ -1,0 +1,11 @@
+# Tested on Ubuntu 22.04 / Python 3.10.12. No VLA inference in this environment.
+numpy==2.2.6
+Pillow==12.3.0
+mujoco==3.9.0
+pymavlink==2.4.50
+empy==3.3.4
+future==1.0.0
+Jinja2==3.1.6
+pexpect==4.9.0
+PyYAML==6.0.3
+tomli==2.5.0

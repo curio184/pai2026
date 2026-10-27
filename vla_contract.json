@@ -1,0 +1,112 @@
+{
+  "status": "Action/input interface retained. Current authorized training revision selected in review_selection.json; learned flight capability requires its own recorded verification.",
+  "base": "lerobot/smolvla_base",
+  "base_revision": "5e8d12a6e2975b0e5e5fce7c8caf47c371d257b6",
+  "action_expert_structure_changed": false,
+  "internal_max_action_dim": 32,
+  "used_action_dim": 6,
+  "actions": [
+    {
+      "name": "forward_velocity",
+      "unit": "m/s",
+      "range": [
+        -0.2,
+        0.2
+      ]
+    },
+    {
+      "name": "left_velocity",
+      "unit": "m/s",
+      "range": [
+        -0.2,
+        0.2
+      ]
+    },
+    {
+      "name": "up_velocity",
+      "unit": "m/s",
+      "range": [
+        -0.3,
+        0.3
+      ]
+    },
+    {
+      "name": "clockwise_yaw_rate",
+      "unit": "rad/s",
+      "range": [
+        -0.35,
+        0.35
+      ]
+    },
+    {
+      "name": "takeoff_request",
+      "unit": "score",
+      "range": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "land_request",
+      "unit": "score",
+      "range": [
+        0,
+        1
+      ]
+    }
+  ],
+  "estimated_state": [
+    "body_forward_velocity",
+    "body_left_velocity",
+    "up_velocity",
+    "relative_altitude",
+    "roll",
+    "pitch",
+    "yaw_since_command",
+    "clockwise_yaw_rate",
+    "armed"
+  ],
+  "image": {
+    "source": "forward camera",
+    "width": 320,
+    "height": 240,
+    "vertical_fov_deg_assumed": 64,
+    "calibrated": false
+  },
+  "tasks": [
+    "approach_blue_person_and_stop",
+    "approach_red_person_and_stop",
+    "takeoff_and_hover",
+    "land",
+    "rotate_clockwise_90_degrees_and_stop",
+    "rotate_counterclockwise_90_degrees_and_stop",
+    "hover"
+  ],
+  "supervision": "Simulation truth permitted only for teacher generation and scoring. Runtime model receives RGB, instruction and onboard estimated state only.",
+  "flight_execution": "Existing ArduPilot attitude/height control plus fixed external velocity feedback. Requested takeoff/land use flight routines; model does not drive motors directly.",
+  "request_guard": "Clamp scores; require three consecutive scores above 0.7, deduplicate requests, reject takeoff while already armed and land while disarmed.",
+  "learning": {
+    "freeze_visual_language_backbone": false,
+    "train_action_expert": true,
+    "train_state_projection": true,
+    "original_fixed_run_limit": 1,
+    "additional_training_now_authorized_if_needed": true,
+    "current_authorization": "revision_authorization.json",
+    "hyperparameter_search": false,
+    "freeze_vision_encoder": true,
+    "train_vlm_text_layers": [
+      13,
+      14
+    ],
+    "original_run_vlm_frozen": true,
+    "selected_plan": "finetune_plan_revision_02.json"
+  },
+  "training_started": true,
+  "language_flight_verified": false,
+  "action_chunk": {
+    "selected_steps": 32,
+    "step_s": 0.1,
+    "historical_initial_steps": 10,
+    "limits_and_independent_physical_scoring_unchanged": true
+  }
+}

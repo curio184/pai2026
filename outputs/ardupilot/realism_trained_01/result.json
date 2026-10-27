@@ -1,0 +1,36 @@
+{
+  "success": false,
+  "checks": [
+    {
+      "profile": "blue",
+      "runner_exit": 0,
+      "scorer_exit": 0,
+      "success": false,
+      "checkpoint_matches": true
+    },
+    {
+      "profile": "red",
+      "runner_exit": 0,
+      "scorer_exit": 0,
+      "success": true,
+      "checkpoint_matches": true
+    },
+    {
+      "profile": "turns",
+      "runner_exit": 0,
+      "scorer_exit": 0,
+      "success": true,
+      "checkpoint_matches": true
+    },
+    {
+      "profile": "left",
+      "runner_exit": 0,
+      "scorer_exit": 0,
+      "success": true,
+      "checkpoint_matches": true
+    }
+  ],
+  "worker_exit": 0,
+  "checkpoint_sha256": "31221a67afbe825884ef0abe8ccb5583458db18902aa64a47d59780202fd73e4",
+  "real_hardware_feasibility_verified": false
+}

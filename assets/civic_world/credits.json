@@ -1,0 +1,41 @@
+{
+  "scene": "civic_world.blend",
+  "original_work": "Room arrangement, damage placement, material assembly, lighting, camera setup, clothing tint, body fitting, physical fixture proxies and video graphics authored for this project.",
+  "sources": [
+    {
+      "name": "StampFly ecosystem airframe geometry",
+      "repository": "https://github.com/M5Fly-kanazawa/stampfly_ecosystem",
+      "commit": "9467f1a156326b95a01383e11c44dd665a55b536",
+      "license": "MIT",
+      "notice": "assets/STAMPFLY_LICENSE.txt",
+      "included": "13 original STL parts in assets/civic_world/physics and the same geometry within the packed .blend",
+      "modifications": "Metric scale, materials and placement; proposed camera/flow/feet are separately authored schematic additions."
+    },
+    {
+      "name": "MakeHuman base and core assets",
+      "license": "CC0",
+      "sources": [
+        "https://www.makehumancommunity.org/about/license.html",
+        "https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html"
+      ],
+      "included": "Fitted body, male_casualsuit05 clothing, shoes01, short02/bob01 hair, high-poly eyes and skin/eye/hair/clothing textures packed in the .blend",
+      "modifications": "Body scale and relaxed arm pose, clothing fitting and blue/red tint. The base.obj header explicitly records its September 2020 CC0 release."
+    },
+    {
+      "name": "Poly Haven material scans",
+      "license": "CC0",
+      "sources": [
+        "https://polyhaven.com/a/worn_plaster_wall",
+        "https://polyhaven.com/a/concrete_floor_02",
+        "https://polyhaven.com/a/red_brick_03",
+        "https://polyhaven.com/license"
+      ],
+      "included": "2K diffuse and roughness textures packed into the .blend; downloaded channels and hashes are recorded in assets/civic_sources/sources.json",
+      "modifications": "Projection scale, roughness, tint and procedural surface relief."
+    }
+  ],
+  "download_provenance": "assets/civic_sources/sources.json",
+  "fonts": "Installed Windows fonts are used to rasterize video titles. Font files are not included.",
+  "audio": "Final video: OpenAI generated narration and original procedural music; voice and font files are not included",
+  "publication": "Prepared public candidate; not uploaded"
+}

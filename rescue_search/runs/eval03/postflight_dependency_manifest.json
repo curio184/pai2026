@@ -1,0 +1,25 @@
+{
+  "timing": "Collected after eval03; supporting files unchanged during this goal",
+  "root_sources": {
+    "smolvla_policy.py": "1e5382a3b63fc92834caed56c851d50cb5ed248a33d2372f1cb5129c4ac456f6",
+    "rescue_scene.py": "9aa3036b601cda9a292556c1282f9545a53070c08808413cfb755b7a6e215c16",
+    "civic_camera.py": "53a7f83fa5ed30a6c057d2cbc7576385d8e75155cfd511c245fe3cc962c6677f",
+    "civic_render_client.py": "e837412c03f62ebbefd43de32e6548f683ce4369898520778d9eea23f964304d",
+    "flight_progress.py": "06730a68ead0968904e6de62aca6634a8662cac0f5dc0e4f05b98077fa81dc58",
+    "vla_link.py": "a5d7e759283adbc676c65c2c5fa1d2d3955d9edfd9d592cb1da1f7b585948bc7",
+    "score_mission.py": "ec6dedcda8177e8ea702705ef766f5851651ca8760bf246205d0ad3277b0eb1e"
+  },
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "transformers": "5.5.4",
+    "lerobot": "0.6.1",
+    "opencv-python-headless": "4.13.0.92",
+    "pillow": "12.3.0",
+    "numpy": "2.2.6"
+  },
+  "stampfly_commit": "9467f1a156326b95a01383e11c44dd665a55b536",
+  "ardupilot_commit": "38687117133582049734ebd39f8a7af6f487716a",
+  "stampfly_status": "",
+  "ardupilot_status": ""
+}

@@ -1,0 +1,93 @@
+{
+  "license_sources": [
+    "https://www.makehumancommunity.org/about/license.html",
+    "https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html",
+    "https://polyhaven.com/license"
+  ],
+  "assets": [
+    {
+      "file": "assets\\civic_sources\\makehuman_system_assets_cc0.zip",
+      "url": "https://files.makehumancommunity.org/asset_packs/makehuman_system_assets/makehuman_system_assets_cc0.zip",
+      "bytes": 280737770,
+      "sha256": "b542127a8e25547c7c29c19f2d1d2adb9a664c80396ecd694095dbc8028a0107",
+      "license": "CC0"
+    },
+    {
+      "file": "assets\\civic_sources\\base.obj",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/master/makehuman/data/3dobjs/base.obj",
+      "bytes": 1749303,
+      "sha256": "8e761e6624b8f54536409135d1636da63b32486a90d4897f84e121d144f6fb4c",
+      "license": "CC0"
+    },
+    {
+      "file": "assets\\civic_sources\\MakeHuman_LICENSE.md",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/master/LICENSE.md",
+      "bytes": 3598,
+      "sha256": "edd99571ca62698f78c943fd4fffb159a413c315fa0d4819d3cec5cadaf8b4f1",
+      "license": "CC0"
+    },
+    {
+      "file": "assets\\civic_sources\\worn_plaster_wall\\diff.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/worn_plaster_wall/worn_plaster_wall_diff_2k.jpg",
+      "bytes": 3096042,
+      "sha256": "1cf28fcd1a0aa5873055fbfaf791e4a1528e03d3eeea8f66af23aba651e71f54",
+      "license": "CC0"
+    },
+    {
+      "file": "assets\\civic_sources\\worn_plaster_wall\\nor_gl.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/worn_plaster_wall/worn_plaster_wall_nor_gl_2k.jpg",
+      "bytes": 2935964,
+      "sha256": "ffc110c57a6f98416a9cec390aeee80e1c6a3e6be627cfabfa041a55ccf96546",
+      "license": "CC0"
+    },
+    {
+      "file": "assets\\civic_sources\\worn_plaster_wall\\rough.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/worn_plaster_wall/worn_plaster_wall_rough_2k.jpg",
+      "bytes": 1012956,
+      "sha256": "1063b53b2cba33f791b895f0d7ac0ee5f3434a54a674164e53405d9cf358f7b1",
+      "license": "CC0"
+    },
+    {
+      "file": "assets\\civic_sources\\concrete_floor_02\\diff.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_floor_02/concrete_floor_02_diff_2k.jpg",
+      "bytes": 3310792,
+      "sha256": "b08a20dcb306d08ee7f4a05ec216b19b7fd37e95745998ec5f81ecedaac1f0e9",
+      "license": "CC0"
+    },
+    {
+      "file": "assets\\civic_sources\\concrete_floor_02\\nor_gl.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_floor_02/concrete_floor_02_nor_gl_2k.jpg",
+      "bytes": 935810,
+      "sha256": "ce12d18f283f884f4be6f6c110f81582376049caada1e226958659d3d5fbaae1",
+      "license": "CC0"
+    },
+    {
+      "file": "assets\\civic_sources\\concrete_floor_02\\rough.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_floor_02/concrete_floor_02_rough_2k.jpg",
+      "bytes": 1417673,
+      "sha256": "cb539b0f8fdc8c63241683e01c923eb040fa701ec4c60cff27b674294746ae67",
+      "license": "CC0"
+    },
+    {
+      "file": "assets\\civic_sources\\red_brick_03\\diff.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/red_brick_03/red_brick_03_diff_2k.jpg",
+      "bytes": 2969950,
+      "sha256": "c37ef11bb94a533d1c758c5c7d7199264e90f19b23946766c7c59aa189c11ff6",
+      "license": "CC0"
+    },
+    {
+      "file": "assets\\civic_sources\\red_brick_03\\nor_gl.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/red_brick_03/red_brick_03_nor_gl_2k.jpg",
+      "bytes": 3684630,
+      "sha256": "3bcb8714c450369915a9608a9e5318433a5e5df932184519bdbfd993dec16a9f",
+      "license": "CC0"
+    },
+    {
+      "file": "assets\\civic_sources\\red_brick_03\\rough.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/red_brick_03/red_brick_03_rough_2k.jpg",
+      "bytes": 1329161,
+      "sha256": "54cbcc8acdbdfbc0a38407509ef72058ef5847b5713e689fa37ce9cc504c41c1",
+      "license": "CC0"
+    }
+  ]
+}

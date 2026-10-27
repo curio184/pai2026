@@ -1,0 +1,10 @@
+{
+  "records": [
+    {
+      "condition": "clear",
+      "profile": "red",
+      "runner_exit": 0
+    }
+  ],
+  "worker_exit": 0
+}

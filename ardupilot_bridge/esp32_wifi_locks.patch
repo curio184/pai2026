@@ -1,0 +1,32 @@
+--- a/libraries/AP_HAL_ESP32/Semaphores.cpp
++++ b/libraries/AP_HAL_ESP32/Semaphores.cpp
+@@ -61,12 +61,7 @@
+ 
+ bool Semaphore::take_nonblocking()
+ {
+-    bool ok = xSemaphoreTakeRecursive((QueueHandle_t)handle, 0) == pdTRUE;
+-    if (ok) {
+-        give();
+-    }
+-
+-    return ok;
++    return xSemaphoreTakeRecursive((QueueHandle_t)handle, 0) == pdTRUE;
+ }
+ 
+ bool Semaphore::check_owner()
+--- a/libraries/AP_HAL_ESP32/WiFiUdpDriver.cpp
++++ b/libraries/AP_HAL_ESP32/WiFiUdpDriver.cpp
+@@ -148,12 +148,9 @@
+     int count = recvfrom(accept_socket, _buffer, sizeof(_buffer) - 1, 0, (struct sockaddr *)&client_addr, &socklen);
+     if (count > 0) {
+         _readbuf.write(_buffer, count);
+-        _read_mutex.give();
+-    } else {
+-        return false;
+     }
+     _read_mutex.give();
+-    return true;
++    return count > 0;
+ }
+ 
+ bool WiFiUdpDriver::write_data()

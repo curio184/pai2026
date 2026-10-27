@@ -1,0 +1,39 @@
+{
+  "status": "Fixed appearance-adaptation plan before its first optimizer step",
+  "authorization": "revision_authorization.json",
+  "initial_checkpoint": "outputs/smolvla_training_civic_01/final",
+  "initial_checkpoint_sha256": "410a378d30a10a2975b15675732cfd9fd50b401f29314aaa0a57ee63b55c9c63",
+  "dataset": "outputs/vla_data_realism_01",
+  "output": "outputs/smolvla_training_realism_01",
+  "seed": 20261026,
+  "steps": 5000,
+  "micro_batch": 4,
+  "gradient_accumulation": 2,
+  "learning_rate": 5e-05,
+  "vlm_layer_learning_rate": 1e-05,
+  "train_vlm_text_layers": [
+    13,
+    14
+  ],
+  "vision_encoder_and_other_vlm_layers_frozen": true,
+  "optimizer": "AdamW",
+  "betas": [
+    0.9,
+    0.95
+  ],
+  "epsilon": 1e-08,
+  "weight_decay": 1e-10,
+  "gradient_clip_norm": 10,
+  "warmup_steps": 200,
+  "final_learning_rate_fraction": 0.025,
+  "autocast": "bfloat16",
+  "action_chunk": 32,
+  "action_dt_s": 0.1,
+  "batch_composition": "Same paired-color and balanced primitives recipe as revision 02, using the frozen rich-world optical camera. Include close stopping views and actual recorded flight poses.",
+  "flow_boundary_anchor": "Identical-image/state blue/red pairs share noise at flow time 1; other examples retain ordinary flow matching.",
+  "rationale": "Adapt the actual policy to grounded, skeletal-posed people, corrected skin/clothing materials, physical landing feet and revised daylight. Preserve all previous model and flight evidence; no task scoring thresholds changed.",
+  "maximum_runs_for_this_plan": 1,
+  "checkpoint_selection": "Final step only",
+  "search": false,
+  "physical_success_criteria_changed": false
+}

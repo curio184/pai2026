@@ -1,0 +1,14 @@
+# Used with Ubuntu 22.04 / Python 3.10.12. System compiler/make/git required.
+numpy==2.2.6
+mujoco==3.9.0
+empy==3.3.4
+pexpect==4.9.0
+pymavlink==2.4.50
+pyserial==3.5
+future==1.0.0
+lxml==6.1.3
+fastcrc==0.5.0
+tomli==2.5.0
+Jinja2==3.1.6
+# Offline plotting only; does not repeat flight.
+matplotlib==3.10.9

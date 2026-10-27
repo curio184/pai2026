@@ -1,0 +1,19 @@
+{
+  "all_tasks_present": true,
+  "task_counts": [
+    1801,
+    1817,
+    2408,
+    2408,
+    4191,
+    4191,
+    2408
+  ],
+  "sha256": "b92eeca3df8cacd7aba07eaa2e0778f90ad7ae97e2143e6a937b19fa22524ee7",
+  "image_manifest_sha256": "05556130a91345c6e7024b387af4e19424b34e69ef3c70b0dc99ba9382e0b256",
+  "nav_pairs_sha256": "e436d3a5907f93f3748759fc74da538ee60fd804fd20acd06ebc6c67a97207a0",
+  "images_hashed": 2408,
+  "kept_samples": 19224,
+  "paired_examples": 737,
+  "teacher_geometry_is_model_input": false
+}

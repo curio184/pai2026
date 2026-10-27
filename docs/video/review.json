@@ -1,0 +1,93 @@
+{
+    "video":  "<PROJECT_ROOT>\\output\\video\\rescue_drone_final_quad.mp4",
+    "duration_s":  177,
+    "frames":  4248,
+    "dimensions":  [
+                       1920,
+                       1080
+                   ],
+    "fps":  24,
+    "chapters":  [
+                     {
+                         "section":  "intro_pan",
+                         "start_s":  0,
+                         "duration_s":  24
+                     },
+                     {
+                         "section":  "mechanism_movie",
+                         "start_s":  24,
+                         "duration_s":  29
+                     },
+                     {
+                         "section":  "training_movie_v2",
+                         "start_s":  53,
+                         "duration_s":  16
+                     },
+                     {
+                         "section":  "demo_movie",
+                         "start_s":  69,
+                         "duration_s":  40
+                     },
+                     {
+                         "section":  "red_movie",
+                         "start_s":  109,
+                         "duration_s":  26
+                     },
+                     {
+                         "section":  "conditions_movie",
+                         "start_s":  135,
+                         "duration_s":  18
+                     },
+                     {
+                         "section":  "ending_movie",
+                         "start_s":  153,
+                         "duration_s":  24
+                     }
+                 ],
+    "sha256":  "9669ae47300089f327ac347f9e07efcd6c9e02c05cb7ef91212f779af404ed51",
+    "full_decode":  true,
+    "blue_and_red_flight_frames_preserved":  true,
+    "subtitle_delivery":  "Burned-in only; transcript is kept in the work folder",
+    "narration_pace":  "6.8 mora/s plus punctuation allowance; pitch-preserving adjustment of original voice clips",
+    "new_training_text":  [
+                              "VLAを飛行制御に対応させるため、追加学習を行いました。",
+                              "移動や旋回などの動作を定義し、画像や指示、機体の状態と対応付けました。"
+                          ],
+    "voice_overlap":  false,
+    "source_sections":  [
+                            {
+                                "path":  "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\narration_consistent\\intro_pan\\section.mp4",
+                                "sha256":  "81fe2089c45658095ec463c00b1fb6dcd449f4289c8f76317170968e73db2e35"
+                            },
+                            {
+                                "path":  "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\narration_consistent\\mechanism_movie\\section.mp4",
+                                "sha256":  "a6a11c105c508ab3b1b09a7486e7cc6f0f0a3512e84f41babccb9f272a10901a"
+                            },
+                            {
+                                "path":  "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\narration_consistent\\training_natural\\section.mp4",
+                                "sha256":  "ee0e5fce191f9d60ac2964732d279c65e0f7450fbcf8e881abd7347302e14c1d"
+                            },
+                            {
+                                "path":  "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\narration_consistent\\demo_movie\\section.mp4",
+                                "sha256":  "aa051734ed652cb008276df184557d647806f935e39308a8a6517c8448f0866d"
+                            },
+                            {
+                                "path":  "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\narration_consistent\\red_movie\\section.mp4",
+                                "sha256":  "57873d49539b9360302599574cec9384465840fdb920fe73c8e14ddfbf8cea91"
+                            },
+                            {
+                                "path":  "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\narration_consistent\\conditions_quad\\section.mp4",
+                                "sha256":  "3ad68402b5876c1afd3248c33a0dd4ba8f51b82eefce0c366b17fbb9a553e163"
+                            },
+                            {
+                                "path":  "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\narration_consistent\\story_ending\\section.mp4",
+                                "sha256":  "18fcf41545e42dd9f5e72029cc115f495c3f2767f02b86a645829f9b7b150751"
+                            }
+                        ],
+    "visual_review_complete":  true,
+    "audio_listening_review":  false,
+    "training_narration_pace":  "New OpenAI narration at normal API speed 1.0; no editorial tempo adjustment; listening approval pending",
+    "visual_review_scope":  "Quad layout, caption fit, and terminal saved-image statuses; reused other sections",
+    "conditions_revision":  "4 second card; 10 second parallel original VLA input excerpts aligned at image notification; 4 second scoped results",
+    "training_voice_revision":  "Regenerated at API speed 1.0 with no postproduction tempo correction; adjacent-section listening preview supplied; no human listening verification claimed"
+}

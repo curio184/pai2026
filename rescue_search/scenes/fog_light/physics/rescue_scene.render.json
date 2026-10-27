@@ -1,0 +1,17 @@
+{
+  "port": 17867,
+  "blend_sha256": "ad4d34a754df6612680040b18f0f28e50c393d318751ce48fbb59b92e68cdc6d",
+  "camera": {
+    "width": 320,
+    "height": 240,
+    "fovy_degrees": 64,
+    "offset_body_flu": [
+      0.014,
+      0,
+      0.025
+    ]
+  },
+  "renderer": "Blender Cycles CUDA",
+  "samples": 16,
+  "blend_relative": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\scenes\\fog_light\\scene.blend"
+}

@@ -1,0 +1,32 @@
+{
+  "selection_basis": "Authorized processing correction fixed before the revised four-case outcomes; same revision-02 final weights, final step only, no best-case collection.",
+  "authorization": "revision_authorization.json",
+  "training_run": "outputs/smolvla_training_revision_02",
+  "training_plan": "finetune_plan_revision_02.json",
+  "dataset": "outputs/vla_data_revision_02",
+  "flight_records": "outputs/ardupilot/inference_revision_04",
+  "flight_build_name": "review_bridge_50g",
+  "flight_payload_revision": "payload_revision_50g.json",
+  "profiles": [
+    "blue",
+    "red",
+    "turns",
+    "left"
+  ],
+  "training_lineage": [
+    {
+      "run": "outputs/smolvla_training",
+      "plan": "finetune_plan.json"
+    },
+    {
+      "run": "outputs/smolvla_training_revision_02",
+      "plan": "finetune_plan_revision_02.json"
+    }
+  ],
+  "original_flight_records": "outputs/ardupilot/final_policy_evidence",
+  "processing_revision_records": "outputs/ardupilot/inference_revision_01",
+  "earlier_artifacts_are_historical_until_regenerated": true,
+  "external_publication_or_submission": false,
+  "flight_chunk_origin": "split",
+  "chunk_timing_revision": "chunk_timing_revision.json"
+}

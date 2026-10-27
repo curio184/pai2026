@@ -1,0 +1,154 @@
+{
+  "seed": 20261027,
+  "images": 2408,
+  "samples": 19224,
+  "prompts": [
+    "Approach the person wearing blue and stop. 青い服の人の前で止まって。",
+    "Approach the person wearing red and stop. 赤い服の人の前で止まって。",
+    "Take off and hover at one meter. 離陸して。",
+    "Land and stop the motors. 着陸して。",
+    "Turn clockwise ninety degrees and stop. 右に90度回って。",
+    "Turn counterclockwise ninety degrees and stop. 左に90度回って。",
+    "Stop and hover here. その場で止まって。"
+  ],
+  "action_shape": [
+    32,
+    6
+  ],
+  "state_shape": [
+    9
+  ],
+  "paired_nav_examples": 737,
+  "recorded_pose_sources": [
+    {
+      "record": "civic_trained_01",
+      "profile": "blue",
+      "trace_sha256": "d6c5ab3840a1de4eb65ae2c0d091d882cc137266b8e5f1a7624d9604a6eeb415"
+    },
+    {
+      "record": "civic_trained_01",
+      "profile": "red",
+      "trace_sha256": "8aef55d26ce1e47526d4a3d3e89f3d345314739f14bea04ea8b8f90b4673055f"
+    },
+    {
+      "record": "civic_trained_01",
+      "profile": "turns",
+      "trace_sha256": "738ecb2afb5a1ba782bb9ebcf5cc1dad611cc524c8c56f3eecf179acf407539e"
+    },
+    {
+      "record": "civic_trained_01",
+      "profile": "left",
+      "trace_sha256": "d267c0441d02a0d4402d0eee38b429e56e7172fbf2f6a522b1d4e018c905db31"
+    },
+    {
+      "record": "realism_baseline_01",
+      "profile": "blue",
+      "trace_sha256": "2bd6dc9d6b2d98f6821222f72dc1c9111e0bf93c8fa1e8ce3f7211fa3b9d9574"
+    },
+    {
+      "record": "realism_baseline_01",
+      "profile": "red",
+      "trace_sha256": "be6b3d0827649390d6b6f8f05ff1f5e9afebf568a272c844d54f1350ca9ec4b5"
+    },
+    {
+      "record": "realism_baseline_01",
+      "profile": "turns",
+      "trace_sha256": "b698ac818fd1d95999fda3d5e7a9e0059af0fe98329c04c30b7087b9c61e713f"
+    },
+    {
+      "record": "realism_baseline_01",
+      "profile": "left",
+      "trace_sha256": "b9d537d497a2640f7dd6814e332c644ba90e5d28dce0f2f04e7ad7425a1917b1"
+    },
+    {
+      "record": "realism_trained_01",
+      "profile": "blue",
+      "trace_sha256": "0d95ac5de90d46142038192f40490f7f57b5074526e9bf3f170fd5de9d9c11ca",
+      "exact_recorded_jpegs": true
+    },
+    {
+      "record": "realism_trained_01",
+      "profile": "red",
+      "trace_sha256": "32f8fd1eff00b5f9a30187a1d2f5966f728f7a3cd8b3440f65b8cc4201a53473",
+      "exact_recorded_jpegs": true
+    },
+    {
+      "record": "realism_trained_01",
+      "profile": "turns",
+      "trace_sha256": "c12cdc3ffa0579571b358224c04f573368914b0dec68d53bdd86b89fb94d30d3",
+      "exact_recorded_jpegs": true
+    },
+    {
+      "record": "realism_trained_01",
+      "profile": "left",
+      "trace_sha256": "40cc0dcd8a85950c7bd2cce78f7abb60307a404645ba2eee70bbf5a30188eaab",
+      "exact_recorded_jpegs": true
+    },
+    {
+      "record": "realism_confirmed_02",
+      "profile": "blue",
+      "trace_sha256": "e95be5f1f5081bd058965ae762002a90ded2cae327c53ab0460684f598d7028b",
+      "exact_recorded_jpegs": true
+    },
+    {
+      "record": "realism_confirmed_02",
+      "profile": "red",
+      "trace_sha256": "55386f1c13320ae1bb819dc12cff0a7854b948eb53ab5ec7236611949632ed28",
+      "exact_recorded_jpegs": true
+    },
+    {
+      "record": "realism_confirmed_02",
+      "profile": "turns",
+      "trace_sha256": "3d8f9405d007291f524ca57d8dcdef436dea46cdcbf228c366ce5a013404f89c",
+      "exact_recorded_jpegs": true
+    },
+    {
+      "record": "realism_confirmed_02",
+      "profile": "left",
+      "trace_sha256": "7067103215af7869aaf6488910fe65eb2784d496c34f4fe8f50d760a4bf201dd",
+      "exact_recorded_jpegs": true
+    }
+  ],
+  "optical": {
+    "backend": "Blender Cycles CUDA live camera",
+    "blend_sha256": "426b8632f1ad333a60320c3370aeb6a44ed69e54a06c49a4e91b89f9b05ec33b",
+    "physics_scene_sha256": "6dfca4e60717a5bfd09c9cdf893d512d56d7c12752141655a65ba4f4e5d89f2e",
+    "camera_calibration": {
+      "width": 320,
+      "height": 240,
+      "fovy_degrees": 64,
+      "offset_body_flu": [
+        0.014,
+        0,
+        0.025
+      ]
+    },
+    "same_world_for_input_and_video": false,
+    "same_world_for_input_and_video_note": "This training set mixes two documented optical revisions. Final live inputs and the final movie both use revision03."
+  },
+  "scope": "One fixed room, appearance adaptation. Ground-truth poses are used to render synthetic training images and make teacher labels only.",
+  "limit": "Teacher uses the existing short-horizon velocity-loop approximation; actual flight success requires separate closed-loop checks.",
+  "teacher_only_fields": [
+    "teacher_qpos",
+    "scene targets"
+  ],
+  "render_recipe": "Same Cycles 16-sample scene/camera and JPEG quality 70 as runtime",
+  "teacher_stop_deadband_m": 0.04,
+  "scoring_goal_tolerance_m": 0.25,
+  "optical_scene_note": "Original revision02 synthetic images plus exact revision03 flight observations. Both provenances retained.",
+  "teacher_source_sha256": "ec117743d58e9c200661b170acca57060fdb00424e36e464408a49a7da2e7687",
+  "optical_scenes": [
+    {
+      "scene": "assets/civic_realism/revision02.blend",
+      "sha256": "426b8632f1ad333a60320c3370aeb6a44ed69e54a06c49a4e91b89f9b05ec33b",
+      "images": 1869,
+      "origin": "Retained synthetic images"
+    },
+    {
+      "scene": "assets/civic_realism/revision03.blend",
+      "sha256": "b471e0ce0c7d02179560ceaf7f3ee5e1a5145a284c2239e95f5a06ac39b07515",
+      "images": 539,
+      "origin": "Exact recorded observations from realism_trained_01 and realism_confirmed_02"
+    }
+  ]
+}

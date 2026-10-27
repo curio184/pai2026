@@ -1,0 +1,49 @@
+[
+  {
+    "index": 0,
+    "start": 0.6,
+    "max_s": 8.736749999999999,
+    "text": "実機への展開を見据え、実在する小型ドローンとカメラ、制御用パソコンを組み合わせた構成にしています。",
+    "caption": "実機への展開を見据え、実在する小型ドローンとカメラ、制御用パソコンを組み合わせた構成にしています。",
+    "file": "voice_00.wav",
+    "duration_s": 8.63675,
+    "original_duration_s": 8.63675,
+    "source": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\narration_consistent\\new_ending\\voice_00.wav",
+    "source_sha256": "49bf0cc4576db3d734665d48de2a888ae635220d5b412ddbf4d32dabcc4c54e3",
+    "tempo_factor": 1.2073945696129404,
+    "reading": "じっきへのてんかいをみすえ、じつざいするこがたどろーんとかめら、せいぎょようぱそこんをくみあわせたこうせいにしています。",
+    "mora": 56,
+    "target_duration_s": 8.655,
+    "output_sha256": "68b5964c5bb679f12d2e8e127dabead821b8ae2f7af928f8790143de48f3042e"
+  },
+  {
+    "index": 1,
+    "start": 11.6,
+    "max_s": 2.941666666666667,
+    "text": "言葉による指示で被災者を探す。",
+    "caption": "言葉による指示で被災者を探す。",
+    "file": "voice_01.wav",
+    "duration_s": 2.841666666666667,
+    "original_source_duration_s": 3.55,
+    "tempo_factor": 1.25,
+    "reading": "ことばによるしじでひさいしゃをさがす。",
+    "source": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\narration_consistent\\new_closing\\voice_00.wav",
+    "source_sha256": "f87d182b5c5cccdec802da553c4034025ef6b868960e6cbfa3a2cac644be059a",
+    "original_duration_s": 2.841666666666667
+  },
+  {
+    "index": 2,
+    "start": 14.941666666666666,
+    "max_s": 5.402541666666666,
+    "text": "人が立ち入りにくい場所で、捜索を支えるドローンを目指しています。",
+    "caption": "人が立ち入りにくい場所で、捜索を支えるドローンを目指しています。",
+    "file": "voice_02.wav",
+    "duration_s": 5.3025416666666665,
+    "original_source_duration_s": 6.05,
+    "tempo_factor": 1.1415094339622642,
+    "reading": "ひとがたちいりにくいばしょで、そうさくをささえるどろーんをめざしています。",
+    "source": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\narration_consistent\\new_closing\\voice_01.wav",
+    "source_sha256": "af52da89fd8990c50bc5141f45641e7e1bde6f04216393724c8789dc273e05ee",
+    "original_duration_s": 5.3025416666666665
+  }
+]

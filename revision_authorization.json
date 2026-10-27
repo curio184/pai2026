@@ -1,0 +1,24 @@
+{
+  "recorded_date": "2026-10-24",
+  "user_instructions": [
+    "学習は1回のまま、処理の修正と飛行の再確認は進めてよい",
+    "追加学習していいので目的を達成したい"
+  ],
+  "supersedes": "The earlier prohibition on additional training and revised flight checks. Historical finetune_plan.json and run evidence remain immutable.",
+  "additional_training_permitted_if_needed": true,
+  "processing_fixes_and_flight_rechecks_permitted": true,
+  "preserve_original_weights_data_and_failures": true,
+  "original_physical_success_criteria_unchanged": true,
+  "purchase_paid_provisioning_publication_or_submission_authorized": false,
+  "first_revision": {
+    "name": "inference_revision_01",
+    "checkpoint": "outputs/smolvla_training/final",
+    "new_training_runs": 0,
+    "changes": [
+      "Use one explicit Gaussian flow-noise tensor from the existing seed 20261024 for every inference. Equal observations no longer get a different random action sample merely because the request sequence changed. No seed selection or model weight change.",
+      "Navigation instruction progression requires own estimated speed below the existing 0.08 m/s for the existing 3.25 s, and mean requested velocity over that window below the existing 0.035 m/s. Independent physical target/stop/landing scores are untouched."
+    ],
+    "unchanged": ["Flight gains", "Physics model", "Model weights", "Independent scorer", "Camera and own-state input contract", "Action limits and watchdog"],
+    "evaluation": "Run blue, red, turns and independent left once each, keep every outcome; no automatic retry."
+  }
+}

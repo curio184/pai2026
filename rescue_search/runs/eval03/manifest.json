@@ -1,0 +1,130 @@
+{
+  "created_utc": "2026-10-26T14:15:43.460357+00:00",
+  "cases": [
+    {
+      "condition": "clear",
+      "profile": "blue"
+    },
+    {
+      "condition": "fog_light",
+      "profile": "blue"
+    },
+    {
+      "condition": "fog_dense",
+      "profile": "blue"
+    },
+    {
+      "condition": "dust",
+      "profile": "blue"
+    }
+  ],
+  "checkpoint_sha256": "d119adc57fa0c4681f4413b621d6321d27b000c6a3550c5b075bbbebc3d9a467",
+  "source_sha256": {
+    "search_worker.py": "305b803a1278822ef6799ae2eaf182e2205ceb785ce9319bf3a67bc4bee9b938",
+    "search_mission.py": "5e5e5b3d8a8eba5a924861a8766d144aa8c316028573c6d8d57424ea908942d8",
+    "search_link.py": "7f9864f07decabd398f4a4fd7670299a96972077f3156d513f9070fb6901f42a",
+    "confirmation.py": "97b0af6ee0ba02348c8363def9544c245e5c9ed344fb84bd0fc2c8eda348b168",
+    "perception.py": "3ab3607261833873486917fcca98d398b99fd427d918affa817cf4918a086848",
+    "plant_search.cpp": "58ac896c93ce1ac96696b658934aa5ff8b0f8e3870f221ec80f71d621db62386",
+    "run_search.py": "7d3d93021a140f348e7d7d468760d8ed8d75dbb3b4c3d46c5b395100bdac5c55"
+  },
+  "scene_conditions": [
+    {
+      "name": "clear",
+      "scatter_density": 0.004,
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "blend_sha256": "93743dd2f808ceab731ca02445419440e96746a05f720bd01d981ea2a3d2e048",
+      "source_sha256": "b471e0ce0c7d02179560ceaf7f3ee5e1a5145a284c2239e95f5a06ac39b07515",
+      "physical_aerosol_calibrated": false
+    },
+    {
+      "name": "fog_light",
+      "scatter_density": 0.06,
+      "color": [
+        0.8500000238418579,
+        0.8799999952316284,
+        0.8999999761581421,
+        1.0
+      ],
+      "blend_sha256": "ad4d34a754df6612680040b18f0f28e50c393d318751ce48fbb59b92e68cdc6d",
+      "source_sha256": "b471e0ce0c7d02179560ceaf7f3ee5e1a5145a284c2239e95f5a06ac39b07515",
+      "physical_aerosol_calibrated": false
+    },
+    {
+      "name": "fog_dense",
+      "scatter_density": 0.12,
+      "color": [
+        0.8500000238418579,
+        0.8799999952316284,
+        0.8999999761581421,
+        1.0
+      ],
+      "blend_sha256": "4d655d96b046682d877f500134110e076e5728300440f904afefa7ef351ad068",
+      "source_sha256": "b471e0ce0c7d02179560ceaf7f3ee5e1a5145a284c2239e95f5a06ac39b07515",
+      "physical_aerosol_calibrated": false
+    },
+    {
+      "name": "dust",
+      "scatter_density": 0.12,
+      "color": [
+        0.6200000047683716,
+        0.5199999809265137,
+        0.3799999952316284,
+        1.0
+      ],
+      "blend_sha256": "b600f73da55120ef44191a5d8295447c41132f700b0d09a12992b24eca75e32f",
+      "source_sha256": "b471e0ce0c7d02179560ceaf7f3ee5e1a5145a284c2239e95f5a06ac39b07515",
+      "physical_aerosol_calibrated": false
+    }
+  ],
+  "initial_pose": {
+    "initial_state": [
+      0.0,
+      0.0,
+      0.0,
+      -0.032999999821186066,
+      0.0,
+      0.0,
+      -0.0,
+      -1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.007603376172482967,
+      -0.0012224266538396478,
+      0.003879991825670004,
+      0.07193483412265778,
+      0.03382830321788788,
+      -0.0008508372120559216,
+      4.149999618530273,
+      0.032999999821186066,
+      0.0,
+      0.0,
+      0.032999999821186066,
+      0.7071067811865476,
+      0.0,
+      0.0,
+      0.7071067811865475,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_condition_only": true,
+    "original_plant_modified": false,
+    "wrapper_sha256": "58ac896c93ce1ac96696b658934aa5ff8b0f8e3870f221ec80f71d621db62386",
+    "library_sha256": "cc18ac01992633968e51486fff28d2027b65bb9ae45bb0acc7c2de7e8aecf71b"
+  },
+  "scope": "frozen evaluation",
+  "automatic_retries": 0,
+  "ground_truth_navigation": false,
+  "external_communication": false,
+  "upper_command": "青い服の人を探して"
+}

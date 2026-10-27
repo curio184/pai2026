@@ -1,0 +1,8 @@
+# Separate from the live GPU training environment; tested on Windows Python 3.12.
+numpy==2.5.4
+Pillow==12.3.0
+mujoco==3.9.0
+imageio==2.38.1
+imageio-ffmpeg==0.6.0
+reportlab==5.1.0
+pypdf==6.21.2

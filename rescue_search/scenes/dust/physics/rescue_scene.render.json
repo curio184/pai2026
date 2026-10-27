@@ -1,0 +1,17 @@
+{
+  "port": 17867,
+  "blend_sha256": "b600f73da55120ef44191a5d8295447c41132f700b0d09a12992b24eca75e32f",
+  "camera": {
+    "width": 320,
+    "height": 240,
+    "fovy_degrees": 64,
+    "offset_body_flu": [
+      0.014,
+      0,
+      0.025
+    ]
+  },
+  "renderer": "Blender Cycles CUDA",
+  "samples": 16,
+  "blend_relative": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\scenes\\dust\\scene.blend"
+}

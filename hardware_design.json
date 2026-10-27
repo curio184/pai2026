@@ -1,0 +1,213 @@
+{
+  "review_date": "2026-10-24",
+  "status": "Engineering design with unresolved mass/thrust/camera-variant evidence; not a flight-ready assembly",
+  "sources": {
+    "airframe": "https://docs.m5stack.com/en/app/StampFly_v1.1",
+    "airframe_price_and_battery_link": "https://www.switch-science.com/products/11202",
+    "charger_price": "https://www.switch-science.com/products/9819",
+    "battery": "https://betafpv.com/collections/batt-1s/products/lava-ii-1s-battery?variant=42566848839814",
+    "battery_discharge_chart": "https://cdn.shopify.com/s/files/1/1778/6615/files/LAVA_II_1S_320mAh_Battery_discharge_curve.jpg?v=1763630656",
+    "camera": "https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/",
+    "camera_store": "https://www.seeedstudio.com/XIAO-ESP32S3-Sense-p-5639.html",
+    "flow_range": "https://micoair.com/optical_range_sensor_mtf-02p/",
+    "boost": "https://www.pololu.com/product/4012",
+    "board_pins": "https://github.com/ArduPilot/ardupilot/blob/38687117133582049734ebd39f8a7af6f487716a/libraries/AP_HAL_ESP32/hwdef/esp32s3m5stampfly/hwdef.dat",
+    "hal_uart_mapping": "https://github.com/ArduPilot/ardupilot/blob/38687117133582049734ebd39f8a7af6f487716a/libraries/AP_HAL_ESP32/HAL_ESP32_Class.cpp",
+    "wifi_driver": "https://github.com/ArduPilot/ardupilot/blob/38687117133582049734ebd39f8a7af6f487716a/libraries/AP_HAL_ESP32/WiFiUdpDriver.cpp",
+    "flow_setup_current": "https://ardupilot.org/copter/docs/common-mtf-01.html",
+    "motor_model": "https://github.com/M5Fly-kanazawa/stampfly_ecosystem/blob/9467f1a156326b95a01383e11c44dd665a55b536/control/models/stampfly_physical.yaml",
+    "plant_caveat": "https://github.com/M5Fly-kanazawa/stampfly_ecosystem/blob/9467f1a156326b95a01383e11c44dd665a55b536/simulator/sils/plant/plant.hpp",
+    "real_manual_flight": "https://en.drone-j.com/news/kaga2024_demo2/",
+    "camera_weight_paper": "https://aerosyslab.com/papers/conferences/meighan-et-al-2026-multi-modality-localization-of-autonomous-lighter-than-air-uavs-in-real-time.pdf",
+    "PC_wifi_adapter": "https://www.tp-link.com/jp/home-networking/adapter/tl-wn725n/v3/"
+  },
+  "mass": {
+    "airframe_listed_g": 27.6,
+    "airframe_listing_explicitly_includes_battery": false,
+    "battery_candidate": "BETAFPV LAVA II 1S 320mAh 95C BT2.0, linked by airframe retailer",
+    "battery_manufacturer_g": 8.2,
+    "base_design_allowance_g": 37,
+    "camera_design_allowance_g": 8,
+    "camera_allowance_is_manufacturer_maximum": false,
+    "MTF02P_manufacturer_g": 1.5,
+    "boost_manufacturer_g": 1.5,
+    "remaining_mount_wires_allowance_g": 2,
+    "assembled_mass_measured": false,
+    "caveat": "50 g is an updated design scenario, not an assembled measurement or maximum. An older OV2640 XIAO assembly is reported as 8 g; current camera/heatsink/mount mass and exact v1.1 base correspondence remain unresolved.",
+    "camera_published_example_g": 8,
+    "camera_example_variant": "OV2640 assembly in the cited AIAA Table 1; not a bound for current OV3660/OV5640 shipments"
+  },
+  "power": {
+    "battery_capacity_mAh": 320,
+    "battery_max_voltage_V": 4.35,
+    "battery_C_rating": 95,
+    "battery_C_rating_is_independent_load_test": false,
+    "battery_connector": "BT2.0",
+    "simulator_capacity_mAh": 300,
+    "simulator_OCV_full_V": 4.2,
+    "simulator_internal_resistance_ohm": 0.1,
+    "camera_webcam_5V_average_A": 0.14,
+    "camera_webcam_5V_capture_peak_A": 0.347,
+    "OV3660_table_peak_A": 0.6,
+    "OV2640_table_peak_A": 0.65,
+    "OV5640_table_peak_A": null,
+    "camera_stress_design_5V_A": 0.65,
+    "camera_stress_bound_verified_for_current_shipments": false,
+    "MTF02P_5V_A": 0.04,
+    "boost_efficiency_assumed": 0.8,
+    "minimum_loaded_input_V_assumed": 3.4,
+    "flight_electronics_battery_A_assumed": 0.1,
+    "boost_product_typical_efficiency": [
+      0.9,
+      0.95
+    ],
+    "boost_typical_long_duration_input_A": 3.5,
+    "boost_startup_minimum_V": 2.7,
+    "simulator_avionics_constant_A": 0.5,
+    "manufacturer_discharge_chart": {
+      "file": "outputs/hardware_sources/lava_ii_320_discharge_curve.jpg",
+      "sha256": "665dd83b00735fd35b5fceeab3d4f9cf464e76761fb65d9f35104af028150f36",
+      "load_A": 18,
+      "blue_curve": "LAVA II 1S 320mAh 95C",
+      "observation": "Vendor plot shows about 3.4 V near 41 seconds at 18 A. Approximate graph reading, without raw data or an independent test of our cell.",
+      "validates_our_motor_thrust_or_camera_peak": false
+    },
+    "caveat": "The camera vendor now ships OV3660 or OV5640 AF; peak current for OV5640 is TBD. A 0.65 A design scenario is not a proved bound for that variant. The simulated 0.5 A constant is an average allowance and does not reproduce camera bursts. Motor and battery current are also model-based, not measured."
+  },
+  "wiring": [
+    {
+      "from": "Battery positive/negative",
+      "to": "Stock flight board and separate boost VIN/GND",
+      "status": "design only; verify stock BT2.0 polarity and input solder points on actual revision"
+    },
+    {
+      "from": "Boost regulated 5 V / GND",
+      "to": "XIAO 5 V / GND and MTF-02P 5 V / GND",
+      "status": "separate 5 V branch; do not assume Grove battery voltage is 5 V"
+    },
+    {
+      "from": "MTF-02P UART TX",
+      "to": "Black Grove RX GPIO1, ArduPilot SERIAL3",
+      "status": "115200 baud LVTTL; MTF MAVLink mode required"
+    },
+    {
+      "from": "Black Grove TX GPIO2",
+      "to": "MTF-02P UART RX",
+      "status": "optional receive/configuration path; confirm sensor connector pin order from vendor drawing"
+    },
+    {
+      "from": "XIAO camera",
+      "to": "PC through Wi-Fi",
+      "status": "no camera data on the flight-board UART"
+    }
+  ],
+  "wiring_constraints": [
+    "Flight board, boost, camera and flow/range sensor share a common signal ground",
+    "Do not feed the boost 5 V output back into the stock Grove power pin or battery rail",
+    "Do not power XIAO simultaneously from the flight boost and a programming USB cable without checking its power path",
+    "Select exact camera variant before treating the peak-power and mass budget as closed",
+    "Flight power connector and mount must fit the selected battery dimensions 64x10x6 mm"
+  ],
+  "communications": {
+    "topology": "Flight ESP32 SoftAP, PC and XIAO camera as two Wi-Fi stations; camera HTTP/JPEG to PC, flight MAVLink UDP to/from PC",
+    "flight_AP_IP": "192.168.4.1",
+    "flight_MAVLink_UDP_port": 14550,
+    "flight_telemetry_destination": "192.168.4.255:14550 broadcast in pinned driver",
+    "camera_transport": "Manufacturer camera web-server example; JPEG capture/stream endpoint",
+    "image_size": [
+      320,
+      240
+    ],
+    "camera_requested_fps_design": 5,
+    "jpeg_cap_bytes_design": 20000,
+    "network_overhead_factor_assumed": 1.5,
+    "mavlink_payload_bytes_per_s_design": 10000,
+    "attitude_command_hz": 20,
+    "physical_model_rate_hz": 4000,
+    "ArduPilot_hardware_loop_hz": 150,
+    "camera_and_PC_station_coexistence_verified": false,
+    "real_wireless_latency_measured": false,
+    "SITL_transport": "Loopback TCP MAVLink plus framed JPEG/actions; does not exercise onboard Wi-Fi firmware",
+    "cross_OS_link_record": "outputs/cross_os_link_check.json",
+    "latency_handling": "Selected processing revision uses capture-age indexing for predicted linear velocities and first-receipt indexing for direct yaw rates, from the same 32x0.1 s VLA chunk. Real observation age independently triggers zero velocity at 2.5 s and a normal landing request at 8 s while armed. Historical capture-only and receipt-only records remain preserved; see chunk_timing_revision.json.",
+    "remaining": [
+      "Verify AP client-to-client camera traffic and UDP telemetry under simultaneous image load",
+      "Measure exposure-to-action age, packet loss and camera frame backlog with the actual hardware",
+      "Change factory AP credentials before any actual use; credentials are not treated as a security boundary",
+      "Two local semaphore/UDP receive lock defects reproduced and minimally repaired; board build passed in an isolated worktree. Human/upstream review, actual FreeRTOS/radio operation and simultaneous camera/control testing remain."
+    ],
+    "camera_station_to_PC_image_hops": 2,
+    "offboard_PC_WLAN_observed": false,
+    "offboard_PC_OS": "Windows 11 Pro; local read-only inventory showed Ethernet and no WLAN adapter",
+    "offboard_PC_wifi_candidate": "Japan-market TP-Link TL-WN725N V3, 2.4 GHz, Windows 11 supported; planned USB adapter, not purchased",
+    "selected_local_firmware_repair": "outputs/esp32_wifi_repair/result.json",
+    "firmware_lock_tests": "outputs/hardware_sources/esp32_wifi_lock_review_02/result.json"
+  },
+  "bom_planning_jpy": [
+    {
+      "item": "StampFly v1.1 K138-V11 with battery",
+      "jpy": 10758,
+      "kind": "2026-10-24 listed tax-inclusive price; 84 in stock at inspection"
+    },
+    {
+      "item": "XIAO ESP32S3 Sense",
+      "jpy": 2660,
+      "kind": "planning allowance; direct store $13.90 in stock, sensor variant unresolved; earlier domestic 2660 listing out of stock"
+    },
+    {
+      "item": "MTF-02P",
+      "jpy": 5000,
+      "kind": "allowance, not delivered quote"
+    },
+    {
+      "item": "Pololu U3V40F5 5 V boost",
+      "jpy": 2000,
+      "kind": "allowance; manufacturer lists $9.95"
+    },
+    {
+      "item": "USB gamepad for existing PC",
+      "jpy": 3000,
+      "kind": "allowance"
+    },
+    {
+      "item": "Spare propellers and batteries",
+      "jpy": 4000,
+      "kind": "allowance; included flight battery is sufficient for base BOM"
+    },
+    {
+      "item": "Mounts and wiring",
+      "jpy": 2000,
+      "kind": "allowance"
+    },
+    {
+      "item": "Protective enclosure",
+      "jpy": 4000,
+      "kind": "allowance for an offboard flight-area enclosure/net; not an added onboard payload"
+    },
+    {
+      "item": "Shipping/import",
+      "jpy": 6000,
+      "kind": "allowance, not checkout quote"
+    },
+    {
+      "item": "Atom JoyStick as battery charger only",
+      "jpy": 6457,
+      "kind": "listed tax-inclusive price; 2 in stock at inspection; ArduPilot radio compatibility not assumed"
+    },
+    {
+      "item": "PC USB 2.4 GHz Wi-Fi adapter",
+      "jpy": 2000,
+      "kind": "planning allowance; TL-WN725N V3 manufacturer supports Windows 11; no delivered quote or purchase"
+    }
+  ],
+  "budget_limit_jpy": 50000,
+  "existing_PC_cost_included": false,
+  "existing_PC_cost_exclusion": "User already has RTX 3080 PC; budget scope is the real drone, camera, communication, position sensing and required accessories",
+  "purchase_made": false,
+  "real_hardware_feasibility_gate_complete": false,
+  "latest_payload_evidence": "outputs/hardware_sources/manufacturer_confirmation_review.json",
+  "manufacturer_questions_prepared_not_sent": [
+    "output/hardware/m5stack_inquiry.txt",
+    "output/hardware/seeed_inquiry.txt"
+  ]
+}

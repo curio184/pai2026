@@ -1,0 +1,17 @@
+{
+  "port": 17867,
+  "blend_sha256": "b471e0ce0c7d02179560ceaf7f3ee5e1a5145a284c2239e95f5a06ac39b07515",
+  "camera": {
+    "width": 320,
+    "height": 240,
+    "fovy_degrees": 64,
+    "offset_body_flu": [
+      0.014,
+      0,
+      0.025
+    ]
+  },
+  "renderer": "Blender Cycles CUDA",
+  "samples": 16,
+  "blend_relative": "assets/civic_realism/revision03.blend"
+}

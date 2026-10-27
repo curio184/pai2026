@@ -1,0 +1,21 @@
+{
+  "reason": "The kinematic teacher predicts a sequence assuming its prefix executes. Capture-age indexing skipped that prefix even while older zero commands were held during inference. At own left yaw around -78 degrees, logged model heads still requested -0.036 to -0.049 rad/s, while the 1-second entries were almost zero. This can produce a persistent short turn. Receipt timing corrects the sequence execution convention; it does not make images fresh.",
+  "evidence_record": "outputs/ardupilot/trained_revision_02/turns",
+  "checkpoint_sha256": "92b06f3426fd9d13c9a792eaa512b6df49e0b338cc8df5791dd1c07fd73daf7f",
+  "change": "Preserve capture-age selection for linear velocity/request channels with their first-order velocity-loop teacher rollout. Start only the direct yaw-rate channel at first receipt to avoid skipping its unexecuted prefix. Both channels select bounded entries from the same VLA chunk; observation age, safety guards, stage thresholds, gains and scorer stay unchanged.",
+  "unchanged": [
+    "Model weights",
+    "Training dataset and plan",
+    "Flight gains",
+    "Physical plant and 50 g mass",
+    "Velocity/yaw bounds",
+    "Stage thresholds",
+    "Independent physical scorer"
+  ],
+  "tests": "outputs/chunk_receipt_timing_checks.json",
+  "verification": "All four cases once under one fixed split-timing implementation in outputs/ardupilot/inference_revision_04.",
+  "new_training_runs": 0,
+  "prior_left_case": "Not executed: WSL/Service/WSAETIMEDOUT before creating a record. A subsequent read-only /bin/true succeeded; no WSL shutdown or reboot performed.",
+  "previous_processing_record": "outputs/ardupilot/inference_revision_03",
+  "previous_outcome": "All four completed; blue/red stable-goal criteria failed after uniform receipt rebasing. Turns and independent-left including landing passed. No result is substituted into the new collection."
+}

@@ -1,0 +1,41 @@
+{
+  "created_utc": "2026-10-26T03:22:26.622750+00:00",
+  "training_run": "outputs/smolvla_training_civic_01",
+  "training_plan_file": "finetune_plan_civic_01.json",
+  "checkpoint_sha256": "410a378d30a10a2975b15675732cfd9fd50b401f29314aaa0a57ee63b55c9c63",
+  "profiles": [
+    "blue",
+    "red",
+    "turns",
+    "left"
+  ],
+  "source_sha256": {
+    "smolvla_policy.py": "1e5382a3b63fc92834caed56c851d50cb5ed248a33d2372f1cb5129c4ac456f6",
+    "vla_worker.py": "18d278520c81d3158a112742fa5d4390a9714b6663756f02b5616176fe1718e4",
+    "vla_link.py": "a5d7e759283adbc676c65c2c5fa1d2d3955d9edfd9d592cb1da1f7b585948bc7",
+    "rescue_scene.py": "9aa3036b601cda9a292556c1282f9545a53070c08808413cfb755b7a6e215c16",
+    "flight_progress.py": "7ee79b1859d93fd44172e1fe077a505c2e0b7bd7aaf3559b094f5f91d542802d",
+    "revision_authorization.json": "69daf8c62018ec695f97114c08949bb77bbcbfe753ab7bdb94830acbcd2844be",
+    "review_selection.json": "7165d865fc5ebe1ee4c1fa0b1d129fb959133f210c4819edf294d313c56733c6",
+    "payload_revision_50g.json": "ffe8e594ce50592b4a9e9d2155fe0e9620d4b6a0773b680752c45a85ee73b34e",
+    "chunk_timing_revision.json": "1f6c0d473c6bd1ed9a28756ae5bfe638efbb9014a74a322986c6083add4ad12e",
+    "ardupilot_bridge/setup_bridge.py": "c6171f9d627d8efa1b665f1eb2048465bd295fd1e8cbf1733d98359d49077584",
+    "score_mission.py": "ec6dedcda8177e8ea702705ef766f5851651ca8760bf246205d0ad3277b0eb1e",
+    "ardupilot_bridge/rescue_mission.py": "0feac224d8fa827a20c38b940cef14e2be593d348bc4dd29f778eac57194aff5",
+    "ardupilot_bridge/plant_c.cpp": "db91d86ce26a41a694396fce19a58f865a5dd8320a97f9c277cd6371362cdbaa",
+    "civic_camera.py": "53a7f83fa5ed30a6c057d2cbc7576385d8e75155cfd511c245fe3cc962c6677f",
+    "civic_render_client.py": "e837412c03f62ebbefd43de32e6548f683ce4369898520778d9eea23f964304d"
+  },
+  "training_plan_sha256": "20a7b18eeedec2411d9fe1b71d20222559a544bbdc558acd508a6ba970dc75ac",
+  "dataset_sha256": "53c5d9a7b944d48daf18977f93e52ab5e9971bdc4c6caa066715649bc0333993",
+  "scene_sha256": "6dfca4e60717a5bfd09c9cdf893d512d56d7c12752141655a65ba4f4e5d89f2e",
+  "plant_library_sha256": "1bd891af351e84d7fc789c8ae2c4f2f5737e4326f950b7d8e518e4507afb17f4",
+  "model_selection": "final step only",
+  "automatic_retries": 0,
+  "chunk_execution_origin": "split",
+  "integration_recovery_from": null,
+  "integration_recovery_scope": null,
+  "hyperparameter_or_gain_search": false,
+  "revision_authorization_sha256": "69daf8c62018ec695f97114c08949bb77bbcbfe753ab7bdb94830acbcd2844be",
+  "note": "Required functional checks of one model. Revised inference/progression explicitly authorized by the user; original failures remain preserved."
+}

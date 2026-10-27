@@ -1,0 +1,109 @@
+{
+  "success": true,
+  "checks": {
+    "physical_flight": true,
+    "initial_target_absent": true,
+    "airborne_initial_target_absent": true,
+    "search_rotation_completed": true,
+    "three_image_discovery": true,
+    "original_image_notification": true,
+    "discovery_notification_landing_order": true,
+    "all_camera_hashes_match": true,
+    "no_mission_failure": true,
+    "search_start_geometry_out_of_view": true,
+    "normal_end": true
+  },
+  "checkpoint_sha256": [
+    "d119adc57fa0c4681f4413b621d6321d27b000c6a3550c5b075bbbebc3d9a467"
+  ],
+  "discovery_time_s": 43.90825000011864,
+  "notification_time_s": 63.354500000211495,
+  "completion_time_s": 73.04600000000066,
+  "camera_frame_count": 77,
+  "initial_view_geometry": {
+    "target_box_outside_horizontal_fov": true,
+    "capture_time": 30.9775000000569,
+    "matched_trace_time": 30.98575000005694,
+    "camera_hfov_degrees": 79.59936058370869,
+    "target_box_half_width_m": 0.35,
+    "target_box_height_m": 1.9,
+    "postflight_truth_only": true,
+    "input_image": "00030.jpg"
+  },
+  "physical": {
+    "success": true,
+    "profile": "red",
+    "scoring_uses_truth_after_flight": true,
+    "learned_policy_provenance": true,
+    "checkpoints": [
+      "d119adc57fa0c4681f4413b621d6321d27b000c6a3550c5b075bbbebc3d9a467"
+    ],
+    "takeoff": true,
+    "policy_requests": {
+      "takeoff": true,
+      "land": true
+    },
+    "grounded_disarmed_motors_off": true,
+    "goal_holds": {
+      "blue": {
+        "goal_scene_xy_m": [
+          2.3410745738240735,
+          0.8084203589462445
+        ],
+        "minimum_goal_distance_m": 1.0980766210015254,
+        "physical_hold": {
+          "duration_s": 0.0,
+          "end_s": null
+        }
+      },
+      "red": {
+        "goal_scene_xy_m": [
+          2.2455626580655523,
+          -0.6848188536753865
+        ],
+        "minimum_goal_distance_m": 0.05853726671185845,
+        "physical_hold": {
+          "duration_s": 4.009500000019145,
+          "end_s": 62.140000000205696
+        }
+      }
+    },
+    "rotations": {
+      "right": {
+        "clockwise_rotation_deg": 100.14815161901804,
+        "expected_deg": 90,
+        "stopped": true,
+        "completed": false
+      },
+      "left": {
+        "completed": false
+      }
+    },
+    "minimum_person_clearance_m": 0.5600112186694687,
+    "explicit_hover_instruction_hold": {
+      "duration_s": 4.490750000021443,
+      "end_s": 32.5695000000645
+    },
+    "watchdog_landing": false,
+    "maximum_height_m": 1.086776614189148,
+    "observation_age_s": {
+      "mean": 1.4208185831612912,
+      "p95": 2.043250000009756,
+      "max": 2.5159999999405045
+    },
+    "limits": {
+      "goal_tolerance_m": 0.25,
+      "horizontal_speed_m_s": 0.08,
+      "hold_s": 3,
+      "altitude_m": [
+        0.8,
+        1.25
+      ],
+      "minimum_person_clearance_m": 0.45,
+      "rotation_tolerance_deg": 10
+    },
+    "note": "Simulator task evidence only; real hardware feasibility is a separate required gate."
+  },
+  "source": "offline audit after flight; no simulator truth sent to perception or VLA",
+  "limits": "One room with stationary people; no identity or medical-state recognition; simulated optical conditions uncalibrated"
+}

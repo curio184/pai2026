@@ -1,0 +1,12 @@
+{
+  "scenario": "Light airborne dust in an indoor disaster-response simulation",
+  "renderer": "Blender Cycles volume scattering; also present in the actual VLA camera images",
+  "scatter_density_scene_units": 0.004,
+  "anisotropy": 0.25,
+  "fixed_across_final_cases": true,
+  "measured_aerosol_calibration": false,
+  "claim_after_actual_success": "Visual-language flight in this fixed scene containing light haze/dust",
+  "robustness_to_density_changes_tested": false,
+  "fog_free_comparison_performed": false,
+  "scope_decision": "Finish current visual quality and actual flight demonstration before extending robustness evaluation."
+}

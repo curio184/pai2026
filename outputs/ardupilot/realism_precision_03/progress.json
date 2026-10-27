@@ -1,0 +1,30 @@
+[
+  {
+    "profile": "blue",
+    "runner_exit": 0,
+    "scorer_exit": 0,
+    "success": true,
+    "checkpoint_matches": true
+  },
+  {
+    "profile": "red",
+    "runner_exit": 0,
+    "scorer_exit": 0,
+    "success": true,
+    "checkpoint_matches": true
+  },
+  {
+    "profile": "turns",
+    "runner_exit": 0,
+    "scorer_exit": 0,
+    "success": true,
+    "checkpoint_matches": true
+  },
+  {
+    "profile": "left",
+    "runner_exit": 0,
+    "scorer_exit": 0,
+    "success": true,
+    "checkpoint_matches": true
+  }
+]

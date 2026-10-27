@@ -1,0 +1,9 @@
+{
+  "optimizer_steps_completed": 4000,
+  "elapsed_s": 1821.0310000000027,
+  "dataset_sha256": "b92eeca3df8cacd7aba07eaa2e0778f90ad7ae97e2143e6a937b19fa22524ee7",
+  "plan_sha256": "a55f45fb780c6c8a90b3cef191dd51657d7b43cc922ead3df74a3d18733524a2",
+  "checkpoint": "final",
+  "selection": "Final step only",
+  "closed_loop_success_verified": false
+}

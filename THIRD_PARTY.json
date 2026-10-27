@@ -1,0 +1,33 @@
+{
+  "scope": "Public source, final recorded evidence, and separate sanitized Blender scenes; no third-party model or firmware binaries",
+  "dependencies": [
+    {
+      "name": "StampFly ecosystem",
+      "repository": "https://github.com/M5Fly-kanazawa/stampfly_ecosystem",
+      "commit": "9467f1a156326b95a01383e11c44dd665a55b536",
+      "license": "MIT",
+      "included_derived_file": "rescue_search/scenes/*/physics/; assets/civic_realism/physics03/; separate scene archive",
+      "notice": "assets/STAMPFLY_LICENSE.txt",
+      "use": "Pinned upstream plant fetched separately; derived physical XML and aircraft meshes included with MIT notice"
+    },
+    {
+      "name": "ArduPilot",
+      "repository": "https://github.com/ArduPilot/ardupilot",
+      "commit": "38687117133582049734ebd39f8a7af6f487716a",
+      "license": "GPL-3.0-or-later",
+      "license_source": "https://github.com/ArduPilot/ardupilot/blob/38687117133582049734ebd39f8a7af6f487716a/COPYING.txt",
+      "use": "Unmodified SITL/original ESP32 plus a separate local two-file semaphore/UDP repair. Patch included under GPL-3.0-or-later; no firmware binaries in source ZIP.",
+      "included_derived_file": "ardupilot_bridge/esp32_wifi_locks.patch",
+      "notice": "assets/ARDUPILOT_COPYING.txt"
+    },
+    {
+      "name": "SmolVLA base",
+      "repository": "https://huggingface.co/lerobot/smolvla_base",
+      "revision": "5e8d12a6e2975b0e5e5fce7c8caf47c371d257b6",
+      "license": "Apache-2.0 per pinned local model card",
+      "use": "Frozen vision encoder, trained action/state components; authorized additional training also adapts text layers 13/14. Weights remain outside source ZIP."
+    }
+  ],
+  "original_project_license": "No new license assigned by this packaging operation; author decides before publication",
+  "fonts": "Uses installed Windows fonts for report/video rendering; font files are not distributed"
+}

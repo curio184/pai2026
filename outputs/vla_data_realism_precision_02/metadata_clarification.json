@@ -1,0 +1,6 @@
+{
+  "reason": "Correct inherited seed and explicitly identify the two optical sources. No image, state, action, prompt, data audit or optimization plan was changed.",
+  "previous_manifest_sha256": "4d19bb0dd9f540c74b59e9465d8697d384436d4c650ec1daccd308321f67026c",
+  "manifest_sha256": "448a8aff4f897a9757fec5f1fdddf77946d2fa1a3070d512ded797a422c14dc4",
+  "data_sha256_unchanged": "b92eeca3df8cacd7aba07eaa2e0778f90ad7ae97e2143e6a937b19fa22524ee7"
+}

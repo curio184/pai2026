@@ -1,0 +1,503 @@
+[
+  {
+    "folder": "intro_pan",
+    "source_video": "<PROJECT_ROOT>\\output\\video\\rescue_drone_intro_pan.mp4",
+    "duration_s": 24,
+    "voices": [
+      {
+        "index": 0,
+        "start": 4.8,
+        "max_s": 7.446458333333333,
+        "text": "災害救助ドローンとは、人が立ち入りにくい場所で、被災者の捜索を支援するドローンです。",
+        "caption": "災害救助ドローンとは、人が立ち入りにくい場所で、被災者の捜索を支援するドローンです。",
+        "file": "voice_00.wav",
+        "duration_s": 7.3464583333333335,
+        "original_duration_s": 7.3464583333333335,
+        "source": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\intro_pan\\voice_00.wav",
+        "source_sha256": "dd966e647400d0ef4a3cf066b1bc9200faa8a1cc82bd3ff918b26d33665278d1",
+        "tempo_factor": 1.0638297872340425,
+        "reading": "さいがいきゅうじょどろーんとは、ひとがたちいりにくいばしょで、ひさいしゃのそうさくをしえんするどろーんです。",
+        "mora": 47,
+        "target_duration_s": 7.332,
+        "output_sha256": "c39788d202cfba905a3b1756ecc1261e3a58f3daa401a67ea20baad56d6278d2"
+      },
+      {
+        "index": 1,
+        "start": 16.25,
+        "max_s": 6.831625,
+        "text": "今回は、言葉による指示で捜索を任せ、操縦の負担を減らすことを目指しました。",
+        "caption": "今回は、言葉による指示で捜索を任せ、操縦の負担を減らすことを目指しました。",
+        "file": "voice_01.wav",
+        "duration_s": 6.731625,
+        "original_duration_s": 6.731625,
+        "source": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\intro_pan\\voice_01.wav",
+        "source_sha256": "b26584f8a2827431e7da1c041b4f2f9defe1a0371abe409db4fd46f441786aeb",
+        "tempo_factor": 0.9415776986951364,
+        "reading": "こんかいは、ことばによるしじでそうさくをまかせ、そうじゅうのふたんをへらすことをめざしました。",
+        "mora": 43,
+        "target_duration_s": 6.744,
+        "output_sha256": "e713017e95bcf81b26f263b49ca09d2db0673d209257e61af0a5833690cf4020"
+      }
+    ],
+    "old_voices": [
+      {
+        "index": 0,
+        "start": 4.8,
+        "max_s": 9,
+        "text": "災害救助ドローンとは、人が立ち入りにくい場所で、被災者の捜索を支援するドローンです。",
+        "caption": "災害救助ドローンとは、人が立ち入りにくい場所で、被災者の捜索を支援するドローンです。",
+        "file": "voice_00.wav",
+        "duration_s": 7.8,
+        "original_duration_s": 7.8
+      },
+      {
+        "index": 1,
+        "start": 16.25,
+        "max_s": 7,
+        "text": "今回は、言葉による指示で捜索を任せ、操縦の負担を減らすことを目指しました。",
+        "caption": "今回は、言葉による指示で捜索を任せ、操縦の負担を減らすことを目指しました。",
+        "file": "voice_01.wav",
+        "duration_s": 6.35,
+        "original_duration_s": 6.35
+      }
+    ],
+    "render_file": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\narration_consistent\\intro_pan\\section.mp4",
+    "hardware_end_s": null
+  },
+  {
+    "folder": "mechanism_movie",
+    "source_video": "<PROJECT_ROOT>\\output\\video\\rescue_drone_mechanism.mp4",
+    "duration_s": 29,
+    "voices": [
+      {
+        "index": 0,
+        "start": 1.0,
+        "max_s": 4.804791666666667,
+        "text": "ドローンの飛行を制御するために、VLAを利用します。",
+        "caption": "ドローンの飛行を制御するために、VLAを利用します。",
+        "file": "voice_00.wav",
+        "duration_s": 4.704791666666667,
+        "original_duration_s": 4.704791666666667,
+        "source": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\mechanism_movie\\voice_00.wav",
+        "source_sha256": "24fbe50a68442837e825b7a3495bd01859cc8d68709c4dedddce58885e9ed1a1",
+        "tempo_factor": 0.8382852292020374,
+        "reading": "どろーんのひこうをせいぎょするために、ぶいえるえーをりようします。",
+        "mora": 30,
+        "target_duration_s": 4.712,
+        "output_sha256": "622e912fca6908a325e07fb484217886eed0d92fd7329aee9a777558ee9b29b2"
+      },
+      {
+        "index": 1,
+        "start": 6.204791666666667,
+        "max_s": 6.993458333333333,
+        "text": "VLAは、カメラ映像と言葉による指示から、次の動作を生成するAIです。",
+        "caption": "VLAは、カメラ映像と言葉による指示から、次の動作を生成するAIです。",
+        "file": "voice_01.wav",
+        "duration_s": 6.893458333333333,
+        "original_duration_s": 6.893458333333333,
+        "source": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\mechanism_movie\\voice_01.wav",
+        "source_sha256": "a309de0c2932c9e8a3d514efa21af437a1670a2c3881a3592c9b8bb456d47d65",
+        "tempo_factor": 1.0085618923233204,
+        "reading": "ぶいえるえーは、かめらえいぞうとことばによるしじから、つぎのどうさをせいせいするえーあいです。",
+        "mora": 44,
+        "target_duration_s": 6.891,
+        "output_sha256": "aec09b486c06cb2ddc64127ee0c15bd648c39ae1f3b34389de532157c4740718"
+      },
+      {
+        "index": 2,
+        "start": 13.59825,
+        "max_s": 8.178458333333333,
+        "text": "ドローンの映像を無線でパソコンへ送り、VLAが生成した動作を飛行指令として返します。",
+        "caption": "ドローンの映像を無線でパソコンへ送り、VLAが生成した動作を飛行指令として返します。",
+        "file": "voice_02.wav",
+        "duration_s": 8.078458333333334,
+        "original_duration_s": 8.078458333333334,
+        "source": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\mechanism_movie\\voice_02.wav",
+        "source_sha256": "66669b64cc5fa69320ba661d1e1136b09b8cc24f1aac4f4eba389ecca94a629f",
+        "tempo_factor": 0.9760316283666914,
+        "reading": "どろーんのえいぞうをむせんでぱそこんへおくり、ぶいえるえーがせいせいしたどうさをひこうしれいとしてかえします。",
+        "mora": 53,
+        "target_duration_s": 8.094,
+        "output_sha256": "48bc254df44931c015e80c1e9a90cb59e770859b974e98f9bed76f4717f45eab"
+      },
+      {
+        "index": 3,
+        "start": 22.176708333333334,
+        "max_s": 5.094374999999999,
+        "text": "このやり取りを繰り返すことで、ドローンを自律的に制御します。",
+        "caption": "このやり取りを繰り返すことで、ドローンを自律的に制御します。",
+        "file": "voice_03.wav",
+        "duration_s": 4.994375,
+        "original_duration_s": 4.994375,
+        "source": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\mechanism_movie\\voice_03.wav",
+        "source_sha256": "de825a29da56ddfcbd2d86251c371ac66ccb0683e0ed422b3b95def7e8383619",
+        "tempo_factor": 0.9588493807431082,
+        "reading": "このやりとりをくりかえすことで、どろーんをじりつてきにせいぎょします。",
+        "mora": 32,
+        "target_duration_s": 5.006,
+        "output_sha256": "9511b7671e1eb895b7f4377fe0f4533f6951af8064f375855261c0a21befc409"
+      }
+    ],
+    "old_voices": [
+      {
+        "index": 0,
+        "start": 1,
+        "max_s": 4.15,
+        "text": "ドローンの飛行を制御するために、VLAを利用します。",
+        "caption": "ドローンの飛行を制御するために、VLAを利用します。",
+        "file": "voice_00.wav",
+        "duration_s": 3.95,
+        "original_duration_s": 3.95
+      },
+      {
+        "index": 1,
+        "start": 5.45,
+        "max_s": 7.15,
+        "text": "VLAは、カメラ映像と言葉による指示から、次の動作を生成するAIです。",
+        "caption": "VLAは、カメラ映像と言葉による指示から、次の動作を生成するAIです。",
+        "file": "voice_01.wav",
+        "duration_s": 6.95,
+        "original_duration_s": 6.95
+      },
+      {
+        "index": 2,
+        "start": 13,
+        "max_s": 8.1,
+        "text": "ドローンの映像を無線でパソコンへ送り、VLAが生成した動作を飛行指令として返します。",
+        "caption": "ドローンの映像を無線でパソコンへ送り、VLAが生成した動作を飛行指令として返します。",
+        "file": "voice_02.wav",
+        "duration_s": 7.9,
+        "original_duration_s": 7.9
+      },
+      {
+        "index": 3,
+        "start": 21.5,
+        "max_s": 5.0,
+        "text": "このやり取りを繰り返すことで、ドローンを自律的に制御します。",
+        "caption": "このやり取りを繰り返すことで、ドローンを自律的に制御します。",
+        "file": "voice_03.wav",
+        "duration_s": 4.8,
+        "original_duration_s": 4.8
+      }
+    ],
+    "render_file": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\narration_consistent\\mechanism_movie\\section.mp4",
+    "hardware_end_s": null
+  },
+  {
+    "folder": "training_movie_v2",
+    "source_video": "<PROJECT_ROOT>\\output\\video\\rescue_drone_training_v2_preview.mp4",
+    "duration_s": 16,
+    "voices": [
+      {
+        "index": 0,
+        "start": 0.7,
+        "max_s": 6.25,
+        "text": "VLAを飛行制御に対応させるため、追加学習を行いました。",
+        "caption": "VLAを飛行制御に対応させるため、追加学習を行いました。",
+        "file": "voice_00.wav",
+        "duration_s": 6.05,
+        "source": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\narration_consistent\\new_training_natural02\\voice_00.wav",
+        "source_sha256": "db5390a55d7acca0602a61904d02d41aa1b486bbbbfb76969a1e8994ae70beae",
+        "tempo_factor": 1.0,
+        "original_duration_s": 6.05
+      },
+      {
+        "index": 1,
+        "start": 7.25,
+        "max_s": 7.5,
+        "text": "移動や旋回などの動作を定義し、画像や指示、機体の状態と対応付けました。",
+        "caption": "移動や旋回などの動作を定義し、画像や指示、機体の状態と対応付けました。",
+        "file": "voice_01.wav",
+        "duration_s": 7.3,
+        "source": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\narration_consistent\\new_training_natural02\\voice_01.wav",
+        "source_sha256": "39f83916018a9426e4758d2726b9939654d9de59d7955e90188eed2ca5bde805",
+        "tempo_factor": 1.0,
+        "original_duration_s": 7.3
+      }
+    ],
+    "old_voices": [
+      {
+        "index": 0,
+        "start": 0.7,
+        "max_s": 4.8,
+        "text": "VLAは追加学習を行っています。",
+        "caption": "VLAは追加学習を行っています。",
+        "file": "voice_00.wav",
+        "duration_s": 4.7,
+        "original_duration_s": 4.7
+      },
+      {
+        "index": 1,
+        "start": 5.9,
+        "max_s": 6.8,
+        "text": "移動や旋回などの動作を定義し、画像や指示、機体の状態と対応づけています。",
+        "caption": "移動や旋回などの動作を定義し、画像や指示、機体の状態と対応づけています。",
+        "file": "voice_01.wav",
+        "duration_s": 6.7,
+        "original_duration_s": 6.7
+      }
+    ],
+    "render_file": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\narration_consistent\\training_natural\\section.mp4",
+    "hardware_end_s": null,
+    "work_dir": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\narration_consistent\\training_natural",
+    "caption_lines": [
+      [
+        "VLAを飛行制御に対応させるため、",
+        "追加学習を行いました。"
+      ],
+      [
+        "移動や旋回などの動作を定義し、",
+        "画像や指示、機体の状態と対応付けました。"
+      ]
+    ],
+    "narration_pace": "New OpenAI narration at normal API speed 1.0; no editorial tempo adjustment; listening approval pending"
+  },
+  {
+    "folder": "demo_movie",
+    "source_video": "<PROJECT_ROOT>\\output\\video\\rescue_drone_demonstration.mp4",
+    "duration_s": 40,
+    "voices": [
+      {
+        "index": 0,
+        "start": 4.8,
+        "max_s": 2.2045,
+        "text": "青い服の人を探して。",
+        "caption": "青い服の人を探して。",
+        "file": "voice_00.wav",
+        "duration_s": 2.1045,
+        "original_duration_s": 2.1045,
+        "source": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\demo_movie\\voice_00.wav",
+        "source_sha256": "5777c00d416f0a85e58d889655af924cdf1aed3d1d3cc3232e0c61a5b74d5603",
+        "tempo_factor": 1.0516252390057361,
+        "reading": "あおいふくのひとをさがして。",
+        "mora": 13,
+        "target_duration_s": 2.092,
+        "output_sha256": "648a3ce6e371cb9c3206837a543d44c0812d6bb4f6ef710dd1501c74fb48420e"
+      }
+    ],
+    "old_voices": [
+      {
+        "index": 0,
+        "start": 4.8,
+        "max_s": 2.5,
+        "text": "青い服の人を探して。",
+        "caption": "青い服の人を探して。",
+        "file": "voice_00.wav",
+        "duration_s": 2.2,
+        "original_duration_s": 2.2
+      }
+    ],
+    "render_file": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\narration_consistent\\demo_movie\\section.mp4",
+    "hardware_end_s": null
+  },
+  {
+    "folder": "red_movie",
+    "source_video": "<PROJECT_ROOT>\\output\\video\\rescue_drone_red_search.mp4",
+    "duration_s": 26,
+    "voices": [
+      {
+        "index": 0,
+        "start": 0.6,
+        "max_s": 2.2055000000000002,
+        "text": "赤い服の人を探して。",
+        "caption": "赤い服の人を探して。",
+        "file": "voice_00.wav",
+        "duration_s": 2.1055,
+        "original_duration_s": 2.1055,
+        "source": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\red_movie\\voice_00.wav",
+        "source_sha256": "7cbbb99dbc925adb1c2951463aa7b51c94f78da47aef5e95176ea7dff42ba2da",
+        "tempo_factor": 1.0516252390057361,
+        "reading": "あかいふくのひとをさがして。",
+        "mora": 13,
+        "target_duration_s": 2.092,
+        "output_sha256": "0520b2576ce67bf9c6c76595e0ce9d8719e01a43ba32cf0aefca9f1fc5553021"
+      }
+    ],
+    "old_voices": [
+      {
+        "index": 0,
+        "start": 0.6,
+        "max_s": 2.5,
+        "text": "赤い服の人を探して。",
+        "caption": "赤い服の人を探して。",
+        "file": "voice_00.wav",
+        "duration_s": 2.2,
+        "original_duration_s": 2.2
+      }
+    ],
+    "render_file": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\narration_consistent\\red_movie\\section.mp4",
+    "hardware_end_s": null
+  },
+  {
+    "folder": "conditions_movie",
+    "source_video": "<PROJECT_ROOT>\\output\\video\\rescue_drone_visual_conditions.mp4",
+    "duration_s": 18,
+    "voices": [
+      {
+        "index": 0,
+        "start": 4.25,
+        "max_s": 8.899999999999999,
+        "text": "災害現場を想定し、霧や粉じんで視界が悪くなる条件でも、捜索できることを確かめました。",
+        "caption": "災害現場を想定し、霧や粉じんで視界が悪くなる条件でも、捜索できることを確かめました。",
+        "file": "voice_00.wav",
+        "duration_s": 8.7,
+        "source": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\narration_consistent\\new_conditions_quad02\\voice_00.wav",
+        "source_sha256": "2a4c07025c8ffbf7e43227234809286217069e76b772632a0d0b7dd495ea93e6",
+        "tempo_factor": 1.0,
+        "original_duration_s": 8.7
+      }
+    ],
+    "old_voices": [
+      {
+        "index": 0,
+        "start": 2.2,
+        "max_s": 4.6499999999999995,
+        "text": "災害現場では、霧や粉じんで視界が悪くなることもあります。",
+        "caption": "災害現場では、霧や粉じんで視界が悪くなることもあります。",
+        "file": "voice_00.wav",
+        "duration_s": 4.55,
+        "original_duration_s": 4.55
+      },
+      {
+        "index": 1,
+        "start": 8.2,
+        "max_s": 5.699999999999999,
+        "text": "そこで、見え方を変えた条件でも、同じモデルで捜索できるか確かめました。",
+        "caption": "そこで、見え方を変えた条件でも、同じモデルで捜索できるか確かめました。",
+        "file": "voice_01.wav",
+        "duration_s": 5.6,
+        "original_duration_s": 5.6
+      },
+      {
+        "index": 2,
+        "start": 20.4,
+        "max_s": 5.5,
+        "text": "通常を含む四つの条件で、発見から着陸まで完了しました。",
+        "caption": "通常を含む四つの条件で、発見から着陸まで完了しました。",
+        "file": "voice_02.wav",
+        "duration_s": 5.4,
+        "original_duration_s": 5.4
+      }
+    ],
+    "render_file": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\narration_consistent\\conditions_quad\\section.mp4",
+    "hardware_end_s": null,
+    "work_dir": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\narration_consistent\\conditions_quad",
+    "chapter_card_s": 4,
+    "narration_pace": "New OpenAI narration at normal API speed 1.0; no editorial tempo adjustment; listening approval pending",
+    "renderer_module": "conditions_quad"
+  },
+  {
+    "folder": "ending_movie",
+    "source_video": "<PROJECT_ROOT>\\output\\video\\rescue_drone_ending.mp4",
+    "duration_s": 24,
+    "voices": [
+      {
+        "index": 0,
+        "start": 0.6,
+        "max_s": 8.736749999999999,
+        "text": "実機への展開を見据え、実在する小型ドローンとカメラ、制御用パソコンを組み合わせた構成にしています。",
+        "caption": "実機への展開を見据え、実在する小型ドローンとカメラ、制御用パソコンを組み合わせた構成にしています。",
+        "file": "voice_00.wav",
+        "duration_s": 8.63675,
+        "original_duration_s": 8.63675,
+        "source": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\narration_consistent\\new_ending\\voice_00.wav",
+        "source_sha256": "49bf0cc4576db3d734665d48de2a888ae635220d5b412ddbf4d32dabcc4c54e3",
+        "tempo_factor": 1.2073945696129404,
+        "reading": "じっきへのてんかいをみすえ、じつざいするこがたどろーんとかめら、せいぎょようぱそこんをくみあわせたこうせいにしています。",
+        "mora": 56,
+        "target_duration_s": 8.655,
+        "output_sha256": "68b5964c5bb679f12d2e8e127dabead821b8ae2f7af928f8790143de48f3042e"
+      },
+      {
+        "index": 1,
+        "start": 11.6,
+        "max_s": 2.941666666666667,
+        "text": "言葉による指示で被災者を探す。",
+        "caption": "言葉による指示で被災者を探す。",
+        "file": "voice_01.wav",
+        "duration_s": 2.841666666666667,
+        "original_source_duration_s": 3.55,
+        "tempo_factor": 1.25,
+        "reading": "ことばによるしじでひさいしゃをさがす。",
+        "source": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\narration_consistent\\new_closing\\voice_00.wav",
+        "source_sha256": "f87d182b5c5cccdec802da553c4034025ef6b868960e6cbfa3a2cac644be059a",
+        "original_duration_s": 2.841666666666667
+      },
+      {
+        "index": 2,
+        "start": 14.941666666666666,
+        "max_s": 5.402541666666666,
+        "text": "人が立ち入りにくい場所で、捜索を支えるドローンを目指しています。",
+        "caption": "人が立ち入りにくい場所で、捜索を支えるドローンを目指しています。",
+        "file": "voice_02.wav",
+        "duration_s": 5.3025416666666665,
+        "original_source_duration_s": 6.05,
+        "tempo_factor": 1.1415094339622642,
+        "reading": "ひとがたちいりにくいばしょで、そうさくをささえるどろーんをめざしています。",
+        "source": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\narration_consistent\\new_closing\\voice_01.wav",
+        "source_sha256": "af52da89fd8990c50bc5141f45641e7e1bde6f04216393724c8789dc273e05ee",
+        "original_duration_s": 5.3025416666666665
+      }
+    ],
+    "old_voices": [
+      {
+        "index": 0,
+        "start": 0.6,
+        "max_s": 8.4,
+        "text": "実機への展開を見据え、実在する小型ドローンとカメラ、制御用パソコンを組み合わせる構成を検討しています。",
+        "caption": "実機への展開を見据え、実在する小型ドローンとカメラ、制御用パソコンを組み合わせる構成を検討しています。",
+        "file": "voice_00.wav",
+        "duration_s": 8.3,
+        "original_duration_s": 8.3
+      },
+      {
+        "index": 1,
+        "start": 9.3,
+        "max_s": 5.1,
+        "text": "搭載や通信、実機での飛行は、今後の検証課題です。",
+        "caption": "搭載や通信、実機での飛行は、今後の検証課題です。",
+        "file": "voice_01.wav",
+        "duration_s": 5.0,
+        "original_duration_s": 5.0
+      },
+      {
+        "index": 2,
+        "start": 15.6,
+        "max_s": 6.35,
+        "text": "今回は、指定した人物を探し、確認画像を保存するまでを実現しました。",
+        "caption": "今回は、指定した人物を探し、確認画像を保存するまでを実現しました。",
+        "file": "voice_02.wav",
+        "duration_s": 6.25,
+        "original_duration_s": 6.25
+      },
+      {
+        "index": 3,
+        "start": 22.2,
+        "max_s": 5.199999999999999,
+        "text": "今後は、環境を変えた検証と、実機での確認を進めます。",
+        "caption": "今後は、環境を変えた検証と、実機での確認を進めます。",
+        "file": "voice_03.wav",
+        "duration_s": 5.1,
+        "original_duration_s": 5.1
+      }
+    ],
+    "render_file": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\narration_consistent\\story_ending\\section.mp4",
+    "hardware_end_s": 11,
+    "work_dir": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\narration_consistent\\story_ending",
+    "caption_lines": [
+      [
+        "実機への展開を見据え、実在する小型ドローンとカメラ、",
+        "制御用パソコンを組み合わせた構成にしています。"
+      ],
+      [
+        "言葉による指示で被災者を探す。"
+      ],
+      [
+        "人が立ち入りにくい場所で、",
+        "捜索を支えるドローンを目指しています。"
+      ]
+    ],
+    "closing_intent": "Purpose-led closing; experiment-report lines removed; hardware caveat remains on the slide",
+    "music_only_tail_s": 3.755791666666667
+  }
+]

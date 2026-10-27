@@ -1,0 +1,2 @@
+# Preserve distributed bytes so checksums are stable on every platform.
+* -text

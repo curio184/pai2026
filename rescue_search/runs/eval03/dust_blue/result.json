@@ -1,0 +1,206 @@
+{
+  "search_start_observation": {
+    "id": 30,
+    "t": 31.428500000059053,
+    "image_file": "00030.jpg",
+    "image_sha256": "a27181589633c2697e06e9a281adc92e25ec892c703866f57d4fe81abfc24c1c",
+    "perception": {
+      "persons": [],
+      "elapsed_s": 0.0610822000016924,
+      "model": "torchvision SSDlite320 MobileNet V3 Large",
+      "weights_url": "https://download.pytorch.org/models/ssdlite320_mobilenet_v3_large_coco-a79551df.pth",
+      "weights_sha256": "a79551df90c79834bcd3bb3845ef9d966b5449a3a9b2833ae8404778ca5d65d2",
+      "person_threshold": 0.65,
+      "torso_roi": [
+        0.2,
+        0.18,
+        0.8,
+        0.6
+      ],
+      "color_fraction_threshold": 0.2,
+      "color_margin": 0.12,
+      "source": "RGB only; no simulator metadata"
+    },
+    "estimated_state": [
+      0.04189048251055868,
+      0.008668027141342903,
+      0.013423477299511433,
+      0.9777252972126007,
+      0.001618283917196095,
+      0.004090217873454094,
+      -0.004626519978046417,
+      0.0034245913848280907,
+      1.0
+    ]
+  },
+  "upper_instruction": "\u9752\u3044\u670d\u306e\u4eba\u3092\u63a2\u3057\u3066",
+  "discovery": {
+    "t": 44.509750000121514,
+    "upper_instruction": "\u9752\u3044\u670d\u306e\u4eba\u3092\u63a2\u3057\u3066",
+    "evidence": [
+      {
+        "id": 42,
+        "t": 41.85325000010883,
+        "image_file": "00042.jpg",
+        "image_sha256": "c18b84962e3ea35b47a2b3ccf4ae8a86bf36eb4d6a12b027a67ba05ab4a718b8",
+        "person": {
+          "bbox": [
+            80.3389892578125,
+            76.56304931640625,
+            121.93930053710938,
+            192.2283935546875
+          ],
+          "confidence": 0.9466379880905151,
+          "torso_roi": [
+            88,
+            97,
+            113,
+            145
+          ],
+          "clothing_color": "blue",
+          "blue_fraction": 0.6841666666666667,
+          "red_fraction": 0.0
+        }
+      },
+      {
+        "id": 43,
+        "t": 42.7052500001129,
+        "image_file": "00043.jpg",
+        "image_sha256": "2c3fc1d20b71779880cb887bf8cae14c83d86ec085e261bcee07b72defddea4b",
+        "person": {
+          "bbox": [
+            80.33988952636719,
+            75.09947204589844,
+            122.75234985351562,
+            193.83609008789062
+          ],
+          "confidence": 0.9463302493095398,
+          "torso_roi": [
+            88,
+            96,
+            114,
+            146
+          ],
+          "clothing_color": "blue",
+          "blue_fraction": 0.696923076923077,
+          "red_fraction": 0.0
+        }
+      },
+      {
+        "id": 44,
+        "t": 43.55750000011697,
+        "image_file": "00044.jpg",
+        "image_sha256": "97f31934d543fc48316c294e54422c07dcbfaf73a464c3be11b20249188e7428",
+        "person": {
+          "bbox": [
+            81.89872741699219,
+            75.28723907470703,
+            123.00065612792969,
+            198.06027221679688
+          ],
+          "confidence": 0.9665977358818054,
+          "torso_roi": [
+            90,
+            97,
+            114,
+            148
+          ],
+          "clothing_color": "blue",
+          "blue_fraction": 0.6870915032679739,
+          "red_fraction": 0.0
+        }
+      }
+    ],
+    "scan_count": 1
+  },
+  "notification": {
+    "t": 63.65525000021293,
+    "message": "\u6307\u5b9a\u3057\u305f\u670d\u306e\u8272\u306e\u4eba\u7269\u3092\u78ba\u8a8d\u3057\u307e\u3057\u305f",
+    "target_color": "blue",
+    "upper_instruction": "\u9752\u3044\u670d\u306e\u4eba\u3092\u63a2\u3057\u3066",
+    "image": "notification.jpg",
+    "evidence": {
+      "id": 66,
+      "t": 62.75300000020862,
+      "image_file": "00066.jpg",
+      "image_sha256": "6aee0bba89020ca3e839154c750991d21d1dc6f02079bcf632f955831493f635",
+      "person": {
+        "bbox": [
+          50.25495147705078,
+          2.7480010986328125,
+          204.22946166992188,
+          238.6900177001953
+        ],
+        "confidence": 0.9486691355705261,
+        "torso_roi": [
+          81,
+          45,
+          173,
+          144
+        ],
+        "clothing_color": "blue",
+        "blue_fraction": 0.9836407553798858,
+        "red_fraction": 0.0
+      }
+    },
+    "estimated_state": [
+      0.012236599921731216,
+      8.316416750270218e-05,
+      -0.0069479853846132755,
+      0.9483116567134857,
+      -6.538329671457177e-06,
+      0.0002582077868282795,
+      0.0008554458618164062,
+      -0.001406957395374775,
+      1.0
+    ],
+    "transport": "local ground-station record; no external message",
+    "person_identity_or_medical_state_inferred": false
+  },
+  "mission_failure": null,
+  "first_observation": {
+    "id": 0,
+    "t": 5.017250000000386,
+    "image_file": "00000.jpg",
+    "image_sha256": "24c9433311e848e7f866f788b5143c4e0a28a2d88bde04b24c654f345ac14b3e",
+    "perception": {
+      "persons": [],
+      "elapsed_s": 0.05750850000185892,
+      "model": "torchvision SSDlite320 MobileNet V3 Large",
+      "weights_url": "https://download.pytorch.org/models/ssdlite320_mobilenet_v3_large_coco-a79551df.pth",
+      "weights_sha256": "a79551df90c79834bcd3bb3845ef9d966b5449a3a9b2833ae8404778ca5d65d2",
+      "person_threshold": 0.65,
+      "torso_roi": [
+        0.2,
+        0.18,
+        0.8,
+        0.6
+      ],
+      "color_fraction_threshold": 0.2,
+      "color_margin": 0.12,
+      "source": "RGB only; no simulator metadata"
+    }
+  },
+  "initial_heading_degrees": 90,
+  "ardupilot_commit": "38687117133582049734ebd39f8a7af6f487716a",
+  "controller_source_modified": false,
+  "mass_kg": 0.05,
+  "success_verified": false,
+  "profile": "blue",
+  "armed_at_s": 18.048249999995164,
+  "max_physical_altitude_m": 1.10758638381958,
+  "final_physical_altitude_m": 0.03189224377274513,
+  "stop_reason": "landed_and_disarmed",
+  "actual_rate_hz": 572,
+  "goal_altitude_m": 1.0,
+  "hover_scoring_band_m": [
+    0.75,
+    1.25
+  ],
+  "truth_navigation_enabled": false,
+  "sensor_model_calibrated": false,
+  "gains_searched": false,
+  "vla_used": true,
+  "chunk_execution_origin": "split",
+  "note": "Requires independent physical-state scoring; reaching a scripted stage is not proof of task success."
+}

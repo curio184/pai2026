@@ -1,0 +1,6 @@
+{
+  "loaded": true,
+  "policy_kind": "SmolVLA",
+  "checkpoint_sha256": "410a378d30a10a2975b15675732cfd9fd50b401f29314aaa0a57ee63b55c9c63",
+  "inference_seed": 20261024
+}

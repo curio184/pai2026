@@ -1,0 +1,18 @@
+{
+  "reason": "A primary experimental weight budget lists XIAO ESP32S3 Sense with OV2640 at 8.0 g. Replace the earlier unsupported 7 g allowance before the additional-model flight checks.",
+  "source": "https://aerosyslab.com/papers/conferences/meighan-et-al-2026-multi-modality-localization-of-autonomous-lighter-than-air-uavs-in-real-time.pdf",
+  "DOI": "10.2514/6.2026-0858",
+  "location": "Page 3, Table 1; visually checked",
+  "local_source_sha256": "adab91465708ef43dca19a1cefc7984b848001940096f3b41e967bd02ffaf07d",
+  "previous_model_mass_kg": 0.049,
+  "new_model_mass_kg": 0.050,
+  "camera_design_mass_g": 8.0,
+  "camera_proxy_dimensions_mm": [21.0, 17.8, 15.0],
+  "dimensions_source": "https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/",
+  "old_build_preserved": "~/physical_ai_ardupilot/final_bridge",
+  "new_build": "~/physical_ai_ardupilot/review_bridge_50g",
+  "motor_battery_sensor_parameters_or_flight_gains_changed": false,
+  "physical_scoring_changed": false,
+  "mass_is_verified_upper_bound_for_current_camera_variant": false,
+  "limit": "The paper uses an older OV2640 assembly; current shipments may be OV3660 or OV5640. The 50 g model is an updated design scenario, not a measured full assembly or certified payload capacity. Training images/rollouts remain from the documented earlier 52/49 g configurations."
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "index": 0,
+    "start": 4.25,
+    "max_s": 8.899999999999999,
+    "text": "災害現場を想定し、霧や粉じんで視界が悪くなる条件でも、捜索できることを確かめました。",
+    "caption": "災害現場を想定し、霧や粉じんで視界が悪くなる条件でも、捜索できることを確かめました。",
+    "file": "voice_00.wav",
+    "duration_s": 8.7,
+    "source": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\narration_consistent\\new_conditions_quad02\\voice_00.wav",
+    "source_sha256": "2a4c07025c8ffbf7e43227234809286217069e76b772632a0d0b7dd495ea93e6",
+    "tempo_factor": 1.0,
+    "original_duration_s": 8.7
+  }
+]

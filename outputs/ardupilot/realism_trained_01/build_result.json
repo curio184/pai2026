@@ -1,0 +1,39 @@
+{
+  "stampfly_commit": "9467f1a156326b95a01383e11c44dd665a55b536",
+  "ardupilot_commit": "38687117133582049734ebd39f8a7af6f487716a",
+  "mass_kg": 0.05,
+  "camera_design_mass_g": 8.0,
+  "camera_design_size_mm": [
+    21.0,
+    17.8,
+    15.0
+  ],
+  "com_body_flu_m": [
+    0.0,
+    0.0,
+    0.00348
+  ],
+  "inertia_about_com_kg_m2": [
+    [
+      1.3882321250000002e-05,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.8131414583333334e-05,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      2.122888e-05
+    ]
+  ],
+  "payload_measured": false,
+  "hover_duty_nominal": 0.7473288178443909,
+  "hover_duty_label_correction": "Legacy field name: equilibrium at INITIAL battery voltage (4.15 V), not nominal 3.7 V; equal motor loads only, ignores offset CG",
+  "max_static_thrust_per_motor_N": 0.19495944678783417,
+  "model_calibrated_for_this_assembly": false,
+  "note": "Motor/sensor/battery plant source unchanged; payload is a proposed assembly, not a validated digital twin."
+}

@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "cases": [
+    {
+      "case": "eval03/clear_blue",
+      "success": true,
+      "score_matches": true,
+      "physical_score_recomputed": true,
+      "input_images": 78
+    },
+    {
+      "case": "eval03/fog_light_blue",
+      "success": true,
+      "score_matches": true,
+      "physical_score_recomputed": true,
+      "input_images": 76
+    },
+    {
+      "case": "eval03/fog_dense_blue",
+      "success": true,
+      "score_matches": true,
+      "physical_score_recomputed": true,
+      "input_images": 76
+    },
+    {
+      "case": "eval03/dust_blue",
+      "success": true,
+      "score_matches": true,
+      "physical_score_recomputed": true,
+      "input_images": 79
+    },
+    {
+      "case": "eval_red01/clear_red",
+      "success": true,
+      "score_matches": true,
+      "physical_score_recomputed": true,
+      "input_images": 77
+    }
+  ],
+  "total_input_images": 386,
+  "scope": "Offline scoring and image hash validation; not a new flight or model inference",
+  "original_records_modified": false
+}

@@ -1,0 +1,25 @@
+{
+  "records": [
+    {
+      "condition": "clear",
+      "profile": "blue",
+      "runner_exit": 0
+    },
+    {
+      "condition": "fog_light",
+      "profile": "blue",
+      "runner_exit": 0
+    },
+    {
+      "condition": "fog_dense",
+      "profile": "blue",
+      "runner_exit": 0
+    },
+    {
+      "condition": "dust",
+      "profile": "blue",
+      "runner_exit": 0
+    }
+  ],
+  "worker_exit": 0
+}

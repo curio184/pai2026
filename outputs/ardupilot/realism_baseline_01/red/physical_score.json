@@ -1,0 +1,71 @@
+{
+  "success": false,
+  "profile": "red",
+  "scoring_uses_truth_after_flight": true,
+  "learned_policy_provenance": true,
+  "checkpoints": [
+    "410a378d30a10a2975b15675732cfd9fd50b401f29314aaa0a57ee63b55c9c63"
+  ],
+  "takeoff": true,
+  "policy_requests": {
+    "takeoff": true,
+    "land": true
+  },
+  "grounded_disarmed_motors_off": true,
+  "goal_holds": {
+    "blue": {
+      "goal_scene_xy_m": [
+        2.3410745738240735,
+        0.8084203589462445
+      ],
+      "minimum_goal_distance_m": 1.6932639143481027,
+      "physical_hold": {
+        "duration_s": 0.0,
+        "end_s": null
+      }
+    },
+    "red": {
+      "goal_scene_xy_m": [
+        2.2455626580655523,
+        -0.6848188536753865
+      ],
+      "minimum_goal_distance_m": 0.20570613105056862,
+      "physical_hold": {
+        "duration_s": 0.0,
+        "end_s": null
+      }
+    }
+  },
+  "rotations": {
+    "right": {
+      "completed": false
+    },
+    "left": {
+      "completed": false
+    }
+  },
+  "minimum_person_clearance_m": 0.257335678481042,
+  "explicit_hover_instruction_hold": {
+    "duration_s": 4.891750000023357,
+    "end_s": 33.070750000066894
+  },
+  "watchdog_landing": false,
+  "maximum_height_m": 1.0791882276535034,
+  "observation_age_s": {
+    "mean": 1.2893105788994577,
+    "p95": 1.6822500000080325,
+    "max": 1.8427500000087988
+  },
+  "limits": {
+    "goal_tolerance_m": 0.25,
+    "horizontal_speed_m_s": 0.08,
+    "hold_s": 3,
+    "altitude_m": [
+      0.8,
+      1.25
+    ],
+    "minimum_person_clearance_m": 0.45,
+    "rotation_tolerance_deg": 10
+  },
+  "note": "Simulator task evidence only; real hardware feasibility is a separate required gate."
+}

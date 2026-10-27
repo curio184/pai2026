@@ -1,0 +1,28 @@
+[
+  {
+    "index": 0,
+    "start": 0.7,
+    "max_s": 6.25,
+    "text": "VLAを飛行制御に対応させるため、追加学習を行いました。",
+    "caption": "VLAを飛行制御に対応させるため、追加学習を行いました。",
+    "file": "voice_00.wav",
+    "duration_s": 6.05,
+    "source": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\narration_consistent\\new_training_natural02\\voice_00.wav",
+    "source_sha256": "db5390a55d7acca0602a61904d02d41aa1b486bbbbfb76969a1e8994ae70beae",
+    "tempo_factor": 1.0,
+    "original_duration_s": 6.05
+  },
+  {
+    "index": 1,
+    "start": 7.25,
+    "max_s": 7.5,
+    "text": "移動や旋回などの動作を定義し、画像や指示、機体の状態と対応付けました。",
+    "caption": "移動や旋回などの動作を定義し、画像や指示、機体の状態と対応付けました。",
+    "file": "voice_01.wav",
+    "duration_s": 7.3,
+    "source": "C:/Users/USER\\AppData\\Local\\Temp\\physical_ai_drone_rescue\\archive_cache\\project_tmp\\rescue_search\\narration_consistent\\new_training_natural02\\voice_01.wav",
+    "source_sha256": "39f83916018a9426e4758d2726b9939654d9de59d7955e90188eed2ca5bde805",
+    "tempo_factor": 1.0,
+    "original_duration_s": 7.3
+  }
+]

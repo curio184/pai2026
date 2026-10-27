@@ -1,0 +1,149 @@
+{
+  "source": "Original recorded VLA input JPEGs; hash verified by Record",
+  "no_image_enhancement": true,
+  "resize": "nearest neighbour",
+  "independent_flights": true,
+  "aligned_event": "notification/image saved",
+  "playback_speed": 2,
+  "terminal_hold_s": 1,
+  "windows": {
+    "clear": {
+      "start_s": 47.46725000020352,
+      "end_s": 65.46725000020352,
+      "found_s": 45.913000000128214,
+      "saved_s": 64.46725000020352
+    },
+    "fog_light": {
+      "start_s": 45.95350000020958,
+      "end_s": 63.95350000020958,
+      "found_s": 45.111000000124385,
+      "saved_s": 62.95350000020958
+    },
+    "fog_dense": {
+      "start_s": 45.552500000207665,
+      "end_s": 63.552500000207665,
+      "found_s": 44.76025000012271,
+      "saved_s": 62.552500000207665
+    },
+    "dust": {
+      "start_s": 46.65525000021293,
+      "end_s": 64.65525000021293,
+      "found_s": 44.509750000121514,
+      "saved_s": 63.65525000021293
+    }
+  },
+  "records": {
+    "clear": {
+      "score_sha256": "643bc95d67ec81736c4b3d705f13e2b84a897b41f5b2541b53f30f0272032568",
+      "trace_sha256": "940a7272cdf25298b4d91c094ee54401ec476ae2189cec9a5250685c368d744e",
+      "packet_ids": [
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67
+      ]
+    },
+    "fog_light": {
+      "score_sha256": "a448a2ef7ff0dfcbd6863cfbf1a000fc95cf651986dba74c976f1e4c7bb9a415",
+      "trace_sha256": "619dca89f9762cf6755d0ad9e5f595f95833fb9dd389af13b41088145bbbebad",
+      "packet_ids": [
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ]
+    },
+    "fog_dense": {
+      "score_sha256": "9b659e1ca75aa79210ce9a027378e8719b774b9a808a64b0d665e15d9b9cf81c",
+      "trace_sha256": "c84f6423fd69dab91c02354e8e7f540a881405b9860d66d3e7c7be9239406422",
+      "packet_ids": [
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ]
+    },
+    "dust": {
+      "score_sha256": "d48ecfea1030a7e2bd75a1e703c0cedca8ee0ecdf9740e5c7ed84ced3ed3be44",
+      "trace_sha256": "a2a5b48afca80b12dd851fcc9156652e69139ddae51fcce6c4fb3b8a576cc695",
+      "packet_ids": [
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67
+      ]
+    }
+  }
+}

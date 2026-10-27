@@ -1,0 +1,12 @@
+{
+  "captured_utc": "2026-10-26T05:52:55.825440+00:00",
+  "capture_timing": "After completed training and closed-loop verification, while rendering the movie.",
+  "limitation": "This is a post-run source snapshot for review, not proof of a pre-execution source freeze. The optimization plan, input checkpoint, data archive and image manifest were independently hashed in started.json before optimization.",
+  "source_sha256": {
+    "finetune_revision.py": "55ba952edae9badea730644b1f230d2852cedb40f75600ad60e8f8365c396acb",
+    "finetune_smolvla.py": "efec39d904156d86e04627bf696b34ee2787ab08b8ad48dfae3a1162991d61dc",
+    "smolvla_policy.py": "1e5382a3b63fc92834caed56c851d50cb5ed248a33d2372f1cb5129c4ac456f6",
+    "finetune_plan_realism_precision_02.json": "a55f45fb780c6c8a90b3cef191dd51657d7b43cc922ead3df74a3d18733524a2",
+    "requirements_smolvla_lock.txt": "8e350c04c8563afbac1d77e99a72274008492c405c68cef1702c694f03865396"
+  }
+}
