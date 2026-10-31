@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-10-30T16:55:55.530707+00:00",
+  "cases": [
+    {
+      "id": "primitive_blue",
+      "kind": "primitive",
+      "scene": "clear",
+      "profile": "blue",
+      "model": "v1.1",
+      "group": "development_worker_path_check"
+    }
+  ],
+  "reason": "The prior primitive diagnostic used the original P/vla_worker.py (10 flow steps). Search diagnostics correctly used5. Preserve that run; verify the intended local5-step worker once before final freeze.",
+  "changes": [
+    "Launcher selects runtime_rebuild03/vla_worker.py for primitive flights"
+  ],
+  "unchanged": [
+    "Model, runtime, gains, physics, endpoint conversion, thresholds"
+  ],
+  "runner_sha256": "7cc0ae81fbffd9c4bd48d572c98be1855109730b17a34451bd3a4a1141542d7b",
+  "runtime_protocol_sha256": "7d68e8486118601fd08c24e70f564c5637a29752a71fb83e069f88e8cb8f3cd6"
+}

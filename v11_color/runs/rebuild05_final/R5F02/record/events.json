@@ -1,0 +1,588 @@
+[
+  {
+    "t": 0.00075,
+    "event": "mavlink_connected"
+  },
+  {
+    "t": 0.06375000000000004,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "Calibrating barometer",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 1.6692500000001411,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "Barometer 1 calibration complete",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 1.6692500000001411,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "Barometer 2 calibration complete",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 1.6760000000001434,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "ArduPilot Ready",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 1.6760000000001434,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 7,
+      "text": "RCInput: decoding UDP (Pulses)",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 1.6842500000001461,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 7,
+      "text": "RCInput: decoding FDM (Pulses)",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 3.010749999999691,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "EKF3 IMU0 origin set",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 3.010749999999691,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "EKF3 IMU1 origin set",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 3.070999999999658,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "Field Elevation Set: 10m",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 3.684249999999318,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "EKF3 IMU0 origin set",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 3.684249999999318,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "EKF3 IMU0 initialised",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 3.684249999999318,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "EKF3 IMU1 origin set",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 3.684249999999318,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "EKF3 IMU1 initialised",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 3.6907499999993143,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "AHRS: EKF3 active",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 5.00400000000037,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "EKF3 IMU0 tilt alignment complete",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 5.00400000000037,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "EKF3 IMU0 started relative aiding",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 5.00400000000037,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "EKF3 IMU1 tilt alignment complete",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 5.00400000000037,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "EKF3 IMU1 started relative aiding",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "event": "initial_camera_observation",
+    "id": 0,
+    "t": 5.017250000000386,
+    "image_file": "00000.jpg",
+    "image_sha256": "b9292e047d640175ef39dec79cd9765265e58f46e2a435e4351196ec07952f8d",
+    "perception": {
+      "persons": [],
+      "elapsed_s": 0.05875760002527386,
+      "model": "torchvision SSDlite320 MobileNet V3 Large",
+      "weights_url": "https://download.pytorch.org/models/ssdlite320_mobilenet_v3_large_coco-a79551df.pth",
+      "weights_sha256": "a79551df90c79834bcd3bb3845ef9d966b5449a3a9b2833ae8404778ca5d65d2",
+      "person_threshold": 0.65,
+      "torso_roi": [
+        0.2,
+        0.18,
+        0.8,
+        0.6
+      ],
+      "color_fraction_threshold": 0.2,
+      "color_margin": 0.12,
+      "source": "RGB only; no simulator metadata"
+    }
+  },
+  {
+    "t": 10.01249999999934,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 4,
+      "text": "EKF3 IMU0 stopped aiding",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 10.01249999999934,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 4,
+      "text": "EKF3 IMU1 stopped aiding",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 12.000499999994707,
+    "event": "request_guided_nogps"
+  },
+  {
+    "t": 16.041749999985583,
+    "event": "mission_takeoff_request",
+    "source": "mission_primitive"
+  },
+  {
+    "t": 16.048499999985616,
+    "event": "COMMAND_ACK",
+    "message": {
+      "mavpackettype": "COMMAND_ACK",
+      "command": 400,
+      "result": 0,
+      "progress": 0,
+      "result_param2": 0,
+      "target_system": 255,
+      "target_component": 0
+    }
+  },
+  {
+    "t": 16.048499999985616,
+    "event": "armed"
+  },
+  {
+    "t": 16.048499999985616,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "Arming motors",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 20.340250000006108,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 4,
+      "text": "SmartRTL deactivated: bad position",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 20.393750000006364,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "EKF3 IMU0 started relative aiding",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 20.393750000006364,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "EKF3 IMU1 started relative aiding",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 21.292500000010655,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "EKF3 IMU0 fusing optical flow",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 21.292500000010655,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "EKF3 IMU1 fusing optical flow",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 29.674250000050677,
+    "event": "instruction_changed",
+    "phase": "hover"
+  },
+  {
+    "event": "search_started",
+    "id": 148,
+    "t": 34.886500000075564,
+    "image_file": "00148.jpg",
+    "image_sha256": "5c93d42335d4278e3b26d1bb6e122d7e40197bdc9de84c7a8defeb4295ae1d00",
+    "perception": {
+      "persons": [],
+      "elapsed_s": 0.05426989996340126,
+      "model": "torchvision SSDlite320 MobileNet V3 Large",
+      "weights_url": "https://download.pytorch.org/models/ssdlite320_mobilenet_v3_large_coco-a79551df.pth",
+      "weights_sha256": "a79551df90c79834bcd3bb3845ef9d966b5449a3a9b2833ae8404778ca5d65d2",
+      "person_threshold": 0.65,
+      "torso_roi": [
+        0.2,
+        0.18,
+        0.8,
+        0.6
+      ],
+      "color_fraction_threshold": 0.2,
+      "color_margin": 0.12,
+      "source": "RGB only; no simulator metadata"
+    },
+    "estimated_state": [
+      0.01793208729701792,
+      -0.005484715498831968,
+      -0.0036777250934392214,
+      0.9850755780935287,
+      0.0055197314359247684,
+      0.0013778393622487783,
+      -8.286023512482643e-05,
+      -0.0004700366407632828,
+      1.0
+    ]
+  },
+  {
+    "t": 35.08700000007652,
+    "event": "instruction_changed",
+    "phase": "right"
+  },
+  {
+    "t": 46.915250000133,
+    "event": "instruction_changed",
+    "phase": "confirm"
+  },
+  {
+    "event": "target_discovered",
+    "t": 47.316250000134914,
+    "upper_instruction": "\u9752\u3044\u670d\u306e\u4eba\u3092\u63a2\u3057\u3066",
+    "evidence": [
+      {
+        "id": 207,
+        "t": 46.71475000013204,
+        "image_file": "00207.jpg",
+        "image_sha256": "d45be20777c8810cab2351decc37738b9aff192cfec47850ac66724ccf7ab305",
+        "person": {
+          "bbox": [
+            91.87757873535156,
+            88.60673522949219,
+            125.69007873535156,
+            189.59364318847656
+          ],
+          "confidence": 0.991441011428833,
+          "torso_roi": [
+            98,
+            106,
+            118,
+            149
+          ],
+          "clothing_color": "blue",
+          "blue_fraction": 0.9023255813953488,
+          "red_fraction": 0.004651162790697674
+        }
+      },
+      {
+        "id": 208,
+        "t": 46.915250000133,
+        "image_file": "00208.jpg",
+        "image_sha256": "e05eecc062d140a2c8faa908fc9035e6470c59e754ac8eb70781eb0f427c5c75",
+        "person": {
+          "bbox": [
+            92.1449203491211,
+            89.01879119873047,
+            125.06237030029297,
+            189.1654815673828
+          ],
+          "confidence": 0.9891758561134338,
+          "torso_roi": [
+            98,
+            107,
+            118,
+            149
+          ],
+          "clothing_color": "blue",
+          "blue_fraction": 0.9285714285714286,
+          "red_fraction": 0.0
+        }
+      },
+      {
+        "id": 209,
+        "t": 47.11575000013396,
+        "image_file": "00209.jpg",
+        "image_sha256": "a07aab39293073da2f0a337694241d93403d555c3a0951eafae574847cb99746",
+        "person": {
+          "bbox": [
+            92.40156555175781,
+            88.70255279541016,
+            124.72109985351562,
+            187.61521911621094
+          ],
+          "confidence": 0.9872271418571472,
+          "torso_roi": [
+            98,
+            106,
+            118,
+            148
+          ],
+          "clothing_color": "blue",
+          "blue_fraction": 0.9154761904761904,
+          "red_fraction": 0.0
+        }
+      }
+    ],
+    "scan_count": 1
+  },
+  {
+    "t": 47.316250000134914,
+    "event": "instruction_changed",
+    "phase": "blue"
+  },
+  {
+    "t": 66.21625000016216,
+    "event": "vla_approach_completed",
+    "phase": "blue",
+    "source": "policy",
+    "stop_intent": {
+      "source": "fresh_policy",
+      "intent_command": [
+        -0.03403646871447563,
+        -0.019339025020599365
+      ],
+      "valid_state": true,
+      "elapsed_since_policy_s": 0.0,
+      "completion_requires_fresh_policy": true,
+      "old_request_executed": false
+    },
+    "model_packet_id": 303
+  },
+  {
+    "t": 66.21625000016216,
+    "event": "instruction_changed",
+    "phase": "report"
+  },
+  {
+    "event": "ground_notification",
+    "t": 66.62725000015244,
+    "message": "\u6307\u5b9a\u3057\u305f\u670d\u306e\u8272\u306e\u4eba\u7269\u3092\u78ba\u8a8d\u3057\u307e\u3057\u305f",
+    "target_color": "blue",
+    "upper_instruction": "\u9752\u3044\u670d\u306e\u4eba\u3092\u63a2\u3057\u3066",
+    "image": "notification.jpg",
+    "evidence": {
+      "id": 305,
+      "t": 66.4217500001573,
+      "image_file": "00305.jpg",
+      "image_sha256": "90a623246975574689bdcf42dad0e853145bfd523ddf59e59babeea8f4b8d750",
+      "person": {
+        "bbox": [
+          97.235107421875,
+          0.17955780029296875,
+          215.2412109375,
+          239.35455322265625
+        ],
+        "confidence": 0.9948193430900574,
+        "torso_roi": [
+          120,
+          43,
+          191,
+          143
+        ],
+        "clothing_color": "blue",
+        "blue_fraction": 0.9384507042253522,
+        "red_fraction": 0.0011267605633802818
+      }
+    },
+    "estimated_state": [
+      -0.043332864924291566,
+      -0.017961700428616077,
+      0.03259536623954773,
+      0.9616407603025436,
+      0.0016751105431467295,
+      0.0026552488561719656,
+      -0.0005033016204833985,
+      -0.010218910872936249,
+      1.0
+    ],
+    "transport": "local ground-station record; no external message",
+    "person_identity_or_medical_state_inferred": false
+  },
+  {
+    "t": 66.62725000015244,
+    "event": "instruction_changed",
+    "phase": "land"
+  },
+  {
+    "t": 66.67900000015122,
+    "event": "land_request",
+    "source": "mission_primitive"
+  },
+  {
+    "t": 70.77375000005439,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 2,
+      "text": "EKF variance: position lost",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 70.77375000005439,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 2,
+      "text": "EKF Failsafe",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 71.64075000003389,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "Disarming motors",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  }
+]

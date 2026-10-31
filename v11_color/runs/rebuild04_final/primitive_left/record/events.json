@@ -1,0 +1,371 @@
+[
+  {
+    "t": 0.00075,
+    "event": "mavlink_connected"
+  },
+  {
+    "t": 0.06375000000000004,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "Calibrating barometer",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 1.6692500000001411,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "Barometer 1 calibration complete",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 1.6692500000001411,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "Barometer 2 calibration complete",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 1.6760000000001434,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "ArduPilot Ready",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 1.6760000000001434,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 7,
+      "text": "RCInput: decoding UDP (Pulses)",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 1.6842500000001461,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 7,
+      "text": "RCInput: decoding FDM (Pulses)",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 3.010749999999691,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "EKF3 IMU0 origin set",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 3.010749999999691,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "EKF3 IMU1 origin set",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 3.070999999999658,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "Field Elevation Set: 10m",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 3.684249999999318,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "EKF3 IMU0 origin set",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 3.684249999999318,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "EKF3 IMU0 initialised",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 3.684249999999318,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "EKF3 IMU1 origin set",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 3.684249999999318,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "EKF3 IMU1 initialised",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 3.6907499999993143,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "AHRS: EKF3 active",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 5.00400000000037,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "EKF3 IMU0 tilt alignment complete",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 5.00400000000037,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "EKF3 IMU0 started relative aiding",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 5.00400000000037,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "EKF3 IMU1 tilt alignment complete",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 5.00400000000037,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "EKF3 IMU1 started relative aiding",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 10.01249999999934,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 4,
+      "text": "EKF3 IMU0 stopped aiding",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 10.01249999999934,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 4,
+      "text": "EKF3 IMU1 stopped aiding",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 12.000499999994707,
+    "event": "request_guided_nogps"
+  },
+  {
+    "t": 16.041749999985583,
+    "event": "mission_takeoff_request",
+    "source": "mission_primitive"
+  },
+  {
+    "t": 16.048499999985616,
+    "event": "COMMAND_ACK",
+    "message": {
+      "mavpackettype": "COMMAND_ACK",
+      "command": 400,
+      "result": 0,
+      "progress": 0,
+      "result_param2": 0,
+      "target_system": 255,
+      "target_component": 0
+    }
+  },
+  {
+    "t": 16.048499999985616,
+    "event": "armed"
+  },
+  {
+    "t": 16.048499999985616,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "Arming motors",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 19.994500000004457,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "EKF3 IMU0 started relative aiding",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 19.994500000004457,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "EKF3 IMU1 started relative aiding",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 20.340250000006108,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 4,
+      "text": "SmartRTL deactivated: bad position",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 21.240750000010408,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "EKF3 IMU0 fusing optical flow",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 21.240750000010408,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "EKF3 IMU1 fusing optical flow",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 29.624000000050437,
+    "event": "instruction_changed",
+    "phase": "hover"
+  },
+  {
+    "t": 35.08700000007652,
+    "event": "instruction_changed",
+    "phase": "left"
+  },
+  {
+    "t": 46.96525000013324,
+    "event": "instruction_changed",
+    "phase": "land"
+  },
+  {
+    "t": 47.01550000013348,
+    "event": "land_request",
+    "source": "mission_primitive"
+  },
+  {
+    "t": 51.47100000015475,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 2,
+      "text": "EKF variance: position lost",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 51.47100000015475,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 2,
+      "text": "EKF Failsafe",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  },
+  {
+    "t": 52.4450000001594,
+    "event": "STATUSTEXT",
+    "message": {
+      "mavpackettype": "STATUSTEXT",
+      "severity": 6,
+      "text": "Disarming motors",
+      "id": 0,
+      "chunk_seq": 0
+    }
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "base_runtime_lock_sha256": "99b85c43188be4c2123ea1b93e4098a12ac1699ed3132517eb5747dbde2bfb51",
+  "runtime": {
+    "civic_camera.py": "53a7f83fa5ed30a6c057d2cbc7576385d8e75155cfd511c245fe3cc962c6677f",
+    "civic_render_client.py": "e837412c03f62ebbefd43de32e6548f683ce4369898520778d9eea23f964304d",
+    "confirmation.py": "97b0af6ee0ba02348c8363def9544c245e5c9ed344fb84bd0fc2c8eda348b168",
+    "flight_progress.py": "06730a68ead0968904e6de62aca6634a8662cac0f5dc0e4f05b98077fa81dc58",
+    "perception.py": "3ab3607261833873486917fcca98d398b99fd427d918affa817cf4918a086848",
+    "plant_search.cpp": "58ac896c93ce1ac96696b658934aa5ff8b0f8e3870f221ec80f71d621db62386",
+    "plant_search_jitter.cpp": "7e8d137bd2cbd8a208989db77bb44e821b654cf433ee93f690adf56efe070281",
+    "rescue_scene.py": "9aa3036b601cda9a292556c1282f9545a53070c08808413cfb755b7a6e215c16",
+    "score_mission.py": "ec6dedcda8177e8ea702705ef766f5851651ca8760bf246205d0ad3277b0eb1e",
+    "score_search.py": "037d7bb657402b6e08baa7e9b5d974b2f754fa9a71fb0df6a434eed4440e4b96",
+    "search_link.py": "7f9864f07decabd398f4a4fd7670299a96972077f3156d513f9070fb6901f42a",
+    "search_mission.py": "e8cb0c7b2cb0b577f0f4c8c5033018135e2a1e196429a6d9f7409b7b5438875b",
+    "search_worker.py": "305b803a1278822ef6799ae2eaf182e2205ceb785ce9319bf3a67bc4bee9b938",
+    "smolvla_policy.py": "1e5382a3b63fc92834caed56c851d50cb5ed248a33d2372f1cb5129c4ac456f6",
+    "stop_intent.py": "d2632a2416008dec46b3b0ec335f472c5cf6d6717e7c5bfff0e6f5ec99e594b5",
+    "velocity_stabilizer.py": "aa7662474f85f2f624bf8c8d15fa6a5521f0172b85e50f715a86796940d2bb7a",
+    "vla_link.py": "a5d7e759283adbc676c65c2c5fa1d2d3955d9edfd9d592cb1da1f7b585948bc7",
+    "vla_worker.py": "18d278520c81d3158a112742fa5d4390a9714b6663756f02b5616176fe1718e4",
+    "ardupilot_bridge/rescue_mission.py": "49720c31c3a901c41cb83a7e14f07299dfce7a16513cb47a70c892060dd5a11f"
+  },
+  "project_imports": {
+    "smolvla_policy.py": "1e5382a3b63fc92834caed56c851d50cb5ed248a33d2372f1cb5129c4ac456f6",
+    "flight_progress.py": "06730a68ead0968904e6de62aca6634a8662cac0f5dc0e4f05b98077fa81dc58",
+    "score_mission.py": "ec6dedcda8177e8ea702705ef766f5851651ca8760bf246205d0ad3277b0eb1e",
+    "civic_render_client.py": "e837412c03f62ebbefd43de32e6548f683ce4369898520778d9eea23f964304d",
+    "rescue_scene.py": "9aa3036b601cda9a292556c1282f9545a53070c08808413cfb755b7a6e215c16",
+    "civic_camera.py": "53a7f83fa5ed30a6c057d2cbc7576385d8e75155cfd511c245fe3cc962c6677f",
+    "vla_link.py": "a5d7e759283adbc676c65c2c5fa1d2d3955d9edfd9d592cb1da1f7b585948bc7",
+    "vla_worker.py": "18d278520c81d3158a112742fa5d4390a9714b6663756f02b5616176fe1718e4",
+    "ardupilot_bridge/rescue_mission.py": "0feac224d8fa827a20c38b940cef14e2be593d348bc4dd29f778eac57194aff5"
+  },
+  "changed_files": [
+    "search_mission.py",
+    "ardupilot_bridge/rescue_mission.py"
+  ],
+  "change": "Seven stage instruction strings: remove Japanese suffix only",
+  "exact_original_bytes_reconstructed_by_restoring_strings": true,
+  "all_other_runtime_files_byte_identical": true,
+  "language_amendment_sha256": "2f383fb5808873ba4201f1fe031fc28776f906923370fe8e7ce595523952ed2a",
+  "created_utc": "2026-10-30T10:40:50.492788+00:00",
+  "authorization": "User explicitly approved v1.1-side control changes and a2.5hour work window; old runtime and scoring preserved.",
+  "changes": [
+    "20Hz horizontal PI, kp1 ki.25, prior acceleration and velocity limits",
+    "Explicit stationary phases request zero horizontal velocity; VLA owns approach requests",
+    "Short stale_hover gaps<=.5s preserve remembered stop intent only; completion requires fresh policy and unchanged command window",
+    "Separate logging of VLA requests, adopted requests, integral/attitude commands and stop-intent evidence"
+  ],
+  "stop_intent_rationale": "H09 was physically stopped but repeated brief stale_hover events reset progress. Stale actions are still rejected for execution. No stale packet can complete the task. No physical acceptance threshold is relaxed."
+}

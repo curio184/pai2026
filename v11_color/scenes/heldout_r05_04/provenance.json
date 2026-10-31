@@ -1,0 +1,48 @@
+{
+  "layout": {
+    "name": "heldout_r05_04",
+    "positions": [
+      [
+        2.766489786432232,
+        0.6625901140741663,
+        0.0
+      ],
+      [
+        3.3929159837491873,
+        -0.6159116209137363,
+        0.0
+      ]
+    ],
+    "blue_actor": 1
+  },
+  "visual_changes": [
+    {
+      "actor": "blue",
+      "position": [
+        2.766489786432232,
+        0.6625901140741663,
+        0.0
+      ],
+      "shirt_material": "red_v2_top"
+    },
+    {
+      "actor": "red",
+      "position": [
+        3.3929159837491873,
+        -0.6159116209137363,
+        0.0
+      ],
+      "shirt_material": "blue_v2_top"
+    }
+  ],
+  "physics_color_positions": {
+    "blue": "3.3929159837491873 -0.6159116209137363 0.0",
+    "red": "2.766489786432232 0.6625901140741663 0.0"
+  },
+  "blend_sha256": "2c560b92ae22fa8fe52c022d11a68c9ff122786ec7b60e861a73f40ab5cdd0cc",
+  "physics_sha256": "1123d6a60a2d10dada71b3c09c950a5f4c5aa1060ca64f30d37e27ceb43290ea",
+  "source_blend_sha256": "93743dd2f808ceab731ca02445419440e96746a05f720bd01d981ea2a3d2e048",
+  "script_sha256": "e61c63137ce01b19617146c6c6951ccdc6948a3a2272ce1fe1802dd820fdb1c1",
+  "plan_sha256": "68d30167a8a33816b7be0d5515eb14c2e01f1878e6b388500b1ba0ec84f7abc3",
+  "policy_executed": false
+}

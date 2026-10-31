@@ -1,0 +1,63 @@
+{
+  "name": "stationary_feedback_analysis02",
+  "purpose": "Follow-up analytical hypothesis check: leaky attitude-assisted request versus registered previous formulas. Not a flight, acceptance gate or training recipe.",
+  "source_observation": "Analysis01 retained all 324 trajectories: attitude-assisted requests remove steady bias in many cases but delayed cases can oscillate. Add fixed leakage, rather than a gain sweep.",
+  "scope": "One-axis linear surrogate with attitude lag, sampled delayed requests and constant attitude-estimation disturbance. It cannot establish actual MuJoCo or hardware performance.",
+  "equations": {
+    "velocity_derivative": "estimated_acceleration + disturbance",
+    "estimated_acceleration_derivative": "(delivered_request - velocity - estimated_acceleration) / attitude_lag",
+    "velocity_only_mild": "request = -0.6 * captured_velocity",
+    "velocity_only_strong": "request = -1.6 * captured_velocity",
+    "attitude_incremental": "request = 0.75 * captured_velocity + captured_estimated_acceleration",
+    "attitude_input_mapping": "estimated_acceleration = -g*tan(pitch) for forward, -g*tan(roll) for left; small-angle command proxy, no truth input needed by teacher formula",
+    "attitude_leaky": "request = 0.6 * captured_velocity + 0.9 * captured_estimated_acceleration; equivalently 0.9 * previous-request proxy - 0.3 * captured velocity"
+  },
+  "methods": [
+    "velocity_only_mild",
+    "velocity_only_strong",
+    "attitude_incremental",
+    "attitude_leaky"
+  ],
+  "disturbances_m_s2": [
+    0.0,
+    0.08,
+    0.14
+  ],
+  "initial_velocities_m_s": [
+    -0.2,
+    0.2
+  ],
+  "capture_periods_s": [
+    0.6,
+    1.0,
+    1.4
+  ],
+  "delivery_delays_s": [
+    0.5,
+    1.0,
+    1.5
+  ],
+  "attitude_lags_s": [
+    0.1,
+    0.3
+  ],
+  "duration_s": 40.0,
+  "integration_step_s": 0.005,
+  "request_limit_m_s": 0.2,
+  "initial_estimated_acceleration_m_s2": 0.0,
+  "report": [
+    "all trajectories retained",
+    "last ten seconds speed RMS and maximum",
+    "maximum request",
+    "aggregate by method"
+  ],
+  "limitations": [
+    "no camera, VLA, EKF, noise, rotation, vertical flight or battery",
+    "does not replace existing flight score",
+    "no new runtime gains or code",
+    "all parameter combinations reported",
+    "no model training or checkpoint selection"
+  ],
+  "analytic_steady_state": "For this linear model, v_inf=(1-0.9)/(1-0.6)*disturbance = 0.25*disturbance. Delay stability is not guaranteed by this identity.",
+  "predecessor_report_sha256": "79233f9eb14c411f2a9575dabedc392345ea6571b40c84e94fb6846aa38d64e2"
+}

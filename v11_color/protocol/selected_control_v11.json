@@ -1,0 +1,8 @@
+{
+  "candidate": "train16_en",
+  "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+  "created_utc": "2026-10-30T10:44:13.128597+00:00",
+  "selection": "Single fixed final6000 checkpoint of already started train16; no evaluation of intermediate checkpoints; no further model selection.",
+  "configuration": "control_v11",
+  "final_protocol_sha256": "ea1963d50d7609c8687966da5c9a77342ff2220a410d0bd31ed49585c1d4998d"
+}

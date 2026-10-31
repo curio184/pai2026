@@ -1,0 +1,34 @@
+{
+  "id": 148,
+  "t": 34.886500000075564,
+  "image_file": "00148.jpg",
+  "image_sha256": "ea6a8f9552c2c73f798b7c7656e26a901c03dd5f3d02d1ef6a8a9763f8530549",
+  "perception": {
+    "persons": [],
+    "elapsed_s": 0.055286700022406876,
+    "model": "torchvision SSDlite320 MobileNet V3 Large",
+    "weights_url": "https://download.pytorch.org/models/ssdlite320_mobilenet_v3_large_coco-a79551df.pth",
+    "weights_sha256": "a79551df90c79834bcd3bb3845ef9d966b5449a3a9b2833ae8404778ca5d65d2",
+    "person_threshold": 0.65,
+    "torso_roi": [
+      0.2,
+      0.18,
+      0.8,
+      0.6
+    ],
+    "color_fraction_threshold": 0.2,
+    "color_margin": 0.12,
+    "source": "RGB only; no simulator metadata"
+  },
+  "estimated_state": [
+    -3.78980975780224e-05,
+    -0.0029548633845183515,
+    -0.016201293095946312,
+    0.9923632591962814,
+    0.0015460202703252435,
+    -0.002844516420736909,
+    -2.9606278985738754e-05,
+    -0.0037605944089591503,
+    1.0
+  ]
+}

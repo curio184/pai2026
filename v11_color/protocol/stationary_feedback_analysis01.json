@@ -1,0 +1,26 @@
+{
+  "name": "stationary_feedback_analysis01",
+  "purpose": "Analytical hypothesis check only. Not a flight, model evaluation, acceptance gate, or registered training recipe.",
+  "source_observation": "stress_train15_en_stationary_snapshot_10.json: sustained attitude-estimation offsets and small teacher-imitation error during unsuccessful stationary flight.",
+  "scope": "One-axis linear surrogate with attitude lag, sampled delayed requests and constant attitude-estimation disturbance. It cannot establish actual MuJoCo or hardware performance.",
+  "equations": {
+    "velocity_derivative": "estimated_acceleration + disturbance",
+    "estimated_acceleration_derivative": "(delivered_request - velocity - estimated_acceleration) / attitude_lag",
+    "velocity_only_mild": "request = -0.6 * captured_velocity",
+    "velocity_only_strong": "request = -1.6 * captured_velocity",
+    "attitude_incremental": "request = 0.75 * captured_velocity + captured_estimated_acceleration",
+    "attitude_input_mapping": "estimated_acceleration = -g*tan(pitch) for forward, -g*tan(roll) for left; small-angle command proxy, no truth input needed by teacher formula"
+  },
+  "methods": ["velocity_only_mild", "velocity_only_strong", "attitude_incremental"],
+  "disturbances_m_s2": [0.0, 0.08, 0.14],
+  "initial_velocities_m_s": [-0.2, 0.2],
+  "capture_periods_s": [0.6, 1.0, 1.4],
+  "delivery_delays_s": [0.5, 1.0, 1.5],
+  "attitude_lags_s": [0.1, 0.3],
+  "duration_s": 40.0,
+  "integration_step_s": 0.005,
+  "request_limit_m_s": 0.2,
+  "initial_estimated_acceleration_m_s2": 0.0,
+  "report": ["all trajectories retained", "last ten seconds speed RMS and maximum", "maximum request", "aggregate by method"],
+  "limitations": ["no camera, VLA, EKF, noise, rotation, vertical flight or battery", "does not replace existing flight score", "no new runtime gains or code", "all parameter combinations reported", "no model training or checkpoint selection"]
+}

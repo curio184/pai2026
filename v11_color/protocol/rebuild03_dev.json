@@ -1,0 +1,123 @@
+{
+  "created_utc": "2026-10-30T16:45:34.624351+00:00",
+  "scope": "Same five preselected development conditions. Five flow steps were chosen by a preregistered offline speed/fidelity rule. Stop on first failure; no hidden retries.",
+  "hypothesis": "Reduce actual image-to-result delay as well as increase update frequency.",
+  "changed": [
+    "Flow matching inference steps10 to5"
+  ],
+  "unchanged": [
+    "Weights,chunk32,renderer16samples",
+    "Endpoint tracker,PI and mission logic",
+    "All freshness and physical scoring thresholds",
+    "Battery/physics/WSL limits"
+  ],
+  "endpoint_tracker": {
+    "position_gain": 0.8,
+    "velocity_damping": 0.5,
+    "endpoint_smoothing": 0.5,
+    "stop_error_m": 0.08,
+    "stop_speed_m_s": 0.05
+  },
+  "candidate": "train16_en",
+  "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+  "cases": [
+    {
+      "id": "NFH06",
+      "scene": "heldout_navfocus_02",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 2026103105,
+      "initial_offset": [
+        0.005721425646366629,
+        0.046281769288862754,
+        -0.4906327180385519
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "development_pipeline_diagnostic"
+    },
+    {
+      "id": "NFH07",
+      "scene": "heldout_navfocus_02",
+      "color": "red",
+      "repeat": 1,
+      "seed": 2026103106,
+      "initial_offset": [
+        -0.01172428947756686,
+        0.03568947065215154,
+        3.1904459474106357
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "development_pipeline_diagnostic"
+    },
+    {
+      "id": "NFH08",
+      "scene": "heldout_navfocus_02",
+      "color": "red",
+      "repeat": 2,
+      "seed": 2026103107,
+      "initial_offset": [
+        -0.03444236265532205,
+        0.03135791474479499,
+        4.015887021791258
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "development_pipeline_diagnostic"
+    },
+    {
+      "id": "search_fog_dense_blue",
+      "kind": "search",
+      "scene": "fog_dense",
+      "color": "blue",
+      "model": "v1.1",
+      "group": "development_pipeline_diagnostic"
+    },
+    {
+      "id": "primitive_blue",
+      "kind": "primitive",
+      "scene": "clear",
+      "profile": "blue",
+      "model": "v1.1",
+      "group": "development_pipeline_diagnostic"
+    }
+  ],
+  "runtime_sha256": {
+    "civic_camera.py": "53a7f83fa5ed30a6c057d2cbc7576385d8e75155cfd511c245fe3cc962c6677f",
+    "civic_render_client.py": "e837412c03f62ebbefd43de32e6548f683ce4369898520778d9eea23f964304d",
+    "confirmation.py": "97b0af6ee0ba02348c8363def9544c245e5c9ed344fb84bd0fc2c8eda348b168",
+    "flight_primitives.py": "d1f674068317ff59ccd85e362917bc437dbe4fbc1f3fe29edfe5f6cad2cd3e90",
+    "flight_progress.py": "06730a68ead0968904e6de62aca6634a8662cac0f5dc0e4f05b98077fa81dc58",
+    "perception.py": "3ab3607261833873486917fcca98d398b99fd427d918affa817cf4918a086848",
+    "pipelined_camera.py": "19272a8857fb9f0bb118fb50b583feccb9dcfdebd3f79276c27dfdc9b9b05fcf",
+    "plant_search.cpp": "58ac896c93ce1ac96696b658934aa5ff8b0f8e3870f221ec80f71d621db62386",
+    "plant_search_jitter.cpp": "7e8d137bd2cbd8a208989db77bb44e821b654cf433ee93f690adf56efe070281",
+    "plan_endpoint.py": "a33b07714695a5d31d06f2e2a048783b68490b731a311f04a4a0da1cf693d9a7",
+    "plan_tracker.py": "44af9e9709c6ada5129101bf55921aadf881639c0618611cd3a19af7a45963dc",
+    "rescue_scene.py": "9aa3036b601cda9a292556c1282f9545a53070c08808413cfb755b7a6e215c16",
+    "score_mission.py": "ec6dedcda8177e8ea702705ef766f5851651ca8760bf246205d0ad3277b0eb1e",
+    "score_search.py": "037d7bb657402b6e08baa7e9b5d974b2f754fa9a71fb0df6a434eed4440e4b96",
+    "search_link.py": "7f9864f07decabd398f4a4fd7670299a96972077f3156d513f9070fb6901f42a",
+    "search_mission.py": "3033a2a2795338c0c9a7e32eb229218c3e43636b623c566b4d1ef9e6cf3d4280",
+    "search_worker.py": "49feeea635dae6df539c88442d242c8595643aa5fa3b92e3e0445675f7b333b8",
+    "smolvla_policy.py": "1e5382a3b63fc92834caed56c851d50cb5ed248a33d2372f1cb5129c4ac456f6",
+    "stop_intent.py": "d2632a2416008dec46b3b0ec335f472c5cf6d6717e7c5bfff0e6f5ec99e594b5",
+    "velocity_stabilizer.py": "aa7662474f85f2f624bf8c8d15fa6a5521f0172b85e50f715a86796940d2bb7a",
+    "vla_link.py": "a5d7e759283adbc676c65c2c5fa1d2d3955d9edfd9d592cb1da1f7b585948bc7",
+    "vla_worker.py": "4cd8fee599540a2a14ecc27b2e20f512f3ef0360479e01d8890efbd82a9d1dc1",
+    "ardupilot_bridge/rescue_mission.py": "15d0dca0e12d385ab31726eb457fe2e986ca01942e3957f39613d984ede6bc04"
+  },
+  "score_sha256": "956b224c75a91005b503ddbae41b57ca00e5a2812b9fdd6ada90cfc921912a2e",
+  "runner_sha256": "091ba546d5fe47fe6fc278ed08e14153d3817738a797eab4f68a1faf96d13318",
+  "preflight_passed": true,
+  "preflight_sha256": "fa5e66ffd49d11537c4f0066ae21c0b88d83a949a92e45e407a49f6dd8a26e68",
+  "preflight_manifest_correction_utc": "2026-10-30T16:10:34.694931+00:00",
+  "stop_on_failure": true,
+  "previous_batch": "runs/rebuild02_dev/summary.json",
+  "flow_steps": 5,
+  "benchmark_sha256": "f5347e1310dfbecba74df7053e9f866143cd1eb494507d8cba5e351abaed48b9"
+}

@@ -1,0 +1,865 @@
+{
+  "created_utc": "2026-10-28T11:09:13.444098+00:00",
+  "purpose": "Held-out static color and language interventions; no flight, no training selection",
+  "frames": [
+    {
+      "id": 0,
+      "scene": "heldout01",
+      "view": 0,
+      "blue_actor": 0,
+      "qpos": [
+        0.4,
+        0,
+        1.0,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 1,
+      "scene": "heldout01",
+      "view": 0,
+      "blue_actor": 1,
+      "qpos": [
+        0.4,
+        0,
+        1.0,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "scene": "heldout01",
+      "view": 1,
+      "blue_actor": 0,
+      "qpos": [
+        0.8,
+        0.1,
+        1.02,
+        0.9987502603949663,
+        0,
+        0,
+        0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.02,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "scene": "heldout01",
+      "view": 1,
+      "blue_actor": 1,
+      "qpos": [
+        0.8,
+        0.1,
+        1.02,
+        0.9987502603949663,
+        0,
+        0,
+        0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.02,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "scene": "heldout01",
+      "view": 2,
+      "blue_actor": 0,
+      "qpos": [
+        1.0,
+        -0.1,
+        0.95,
+        0.9987502603949663,
+        0,
+        0,
+        -0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        0.95,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 5,
+      "scene": "heldout01",
+      "view": 2,
+      "blue_actor": 1,
+      "qpos": [
+        1.0,
+        -0.1,
+        0.95,
+        0.9987502603949663,
+        0,
+        0,
+        -0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        0.95,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 6,
+      "scene": "heldout01",
+      "view": 3,
+      "blue_actor": 0,
+      "qpos": [
+        1.3,
+        0,
+        1.08,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.08,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 7,
+      "scene": "heldout01",
+      "view": 3,
+      "blue_actor": 1,
+      "qpos": [
+        1.3,
+        0,
+        1.08,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.08,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 8,
+      "scene": "heldout02",
+      "view": 0,
+      "blue_actor": 0,
+      "qpos": [
+        0.4,
+        0,
+        1.0,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 9,
+      "scene": "heldout02",
+      "view": 0,
+      "blue_actor": 1,
+      "qpos": [
+        0.4,
+        0,
+        1.0,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 10,
+      "scene": "heldout02",
+      "view": 1,
+      "blue_actor": 0,
+      "qpos": [
+        0.8,
+        0.1,
+        1.02,
+        0.9987502603949663,
+        0,
+        0,
+        0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.02,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 11,
+      "scene": "heldout02",
+      "view": 1,
+      "blue_actor": 1,
+      "qpos": [
+        0.8,
+        0.1,
+        1.02,
+        0.9987502603949663,
+        0,
+        0,
+        0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.02,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 12,
+      "scene": "heldout02",
+      "view": 2,
+      "blue_actor": 0,
+      "qpos": [
+        1.0,
+        -0.1,
+        0.95,
+        0.9987502603949663,
+        0,
+        0,
+        -0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        0.95,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 13,
+      "scene": "heldout02",
+      "view": 2,
+      "blue_actor": 1,
+      "qpos": [
+        1.0,
+        -0.1,
+        0.95,
+        0.9987502603949663,
+        0,
+        0,
+        -0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        0.95,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 14,
+      "scene": "heldout02",
+      "view": 3,
+      "blue_actor": 0,
+      "qpos": [
+        1.3,
+        0,
+        1.08,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.08,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 15,
+      "scene": "heldout02",
+      "view": 3,
+      "blue_actor": 1,
+      "qpos": [
+        1.3,
+        0,
+        1.08,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.08,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 16,
+      "scene": "heldout03",
+      "view": 0,
+      "blue_actor": 0,
+      "qpos": [
+        0.4,
+        0,
+        1.0,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 17,
+      "scene": "heldout03",
+      "view": 0,
+      "blue_actor": 1,
+      "qpos": [
+        0.4,
+        0,
+        1.0,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 18,
+      "scene": "heldout03",
+      "view": 1,
+      "blue_actor": 0,
+      "qpos": [
+        0.8,
+        0.1,
+        1.02,
+        0.9987502603949663,
+        0,
+        0,
+        0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.02,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 19,
+      "scene": "heldout03",
+      "view": 1,
+      "blue_actor": 1,
+      "qpos": [
+        0.8,
+        0.1,
+        1.02,
+        0.9987502603949663,
+        0,
+        0,
+        0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.02,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 20,
+      "scene": "heldout03",
+      "view": 2,
+      "blue_actor": 0,
+      "qpos": [
+        1.0,
+        -0.1,
+        0.95,
+        0.9987502603949663,
+        0,
+        0,
+        -0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        0.95,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 21,
+      "scene": "heldout03",
+      "view": 2,
+      "blue_actor": 1,
+      "qpos": [
+        1.0,
+        -0.1,
+        0.95,
+        0.9987502603949663,
+        0,
+        0,
+        -0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        0.95,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 22,
+      "scene": "heldout03",
+      "view": 3,
+      "blue_actor": 0,
+      "qpos": [
+        1.3,
+        0,
+        1.08,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.08,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 23,
+      "scene": "heldout03",
+      "view": 3,
+      "blue_actor": 1,
+      "qpos": [
+        1.3,
+        0,
+        1.08,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.08,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 24,
+      "scene": "heldout04",
+      "view": 0,
+      "blue_actor": 0,
+      "qpos": [
+        0.4,
+        0,
+        1.0,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 25,
+      "scene": "heldout04",
+      "view": 0,
+      "blue_actor": 1,
+      "qpos": [
+        0.4,
+        0,
+        1.0,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 26,
+      "scene": "heldout04",
+      "view": 1,
+      "blue_actor": 0,
+      "qpos": [
+        0.8,
+        0.1,
+        1.02,
+        0.9987502603949663,
+        0,
+        0,
+        0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.02,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 27,
+      "scene": "heldout04",
+      "view": 1,
+      "blue_actor": 1,
+      "qpos": [
+        0.8,
+        0.1,
+        1.02,
+        0.9987502603949663,
+        0,
+        0,
+        0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.02,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 28,
+      "scene": "heldout04",
+      "view": 2,
+      "blue_actor": 0,
+      "qpos": [
+        1.0,
+        -0.1,
+        0.95,
+        0.9987502603949663,
+        0,
+        0,
+        -0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        0.95,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 29,
+      "scene": "heldout04",
+      "view": 2,
+      "blue_actor": 1,
+      "qpos": [
+        1.0,
+        -0.1,
+        0.95,
+        0.9987502603949663,
+        0,
+        0,
+        -0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        0.95,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 30,
+      "scene": "heldout04",
+      "view": 3,
+      "blue_actor": 0,
+      "qpos": [
+        1.3,
+        0,
+        1.08,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.08,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 31,
+      "scene": "heldout04",
+      "view": 3,
+      "blue_actor": 1,
+      "qpos": [
+        1.3,
+        0,
+        1.08,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.08,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "inference_gate": "selected_final.json must exist; no model selection from these outputs",
+  "models": [
+    "v1.0",
+    "v1.1"
+  ],
+  "prompts": {
+    "runtime_bilingual": [
+      "Approach the person wearing blue and stop. 青い服の人の前で止まって。",
+      "Approach the person wearing red and stop. 赤い服の人の前で止まって。"
+    ],
+    "japanese": [
+      "青い服の人の前で止まって",
+      "赤い服の人の前で止まって"
+    ]
+  },
+  "action_summary": "Mean of first 10 steps of horizontal velocity in body frame, then rotate to world for posthoc scoring",
+  "stationary_speed_m_s": 0.02,
+  "primary": "Angle to requested goal smaller than angle to other goal; stationary or exact tie counts as failure",
+  "secondary": "Angle to requested person smaller than angle to other person, median goal angle for nonstationary outputs; all frames retained",
+  "paired": "Both instructions must choose correctly in the same image; separately count quartets correct under both shirt assignments and both instructions",
+  "figure_ids": [
+    0,
+    1,
+    8,
+    9
+  ],
+  "limit": "Correlated synthetic views in a single room; not independent flight trials and not a confidence estimate for arbitrary scenes"
+}

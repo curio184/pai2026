@@ -1,0 +1,27 @@
+{
+  "recorded_utc": "2026-10-28T12:05:02.678723+00:00",
+  "python": "3.12.15",
+  "os": "Windows",
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "transformers": "5.5.4",
+    "lerobot": "0.6.1",
+    "numpy": "2.2.6",
+    "Pillow": "12.3.0",
+    "safetensors": "0.8.0",
+    "huggingface-hub": "1.33.0"
+  },
+  "gpu": "NVIDIA GeForce RTX 3080, 596.21, 10240 MiB",
+  "linux_physics": {
+    "python": "3.10.12",
+    "packages": {
+      "mujoco": "3.9.0",
+      "numpy": "2.2.6",
+      "pymavlink": "2.4.50"
+    }
+  },
+  "ardupilot_commit": "38687117133582049734ebd39f8a7af6f487716a",
+  "ardupilot_tracked_diff": "",
+  "training_script_sha256": "6dccd35bc21c0a53030a5352b9ce277d23b7d3f269f41f5445e57a8dce8099a4"
+}

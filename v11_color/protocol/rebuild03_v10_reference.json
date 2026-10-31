@@ -1,0 +1,311 @@
+{
+  "created_utc": "2026-10-30T17:32:01.196043+00:00",
+  "cases": [
+    {
+      "id": "RF01",
+      "scene": "heldout_rebuild_01",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 202610316000,
+      "initial_offset": [
+        -0.04752664239837299,
+        -0.023943756204993463,
+        2.6086699914177567
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "v10_teacher_semantics_reference",
+      "model": "v1.0"
+    },
+    {
+      "id": "RF02",
+      "scene": "heldout_rebuild_01",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 202610316001,
+      "initial_offset": [
+        0.0037895505584925465,
+        0.01822082213289855,
+        2.0951850816112296
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "v10_teacher_semantics_reference",
+      "model": "v1.0"
+    },
+    {
+      "id": "RF03",
+      "scene": "heldout_rebuild_01",
+      "color": "red",
+      "repeat": 1,
+      "seed": 202610316002,
+      "initial_offset": [
+        -0.02553085131111481,
+        -0.029273231591610917,
+        4.7019658480026365
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "v10_teacher_semantics_reference",
+      "model": "v1.0"
+    },
+    {
+      "id": "RF04",
+      "scene": "heldout_rebuild_01",
+      "color": "red",
+      "repeat": 2,
+      "seed": 202610316003,
+      "initial_offset": [
+        0.028308898028684623,
+        0.01042965422234804,
+        3.699405755886712
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "v10_teacher_semantics_reference",
+      "model": "v1.0"
+    },
+    {
+      "id": "RF05",
+      "scene": "heldout_rebuild_02",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 202610316004,
+      "initial_offset": [
+        0.03813843472049855,
+        0.022647594016341893,
+        -0.6747964851239558
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "v10_teacher_semantics_reference",
+      "model": "v1.0"
+    },
+    {
+      "id": "RF06",
+      "scene": "heldout_rebuild_02",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 202610316005,
+      "initial_offset": [
+        0.025036172812801988,
+        -0.029044728589763494,
+        -0.4012580248626687
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "v10_teacher_semantics_reference",
+      "model": "v1.0"
+    },
+    {
+      "id": "RF07",
+      "scene": "heldout_rebuild_02",
+      "color": "red",
+      "repeat": 1,
+      "seed": 202610316006,
+      "initial_offset": [
+        0.03220305136614349,
+        -0.007508451754499136,
+        -1.6973010840676062
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "v10_teacher_semantics_reference",
+      "model": "v1.0"
+    },
+    {
+      "id": "RF08",
+      "scene": "heldout_rebuild_02",
+      "color": "red",
+      "repeat": 2,
+      "seed": 202610316007,
+      "initial_offset": [
+        0.013375841980468442,
+        0.031897259339284625,
+        -3.3741981964015864
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "v10_teacher_semantics_reference",
+      "model": "v1.0"
+    },
+    {
+      "id": "RF09",
+      "scene": "heldout_rebuild_03",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 202610316008,
+      "initial_offset": [
+        0.042530639666628706,
+        -0.020595749317282232,
+        -3.202435187577163
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "v10_teacher_semantics_reference",
+      "model": "v1.0"
+    },
+    {
+      "id": "RF10",
+      "scene": "heldout_rebuild_03",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 202610316009,
+      "initial_offset": [
+        0.03216448222887179,
+        -0.022541680698135703,
+        -4.828411783909893
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "v10_teacher_semantics_reference",
+      "model": "v1.0"
+    },
+    {
+      "id": "RF11",
+      "scene": "heldout_rebuild_03",
+      "color": "red",
+      "repeat": 1,
+      "seed": 202610316010,
+      "initial_offset": [
+        -0.044611669246022445,
+        0.013031535665571331,
+        -4.710349237409169
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "v10_teacher_semantics_reference",
+      "model": "v1.0"
+    },
+    {
+      "id": "RF12",
+      "scene": "heldout_rebuild_03",
+      "color": "red",
+      "repeat": 2,
+      "seed": 202610316011,
+      "initial_offset": [
+        0.011471694327669438,
+        0.04599759687991643,
+        -1.7530588854925933
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "v10_teacher_semantics_reference",
+      "model": "v1.0"
+    },
+    {
+      "id": "RF13",
+      "scene": "heldout_rebuild_04",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 202610316012,
+      "initial_offset": [
+        0.04503346737261492,
+        -0.011689152598258923,
+        1.0867862969249558
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "v10_teacher_semantics_reference",
+      "model": "v1.0"
+    },
+    {
+      "id": "RF14",
+      "scene": "heldout_rebuild_04",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 202610316013,
+      "initial_offset": [
+        0.03464337535252117,
+        -0.04835136355079568,
+        -2.4536173784238025
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "v10_teacher_semantics_reference",
+      "model": "v1.0"
+    },
+    {
+      "id": "RF15",
+      "scene": "heldout_rebuild_04",
+      "color": "red",
+      "repeat": 1,
+      "seed": 202610316014,
+      "initial_offset": [
+        -0.026451114609773063,
+        -0.008048250013800128,
+        -2.37761835841083
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "v10_teacher_semantics_reference",
+      "model": "v1.0"
+    },
+    {
+      "id": "RF16",
+      "scene": "heldout_rebuild_04",
+      "color": "red",
+      "repeat": 2,
+      "seed": 202610316015,
+      "initial_offset": [
+        0.017403172146287227,
+        -0.04865508313567353,
+        2.5613801774897524
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "v10_teacher_semantics_reference",
+      "model": "v1.0"
+    }
+  ],
+  "scope": "One additional v1.0 run per matched case using its own teacher velocity semantics. Not a retune of v1.1 or the ongoing42-case batch.",
+  "reason": "The common decoder in rebuild03 is based on v1.1 gain1.4/damping.5, whereas legacy teacher has gain.7/no damping. Report both comparisons; do not attribute the common-decoder gap solely to learning.",
+  "selection": "Decoder coefficients and rollout convention copied from the saved legacy teacher source, not fitted to reference-flight outcomes.",
+  "source_teacher_sha256": "ec117743d58e9c200661b170acca57060fdb00424e36e464408a49a7da2e7687",
+  "source_teacher_relative": "outputs/vla_data_realism_precision_02/teacher_source.py",
+  "reference_protocol_sha256": "596981ae3a84be044ac6784ba567d1fb9b8a6ee671b6a560d79bda59a5e83cfc",
+  "checkpoint_sha256": "d119adc57fa0c4681f4413b621d6321d27b000c6a3550c5b075bbbebc3d9a467",
+  "old_checkpoint_sha256": "d119adc57fa0c4681f4413b621d6321d27b000c6a3550c5b075bbbebc3d9a467",
+  "runtime_sha256": {
+    "civic_camera.py": "53a7f83fa5ed30a6c057d2cbc7576385d8e75155cfd511c245fe3cc962c6677f",
+    "civic_render_client.py": "e837412c03f62ebbefd43de32e6548f683ce4369898520778d9eea23f964304d",
+    "confirmation.py": "97b0af6ee0ba02348c8363def9544c245e5c9ed344fb84bd0fc2c8eda348b168",
+    "flight_primitives.py": "d1f674068317ff59ccd85e362917bc437dbe4fbc1f3fe29edfe5f6cad2cd3e90",
+    "flight_progress.py": "06730a68ead0968904e6de62aca6634a8662cac0f5dc0e4f05b98077fa81dc58",
+    "perception.py": "3ab3607261833873486917fcca98d398b99fd427d918affa817cf4918a086848",
+    "pipelined_camera.py": "19272a8857fb9f0bb118fb50b583feccb9dcfdebd3f79276c27dfdc9b9b05fcf",
+    "plant_search.cpp": "58ac896c93ce1ac96696b658934aa5ff8b0f8e3870f221ec80f71d621db62386",
+    "plant_search_jitter.cpp": "7e8d137bd2cbd8a208989db77bb44e821b654cf433ee93f690adf56efe070281",
+    "plan_endpoint.py": "8f69b30cf4ad39dcf9533e235df86f5191cf79b95c98af5b6febfce41ed5fc99",
+    "plan_tracker.py": "44af9e9709c6ada5129101bf55921aadf881639c0618611cd3a19af7a45963dc",
+    "rescue_scene.py": "9aa3036b601cda9a292556c1282f9545a53070c08808413cfb755b7a6e215c16",
+    "score_mission.py": "ec6dedcda8177e8ea702705ef766f5851651ca8760bf246205d0ad3277b0eb1e",
+    "score_search.py": "037d7bb657402b6e08baa7e9b5d974b2f754fa9a71fb0df6a434eed4440e4b96",
+    "search_link.py": "7f9864f07decabd398f4a4fd7670299a96972077f3156d513f9070fb6901f42a",
+    "search_mission.py": "3033a2a2795338c0c9a7e32eb229218c3e43636b623c566b4d1ef9e6cf3d4280",
+    "search_worker.py": "49feeea635dae6df539c88442d242c8595643aa5fa3b92e3e0445675f7b333b8",
+    "smolvla_policy.py": "1e5382a3b63fc92834caed56c851d50cb5ed248a33d2372f1cb5129c4ac456f6",
+    "stop_intent.py": "d2632a2416008dec46b3b0ec335f472c5cf6d6717e7c5bfff0e6f5ec99e594b5",
+    "velocity_stabilizer.py": "aa7662474f85f2f624bf8c8d15fa6a5521f0172b85e50f715a86796940d2bb7a",
+    "vla_link.py": "a5d7e759283adbc676c65c2c5fa1d2d3955d9edfd9d592cb1da1f7b585948bc7",
+    "vla_worker.py": "4cd8fee599540a2a14ecc27b2e20f512f3ef0360479e01d8890efbd82a9d1dc1",
+    "ardupilot_bridge/rescue_mission.py": "15d0dca0e12d385ab31726eb457fe2e986ca01942e3957f39613d984ede6bc04"
+  },
+  "score_sha256": "956b224c75a91005b503ddbae41b57ca00e5a2812b9fdd6ada90cfc921912a2e",
+  "runner_sha256": "4271adaa8131d3d85eae6f6f85c3271a6d7b9d4f48af828fd60b5ba0c7a62fda",
+  "flow_steps": 5,
+  "unchanged": [
+    "Weights",
+    "All42 original outcomes retained",
+    "Same English instructions, camera, tracking gains, PI, ArduPilot, physics, starts and seeds",
+    "Physical success criteria"
+  ],
+  "decoder": {
+    "position_gain": 0.7,
+    "velocity_damping": 0.0,
+    "rollout_velocity_reorientation": false
+  },
+  "execution": "After the ongoing42 and static intervention complete. No concurrent GPU/WSL flight. All16 retained without retry.",
+  "acceptance": "No success threshold for the old model. New-model completion criteria remain exactly as preregistered.",
+  "deadline_utc": "2026-10-31T02:01:14Z"
+}

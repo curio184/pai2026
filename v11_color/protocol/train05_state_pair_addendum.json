@@ -1,0 +1,30 @@
+{
+  "plan_sha256": "cb3f36038a0d5fbd0d3d4eac71ce76d1afc894dbba69d5855072690036716e3a",
+  "turn_state_pairs": {
+    "progress_uniform_rad": [
+      -0.2,
+      1.8207963267948966
+    ],
+    "progress_sign": "positive for task 4, negative for task 5",
+    "yaw_rate_uniform_rad_s": [
+      -0.35,
+      0.35
+    ],
+    "other_state_values": "Source pose state, shared by both pair members"
+  },
+  "retained_primitive_sampling": {
+    "tasks": [
+      2,
+      3,
+      "alternate 4 and 5",
+      6
+    ],
+    "domain_probabilities": [
+      0.5,
+      0.5
+    ],
+    "takeoff_grounded_probability": 0.5
+  },
+  "new_navigation_labels": "One row for each visible color in each registered view, with the registered captured own state",
+  "quartets": "Append eligible both-visible shirt-swapped pairs without rejection based on model predictions"
+}

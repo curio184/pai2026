@@ -1,0 +1,8 @@
+{
+  "candidate": "train16_en",
+  "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+  "configuration": "rebuild03",
+  "flow_steps": 5,
+  "selection": "Existing final-step train16 checkpoint. No intermediate weights selected; the runtime was developed on previous layouts only.",
+  "created_utc": "2026-10-30T16:57:47.429981+00:00"
+}

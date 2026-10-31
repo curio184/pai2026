@@ -1,0 +1,641 @@
+{
+  "created_utc": "2026-10-30T10:44:13.128597+00:00",
+  "deadline_utc": "2026-10-30T13:06:29.263+00:00",
+  "candidate": "train16_en",
+  "configuration": "control_v11",
+  "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+  "old_checkpoint_sha256": "d119adc57fa0c4681f4413b621d6321d27b000c6a3550c5b075bbbebc3d9a467",
+  "authorization": "v1.1 control change and2.5hour extension explicitly approved; no further tuning or training",
+  "selection": "Single fixed final6000 checkpoint of already started train16; no evaluation of intermediate checkpoints; no further model selection.",
+  "original_round_protocol_sha256": "d022927d44c067bf2e7274152c06fba3114ffc146f0d02b225432eedd8630ebc",
+  "runtime_lock_sha256": "19ef47a19804c8e87e11437fc593c77066fd172d23e90a4f154ea795789b26ec",
+  "contract_checks_sha256": "4afbd7ad437afeabbf56a3a5990ae8651fb9b897d865c15ccbbade64745d8f75",
+  "static_probe_plan_sha256": "703d384f9712db24c09151ffbfcdb06605a7684295b4b5222592668a99226cf3",
+  "scripts": {
+    "run_suite_control_v11.py": "293ff033f0479c9073ec87dd0d03568e211dcf946d4b412444829af4c029c58c",
+    "run_control_v11_final.py": "6fbf28e5839f20e14b5ab9ffb9c9ea987e5a7eb5d3a6c9026a948db57c37c7a1",
+    "preregister_control_v11_final.py": "671296d8f6d218bfec1253e8cfa98a990baea85712da5491168a71d4a3ffaefe",
+    "check_control_v11_contract.py": "992f011a3561415a2bc3736c7d1d4f3a82d0f571edf29e8e75c7505a2eee934c",
+    "bounded_wsl.py": "66acf3ecb8ed8b1ba4c4ed4dc1f406c62d11ac596d9ddb43b160641843a7a5b0",
+    "bounded_wsl_entry.py": "f800d1ac46ece28520e18514a573a19c6f46b0ce3c664c6857c865b606b113a0",
+    "render_probe_control_v11.py": "226adf8cccae627d5f59167ea6900c3e60c9742c5bee8673b3b12b30f39263b5",
+    "run_probe_control_v11.py": "8f7e22f9c4e7ee3ddb74a08daa21b6dc74fa35288ecd4b66210555ad3e4c0f11",
+    "plot_probe_control_v11.py": "b2c211b7f21fe9eda9f60e6b54efe2fc95d0cfaec406b398d8c2e76745bd9ee1"
+  },
+  "cases": [
+    {
+      "id": "R2H01",
+      "scene": "heldout_round02_01",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 2026103100,
+      "initial_offset": [
+        -0.004942084365373148,
+        -0.01930814859664608,
+        -3.191356735401788
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H01",
+      "scene": "heldout_round02_01",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 2026103100,
+      "initial_offset": [
+        -0.004942084365373148,
+        -0.01930814859664608,
+        -3.191356735401788
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H02",
+      "scene": "heldout_round02_01",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 2026103101,
+      "initial_offset": [
+        -0.02054791314652319,
+        0.015514869745926196,
+        -1.0669997563715325
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H02",
+      "scene": "heldout_round02_01",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 2026103101,
+      "initial_offset": [
+        -0.02054791314652319,
+        0.015514869745926196,
+        -1.0669997563715325
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H03",
+      "scene": "heldout_round02_01",
+      "color": "red",
+      "repeat": 1,
+      "seed": 2026103102,
+      "initial_offset": [
+        0.02108351474856264,
+        -0.006588432553338429,
+        1.170783653750557
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H03",
+      "scene": "heldout_round02_01",
+      "color": "red",
+      "repeat": 1,
+      "seed": 2026103102,
+      "initial_offset": [
+        0.02108351474856264,
+        -0.006588432553338429,
+        1.170783653750557
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H04",
+      "scene": "heldout_round02_01",
+      "color": "red",
+      "repeat": 2,
+      "seed": 2026103103,
+      "initial_offset": [
+        0.020129115888072147,
+        -0.03147512467513479,
+        -2.683587509700487
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H04",
+      "scene": "heldout_round02_01",
+      "color": "red",
+      "repeat": 2,
+      "seed": 2026103103,
+      "initial_offset": [
+        0.020129115888072147,
+        -0.03147512467513479,
+        -2.683587509700487
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H05",
+      "scene": "heldout_round02_02",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 2026103104,
+      "initial_offset": [
+        0.01667956634855737,
+        -0.0343911764770494,
+        4.48434511942483
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H05",
+      "scene": "heldout_round02_02",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 2026103104,
+      "initial_offset": [
+        0.01667956634855737,
+        -0.0343911764770494,
+        4.48434511942483
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H06",
+      "scene": "heldout_round02_02",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 2026103105,
+      "initial_offset": [
+        0.005721425646366629,
+        0.046281769288862754,
+        -0.4906327180385519
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H06",
+      "scene": "heldout_round02_02",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 2026103105,
+      "initial_offset": [
+        0.005721425646366629,
+        0.046281769288862754,
+        -0.4906327180385519
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H07",
+      "scene": "heldout_round02_02",
+      "color": "red",
+      "repeat": 1,
+      "seed": 2026103106,
+      "initial_offset": [
+        -0.01172428947756686,
+        0.03568947065215154,
+        3.1904459474106357
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H07",
+      "scene": "heldout_round02_02",
+      "color": "red",
+      "repeat": 1,
+      "seed": 2026103106,
+      "initial_offset": [
+        -0.01172428947756686,
+        0.03568947065215154,
+        3.1904459474106357
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H08",
+      "scene": "heldout_round02_02",
+      "color": "red",
+      "repeat": 2,
+      "seed": 2026103107,
+      "initial_offset": [
+        -0.03444236265532205,
+        0.03135791474479499,
+        4.015887021791258
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H08",
+      "scene": "heldout_round02_02",
+      "color": "red",
+      "repeat": 2,
+      "seed": 2026103107,
+      "initial_offset": [
+        -0.03444236265532205,
+        0.03135791474479499,
+        4.015887021791258
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H09",
+      "scene": "heldout_round02_03",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 2026103108,
+      "initial_offset": [
+        0.04274177303858198,
+        -0.040553556975330834,
+        4.559649102181847
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H09",
+      "scene": "heldout_round02_03",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 2026103108,
+      "initial_offset": [
+        0.04274177303858198,
+        -0.040553556975330834,
+        4.559649102181847
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H10",
+      "scene": "heldout_round02_03",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 2026103109,
+      "initial_offset": [
+        -0.02249162971353269,
+        0.005664755654180065,
+        2.226128471710769
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H10",
+      "scene": "heldout_round02_03",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 2026103109,
+      "initial_offset": [
+        -0.02249162971353269,
+        0.005664755654180065,
+        2.226128471710769
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H11",
+      "scene": "heldout_round02_03",
+      "color": "red",
+      "repeat": 1,
+      "seed": 2026103110,
+      "initial_offset": [
+        0.03072188787316353,
+        0.021174008775330336,
+        -3.015694359527048
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H11",
+      "scene": "heldout_round02_03",
+      "color": "red",
+      "repeat": 1,
+      "seed": 2026103110,
+      "initial_offset": [
+        0.03072188787316353,
+        0.021174008775330336,
+        -3.015694359527048
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H12",
+      "scene": "heldout_round02_03",
+      "color": "red",
+      "repeat": 2,
+      "seed": 2026103111,
+      "initial_offset": [
+        0.04090721661622583,
+        -0.01363038980836661,
+        -2.134424340103398
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H12",
+      "scene": "heldout_round02_03",
+      "color": "red",
+      "repeat": 2,
+      "seed": 2026103111,
+      "initial_offset": [
+        0.04090721661622583,
+        -0.01363038980836661,
+        -2.134424340103398
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H13",
+      "scene": "heldout_round02_04",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 2026103112,
+      "initial_offset": [
+        -0.00481288868596582,
+        -0.011111181652437886,
+        1.5984954162672178
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H13",
+      "scene": "heldout_round02_04",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 2026103112,
+      "initial_offset": [
+        -0.00481288868596582,
+        -0.011111181652437886,
+        1.5984954162672178
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H14",
+      "scene": "heldout_round02_04",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 2026103113,
+      "initial_offset": [
+        0.04522883761627172,
+        -0.030931710878307317,
+        4.074094789647349
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H14",
+      "scene": "heldout_round02_04",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 2026103113,
+      "initial_offset": [
+        0.04522883761627172,
+        -0.030931710878307317,
+        4.074094789647349
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H15",
+      "scene": "heldout_round02_04",
+      "color": "red",
+      "repeat": 1,
+      "seed": 2026103114,
+      "initial_offset": [
+        -0.046781248324165664,
+        0.020740675072035836,
+        -2.3171724125348048
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H15",
+      "scene": "heldout_round02_04",
+      "color": "red",
+      "repeat": 1,
+      "seed": 2026103114,
+      "initial_offset": [
+        -0.046781248324165664,
+        0.020740675072035836,
+        -2.3171724125348048
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H16",
+      "scene": "heldout_round02_04",
+      "color": "red",
+      "repeat": 2,
+      "seed": 2026103115,
+      "initial_offset": [
+        -0.03480328347000068,
+        0.036105235868858,
+        -0.27762342340536605
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "R2H16",
+      "scene": "heldout_round02_04",
+      "color": "red",
+      "repeat": 2,
+      "seed": 2026103115,
+      "initial_offset": [
+        -0.03480328347000068,
+        0.036105235868858,
+        -0.27762342340536605
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "primitive_blue",
+      "kind": "primitive",
+      "scene": "clear",
+      "profile": "blue",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "primitive_red",
+      "kind": "primitive",
+      "scene": "clear",
+      "profile": "red",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "primitive_turns",
+      "kind": "primitive",
+      "scene": "clear",
+      "profile": "turns",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "primitive_left",
+      "kind": "primitive",
+      "scene": "clear",
+      "profile": "left",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "search_clear_blue",
+      "kind": "search",
+      "scene": "clear",
+      "color": "blue",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "search_clear_red",
+      "kind": "search",
+      "scene": "clear",
+      "color": "red",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "search_fog_light_blue",
+      "kind": "search",
+      "scene": "fog_light",
+      "color": "blue",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "search_fog_dense_blue",
+      "kind": "search",
+      "scene": "fog_dense",
+      "color": "blue",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "search_dust_blue",
+      "kind": "search",
+      "scene": "dust",
+      "color": "blue",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "known_T3_blue",
+      "kind": "search",
+      "scene": "known_swapped",
+      "color": "blue",
+      "model": "v1.1",
+      "group": "known_failure"
+    }
+  ],
+  "passing": {
+    "unseen_v11_at_least": 14,
+    "unseen_v11_total": 16,
+    "per_color_at_least": 7,
+    "per_color_total": 8,
+    "per_layout_at_least": 3,
+    "per_layout_total": 4,
+    "video_regression": 9,
+    "known_failure": 1,
+    "static_correct_directions_at_least": 60,
+    "static_total": 64,
+    "static_whole_quartets_at_least": 14,
+    "static_whole_quartets_total": 16
+  },
+  "physical_criteria": "All existing scorers unchanged, including25cm/.08mps/3seconds, initial hover, rotation, person clearance and landing.",
+  "original_development_suites": "Old exposed dev/stress attempts all retained. They are not run again to select another candidate. This new fixed-system confirmation replaces exploratory iteration, not its historical outcomes or scoring.",
+  "fair_comparison": "Both model versions use identical new control code, English prompts, scene, start and sensor seeds. Compare models within this configuration; do not attribute improvement over old-controller v1.0 exclusively to learning.",
+  "all_outcomes": "Run all42 even if performance fails. Infrastructure errors and interrupted attempts remain; no automatic retry. No post-result changes.",
+  "limitations": "One room, two stationary person appearances, fixed supported English stage commands; no arbitrary-language, unknown-room or real-flight claim.",
+  "no_truth_to_runtime": true,
+  "no_video_changes": true,
+  "no_publication": true
+}

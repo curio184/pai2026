@@ -1,0 +1,38 @@
+{
+  "created_utc": "2026-10-29T15:38:50.639947+00:00",
+  "requested_by_user": "WSL may be used, but avoid load; up to 4 CPUs and 8GB.",
+  "evaluation_alias": "train08_en_capped",
+  "source_candidate": "train08_en",
+  "new_training": false,
+  "checkpoint_sha256": "d05f827977038b376358d99703ef361d8a23fda296eb7985df881394e8fa0e38",
+  "cpu_quota_cores": 4,
+  "allowed_cpus": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "memory_max_bytes": 8589934592,
+  "memory_high_bytes": 6442450944,
+  "nice": 10,
+  "max_concurrent_flights": 1,
+  "scope": "Only each project simulation process tree. Global WSL settings and other workloads unchanged.",
+  "scripts": {
+    "bounded_wsl.py": "66acf3ecb8ed8b1ba4c4ed4dc1f406c62d11ac596d9ddb43b160641843a7a5b0",
+    "bounded_wsl_entry.py": "f800d1ac46ece28520e18514a573a19c6f46b0ce3c664c6857c865b606b113a0",
+    "run_suite_bounded.py": "8427e3a8f2fd5e7bf89aeed8bd0c1a63633b11424b9e91508be63ca7b5a921cb",
+    "run_round02_bounded.py": "cf8843f2d547f464b24989046efe995324c7e8f1a422760c4e106386356a8a6c",
+    "pipeline_train08_capped.py": "4023d32dbda319f28302288fc7d8bd5c8fe7e8312ca4c66014db11c91572323f"
+  },
+  "diff_sha256": "d502238b2d7986f83ac36f97af1b89f0a7fed5855e64df39a31f42b4a01fbb44",
+  "original_runtime_lock_sha256": "99b85c43188be4c2123ea1b93e4098a12ac1699ed3132517eb5747dbde2bfb51",
+  "english_runtime_lock_sha256": "bcf00a186a70df2004f68e2f4eac13090a1191ac69cb0bd28af877952a250d69",
+  "round_protocol_sha256": "d022927d44c067bf2e7274152c06fba3114ffc146f0d02b225432eedd8630ebc",
+  "probe_protocol_sha256": "703d384f9712db24c09151ffbfcdb06605a7684295b4b5222592668a99226cf3",
+  "preservation": "Original startup failure and user-interrupted flight retained under runs/dev_train08_en; no retry overwrites.",
+  "interpretation": "Resource scheduling can affect wall-clock timing. Both v1.0 and v1.1 final comparison flights use these same limits; do not pool earlier execution conditions.",
+  "success_criteria_changed": false,
+  "controller_model_gains_changed": false,
+  "test_conditions": "Original cases, layouts, seeds, repetitions and criteria unchanged. Only process resource limits and process priority change.",
+  "smoke_report_sha256": "083cdc04eef35d604ba8cf48c5263e2c648ce1f64188150178d4e17eb7adc741"
+}

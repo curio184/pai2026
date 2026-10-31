@@ -1,0 +1,699 @@
+{
+  "created_utc": "2026-10-30T16:57:47.429981+00:00",
+  "scope": "Final fixed confirmation on four reserved fresh layouts. All42 flights retained; no retries or configuration changes within batch.",
+  "hypothesis": "Reduce actual image-to-result delay as well as increase update frequency.",
+  "changed": [
+    "Flow matching inference steps10 to5"
+  ],
+  "unchanged": [
+    "Weights,chunk32,renderer16samples",
+    "Endpoint tracker,PI and mission logic",
+    "All freshness and physical scoring thresholds",
+    "Battery/physics/WSL limits"
+  ],
+  "endpoint_tracker": {
+    "position_gain": 0.8,
+    "velocity_damping": 0.5,
+    "endpoint_smoothing": 0.5,
+    "stop_error_m": 0.08,
+    "stop_speed_m_s": 0.05
+  },
+  "candidate": "train16_en",
+  "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+  "cases": [
+    {
+      "id": "RF01",
+      "scene": "heldout_rebuild_01",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 202610316000,
+      "initial_offset": [
+        -0.04752664239837299,
+        -0.023943756204993463,
+        2.6086699914177567
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.0"
+    },
+    {
+      "id": "RF01",
+      "scene": "heldout_rebuild_01",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 202610316000,
+      "initial_offset": [
+        -0.04752664239837299,
+        -0.023943756204993463,
+        2.6086699914177567
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "RF02",
+      "scene": "heldout_rebuild_01",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 202610316001,
+      "initial_offset": [
+        0.0037895505584925465,
+        0.01822082213289855,
+        2.0951850816112296
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "RF02",
+      "scene": "heldout_rebuild_01",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 202610316001,
+      "initial_offset": [
+        0.0037895505584925465,
+        0.01822082213289855,
+        2.0951850816112296
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.0"
+    },
+    {
+      "id": "RF03",
+      "scene": "heldout_rebuild_01",
+      "color": "red",
+      "repeat": 1,
+      "seed": 202610316002,
+      "initial_offset": [
+        -0.02553085131111481,
+        -0.029273231591610917,
+        4.7019658480026365
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.0"
+    },
+    {
+      "id": "RF03",
+      "scene": "heldout_rebuild_01",
+      "color": "red",
+      "repeat": 1,
+      "seed": 202610316002,
+      "initial_offset": [
+        -0.02553085131111481,
+        -0.029273231591610917,
+        4.7019658480026365
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "RF04",
+      "scene": "heldout_rebuild_01",
+      "color": "red",
+      "repeat": 2,
+      "seed": 202610316003,
+      "initial_offset": [
+        0.028308898028684623,
+        0.01042965422234804,
+        3.699405755886712
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "RF04",
+      "scene": "heldout_rebuild_01",
+      "color": "red",
+      "repeat": 2,
+      "seed": 202610316003,
+      "initial_offset": [
+        0.028308898028684623,
+        0.01042965422234804,
+        3.699405755886712
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.0"
+    },
+    {
+      "id": "RF05",
+      "scene": "heldout_rebuild_02",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 202610316004,
+      "initial_offset": [
+        0.03813843472049855,
+        0.022647594016341893,
+        -0.6747964851239558
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.0"
+    },
+    {
+      "id": "RF05",
+      "scene": "heldout_rebuild_02",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 202610316004,
+      "initial_offset": [
+        0.03813843472049855,
+        0.022647594016341893,
+        -0.6747964851239558
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "RF06",
+      "scene": "heldout_rebuild_02",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 202610316005,
+      "initial_offset": [
+        0.025036172812801988,
+        -0.029044728589763494,
+        -0.4012580248626687
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "RF06",
+      "scene": "heldout_rebuild_02",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 202610316005,
+      "initial_offset": [
+        0.025036172812801988,
+        -0.029044728589763494,
+        -0.4012580248626687
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.0"
+    },
+    {
+      "id": "RF07",
+      "scene": "heldout_rebuild_02",
+      "color": "red",
+      "repeat": 1,
+      "seed": 202610316006,
+      "initial_offset": [
+        0.03220305136614349,
+        -0.007508451754499136,
+        -1.6973010840676062
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.0"
+    },
+    {
+      "id": "RF07",
+      "scene": "heldout_rebuild_02",
+      "color": "red",
+      "repeat": 1,
+      "seed": 202610316006,
+      "initial_offset": [
+        0.03220305136614349,
+        -0.007508451754499136,
+        -1.6973010840676062
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "RF08",
+      "scene": "heldout_rebuild_02",
+      "color": "red",
+      "repeat": 2,
+      "seed": 202610316007,
+      "initial_offset": [
+        0.013375841980468442,
+        0.031897259339284625,
+        -3.3741981964015864
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "RF08",
+      "scene": "heldout_rebuild_02",
+      "color": "red",
+      "repeat": 2,
+      "seed": 202610316007,
+      "initial_offset": [
+        0.013375841980468442,
+        0.031897259339284625,
+        -3.3741981964015864
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.0"
+    },
+    {
+      "id": "RF09",
+      "scene": "heldout_rebuild_03",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 202610316008,
+      "initial_offset": [
+        0.042530639666628706,
+        -0.020595749317282232,
+        -3.202435187577163
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.0"
+    },
+    {
+      "id": "RF09",
+      "scene": "heldout_rebuild_03",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 202610316008,
+      "initial_offset": [
+        0.042530639666628706,
+        -0.020595749317282232,
+        -3.202435187577163
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "RF10",
+      "scene": "heldout_rebuild_03",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 202610316009,
+      "initial_offset": [
+        0.03216448222887179,
+        -0.022541680698135703,
+        -4.828411783909893
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "RF10",
+      "scene": "heldout_rebuild_03",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 202610316009,
+      "initial_offset": [
+        0.03216448222887179,
+        -0.022541680698135703,
+        -4.828411783909893
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.0"
+    },
+    {
+      "id": "RF11",
+      "scene": "heldout_rebuild_03",
+      "color": "red",
+      "repeat": 1,
+      "seed": 202610316010,
+      "initial_offset": [
+        -0.044611669246022445,
+        0.013031535665571331,
+        -4.710349237409169
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.0"
+    },
+    {
+      "id": "RF11",
+      "scene": "heldout_rebuild_03",
+      "color": "red",
+      "repeat": 1,
+      "seed": 202610316010,
+      "initial_offset": [
+        -0.044611669246022445,
+        0.013031535665571331,
+        -4.710349237409169
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "RF12",
+      "scene": "heldout_rebuild_03",
+      "color": "red",
+      "repeat": 2,
+      "seed": 202610316011,
+      "initial_offset": [
+        0.011471694327669438,
+        0.04599759687991643,
+        -1.7530588854925933
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "RF12",
+      "scene": "heldout_rebuild_03",
+      "color": "red",
+      "repeat": 2,
+      "seed": 202610316011,
+      "initial_offset": [
+        0.011471694327669438,
+        0.04599759687991643,
+        -1.7530588854925933
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.0"
+    },
+    {
+      "id": "RF13",
+      "scene": "heldout_rebuild_04",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 202610316012,
+      "initial_offset": [
+        0.04503346737261492,
+        -0.011689152598258923,
+        1.0867862969249558
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.0"
+    },
+    {
+      "id": "RF13",
+      "scene": "heldout_rebuild_04",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 202610316012,
+      "initial_offset": [
+        0.04503346737261492,
+        -0.011689152598258923,
+        1.0867862969249558
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "RF14",
+      "scene": "heldout_rebuild_04",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 202610316013,
+      "initial_offset": [
+        0.03464337535252117,
+        -0.04835136355079568,
+        -2.4536173784238025
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "RF14",
+      "scene": "heldout_rebuild_04",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 202610316013,
+      "initial_offset": [
+        0.03464337535252117,
+        -0.04835136355079568,
+        -2.4536173784238025
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.0"
+    },
+    {
+      "id": "RF15",
+      "scene": "heldout_rebuild_04",
+      "color": "red",
+      "repeat": 1,
+      "seed": 202610316014,
+      "initial_offset": [
+        -0.026451114609773063,
+        -0.008048250013800128,
+        -2.37761835841083
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.0"
+    },
+    {
+      "id": "RF15",
+      "scene": "heldout_rebuild_04",
+      "color": "red",
+      "repeat": 1,
+      "seed": 202610316014,
+      "initial_offset": [
+        -0.026451114609773063,
+        -0.008048250013800128,
+        -2.37761835841083
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "RF16",
+      "scene": "heldout_rebuild_04",
+      "color": "red",
+      "repeat": 2,
+      "seed": 202610316015,
+      "initial_offset": [
+        0.017403172146287227,
+        -0.04865508313567353,
+        2.5613801774897524
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "RF16",
+      "scene": "heldout_rebuild_04",
+      "color": "red",
+      "repeat": 2,
+      "seed": 202610316015,
+      "initial_offset": [
+        0.017403172146287227,
+        -0.04865508313567353,
+        2.5613801774897524
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.0"
+    },
+    {
+      "id": "primitive_blue",
+      "kind": "primitive",
+      "scene": "clear",
+      "profile": "blue",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "primitive_red",
+      "kind": "primitive",
+      "scene": "clear",
+      "profile": "red",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "primitive_turns",
+      "kind": "primitive",
+      "scene": "clear",
+      "profile": "turns",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "primitive_left",
+      "kind": "primitive",
+      "scene": "clear",
+      "profile": "left",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "search_clear_blue",
+      "kind": "search",
+      "scene": "clear",
+      "color": "blue",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "search_clear_red",
+      "kind": "search",
+      "scene": "clear",
+      "color": "red",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "search_fog_light_blue",
+      "kind": "search",
+      "scene": "fog_light",
+      "color": "blue",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "search_fog_dense_blue",
+      "kind": "search",
+      "scene": "fog_dense",
+      "color": "blue",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "search_dust_blue",
+      "kind": "search",
+      "scene": "dust",
+      "color": "blue",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "known_T3_blue",
+      "kind": "search",
+      "scene": "known_swapped",
+      "color": "blue",
+      "model": "v1.1",
+      "group": "known_failure"
+    }
+  ],
+  "runtime_sha256": {
+    "civic_camera.py": "53a7f83fa5ed30a6c057d2cbc7576385d8e75155cfd511c245fe3cc962c6677f",
+    "civic_render_client.py": "e837412c03f62ebbefd43de32e6548f683ce4369898520778d9eea23f964304d",
+    "confirmation.py": "97b0af6ee0ba02348c8363def9544c245e5c9ed344fb84bd0fc2c8eda348b168",
+    "flight_primitives.py": "d1f674068317ff59ccd85e362917bc437dbe4fbc1f3fe29edfe5f6cad2cd3e90",
+    "flight_progress.py": "06730a68ead0968904e6de62aca6634a8662cac0f5dc0e4f05b98077fa81dc58",
+    "perception.py": "3ab3607261833873486917fcca98d398b99fd427d918affa817cf4918a086848",
+    "pipelined_camera.py": "19272a8857fb9f0bb118fb50b583feccb9dcfdebd3f79276c27dfdc9b9b05fcf",
+    "plant_search.cpp": "58ac896c93ce1ac96696b658934aa5ff8b0f8e3870f221ec80f71d621db62386",
+    "plant_search_jitter.cpp": "7e8d137bd2cbd8a208989db77bb44e821b654cf433ee93f690adf56efe070281",
+    "plan_endpoint.py": "a33b07714695a5d31d06f2e2a048783b68490b731a311f04a4a0da1cf693d9a7",
+    "plan_tracker.py": "44af9e9709c6ada5129101bf55921aadf881639c0618611cd3a19af7a45963dc",
+    "rescue_scene.py": "9aa3036b601cda9a292556c1282f9545a53070c08808413cfb755b7a6e215c16",
+    "score_mission.py": "ec6dedcda8177e8ea702705ef766f5851651ca8760bf246205d0ad3277b0eb1e",
+    "score_search.py": "037d7bb657402b6e08baa7e9b5d974b2f754fa9a71fb0df6a434eed4440e4b96",
+    "search_link.py": "7f9864f07decabd398f4a4fd7670299a96972077f3156d513f9070fb6901f42a",
+    "search_mission.py": "3033a2a2795338c0c9a7e32eb229218c3e43636b623c566b4d1ef9e6cf3d4280",
+    "search_worker.py": "49feeea635dae6df539c88442d242c8595643aa5fa3b92e3e0445675f7b333b8",
+    "smolvla_policy.py": "1e5382a3b63fc92834caed56c851d50cb5ed248a33d2372f1cb5129c4ac456f6",
+    "stop_intent.py": "d2632a2416008dec46b3b0ec335f472c5cf6d6717e7c5bfff0e6f5ec99e594b5",
+    "velocity_stabilizer.py": "aa7662474f85f2f624bf8c8d15fa6a5521f0172b85e50f715a86796940d2bb7a",
+    "vla_link.py": "a5d7e759283adbc676c65c2c5fa1d2d3955d9edfd9d592cb1da1f7b585948bc7",
+    "vla_worker.py": "4cd8fee599540a2a14ecc27b2e20f512f3ef0360479e01d8890efbd82a9d1dc1",
+    "ardupilot_bridge/rescue_mission.py": "15d0dca0e12d385ab31726eb457fe2e986ca01942e3957f39613d984ede6bc04"
+  },
+  "score_sha256": "956b224c75a91005b503ddbae41b57ca00e5a2812b9fdd6ada90cfc921912a2e",
+  "runner_sha256": "3bba37d56d5ff4b0e6db43b7ded8cf26b181326a3c27ca8858060879915f5603",
+  "preflight_passed": true,
+  "preflight_sha256": "fa5e66ffd49d11537c4f0066ae21c0b88d83a949a92e45e407a49f6dd8a26e68",
+  "preflight_manifest_correction_utc": "2026-10-30T16:10:34.694931+00:00",
+  "stop_on_failure": true,
+  "previous_batch": "runs/rebuild02_dev/summary.json",
+  "flow_steps": 5,
+  "benchmark_sha256": "f5347e1310dfbecba74df7053e9f866143cd1eb494507d8cba5e351abaed48b9",
+  "deadline_utc": "2026-10-31T02:01:14Z",
+  "old_checkpoint_sha256": "d119adc57fa0c4681f4413b621d6321d27b000c6a3550c5b075bbbebc3d9a467",
+  "configuration": "rebuild03",
+  "checkpoint_metadata_sha256": {
+    "v1.0": {
+      "config.json": "d2dcdb29141d13de543c1992bf0fab143662aca5540b72dba1440ba26cf73b91"
+    },
+    "v1.1": {
+      "config.json": "d2dcdb29141d13de543c1992bf0fab143662aca5540b72dba1440ba26cf73b91"
+    }
+  },
+  "original_physical_scorer_sha256": "ec6dedcda8177e8ea702705ef766f5851651ca8760bf246205d0ad3277b0eb1e",
+  "renderer_sha256": "e837412c03f62ebbefd43de32e6548f683ce4369898520778d9eea23f964304d",
+  "interpretation": "VLA velocity-plan endpoint is decoded; own-state trajectory tracking converts it to commands. Raw instantaneous VLA velocities are not directly executed.",
+  "runtime_lock_sha256": "7d68e8486118601fd08c24e70f564c5637a29752a71fb83e069f88e8cb8f3cd6",
+  "layout_protocol_sha256": "6717ef5effb2a3907a35b652d334c39c200687cf1925a708e97ec569bd6b271a",
+  "static_probe_sha256": "eb474e6e2a221296fc5d21f7e5b0ea9cc3af2ae563d2036050f0100d0fcc7d0b",
+  "jitter_bounds": {
+    "position_m": 0.05,
+    "heading_deg": 5,
+    "seed": 202610310602
+  },
+  "criteria": {
+    "goal_radius_m": 0.25,
+    "horizontal_speed_max_m_s": 0.08,
+    "continuous_hold_s": 3.0,
+    "unseen_success_min": "14/16",
+    "each_color_min": "7/8",
+    "each_layout_min": "3/4",
+    "video_regression": "9/9",
+    "known_swap": "1/1"
+  },
+  "static_criteria": {
+    "correct_goal_min": 60,
+    "outputs": 64,
+    "whole_quartet_min": 14,
+    "quartets": 16
+  },
+  "selection": "Existing final-step train16 checkpoint. No intermediate weights selected; the runtime was developed on previous layouts only.",
+  "source_scripts": {
+    "run_rebuild03_final.py": "f61317fda7c2ad9c77ffd31e9bbecfdc3db806e825bf1ca4967ec4cf4147a979",
+    "score_rebuild03.py": "956b224c75a91005b503ddbae41b57ca00e5a2812b9fdd6ada90cfc921912a2e",
+    "audit_rebuild03_execution.py": "68828d92819a46b1f0897916bb9d9ff3b2c2c8451f87909637ae968e8396c686",
+    "prepare_scenes_rebuild03.py": "725ac0e0146d6ccaaffbf07366056899904f55bfe82dea2eecb63368085b7d87",
+    "render_probe_rebuild03.py": "2e2801b6e291b3b0fa6d3366be771f2f6e892b061a41ee9926fb85ece66ad0e6",
+    "run_probe_rebuild03.py": "0dae56dad2687664664ddca42c957292abb2d7064f0fe269395088f425605020",
+    "plot_probe_rebuild03.py": "646e3d03e73cf6b8442e7c8b981c7496fb2877bee3399edac0f658ad833fb7cc"
+  }
+}

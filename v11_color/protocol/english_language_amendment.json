@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-10-28T16:47:22.908797+00:00",
+  "user_requested": true,
+  "superseded_plans": [
+    "train04.json",
+    "round02.json",
+    "static_probe_round02.json"
+  ],
+  "status_of_superseded_plans": "Not trained and not evaluated; all files preserved",
+  "new_training_plan_sha256": "7f1a70276a06579ebd2bfa62f50114ad151196c752d41b10c2c4a6c8a68ba2d9",
+  "new_round_sha256": "d022927d44c067bf2e7274152c06fba3114ffc146f0d02b225432eedd8630ebc",
+  "layouts_seeds_counts_and_thresholds_unchanged": true,
+  "runtime_prompts": {
+    "blue": "Approach the person wearing blue and stop.",
+    "red": "Approach the person wearing red and stop.",
+    "takeoff": "Take off and hover at one meter.",
+    "land": "Land and stop the motors.",
+    "right": "Turn clockwise ninety degrees and stop.",
+    "left": "Turn counterclockwise ninety degrees and stop.",
+    "hover": "Stop and hover here."
+  }
+}

@@ -1,0 +1,18 @@
+﻿{
+    "checks":  [
+                   "Identical pose and avatar identities within each pair",
+                   "Only shirt color assignment changes within each pair",
+                   "Avatar ordering changes between layouts",
+                   "Images are training data, not evidence of policy success"
+               ],
+    "frames":  [
+                   "00000",
+                   "00001",
+                   "00002",
+                   "00003",
+                   "02002",
+                   "02003"
+               ],
+    "reviewed_utc":  "2026-10-28T11:29:51.9132317Z",
+    "passed":  true
+}

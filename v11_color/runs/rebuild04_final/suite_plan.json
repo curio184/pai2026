@@ -1,0 +1,400 @@
+{
+  "created_utc": "2026-10-31T09:17:19.398932+00:00",
+  "configuration": "rebuild04",
+  "candidate": "train16_en",
+  "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+  "fixed_latency_s": 0.4,
+  "chunk_origin": "capture",
+  "plan_tracker_used": false,
+  "flow_steps": 5,
+  "cases": [
+    {
+      "id": "R4F01",
+      "scene": "heldout_r04_01",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 202610317000,
+      "initial_offset": [
+        -0.004022237868323876,
+        0.047849195005878586,
+        -0.33443634835524527
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "R4F02",
+      "scene": "heldout_r04_01",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 202610317001,
+      "initial_offset": [
+        -0.03906546015573124,
+        0.04713306935818978,
+        1.0374542684661385
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "R4F03",
+      "scene": "heldout_r04_01",
+      "color": "red",
+      "repeat": 1,
+      "seed": 202610317002,
+      "initial_offset": [
+        -0.0025311318462068327,
+        0.03753291043208694,
+        -0.08835107453451396
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "R4F04",
+      "scene": "heldout_r04_01",
+      "color": "red",
+      "repeat": 2,
+      "seed": 202610317003,
+      "initial_offset": [
+        0.03748176821142532,
+        -0.015431558035009951,
+        -4.173251190304153
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "R4F05",
+      "scene": "heldout_r04_02",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 202610317004,
+      "initial_offset": [
+        0.047848065063966994,
+        0.040516100923273665,
+        4.9050611009640015
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "R4F06",
+      "scene": "heldout_r04_02",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 202610317005,
+      "initial_offset": [
+        -0.03605028039339291,
+        0.04841832678397785,
+        -2.314882123595673
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "R4F07",
+      "scene": "heldout_r04_02",
+      "color": "red",
+      "repeat": 1,
+      "seed": 202610317006,
+      "initial_offset": [
+        -0.04623163747932738,
+        0.003938260877144897,
+        2.4713498960892526
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "R4F08",
+      "scene": "heldout_r04_02",
+      "color": "red",
+      "repeat": 2,
+      "seed": 202610317007,
+      "initial_offset": [
+        -0.00918215115128758,
+        0.017019870953358412,
+        4.560100774108912
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "R4F09",
+      "scene": "heldout_r04_03",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 202610317008,
+      "initial_offset": [
+        0.0331813915925023,
+        -0.041354842007281935,
+        -1.9706351425307989
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "R4F10",
+      "scene": "heldout_r04_03",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 202610317009,
+      "initial_offset": [
+        -0.030287989910090685,
+        0.027258315015461457,
+        1.6045419062523747
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "R4F11",
+      "scene": "heldout_r04_03",
+      "color": "red",
+      "repeat": 1,
+      "seed": 202610317010,
+      "initial_offset": [
+        0.03956508996920109,
+        -0.04461284499703416,
+        -0.41204069757159534
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "R4F12",
+      "scene": "heldout_r04_03",
+      "color": "red",
+      "repeat": 2,
+      "seed": 202610317011,
+      "initial_offset": [
+        -0.016329088605322777,
+        0.03755655439976974,
+        0.36786720602682266
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "R4F13",
+      "scene": "heldout_r04_04",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 202610317012,
+      "initial_offset": [
+        -0.027290542853825817,
+        0.029567939987698424,
+        -1.337764588346373
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "R4F14",
+      "scene": "heldout_r04_04",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 202610317013,
+      "initial_offset": [
+        0.03366599913184168,
+        0.04988509698894476,
+        -1.50815166903417
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "R4F15",
+      "scene": "heldout_r04_04",
+      "color": "red",
+      "repeat": 1,
+      "seed": 202610317014,
+      "initial_offset": [
+        -0.027600864767447275,
+        0.007206536637776706,
+        -0.4398915172255524
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "R4F16",
+      "scene": "heldout_r04_04",
+      "color": "red",
+      "repeat": 2,
+      "seed": 202610317015,
+      "initial_offset": [
+        0.03462919397451551,
+        -0.014537646544796216,
+        3.820755013309876
+      ],
+      "kind": "search",
+      "jitter": true,
+      "group": "matched_unseen",
+      "model": "v1.1"
+    },
+    {
+      "id": "primitive_blue",
+      "kind": "primitive",
+      "scene": "clear",
+      "profile": "blue",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "primitive_red",
+      "kind": "primitive",
+      "scene": "clear",
+      "profile": "red",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "primitive_turns",
+      "kind": "primitive",
+      "scene": "clear",
+      "profile": "turns",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "primitive_left",
+      "kind": "primitive",
+      "scene": "clear",
+      "profile": "left",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "search_clear_blue",
+      "kind": "search",
+      "scene": "clear",
+      "color": "blue",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "search_clear_red",
+      "kind": "search",
+      "scene": "clear",
+      "color": "red",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "search_fog_light_blue",
+      "kind": "search",
+      "scene": "fog_light",
+      "color": "blue",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "search_fog_dense_blue",
+      "kind": "search",
+      "scene": "fog_dense",
+      "color": "blue",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "search_dust_blue",
+      "kind": "search",
+      "scene": "dust",
+      "color": "blue",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "known_T3_blue",
+      "kind": "search",
+      "scene": "known_swapped",
+      "color": "blue",
+      "model": "v1.1",
+      "group": "known_failure"
+    }
+  ],
+  "runtime_sha256": {
+    "ardupilot_bridge/rescue_mission.py": "9df34de5b0429a1bc81d9d50d1dba7e08e7f638cff87a658bf01d7341efb6e57",
+    "civic_camera.py": "53a7f83fa5ed30a6c057d2cbc7576385d8e75155cfd511c245fe3cc962c6677f",
+    "civic_render_client.py": "e837412c03f62ebbefd43de32e6548f683ce4369898520778d9eea23f964304d",
+    "confirmation.py": "97b0af6ee0ba02348c8363def9544c245e5c9ed344fb84bd0fc2c8eda348b168",
+    "fixed_latency.py": "d28dcbab67157d6782106d5b2a76766e77e05dcb054d7bb364f45448052e11ae",
+    "flight_primitives.py": "d1f674068317ff59ccd85e362917bc437dbe4fbc1f3fe29edfe5f6cad2cd3e90",
+    "flight_progress.py": "06730a68ead0968904e6de62aca6634a8662cac0f5dc0e4f05b98077fa81dc58",
+    "perception.py": "3ab3607261833873486917fcca98d398b99fd427d918affa817cf4918a086848",
+    "pipelined_camera.py": "19272a8857fb9f0bb118fb50b583feccb9dcfdebd3f79276c27dfdc9b9b05fcf",
+    "plan_endpoint.py": "a33b07714695a5d31d06f2e2a048783b68490b731a311f04a4a0da1cf693d9a7",
+    "plan_tracker.py": "44af9e9709c6ada5129101bf55921aadf881639c0618611cd3a19af7a45963dc",
+    "rescue_scene.py": "9aa3036b601cda9a292556c1282f9545a53070c08808413cfb755b7a6e215c16",
+    "score_mission.py": "ec6dedcda8177e8ea702705ef766f5851651ca8760bf246205d0ad3277b0eb1e",
+    "score_search.py": "037d7bb657402b6e08baa7e9b5d974b2f754fa9a71fb0df6a434eed4440e4b96",
+    "search_link.py": "7f9864f07decabd398f4a4fd7670299a96972077f3156d513f9070fb6901f42a",
+    "search_mission.py": "5a6b2dc98bf669c3e18c34435c9ecfc0cda96d1fad57dfc8a81a79ceea1fceb3",
+    "search_worker.py": "49feeea635dae6df539c88442d242c8595643aa5fa3b92e3e0445675f7b333b8",
+    "smolvla_policy.py": "1e5382a3b63fc92834caed56c851d50cb5ed248a33d2372f1cb5129c4ac456f6",
+    "stop_intent.py": "d2632a2416008dec46b3b0ec335f472c5cf6d6717e7c5bfff0e6f5ec99e594b5",
+    "velocity_stabilizer.py": "aa7662474f85f2f624bf8c8d15fa6a5521f0172b85e50f715a86796940d2bb7a",
+    "vla_link.py": "a5d7e759283adbc676c65c2c5fa1d2d3955d9edfd9d592cb1da1f7b585948bc7",
+    "vla_worker.py": "4cd8fee599540a2a14ecc27b2e20f512f3ef0360479e01d8890efbd82a9d1dc1"
+  },
+  "runner_sha256": "20f1b107e2a1b597b88c463dd191a651bc2566deb2ed25d2592a150f856e4587",
+  "scorer_sha256": "c1688a933c9b3acc7854fd06323403737114a98edcb244da9ac3f99b04209727",
+  "layout_protocol_sha256": "4a75a8df8a57f6801f502ec2918d26d7634028c9c0916509aadbdccad1249445",
+  "static_probe_sha256": "b8ca74493d7bd7899329e3a1546ab5008c7f4cfee84cba64b932cd9fb7d2deba",
+  "jitter_bounds": {
+    "position_m": 0.05,
+    "heading_deg": 5,
+    "seed": 202610311902
+  },
+  "criteria": {
+    "physical": "Unchanged: hover band, <=0.25 m and <=0.08 m/s for >=3 s, clearance >=0.45 m, landing and motors off; fixed latency 0.40-0.45 s on every delivery; VLA chunk step executed unchanged.",
+    "heldout_total_min": 14,
+    "heldout_each_color_min": 7,
+    "heldout_each_layout_min": 3,
+    "video_scene_required": "9/9 (known_T3_blue reported separately)",
+    "static_probe": {
+      "correct_goal_min": 60,
+      "outputs": 64
+    }
+  },
+  "fallback": "If any threshold is not met, the report uses the rebuild03 configuration and its existing records, stated as such.",
+  "smoke_reference": {
+    "path": "runs/rebuild04_smoke/summary.json",
+    "completed": 3,
+    "note": "development layouts only; mechanics check"
+  },
+  "no_retries": true,
+  "selection": "train16_en final step. No weights selected on rebuild04 results."
+}

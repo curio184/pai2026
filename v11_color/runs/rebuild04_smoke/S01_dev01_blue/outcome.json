@@ -1,0 +1,24 @@
+{
+  "id": "S01_dev01_blue",
+  "model": "v1.1",
+  "case": {
+    "id": "S01_dev01_blue",
+    "kind": "search",
+    "scene": "dev01",
+    "color": "blue",
+    "seed": 202610319001,
+    "initial_offset": [
+      0.02,
+      -0.01,
+      2.0
+    ],
+    "jitter": true,
+    "group": "smoke_dev"
+  },
+  "flight_started": true,
+  "success": false,
+  "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild04_smoke\\S01_dev01_blue\\record",
+  "runner_exit": 0,
+  "error": "RuntimeError('Scorer failed; see scoring.log')",
+  "wall_s": 210.0
+}

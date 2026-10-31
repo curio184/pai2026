@@ -1,0 +1,46 @@
+--- runtime/search_mission.py
++++ runtime_english/search_mission.py
+@@ -120,13 +120,13 @@
+     model_action=np.zeros(6);action_source="initializing";own_state=None
+     model_packet=None;stage_history=[]
+     instructions={
+-        "takeoff":"Take off and hover at one meter. 離陸して。",
+-        "blue":"Approach the person wearing blue and stop. 青い服の人の前で止まって。",
+-        "red":"Approach the person wearing red and stop. 赤い服の人の前で止まって。",
+-        "right":"Turn clockwise ninety degrees and stop. 右に90度回って。",
+-        "left":"Turn counterclockwise ninety degrees and stop. 左に90度回って。",
+-        "hover":"Stop and hover here. その場で止まって。",
+-        "land":"Land and stop the motors. 着陸して。"}
++        "takeoff":"Take off and hover at one meter.",
++        "blue":"Approach the person wearing blue and stop.",
++        "red":"Approach the person wearing red and stop.",
++        "right":"Turn clockwise ninety degrees and stop.",
++        "left":"Turn counterclockwise ninety degrees and stop.",
++        "hover":"Stop and hover here.",
++        "land":"Land and stop the motors."}
+     sequence=["takeoff","hover","right","confirm",args.profile,"report","land"]
+     instructions["confirm"]=instructions["hover"]
+     instructions["report"]=instructions["hover"]
+--- runtime/ardupilot_bridge/rescue_mission.py
++++ runtime_english/ardupilot_bridge/rescue_mission.py
+@@ -113,13 +113,13 @@
+     model_action=np.zeros(6);action_source="initializing";own_state=None
+     model_packet=None;stage_history=[]
+     instructions={
+-        "takeoff":"Take off and hover at one meter. 離陸して。",
+-        "blue":"Approach the person wearing blue and stop. 青い服の人の前で止まって。",
+-        "red":"Approach the person wearing red and stop. 赤い服の人の前で止まって。",
+-        "right":"Turn clockwise ninety degrees and stop. 右に90度回って。",
+-        "left":"Turn counterclockwise ninety degrees and stop. 左に90度回って。",
+-        "hover":"Stop and hover here. その場で止まって。",
+-        "land":"Land and stop the motors. 着陸して。"}
++        "takeoff":"Take off and hover at one meter.",
++        "blue":"Approach the person wearing blue and stop.",
++        "red":"Approach the person wearing red and stop.",
++        "right":"Turn clockwise ninety degrees and stop.",
++        "left":"Turn counterclockwise ninety degrees and stop.",
++        "hover":"Stop and hover here.",
++        "land":"Land and stop the motors."}
+     sequence=["takeoff","hover",args.profile,"land"] if args.profile in ("blue","red","left") else ["takeoff","hover","right","left","land"]
+     stage_index=0
+     stop_window=StopCommandWindow()

@@ -1,0 +1,917 @@
+{
+  "created_utc": "2026-10-28T18:32:23.679422+00:00",
+  "purpose": "Post-development diagnostic of completed train04_en on exposed round-1 views. Not final validation.",
+  "frames": [
+    {
+      "id": 0,
+      "scene": "heldout01",
+      "view": 0,
+      "blue_actor": 0,
+      "qpos": [
+        0.4,
+        0,
+        1.0,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 1,
+      "scene": "heldout01",
+      "view": 0,
+      "blue_actor": 1,
+      "qpos": [
+        0.4,
+        0,
+        1.0,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "scene": "heldout01",
+      "view": 1,
+      "blue_actor": 0,
+      "qpos": [
+        0.8,
+        0.1,
+        1.02,
+        0.9987502603949663,
+        0,
+        0,
+        0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.02,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "scene": "heldout01",
+      "view": 1,
+      "blue_actor": 1,
+      "qpos": [
+        0.8,
+        0.1,
+        1.02,
+        0.9987502603949663,
+        0,
+        0,
+        0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.02,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "scene": "heldout01",
+      "view": 2,
+      "blue_actor": 0,
+      "qpos": [
+        1.0,
+        -0.1,
+        0.95,
+        0.9987502603949663,
+        0,
+        0,
+        -0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        0.95,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 5,
+      "scene": "heldout01",
+      "view": 2,
+      "blue_actor": 1,
+      "qpos": [
+        1.0,
+        -0.1,
+        0.95,
+        0.9987502603949663,
+        0,
+        0,
+        -0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        0.95,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 6,
+      "scene": "heldout01",
+      "view": 3,
+      "blue_actor": 0,
+      "qpos": [
+        1.3,
+        0,
+        1.08,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.08,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 7,
+      "scene": "heldout01",
+      "view": 3,
+      "blue_actor": 1,
+      "qpos": [
+        1.3,
+        0,
+        1.08,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.08,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 8,
+      "scene": "heldout02",
+      "view": 0,
+      "blue_actor": 0,
+      "qpos": [
+        0.4,
+        0,
+        1.0,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 9,
+      "scene": "heldout02",
+      "view": 0,
+      "blue_actor": 1,
+      "qpos": [
+        0.4,
+        0,
+        1.0,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 10,
+      "scene": "heldout02",
+      "view": 1,
+      "blue_actor": 0,
+      "qpos": [
+        0.8,
+        0.1,
+        1.02,
+        0.9987502603949663,
+        0,
+        0,
+        0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.02,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 11,
+      "scene": "heldout02",
+      "view": 1,
+      "blue_actor": 1,
+      "qpos": [
+        0.8,
+        0.1,
+        1.02,
+        0.9987502603949663,
+        0,
+        0,
+        0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.02,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 12,
+      "scene": "heldout02",
+      "view": 2,
+      "blue_actor": 0,
+      "qpos": [
+        1.0,
+        -0.1,
+        0.95,
+        0.9987502603949663,
+        0,
+        0,
+        -0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        0.95,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 13,
+      "scene": "heldout02",
+      "view": 2,
+      "blue_actor": 1,
+      "qpos": [
+        1.0,
+        -0.1,
+        0.95,
+        0.9987502603949663,
+        0,
+        0,
+        -0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        0.95,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 14,
+      "scene": "heldout02",
+      "view": 3,
+      "blue_actor": 0,
+      "qpos": [
+        1.3,
+        0,
+        1.08,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.08,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 15,
+      "scene": "heldout02",
+      "view": 3,
+      "blue_actor": 1,
+      "qpos": [
+        1.3,
+        0,
+        1.08,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.08,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 16,
+      "scene": "heldout03",
+      "view": 0,
+      "blue_actor": 0,
+      "qpos": [
+        0.4,
+        0,
+        1.0,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 17,
+      "scene": "heldout03",
+      "view": 0,
+      "blue_actor": 1,
+      "qpos": [
+        0.4,
+        0,
+        1.0,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 18,
+      "scene": "heldout03",
+      "view": 1,
+      "blue_actor": 0,
+      "qpos": [
+        0.8,
+        0.1,
+        1.02,
+        0.9987502603949663,
+        0,
+        0,
+        0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.02,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 19,
+      "scene": "heldout03",
+      "view": 1,
+      "blue_actor": 1,
+      "qpos": [
+        0.8,
+        0.1,
+        1.02,
+        0.9987502603949663,
+        0,
+        0,
+        0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.02,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 20,
+      "scene": "heldout03",
+      "view": 2,
+      "blue_actor": 0,
+      "qpos": [
+        1.0,
+        -0.1,
+        0.95,
+        0.9987502603949663,
+        0,
+        0,
+        -0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        0.95,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 21,
+      "scene": "heldout03",
+      "view": 2,
+      "blue_actor": 1,
+      "qpos": [
+        1.0,
+        -0.1,
+        0.95,
+        0.9987502603949663,
+        0,
+        0,
+        -0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        0.95,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 22,
+      "scene": "heldout03",
+      "view": 3,
+      "blue_actor": 0,
+      "qpos": [
+        1.3,
+        0,
+        1.08,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.08,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 23,
+      "scene": "heldout03",
+      "view": 3,
+      "blue_actor": 1,
+      "qpos": [
+        1.3,
+        0,
+        1.08,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.08,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 24,
+      "scene": "heldout04",
+      "view": 0,
+      "blue_actor": 0,
+      "qpos": [
+        0.4,
+        0,
+        1.0,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 25,
+      "scene": "heldout04",
+      "view": 0,
+      "blue_actor": 1,
+      "qpos": [
+        0.4,
+        0,
+        1.0,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 26,
+      "scene": "heldout04",
+      "view": 1,
+      "blue_actor": 0,
+      "qpos": [
+        0.8,
+        0.1,
+        1.02,
+        0.9987502603949663,
+        0,
+        0,
+        0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.02,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 27,
+      "scene": "heldout04",
+      "view": 1,
+      "blue_actor": 1,
+      "qpos": [
+        0.8,
+        0.1,
+        1.02,
+        0.9987502603949663,
+        0,
+        0,
+        0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.02,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 28,
+      "scene": "heldout04",
+      "view": 2,
+      "blue_actor": 0,
+      "qpos": [
+        1.0,
+        -0.1,
+        0.95,
+        0.9987502603949663,
+        0,
+        0,
+        -0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        0.95,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 29,
+      "scene": "heldout04",
+      "view": 2,
+      "blue_actor": 1,
+      "qpos": [
+        1.0,
+        -0.1,
+        0.95,
+        0.9987502603949663,
+        0,
+        0,
+        -0.04997916927067833
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        0.95,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 30,
+      "scene": "heldout04",
+      "view": 3,
+      "blue_actor": 0,
+      "qpos": [
+        1.3,
+        0,
+        1.08,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.08,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 31,
+      "scene": "heldout04",
+      "view": 3,
+      "blue_actor": 1,
+      "qpos": [
+        1.3,
+        0,
+        1.08,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.08,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "inference_gate": "Only after all 16 preregistered stress cases finish and the pipeline stops for development review",
+  "models": [
+    "v1.1"
+  ],
+  "prompts": {
+    "runtime_english": [
+      "Approach the person wearing blue and stop.",
+      "Approach the person wearing red and stop."
+    ]
+  },
+  "action_summary": "Mean of first 10 steps of horizontal velocity in body frame, then rotate to world for posthoc scoring",
+  "stationary_speed_m_s": 0.02,
+  "primary": "Same requested-goal direction criterion as the original probe; all outputs reported",
+  "secondary": "Angle to requested person smaller than angle to other person, median goal angle for nonstationary outputs; all frames retained",
+  "paired": "Both instructions must choose correctly in the same image; separately count quartets correct under both shirt assignments and both instructions",
+  "figure_ids": [
+    0,
+    1,
+    8,
+    9
+  ],
+  "limit": "Correlated synthetic views in a single room; not independent flight trials and not a confidence estimate for arbitrary scenes",
+  "used_images": "Existing probe/images, unchanged",
+  "development_gate": {
+    "correct_goal_minimum": 60,
+    "outputs": 64,
+    "whole_quartets_minimum": 14,
+    "quartets": 16
+  },
+  "selected": {
+    "candidate": "train04_en",
+    "checkpoint_sha256": "3757185eac63e2bcd8b6d7b051d9e81fad74e605defd0d4792a1a47a584ce85d"
+  },
+  "flow_seed": 20261024,
+  "planned_outputs": 64,
+  "new_training": false,
+  "fresh_round02_access": false,
+  "original_probe_sha256": "c0974b5d000cf78313caf4f1c3608aa23e2d2f964079642d40c41fba1f72a059",
+  "script_sha256": "9e80777299e88c4aa8645cf080e1cd9f130122617fdf88d9c1cbd3ea541484b2",
+  "baseline_reference": "probe_english_transition/outputs/summary.json",
+  "baseline_reference_sha256": "d070e03d72f30ec60fe97438f43573f350994dbb7a60beafa4f1d0cbefd3609f",
+  "image_sha256": {
+    "probe/images/00000.jpg": "4f0298050fcdca2143d021390a5fbfe40d9cafc87fa3ba9ef79f340a06ddd3e6",
+    "probe/images/00001.jpg": "66c191896003efb7e97eeeed9326587a9ef0a77626b2a366e9f0feded47f39b9",
+    "probe/images/00002.jpg": "c2cb9dd7a6b32fd2f060ec03f16029f530b4b4d44d39695a5978c050d5efe178",
+    "probe/images/00003.jpg": "5757ac0da2e653bd4e8ae8610aec923d4b98609b71c355f9a53de3ae80a1de6a",
+    "probe/images/00004.jpg": "40e19c8239533c6bba8abcb1fb64a6a55a1fbe1d9f928c686510486811c7a104",
+    "probe/images/00005.jpg": "9e8c095d18eb275f7e005a7f896086d94f2ec93e15cbc0a475f23fbed07bf3a7",
+    "probe/images/00006.jpg": "8a7164404ad49b08404944d32efa375650b7cfff09c8530f22a7b38de2c00bfa",
+    "probe/images/00007.jpg": "9b436ee2450a7a6a0dbd5d10f96609562cac4b31924017217b20c708d8cd75e4",
+    "probe/images/00008.jpg": "f45c614e91478aa24958b47185ae59ebdd36c00a112603f2df0e11446fb95c9d",
+    "probe/images/00009.jpg": "0da9e6fc1c1b6990536b2446f32893c429c80a11215ac8ff885df0ec22358287",
+    "probe/images/00010.jpg": "083ddc8f36a66c9263d3bcf3a5fedf5aea476351fefe0b8eee0ce71ed9211261",
+    "probe/images/00011.jpg": "3b4827825553b1270398115070f46838f980a22dfb5b5d7c20bd16ff97824bac",
+    "probe/images/00012.jpg": "e9e9b6883cf0280c636f520f6115430c61db23e143c4ab854bd8ec40adfdd3fc",
+    "probe/images/00013.jpg": "02a66de6e181dc93748edf8abe60c86f03d856e286f67efd3e6b2093deb78c97",
+    "probe/images/00014.jpg": "e1a9db8936a1c5825a76ed963fc7c9a8c22cf7841b7ac4829cf2c2f9f5cb3b6d",
+    "probe/images/00015.jpg": "1d04281eeb331ed126120a638876ae7543bac05c52390c63d6cce3743621ee37",
+    "probe/images/00016.jpg": "3a1cf58aa33a0412e677cc0a77af0eee0abdcad17e096437e5697ea868d7f23f",
+    "probe/images/00017.jpg": "66396aaee9fa781cbd6f77d051f3ac0a9b363610a9bccd78bd276e0275519ddb",
+    "probe/images/00018.jpg": "31386f9a621cc92f269a01fcbd4ee86d7ee33ab4af08926f1712fb0e183fb3b5",
+    "probe/images/00019.jpg": "71a2f7edebd8c88d37295e20326814db88c1d69e0546afca7db48ad06860a180",
+    "probe/images/00020.jpg": "607b9e21307a1c521f0f19d0d37656d1aa4b1def4539371b1fd8c216b18478d3",
+    "probe/images/00021.jpg": "a5c5e88ff1f0577bee6dc3042c827c5b8938e64d7da2d24fc6e5b9cb7b92126b",
+    "probe/images/00022.jpg": "83d58eaa658438bf46d4523d3182fa06ad8609c0657c6489b8af20b23578de92",
+    "probe/images/00023.jpg": "f29834a44095be2e88e13d46c047dfd2c367e6ca40c32c65aa040bc7c60d8a1e",
+    "probe/images/00024.jpg": "f618ed9889abc167a956624e8225037ca5dd10e1d714f9579b38901af61f3005",
+    "probe/images/00025.jpg": "4dfed306ea032e5aed25b8e02a1dc7b2df9bfe7bcd20455c29981f3e2e1995af",
+    "probe/images/00026.jpg": "72a2f3160b0ff14abe07093c871af2a7b9b5cd90f0cf69f6a137c125f847c5e2",
+    "probe/images/00027.jpg": "f5471e9cfa33be671e1770aef77e128b7c14dc41c565959afd69906398402909",
+    "probe/images/00028.jpg": "5de5e1f9ee26f6a099a037db65ac53d89a38460a5ca13266d7bdc7d87ca50f64",
+    "probe/images/00029.jpg": "79f0b4ee2816f9600de440c63d6197802eecdc5befae15025f19b1a1fc5cd509",
+    "probe/images/00030.jpg": "8a5c2e9ddd1c3114829f5aafededc7f0578014942fbb1ae338cfbfe0a918ff06",
+    "probe/images/00031.jpg": "4da16b6e323a66205e4d9fb716ecd6553b40bd180dfc4416417d8db114fcfdbb"
+  },
+  "retry_of_protocol_sha256": "d3894a178576299fb083277cf079467dea95dfd198cee3e3d1f3132b117ce6e9",
+  "retry_reason": "JSON was read using Windows default encoding instead of UTF-8; failed before inference.",
+  "changed_conditions": "None. Only explicit text-file encoding and separate output paths; original failed attempt retained.",
+  "completed_outputs_in_prior_attempt": 0
+}

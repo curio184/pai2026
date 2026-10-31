@@ -1,0 +1,564 @@
+{
+  "created_utc": "2026-10-28T16:42:13.258235+00:00",
+  "round": 2,
+  "initial_candidate": "train04",
+  "reason": "Round 1 was fully completed and failed. Its outcomes informed a new teacher; round 1 is preserved as a failed final evaluation, not presented as untouched validation for later candidates.",
+  "original_protocol_sha256": "ed157f5a14536772d05a00cfe31c315f6b747d624da4b527e8ce5e64de5cd111",
+  "failed_round_summary_sha256": "f075e07a9652b830092404b5c10bb1e1574df7f82b4a5102bac6115a1a5dd5f8",
+  "layout_seed": 2026103001,
+  "layout_sampling": {
+    "x": [
+      2.65,
+      3.65
+    ],
+    "positive_y": [
+      0.52,
+      1.1
+    ],
+    "negative_y": [
+      -1.1,
+      -0.52
+    ],
+    "shirt_assignment": "alternating actors; both instructions and two repetitions per layout",
+    "filtering": "none; all four generated layouts retained"
+  },
+  "heldout_layouts": [
+    {
+      "name": "heldout_round02_01",
+      "positions": [
+        [
+          3.0392228379413075,
+          0.7685984718683737,
+          0.0
+        ],
+        [
+          3.3409416415980058,
+          -0.766777665346037,
+          0.0
+        ]
+      ],
+      "blue_actor": 0
+    },
+    {
+      "name": "heldout_round02_02",
+      "positions": [
+        [
+          3.068591561303523,
+          0.9120676759103756,
+          0.0
+        ],
+        [
+          3.2981186289755366,
+          -0.5240149010251193,
+          0.0
+        ]
+      ],
+      "blue_actor": 1
+    },
+    {
+      "name": "heldout_round02_03",
+      "positions": [
+        [
+          2.997015929148573,
+          0.853663922513371,
+          0.0
+        ],
+        [
+          3.5039524359446466,
+          -0.7418138598315381,
+          0.0
+        ]
+      ],
+      "blue_actor": 0
+    },
+    {
+      "name": "heldout_round02_04",
+      "positions": [
+        [
+          3.23909568221944,
+          0.6137782582692709,
+          0.0
+        ],
+        [
+          3.1432242600434988,
+          -1.027164595488287,
+          0.0
+        ]
+      ],
+      "blue_actor": 1
+    }
+  ],
+  "heldout_cases": [
+    {
+      "id": "R2H01",
+      "scene": "heldout_round02_01",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 2026103100,
+      "initial_offset": [
+        -0.004942084365373148,
+        -0.01930814859664608,
+        -3.191356735401788
+      ]
+    },
+    {
+      "id": "R2H02",
+      "scene": "heldout_round02_01",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 2026103101,
+      "initial_offset": [
+        -0.02054791314652319,
+        0.015514869745926196,
+        -1.0669997563715325
+      ]
+    },
+    {
+      "id": "R2H03",
+      "scene": "heldout_round02_01",
+      "color": "red",
+      "repeat": 1,
+      "seed": 2026103102,
+      "initial_offset": [
+        0.02108351474856264,
+        -0.006588432553338429,
+        1.170783653750557
+      ]
+    },
+    {
+      "id": "R2H04",
+      "scene": "heldout_round02_01",
+      "color": "red",
+      "repeat": 2,
+      "seed": 2026103103,
+      "initial_offset": [
+        0.020129115888072147,
+        -0.03147512467513479,
+        -2.683587509700487
+      ]
+    },
+    {
+      "id": "R2H05",
+      "scene": "heldout_round02_02",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 2026103104,
+      "initial_offset": [
+        0.01667956634855737,
+        -0.0343911764770494,
+        4.48434511942483
+      ]
+    },
+    {
+      "id": "R2H06",
+      "scene": "heldout_round02_02",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 2026103105,
+      "initial_offset": [
+        0.005721425646366629,
+        0.046281769288862754,
+        -0.4906327180385519
+      ]
+    },
+    {
+      "id": "R2H07",
+      "scene": "heldout_round02_02",
+      "color": "red",
+      "repeat": 1,
+      "seed": 2026103106,
+      "initial_offset": [
+        -0.01172428947756686,
+        0.03568947065215154,
+        3.1904459474106357
+      ]
+    },
+    {
+      "id": "R2H08",
+      "scene": "heldout_round02_02",
+      "color": "red",
+      "repeat": 2,
+      "seed": 2026103107,
+      "initial_offset": [
+        -0.03444236265532205,
+        0.03135791474479499,
+        4.015887021791258
+      ]
+    },
+    {
+      "id": "R2H09",
+      "scene": "heldout_round02_03",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 2026103108,
+      "initial_offset": [
+        0.04274177303858198,
+        -0.040553556975330834,
+        4.559649102181847
+      ]
+    },
+    {
+      "id": "R2H10",
+      "scene": "heldout_round02_03",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 2026103109,
+      "initial_offset": [
+        -0.02249162971353269,
+        0.005664755654180065,
+        2.226128471710769
+      ]
+    },
+    {
+      "id": "R2H11",
+      "scene": "heldout_round02_03",
+      "color": "red",
+      "repeat": 1,
+      "seed": 2026103110,
+      "initial_offset": [
+        0.03072188787316353,
+        0.021174008775330336,
+        -3.015694359527048
+      ]
+    },
+    {
+      "id": "R2H12",
+      "scene": "heldout_round02_03",
+      "color": "red",
+      "repeat": 2,
+      "seed": 2026103111,
+      "initial_offset": [
+        0.04090721661622583,
+        -0.01363038980836661,
+        -2.134424340103398
+      ]
+    },
+    {
+      "id": "R2H13",
+      "scene": "heldout_round02_04",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 2026103112,
+      "initial_offset": [
+        -0.00481288868596582,
+        -0.011111181652437886,
+        1.5984954162672178
+      ]
+    },
+    {
+      "id": "R2H14",
+      "scene": "heldout_round02_04",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 2026103113,
+      "initial_offset": [
+        0.04522883761627172,
+        -0.030931710878307317,
+        4.074094789647349
+      ]
+    },
+    {
+      "id": "R2H15",
+      "scene": "heldout_round02_04",
+      "color": "red",
+      "repeat": 1,
+      "seed": 2026103114,
+      "initial_offset": [
+        -0.046781248324165664,
+        0.020740675072035836,
+        -2.3171724125348048
+      ]
+    },
+    {
+      "id": "R2H16",
+      "scene": "heldout_round02_04",
+      "color": "red",
+      "repeat": 2,
+      "seed": 2026103115,
+      "initial_offset": [
+        -0.03480328347000068,
+        0.036105235868858,
+        -0.27762342340536605
+      ]
+    }
+  ],
+  "heldout_model_order": "v1.0 then v1.1 on even zero-based case index, reverse on odd",
+  "success_gate": {
+    "heldout_total": "at least 14/16",
+    "per_color": "at least 7/8",
+    "per_layout": "at least 3/4",
+    "regression": "all 9 specified cases succeed",
+    "statistics": "Report k/n and 95% Wilson intervals, all failures; 16 is a small fixed-room sample"
+  },
+  "scoring": "Unmodified existing score_search.py / score_mission.py, 0.25m, horizontal speed <=0.08m/s for >=3s; other original checks unchanged",
+  "controller": "Original ArduPilot, gains, plant, action gate unchanged; test wrapper may set initial pose only before integration",
+  "jitter": {
+    "position_m": 0.05,
+    "heading_deg": 5,
+    "plant_sensor_noise_seed": "same as case seed",
+    "optical_sensor_seed": 20261023,
+    "policy_noise_seed": 20261024
+  },
+  "development_stress_cases": [
+    {
+      "id": "H01",
+      "scene": "heldout01",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 2026102900,
+      "initial_offset": [
+        -0.002557593706438578,
+        -0.014303993343843573,
+        1.3856317669075855
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true
+    },
+    {
+      "id": "H02",
+      "scene": "heldout01",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 2026102901,
+      "initial_offset": [
+        -0.013428642444323256,
+        -0.018767907066576852,
+        3.554863929228807
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true
+    },
+    {
+      "id": "H03",
+      "scene": "heldout01",
+      "color": "red",
+      "repeat": 1,
+      "seed": 2026102902,
+      "initial_offset": [
+        -0.020657013939030123,
+        -0.026760415429799757,
+        -3.5010469473449746
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true
+    },
+    {
+      "id": "H04",
+      "scene": "heldout01",
+      "color": "red",
+      "repeat": 2,
+      "seed": 2026102903,
+      "initial_offset": [
+        -0.04660307871687144,
+        0.04467519360590276,
+        3.6603718705072392
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true
+    },
+    {
+      "id": "H05",
+      "scene": "heldout02",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 2026102904,
+      "initial_offset": [
+        -0.012733317850682102,
+        -0.046724568786721266,
+        -1.9939481562375372
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true
+    },
+    {
+      "id": "H06",
+      "scene": "heldout02",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 2026102905,
+      "initial_offset": [
+        -0.007701240332390925,
+        0.037756151766657656,
+        -0.7046096788654417
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true
+    },
+    {
+      "id": "H07",
+      "scene": "heldout02",
+      "color": "red",
+      "repeat": 1,
+      "seed": 2026102906,
+      "initial_offset": [
+        -0.037388754027060225,
+        -0.034705569154770556,
+        4.264464189628347
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true
+    },
+    {
+      "id": "H08",
+      "scene": "heldout02",
+      "color": "red",
+      "repeat": 2,
+      "seed": 2026102907,
+      "initial_offset": [
+        0.0013804040106399212,
+        0.041594331562265885,
+        -2.7415993677752413
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true
+    },
+    {
+      "id": "H09",
+      "scene": "heldout03",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 2026102908,
+      "initial_offset": [
+        -0.04066807007950229,
+        -0.047650892405108905,
+        -2.007165429357393
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true
+    },
+    {
+      "id": "H10",
+      "scene": "heldout03",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 2026102909,
+      "initial_offset": [
+        -0.042657953359022054,
+        -0.039202575385331645,
+        -3.865484783168883
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true
+    },
+    {
+      "id": "H11",
+      "scene": "heldout03",
+      "color": "red",
+      "repeat": 1,
+      "seed": 2026102910,
+      "initial_offset": [
+        -0.025619881950193338,
+        -0.015996128450237568,
+        3.7040983225286492
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true
+    },
+    {
+      "id": "H12",
+      "scene": "heldout03",
+      "color": "red",
+      "repeat": 2,
+      "seed": 2026102911,
+      "initial_offset": [
+        -0.031535785548644835,
+        -0.02799670122100355,
+        -4.958830596024242
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true
+    },
+    {
+      "id": "H13",
+      "scene": "heldout04",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 2026102912,
+      "initial_offset": [
+        0.009651306653070735,
+        0.03580023553783514,
+        -3.718825665476041
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true
+    },
+    {
+      "id": "H14",
+      "scene": "heldout04",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 2026102913,
+      "initial_offset": [
+        0.033616735607500475,
+        -0.006265445358707468,
+        1.2528474719944018
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true
+    },
+    {
+      "id": "H15",
+      "scene": "heldout04",
+      "color": "red",
+      "repeat": 1,
+      "seed": 2026102914,
+      "initial_offset": [
+        -0.04506699575878818,
+        -0.017322395793099833,
+        0.46747202372161123
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true
+    },
+    {
+      "id": "H16",
+      "scene": "heldout04",
+      "color": "red",
+      "repeat": 2,
+      "seed": 2026102915,
+      "initial_offset": [
+        0.045143192902863935,
+        0.023642748113272438,
+        -2.5729059318544154
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true
+    }
+  ],
+  "development_stress_gate": {
+    "total_minimum": 14,
+    "per_color_minimum": 7,
+    "per_layout_minimum": 3,
+    "denominators": [
+      16,
+      8,
+      4
+    ]
+  },
+  "selection_rule": "Final-step weights only. Original development 8/8, exposed round-1 stress >=14/16 with >=7/8 per color and >=3/4 per layout, original rescue regression 5/5, known T3 replay 1/1. No round-2 policy inference or flight until a checkpoint is fixed.",
+  "no_runtime_changes": true,
+  "training_examples_from_evaluation": 0,
+  "final_additional_gates": {
+    "static_bilingual_correct_minimum": 60,
+    "static_outputs": 64,
+    "whole_quartets_minimum": 14,
+    "quartets": 16
+  },
+  "publication": "Report both final rounds separately, every development attempt and every failure. Do not pool candidates or delete the failed first round."
+}

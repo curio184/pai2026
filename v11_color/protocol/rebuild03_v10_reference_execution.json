@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-30T17:41:13.127093+00:00",
+  "plan_sha256": "c181d6e5339e2735c4c8a4127252a27d123e01c858c6337f618803e794c928af",
+  "script_sha256": {
+    "run_v10_teacher_reference.py": "09604ae74d6617f33148ed548c6991a694824e3e964d53c75cc3960f9ef48ff9",
+    "run_suite_rebuild03_v10ref.py": "4271adaa8131d3d85eae6f6f85c3271a6d7b9d4f48af828fd60b5ba0c7a62fda",
+    "audit_v10_teacher_reference.py": "6465771c8138772365fefc881fc1832a2fec469df3c52395930359b2d9281312",
+    "score_rebuild03.py": "956b224c75a91005b503ddbae41b57ca00e5a2812b9fdd6ada90cfc921912a2e",
+    "bounded_wsl.py": "66acf3ecb8ed8b1ba4c4ed4dc1f406c62d11ac596d9ddb43b160641843a7a5b0",
+    "bounded_wsl_entry.py": "f800d1ac46ece28520e18514a573a19c6f46b0ce3c664c6857c865b606b113a0"
+  },
+  "preflight_sha256": "6e02488194b0d89af3b560bcfe077370481564cf8aeae4a0b07837cf4f3a930d",
+  "note": "Code/source provenance only; no change to previously registered cases, semantic coefficients or success conditions."
+}

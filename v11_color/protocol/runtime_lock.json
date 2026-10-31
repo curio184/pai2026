@@ -1,0 +1,36 @@
+{
+  "runtime": {
+    "civic_camera.py": "53a7f83fa5ed30a6c057d2cbc7576385d8e75155cfd511c245fe3cc962c6677f",
+    "civic_render_client.py": "e837412c03f62ebbefd43de32e6548f683ce4369898520778d9eea23f964304d",
+    "confirmation.py": "97b0af6ee0ba02348c8363def9544c245e5c9ed344fb84bd0fc2c8eda348b168",
+    "flight_progress.py": "06730a68ead0968904e6de62aca6634a8662cac0f5dc0e4f05b98077fa81dc58",
+    "perception.py": "3ab3607261833873486917fcca98d398b99fd427d918affa817cf4918a086848",
+    "plant_search.cpp": "58ac896c93ce1ac96696b658934aa5ff8b0f8e3870f221ec80f71d621db62386",
+    "plant_search_jitter.cpp": "7e8d137bd2cbd8a208989db77bb44e821b654cf433ee93f690adf56efe070281",
+    "rescue_scene.py": "9aa3036b601cda9a292556c1282f9545a53070c08808413cfb755b7a6e215c16",
+    "score_mission.py": "ec6dedcda8177e8ea702705ef766f5851651ca8760bf246205d0ad3277b0eb1e",
+    "score_search.py": "037d7bb657402b6e08baa7e9b5d974b2f754fa9a71fb0df6a434eed4440e4b96",
+    "search_link.py": "7f9864f07decabd398f4a4fd7670299a96972077f3156d513f9070fb6901f42a",
+    "search_mission.py": "5e5e5b3d8a8eba5a924861a8766d144aa8c316028573c6d8d57424ea908942d8",
+    "search_worker.py": "305b803a1278822ef6799ae2eaf182e2205ceb785ce9319bf3a67bc4bee9b938",
+    "smolvla_policy.py": "1e5382a3b63fc92834caed56c851d50cb5ed248a33d2372f1cb5129c4ac456f6",
+    "vla_link.py": "a5d7e759283adbc676c65c2c5fa1d2d3955d9edfd9d592cb1da1f7b585948bc7",
+    "vla_worker.py": "18d278520c81d3158a112742fa5d4390a9714b6663756f02b5616176fe1718e4",
+    "ardupilot_bridge/rescue_mission.py": "0feac224d8fa827a20c38b940cef14e2be593d348bc4dd29f778eac57194aff5"
+  },
+  "project_imports": {
+    "smolvla_policy.py": "1e5382a3b63fc92834caed56c851d50cb5ed248a33d2372f1cb5129c4ac456f6",
+    "flight_progress.py": "06730a68ead0968904e6de62aca6634a8662cac0f5dc0e4f05b98077fa81dc58",
+    "score_mission.py": "ec6dedcda8177e8ea702705ef766f5851651ca8760bf246205d0ad3277b0eb1e",
+    "civic_render_client.py": "e837412c03f62ebbefd43de32e6548f683ce4369898520778d9eea23f964304d",
+    "rescue_scene.py": "9aa3036b601cda9a292556c1282f9545a53070c08808413cfb755b7a6e215c16",
+    "civic_camera.py": "53a7f83fa5ed30a6c057d2cbc7576385d8e75155cfd511c245fe3cc962c6677f",
+    "vla_link.py": "a5d7e759283adbc676c65c2c5fa1d2d3955d9edfd9d592cb1da1f7b585948bc7",
+    "vla_worker.py": "18d278520c81d3158a112742fa5d4390a9714b6663756f02b5616176fe1718e4",
+    "ardupilot_bridge/rescue_mission.py": "0feac224d8fa827a20c38b940cef14e2be593d348bc4dd29f778eac57194aff5"
+  },
+  "original_wrapper_sha256": "58ac896c93ce1ac96696b658934aa5ff8b0f8e3870f221ec80f71d621db62386",
+  "wrapper_changes": "Only initial x/y/heading and sensor RNG seed set before integration; no dynamics, controller, gains, scoring changes.",
+  "source_root": "<NOTES_PATH>",
+  "script_sha256": "c17ed9d638b9e35c65ff5676145c94a8292cf2f118b3b2f12a874f1c9c800d6d"
+}

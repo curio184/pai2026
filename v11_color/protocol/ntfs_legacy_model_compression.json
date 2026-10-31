@@ -1,0 +1,50 @@
+{
+  "created_utc": "2026-10-29T19:07:30.745897+00:00",
+  "operation": "NTFS transparent compression, compact.exe /C /Q on exact files; no recursion, moves, deletion or content editing.",
+  "script_sha256": "251e87eb5fe3de2d76bd9adb4db84dce158ac1ccaedae43ff29bd8d74045155f",
+  "target_free_gib": 8,
+  "files": [
+    {
+      "path": "outputs/smolvla_training/final/model.safetensors",
+      "bytes": 1197789224,
+      "allocated_bytes": 1197789224,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/smolvla_training_civic_01/final/model.safetensors",
+      "bytes": 1197789224,
+      "allocated_bytes": 1197789224,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/smolvla_training_realism_01/final/model.safetensors",
+      "bytes": 1197789224,
+      "allocated_bytes": 1197789224,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/smolvla_training_revision_02/final/model.safetensors",
+      "bytes": 1197789224,
+      "allocated_bytes": 1197789224,
+      "expected_sha256": null
+    }
+  ],
+  "excludes": [
+    "submitted v1.0",
+    "train10_en",
+    "all flight records",
+    "video",
+    "original PDF"
+  ],
+  "limits": {
+    "cpu_affinity": [
+      0,
+      1
+    ],
+    "priority": "BELOW_NORMAL",
+    "concurrent_files": 1
+  },
+  "execution_precondition": "train10 full suite ended; no project training or flight processes running.",
+  "integrity": "Record and compare SHA-256 before and after each operation. Preserve original filenames and paths.",
+  "free_bytes_before_registration": 7712796672
+}

@@ -1,0 +1,152 @@
+{
+  "created_utc": "2026-10-29T19:13:51.294760+00:00",
+  "candidate": "train11_en",
+  "training": {
+    "initial_checkpoint": "v11_color/models/train10_en/final",
+    "initial_checkpoint_sha256": "418b6a770ab947e3bb5ac6d9abc8a778e07e2a2fa8ffcc2131d7a4288b93cbfc",
+    "steps": 6000,
+    "seed": 2026103011,
+    "micro_batch": 4,
+    "gradient_accumulation": 2,
+    "learning_rate": 1e-05,
+    "vlm_layer_learning_rate": 0.0,
+    "train_vlm_text_layers": [],
+    "vision_encoder_frozen": true,
+    "optimizer": "AdamW",
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "epsilon": 1e-08,
+    "weight_decay": 1e-10,
+    "gradient_clip_norm": 10,
+    "warmup_steps": 200,
+    "final_learning_rate_fraction": 0.025,
+    "action_chunk": 32,
+    "action_dt_s": 0.1,
+    "checkpoint_selection": "final step only",
+    "recovery_selection": "latest saved recovery by step only, never validation score",
+    "teacher_stop_deadband_m": 0.02,
+    "teacher_gain": 1.4,
+    "sampling": "Same 25% color quartets, 25% navigation, 40% state calibration, 10% retained primitive schedule. State calibration uses one same-image quartet [v,-v,0,v/2] per microbatch; domains 25/25/50% and tasks 2..6 cycle. Common flow noise/time across the quartet; t=1 on even steps, sampled common time on odd steps. Other sampling unchanged.",
+    "prompt_variants": [
+      "original bilingual",
+      "Japanese only",
+      "English only"
+    ],
+    "prompt_probabilities": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "loss": "Flow matching on six normalized action channels, weights [8,8,1,4,1,1], divided by their sum. Runtime units and normalization unchanged.",
+    "data_images": 6000,
+    "retention_images": 2408,
+    "output": "models/train11_en",
+    "data": "Reuse audited dataset10 exactly; no new images, states or labels.",
+    "teacher_standoff_m": 1.0,
+    "scoring_standoff_m": 0.9,
+    "braking_coefficient": 0.6,
+    "source_dataset_audit_sha256": "444a4b8abfbc85a9faad4c825f8a3049a950a95f8797e3592b4eeae7ee9fcbe8",
+    "primitive_sampling": "State calibration 40%, retained primitives 10%, navigation/color 50%.",
+    "frozen_backbone": "All vision-language parameters; train action expert and state/action projections only. Verify frozen parameter digest before and after training.",
+    "prompt_language": "English only",
+    "action_loss_weights": [
+      8.0,
+      8.0,
+      1.0,
+      4.0,
+      1.0,
+      1.0
+    ],
+    "image_domains": "Explicit per-image domains; new views are appended after the 6408 existing image IDs.",
+    "minimum_free_gib_before_training": 7.4,
+    "minimum_free_gib_during_training": 5.0,
+    "noise_schedule": "For step=1..6000 and micro=0..1, use the frozen runtime Gaussian realization if (step+micro)%4<2, otherwise fresh random noise. 50% each. Existing common-noise quartet rules and flow-time schedule unchanged.",
+    "runtime_noise_seed": 20261024,
+    "rationale": "Residual action error against the existing teacher remains during hover and yaw settling. Test calibration to the already fixed runtime flow-noise realization, retaining random-noise training. No inference/scoring/controller changes."
+  },
+  "previous_training_plan_sha256": "ddd924e1416880e7dc88cde3546c39ab0c1c5c27f4005f9126965171f86a7f8d",
+  "prior_results": {
+    "development": [
+      8,
+      8
+    ],
+    "stress": [
+      12,
+      16
+    ],
+    "selected": false
+  },
+  "diagnosis_sha256": "13996e6b408af5bc2b3791784f83925af26bd610b52c8f453e0d351f6468fd58",
+  "teacher_source_sha256": "8471e8119239ca38da0f107e4b247b8c8bcf3bb6087151b50a371a42de5aa83c",
+  "teacher": {
+    "scope": "Training labels only; frozen velocity-to-attitude controller already subtracts current estimated velocity.",
+    "hold_tasks": [
+      2,
+      4,
+      5,
+      6
+    ],
+    "navigation_velocity_damping": 0.5,
+    "navigation_position_coefficient": 1.4,
+    "horizontal_command_cap_m_s": 0.2,
+    "teacher_standoff_m": 1.0,
+    "scoring_standoff_m": 0.9,
+    "navigation_deadband_m": 0.02,
+    "nonhorizontal_labels": "Preserve all except yaw for rotation tasks 4/5 when captured state is armed and altitude >0.8m.",
+    "reason": "Teacher10 retained byte-for-byte; this attempt changes training noise sampling only, alongside its preregistered continuation seed and 6000-step schedule.",
+    "braking_coefficient": 0.6,
+    "grounded_takeoff_horizontal_zero_below_m": 0.25,
+    "stationary_horizontal_command": "-0.6 * input estimated horizontal velocity; vector norm <=0.2m/s; constant across 32 steps. Zero while unarmed or takeoff altitude <0.25m.",
+    "yaw_deadband_rad": 0.03,
+    "yaw_gain": 0.8,
+    "yaw_cap_rad_s": 0.35,
+    "yaw_target_rule": "For armed rotation inputs above 0.8m: iterate yaw += 0.1*rate for 32 steps; rate=0 inside 0.03rad, otherwise clip(0.8*(target-yaw), +/-0.35). All other action channels copied from train09."
+  },
+  "data": {
+    "source": "data/dataset10_en",
+    "source_audit_sha256": "444a4b8abfbc85a9faad4c825f8a3049a950a95f8797e3592b4eeae7ee9fcbe8",
+    "images": 8408,
+    "added_images": 0,
+    "layouts": 20,
+    "evaluation_images_or_states_used_for_training": 0,
+    "added_state_examples": 0,
+    "expected_total_examples": 236170,
+    "unchanged": "All images, states, English prompts, labels, splits, sampling pools, batch proportions, flow-time schedule, loss weights, runtime and scoring.",
+    "training_yaw_coverage_audit_sha256": "e3289d4d4e05b690020bcc56338671f75199001dd8a85b4e0af4d1579339cced"
+  },
+  "round_protocol_sha256": "d022927d44c067bf2e7274152c06fba3114ffc146f0d02b225432eedd8630ebc",
+  "probe_protocol_sha256": "703d384f9712db24c09151ffbfcdb06605a7684295b4b5222592668a99226cf3",
+  "runtime_lock_sha256": "bcf00a186a70df2004f68e2f4eac13090a1191ac69cb0bd28af877952a250d69",
+  "original_protocol_sha256": "ed157f5a14536772d05a00cfe31c315f6b747d624da4b527e8ce5e64de5cd111",
+  "storage_amendment_sha256": "b23ee6aa3e9881d0817e88b35d6f12c6f8304ba28b9fa4094b4ab83a0beaddf0",
+  "fresh_final_policy_executions_before_training": 0,
+  "final_step_only": true,
+  "evaluation": "Unchanged: dev 8/8; exposed stress >=14/16, >=7/8 each color, >=3/4 each layout; regression 5/5; known failure 1/1; then fresh matched 16 per model and preregistered static probe.",
+  "hypotheses_not_results": [
+    "Train10 passed basic8/8 but stress12/16. Failures: H06 disarm after prolonged hover; H07 physical initial hover2.20525s; H12 target-not-found after yaw overshoot; H15 physical target hold2.88675s.",
+    "Postflight teacher comparison indicates residual horizontal and yaw errors. This does not prove a unique cause or that noise calibration will fix them.",
+    "For H12, saved images37/41/47 show red leaving the left frame edge. Recorded relative yaw reaches1.826rad versus pi/2 target, while predicted corrective yaw remains small. No detector change.",
+    "Only development records informed the training design. No evaluation images or states are used as training examples; the fresh final round remains unexposed.",
+    "Runtime uses a fixed flow seed by prior design. Results will not establish robustness to arbitrary flow-noise seeds. No score thresholds or evaluation seeds are changed."
+  ],
+  "storage": {
+    "project_root": "<PROJECT_ROOT>",
+    "free_bytes": 8295034880,
+    "archival_compression_status_sha256": "f8c826984d8dc53546bdf7c6aa0562cecc0a8f883c2ae30f98943a3600f40d0d",
+    "legacy_compression_status_sha256": "bc62d3deaed5e4fcc5c575ba0b602c0a5ba992fc90452fd1960d77c434bc6816"
+  },
+  "registration_script_sha256": "a15319b828bff42501ba5861ce8ef96904099c2d73e60d036448367af9cdfe87",
+  "full_suite_diagnosis_sha256": "13996e6b408af5bc2b3791784f83925af26bd610b52c8f453e0d351f6468fd58",
+  "inherited_teacher_source_sha256": "6614db8b5b5d9ae3ecb91b84abbefe67dd8c94ae7ac4a59a03b6a6cbeb11702f",
+  "bounded_execution_protocol_sha256": "2c0200d6cbec847bf42edc8e3d94a69e7d696d3fdab053ca5e56f836b346b238",
+  "resources": {
+    "simulator_cpu_cores_max": 4,
+    "simulator_memory_max_bytes": 8589934592,
+    "nice": 10,
+    "concurrent_flights": 1,
+    "training": "Windows GPU, no WSL training; no flight concurrent with training",
+    "scope": "Project WSL process tree only; other user workloads and global WSL settings untouched"
+  }
+}

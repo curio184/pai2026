@@ -1,0 +1,30 @@
+{
+  "scope": "Offline decoder diagnostic, no model inference or flight. All navigation packets from all24 prior v1.1 person cases, including failures. No selecting individual favorable frames.",
+  "cases": [
+    "runs/navfocus_final/NFH01_v1.1",
+    "runs/navfocus_final/NFH02_v1.1",
+    "runs/navfocus_final/NFH03_v1.1",
+    "runs/navfocus_final/NFH04_v1.1",
+    "runs/navfocus_final/NFH05_v1.1",
+    "runs/navfocus_final/NFH06_v1.1",
+    "runs/navfocus_final/NFH07_v1.1",
+    "runs/navfocus_final/NFH08_v1.1",
+    "runs/navfocus_final/NFH09_v1.1",
+    "runs/navfocus_final/NFH10_v1.1",
+    "runs/navfocus_final/NFH11_v1.1",
+    "runs/navfocus_final/NFH12_v1.1",
+    "runs/navfocus_final/NFH13_v1.1",
+    "runs/navfocus_final/NFH14_v1.1",
+    "runs/navfocus_final/NFH15_v1.1",
+    "runs/navfocus_final/NFH16_v1.1",
+    "runs/navfocus_final/primitive_blue_v1.1",
+    "runs/navfocus_final/primitive_red_v1.1",
+    "runs/navfocus_final/search_clear_blue_v1.1",
+    "runs/navfocus_final/search_clear_red_v1.1",
+    "runs/navfocus_final/search_fog_light_blue_v1.1",
+    "runs/navfocus_final/search_fog_dense_blue_v1.1",
+    "runs/navfocus_final/search_dust_blue_v1.1",
+    "runs/navfocus_final/known_T3_blue_v1.1"
+  ],
+  "decoder_sha256": "a33b07714695a5d31d06f2e2a048783b68490b731a311f04a4a0da1cf693d9a7"
+}

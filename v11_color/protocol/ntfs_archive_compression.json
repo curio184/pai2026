@@ -1,0 +1,134 @@
+{
+  "created_utc": "2026-10-29T18:47:01.324087+00:00",
+  "operation": "NTFS transparent compression, compact.exe /C /Q on exact files; no recursion, moves, deletion or content editing.",
+  "script_sha256": "7d436bc8555c01e74f1be2427ee01a525a15b7366ca0f7d096c56c7649e17c60",
+  "target_free_gib": 10,
+  "files": [
+    {
+      "path": "models/train01/final/model.safetensors",
+      "bytes": 1197789224,
+      "allocated_bytes": 1197789224,
+      "expected_sha256": "c26e903da7c06e63f4e774a9362b714a5e73ffdb736a00f664ec4798d3891579"
+    },
+    {
+      "path": "models/train01/recovery.pt",
+      "bytes": 818312679,
+      "allocated_bytes": 818312679,
+      "expected_sha256": null
+    },
+    {
+      "path": "models/train02/final/model.safetensors",
+      "bytes": 1197789224,
+      "allocated_bytes": 1197789224,
+      "expected_sha256": "9e924d41b8738223bb363627d8f1281e7b8a870deda6671c7f0ab8601c2da839"
+    },
+    {
+      "path": "models/train02/recovery.pt",
+      "bytes": 818312679,
+      "allocated_bytes": 818312679,
+      "expected_sha256": null
+    },
+    {
+      "path": "models/train03/final/model.safetensors",
+      "bytes": 1197789224,
+      "allocated_bytes": 1197789224,
+      "expected_sha256": "22f07e7b5b72af541cca8bdb2e2b55075d3e0d9e680730b012341c6f7552c4b8"
+    },
+    {
+      "path": "models/train03/recovery.pt",
+      "bytes": 818312679,
+      "allocated_bytes": 818312679,
+      "expected_sha256": null
+    },
+    {
+      "path": "models/train04_en/final/model.safetensors",
+      "bytes": 1197789224,
+      "allocated_bytes": 1197789224,
+      "expected_sha256": "3757185eac63e2bcd8b6d7b051d9e81fad74e605defd0d4792a1a47a584ce85d"
+    },
+    {
+      "path": "models/train04_en/recovery.pt",
+      "bytes": 619165923,
+      "allocated_bytes": 619165923,
+      "expected_sha256": null
+    },
+    {
+      "path": "models/train05_en/final/model.safetensors",
+      "bytes": 1197789224,
+      "allocated_bytes": 1197789224,
+      "expected_sha256": "9a73251d85eb1415839738c9717af944362d99b4bed8459e9715f429ef31eef6"
+    },
+    {
+      "path": "models/train05_en/recovery.pt",
+      "bytes": 619181923,
+      "allocated_bytes": 619181923,
+      "expected_sha256": null
+    },
+    {
+      "path": "models/train06_en/final/model.safetensors",
+      "bytes": 1197789224,
+      "allocated_bytes": 1197789224,
+      "expected_sha256": "16537bd092cedcd7608d36699db96140a5bc6e0e7bf3a11cc7356c87720ee920"
+    },
+    {
+      "path": "models/train06_en/recovery.pt",
+      "bytes": 619184883,
+      "allocated_bytes": 619184883,
+      "expected_sha256": null
+    },
+    {
+      "path": "models/train07_en/final/model.safetensors",
+      "bytes": 1197789224,
+      "allocated_bytes": 1197789224,
+      "expected_sha256": "e115ded50ae36d59b22ed8261ab423cf1ad0cb76b4a98d4454f4139e9afe2973"
+    },
+    {
+      "path": "models/train07_en/recovery.pt",
+      "bytes": 619184883,
+      "allocated_bytes": 619184883,
+      "expected_sha256": null
+    },
+    {
+      "path": "models/train08_en/final/model.safetensors",
+      "bytes": 1197789224,
+      "allocated_bytes": 1197789224,
+      "expected_sha256": "d05f827977038b376358d99703ef361d8a23fda296eb7985df881394e8fa0e38"
+    },
+    {
+      "path": "models/train08_en/recovery.pt",
+      "bytes": 619184883,
+      "allocated_bytes": 619184883,
+      "expected_sha256": null
+    },
+    {
+      "path": "models/train09_en/final/model.safetensors",
+      "bytes": 1197789224,
+      "allocated_bytes": 1197789224,
+      "expected_sha256": "efd42513d6103afbc8f32a359ee438b30e790b0e0c40071cacab141a4ed9f475"
+    },
+    {
+      "path": "models/train09_en/recovery.pt",
+      "bytes": 619184883,
+      "allocated_bytes": 619184883,
+      "expected_sha256": null
+    }
+  ],
+  "excludes": [
+    "submitted v1.0",
+    "train10_en",
+    "all flight records",
+    "video",
+    "original PDF"
+  ],
+  "limits": {
+    "cpu_affinity": [
+      0,
+      1
+    ],
+    "priority": "BELOW_NORMAL",
+    "concurrent_files": 1
+  },
+  "execution_precondition": "train10 full suite ended; no project training or flight processes running.",
+  "integrity": "Record and compare SHA-256 before and after each operation. Preserve original filenames and paths.",
+  "free_bytes_before_registration": 6466736128
+}

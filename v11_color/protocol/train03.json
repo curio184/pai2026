@@ -1,0 +1,103 @@
+{
+  "created_utc": "2026-10-28T14:23:36.142652+00:00",
+  "candidate": "train03",
+  "training": {
+    "initial_checkpoint": "v11_color/models/train02/final",
+    "initial_checkpoint_sha256": "9e924d41b8738223bb363627d8f1281e7b8a870deda6671c7f0ab8601c2da839",
+    "steps": 4000,
+    "seed": 2026102804,
+    "micro_batch": 4,
+    "gradient_accumulation": 2,
+    "learning_rate": 2e-05,
+    "vlm_layer_learning_rate": 2e-06,
+    "train_vlm_text_layers": [
+      12,
+      13,
+      14,
+      15
+    ],
+    "vision_encoder_frozen": true,
+    "optimizer": "AdamW",
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "epsilon": 1e-08,
+    "weight_decay": 1e-10,
+    "gradient_clip_norm": 10,
+    "warmup_steps": 150,
+    "final_learning_rate_fraction": 0.025,
+    "action_chunk": 32,
+    "action_dt_s": 0.1,
+    "checkpoint_selection": "final step only",
+    "recovery_selection": "latest saved recovery by step only, never validation score",
+    "teacher_stop_deadband_m": 0.04,
+    "teacher_gain": 0.7,
+    "sampling": "Alternate a counterfactual quartet and four near-goal navigation samples in microbatch 0; microbatch 1 has two navigation samples (80% near-goal) and two retained primitives. Every independent navigation sample chooses new/retained domain with equal probability, balanced blue/red. Approximately 45% near-goal, 25% counterfactual, 5% other navigation, 25% primitives.",
+    "prompt_variants": [
+      "original bilingual",
+      "Japanese only",
+      "English only"
+    ],
+    "prompt_probabilities": [
+      0.5,
+      0.25,
+      0.25
+    ],
+    "loss": "Original flow matching; shared noise across paired counterfactuals; no oracle features in model batch",
+    "data_images": 4000,
+    "retention_images": 2408,
+    "output": "models/train03",
+    "data": "Same 6408 pixels and 73712 examples as train02. Recompute navigation labels with 1.0m teacher stand-off instead of 0.9m. Non-navigation labels byte-identical. Sampling pools unchanged.",
+    "teacher_standoff_m": 1.0,
+    "scoring_standoff_m": 0.9
+  },
+  "previous_attempt": {
+    "candidate": "train02",
+    "checkpoint_sha256": "9e924d41b8738223bb363627d8f1281e7b8a870deda6671c7f0ab8601c2da839",
+    "successes": 7,
+    "planned": 8,
+    "summary_sha256": "74afd85d52ad9cf160c7c5c8670f8e54426b21462bba37217ec55be95ba298a0"
+  },
+  "original_protocol_sha256": "ed157f5a14536772d05a00cfe31c315f6b747d624da4b527e8ce5e64de5cd111",
+  "previous_training_plan_sha256": "a86ce9228f8ccaa900351600fb733bb027534332644bb3cae9df0e81a35cc1a3",
+  "diagnosis": {
+    "failed_case": "dev02_blue",
+    "hold_s": 3.909499999985485,
+    "minimum_person_clearance_m": 0.4331938265173788,
+    "required_clearance_m": 0.45,
+    "phase_end_forward_offsets_m": [
+      0.124,
+      0.15,
+      0.212,
+      0.148,
+      0.127,
+      0.104
+    ],
+    "interpretation": "All six navigation development cases ended toward the person relative to the scored goal. The only failure was subsequent drift during report/landing. Increase teacher stand-off by 0.10m as a conservative margin; not a claim of correcting the estimator or identifying a unique cause."
+  },
+  "teacher_change": {
+    "old_standoff_m": 0.9,
+    "new_standoff_m": 1.0,
+    "changed_labels": "Navigation horizontal components only",
+    "gain": 0.7,
+    "deadband_m": 0.04,
+    "safety_margin_m": 0.1,
+    "scorer_goal_unchanged": true,
+    "scoring_goal_standoff_m": 0.9,
+    "scoring_tolerance_m": 0.25,
+    "intended_behavior": "Approach the requested color and hold slightly farther from the person, leaving room for drift while reporting and landing"
+  },
+  "evaluation": "Final step only. Run the same eight development cases, then five original rescue regressions only if 8/8; held-out comparison only if all pass. Retain all previous and new failures.",
+  "frozen": [
+    "Runtime code, controller gains, detector, success criteria, all original development and held-out layouts/seeds, static-probe conditions and thresholds"
+  ],
+  "heldout_inference_or_flight_count_before_training": 0,
+  "development_images_used_for_training": 0,
+  "storage": {
+    "free_bytes": 12711108608,
+    "additional_estimated_gb": 3,
+    "stop_free_gb": 5
+  },
+  "weights_selection": "Completed train02 final followed by exactly 4000 steps; never choose intermediate weights by score"
+}

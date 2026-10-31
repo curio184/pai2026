@@ -1,0 +1,7 @@
+{
+  "candidate": "train16_en",
+  "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+  "created_utc": "2026-10-30T11:15:07.550454+00:00",
+  "configuration": "navfocus",
+  "selection": "Single fixed final6000 checkpoint of already started train16; no evaluation of intermediate checkpoints; no further model selection."
+}

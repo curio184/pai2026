@@ -1,0 +1,8 @@
+{
+  "candidate": "train03",
+  "checkpoint_sha256": "22f07e7b5b72af541cca8bdb2e2b55075d3e0d9e680730b012341c6f7552c4b8",
+  "selection": "Final training step, development gate 8/8 and original rescue regressions 5/5; no held-out inference yet",
+  "created_utc": "2026-10-28T15:22:03.795382+00:00",
+  "dev_summary_sha256": "612ef7422598bc5c8befcc47978134c11addcb72f9dd4e32d392a6948c0bc981",
+  "regression_summary_sha256": "6f446c7f67c00e5b2877262883cce488f94876090c1a64ee5daf9c00271653f3"
+}

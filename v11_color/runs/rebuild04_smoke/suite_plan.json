@@ -1,0 +1,45 @@
+{
+  "created_utc": "2026-10-31T09:07:05.248995+00:00",
+  "purpose": "rebuild04 mechanics smoke on development layouts only (not evaluation). All outcomes kept.",
+  "candidate": "train16_en",
+  "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+  "configuration": "rebuild04",
+  "fixed_latency_s": 0.4,
+  "cases": [
+    {
+      "id": "S01_dev01_blue",
+      "kind": "search",
+      "scene": "dev01",
+      "color": "blue",
+      "seed": 202610319001,
+      "initial_offset": [
+        0.02,
+        -0.01,
+        2.0
+      ],
+      "jitter": true,
+      "group": "smoke_dev"
+    },
+    {
+      "id": "S02_dev02_red",
+      "kind": "search",
+      "scene": "dev02",
+      "color": "red",
+      "seed": 202610319002,
+      "initial_offset": [
+        -0.02,
+        0.01,
+        -2.0
+      ],
+      "jitter": true,
+      "group": "smoke_dev"
+    },
+    {
+      "id": "S03_primitive_left",
+      "kind": "primitive",
+      "scene": "clear",
+      "profile": "left",
+      "group": "smoke_dev"
+    }
+  ]
+}

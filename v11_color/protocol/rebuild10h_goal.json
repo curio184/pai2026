@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-10-30T16:01:14Z",
+  "deadline_utc": "2026-10-31T02:01:14Z",
+  "deadline_jst": "2026-10-31 11:01:14",
+  "authorization": "User explicitly resumed work, allowed trial and error, and required completion within ten hours. Prior one-pass restriction superseded. No publication authorization.",
+  "objective": "VLA selects the instructed person's clothing color from RGB and language, generates person-relative approach and stopping motion; demonstrate physical approach/stop on training-unseen layouts and video scenarios, and finish evidence-backed PDF and README.",
+  "unchanged_acceptance": {"goal_radius_m": 0.25, "horizontal_speed_max_m_s": 0.08, "continuous_hold_s": 3.0, "unseen_success_min": "14/16", "each_color_min": "7/8", "each_layout_min": "3/4", "video_regression": "9/9", "known_swap": "1/1"},
+  "constraints": ["No truth available to online VLA, detector or mission manager", "Truth only for training teacher/data or postflight scoring", "Retain all runs, weights, original video and v1.0", "E: canonical storage", "WSL at most four CPU and eight GiB", "No push, tag, upload or resubmission without user approval", "Final-step checkpoint, not intermediate checkpoint selection", "Preregister conditions before each diagnostic or final batch"],
+  "budget": {"diagnosis_and_first_fix_hours": 2, "training_or_refinement_hours": 3, "fixed_final_validation_hours": 3, "documents_and_verification_hours": 2},
+  "initial_evidence": "receipt: all42 verified, v1.1 unseen0/16, video2/9, known0/1. Prior split: unseen11/16, video8/9, known1/1. Static color intervention64/64. Receipt change does not solve stopping.",
+  "goal_tool_note": "Existing unfinished goal is blocked; create_goal cannot replace it and update_goal cannot resume it. This file records the user's explicit resumed objective without falsely completing the old goal."
+}

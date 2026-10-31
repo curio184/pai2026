@@ -1,0 +1,161 @@
+{
+  "created_utc": "2026-10-29T16:41:03.243149+00:00",
+  "candidate": "train09_en",
+  "training": {
+    "initial_checkpoint": "v11_color/models/train08_en/final",
+    "initial_checkpoint_sha256": "d05f827977038b376358d99703ef361d8a23fda296eb7985df881394e8fa0e38",
+    "steps": 4000,
+    "seed": 2026102912,
+    "micro_batch": 4,
+    "gradient_accumulation": 2,
+    "learning_rate": 1e-05,
+    "vlm_layer_learning_rate": 0.0,
+    "train_vlm_text_layers": [],
+    "vision_encoder_frozen": true,
+    "optimizer": "AdamW",
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "epsilon": 1e-08,
+    "weight_decay": 1e-10,
+    "gradient_clip_norm": 10,
+    "warmup_steps": 200,
+    "final_learning_rate_fraction": 0.025,
+    "action_chunk": 32,
+    "action_dt_s": 0.1,
+    "checkpoint_selection": "final step only",
+    "recovery_selection": "latest saved recovery by step only, never validation score",
+    "teacher_stop_deadband_m": 0.02,
+    "teacher_gain": 1.4,
+    "sampling": "Same 25% color quartets, 25% navigation, 40% state calibration, 10% retained primitive schedule. State calibration uses one same-image quartet [v,-v,0,v/2] per microbatch; domains 25/25/50% and tasks 2..6 cycle. Common flow noise/time across the quartet; t=1 on even steps, sampled common time on odd steps. Other sampling unchanged.",
+    "prompt_variants": [
+      "original bilingual",
+      "Japanese only",
+      "English only"
+    ],
+    "prompt_probabilities": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "loss": "Flow matching on six normalized action channels, weights [8,8,1,1,1,1], divided by their sum; runtime units and normalization unchanged.",
+    "data_images": 6000,
+    "retention_images": 2408,
+    "output": "models/train09_en",
+    "data": "Same pixels, states, English prompts, sampling and navigation as train08. Only stationary horizontal teacher labels use -0.6 times captured estimated velocity, clipped to 0.2m/s; grounded takeoff stays zero.",
+    "teacher_standoff_m": 1.0,
+    "scoring_standoff_m": 0.9,
+    "braking_coefficient": 0.6,
+    "source_dataset_audit_sha256": "a01a2501b1d4b170e9efcd52fc53b380f4eb1ab118cecad198bd2c0b44a7319f",
+    "primitive_sampling": "State calibration 40%, retained primitives 10%, navigation/color 50%.",
+    "frozen_backbone": "All vision-language parameters; train action expert and state/action projections only. Verify frozen parameter digest before and after training.",
+    "prompt_language": "English only",
+    "action_loss_weights": [
+      8.0,
+      8.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "image_domains": "Explicit per-image domains; new views are appended after the 6408 existing image IDs.",
+    "minimum_free_gib_before_training": 7.4,
+    "minimum_free_gib_during_training": 5.0
+  },
+  "previous_training_plan_sha256": "be07010c9ea29699a9ae9f8c33e9b5a62c1725bf3145ded6be0bf08c2d58d931",
+  "prior_results": {
+    "development": [
+      8,
+      8
+    ],
+    "stress": [
+      8,
+      16
+    ],
+    "selected": false
+  },
+  "diagnosis_sha256": "fc95fa1bda78e72e70c4183b4e45689d4af7ec8bf830a73ac74440ee1d460c23",
+  "teacher_source_sha256": "6614db8b5b5d9ae3ecb91b84abbefe67dd8c94ae7ac4a59a03b6a6cbeb11702f",
+  "teacher": {
+    "scope": "Training labels only; frozen velocity-to-attitude controller already subtracts current estimated velocity.",
+    "hold_tasks": [
+      2,
+      4,
+      5,
+      6
+    ],
+    "navigation_velocity_damping": 0.5,
+    "navigation_position_coefficient": 1.4,
+    "horizontal_command_cap_m_s": 0.2,
+    "teacher_standoff_m": 1.0,
+    "scoring_standoff_m": 0.9,
+    "navigation_deadband_m": 0.02,
+    "nonhorizontal_labels": "Preserve source byte-for-byte.",
+    "reason": "Zero horizontal targets yielded insufficient physical hover duration in several completed jitter trials. Test mild learned braking rather than the earlier stronger 0.8/1.2 teacher coefficients. This is a training hypothesis, not a proven stability guarantee or a change to the runtime controller.",
+    "braking_coefficient": 0.6,
+    "grounded_takeoff_horizontal_zero_below_m": 0.25,
+    "stationary_horizontal_command": "-0.6 * input estimated horizontal velocity; vector norm <=0.2m/s; constant across 32 steps. Zero while unarmed or takeoff altitude <0.25m."
+  },
+  "data": {
+    "source": "data/dataset08_en",
+    "source_audit_sha256": "a01a2501b1d4b170e9efcd52fc53b380f4eb1ab118cecad198bd2c0b44a7319f",
+    "images": 8408,
+    "added_images": 0,
+    "layouts": 20,
+    "evaluation_images_or_states_used_for_training": 0,
+    "added_state_examples": 0,
+    "expected_total_examples": 236170,
+    "unchanged": "All pixels, states, English prompts, splits, navigation/landing labels, nonhorizontal labels, runtime and scoring."
+  },
+  "round_protocol_sha256": "d022927d44c067bf2e7274152c06fba3114ffc146f0d02b225432eedd8630ebc",
+  "probe_protocol_sha256": "703d384f9712db24c09151ffbfcdb06605a7684295b4b5222592668a99226cf3",
+  "runtime_lock_sha256": "bcf00a186a70df2004f68e2f4eac13090a1191ac69cb0bd28af877952a250d69",
+  "original_protocol_sha256": "ed157f5a14536772d05a00cfe31c315f6b747d624da4b527e8ce5e64de5cd111",
+  "storage_amendment_sha256": "b23ee6aa3e9881d0817e88b35d6f12c6f8304ba28b9fa4094b4ab83a0beaddf0",
+  "fresh_final_policy_executions_before_training": 0,
+  "final_step_only": true,
+  "evaluation": "Unchanged: dev 8/8; exposed stress >=14/16, >=7/8 each color, >=3/4 each layout; regression 5/5; known failure 1/1; then fresh matched 16 per model and preregistered static probe.",
+  "hypotheses_not_results": [
+    "Mild braking learned from estimated velocity may improve settling after takeoff without the oscillation risk of stronger delayed corrections. Keep navigation and all nonhorizontal targets unchanged.",
+    "Detector failures and stability failures are separate from choosing the wrong color; full mission success, not component success, remains required.",
+    "All existing dev, stress, regression, known-failure, fresh paired and static intervention gates remain unchanged; final-step weights only."
+  ],
+  "storage": {
+    "project_root": "<PROJECT_ROOT>",
+    "free_bytes": 10408525824
+  },
+  "registration_script_sha256": "e7376b84fc4b607e63a190aefcb9541684b59875a13382e360ad5de31ba8cbfd",
+  "full_suite_diagnosis_sha256": "bd702e19cb9f0a35f23c9ed08c96ad0250e02d2b38ec84b11f3e800d73be1a7d",
+  "inherited_teacher_source_sha256": "e113e3d34c25d1fcf3a956eb235a9664b7c69005ffadb993e9fc98f07d0eb06f",
+  "bounded_execution_protocol_sha256": "2c0200d6cbec847bf42edc8e3d94a69e7d696d3fdab053ca5e56f836b346b238",
+  "design_review": {
+    "unregistered_draft_coefficient": 0.3,
+    "registered_coefficient": 0.6,
+    "training_or_flight_at_draft_coefficient": false,
+    "reason": "Full-suite review showed 7 initial-hover failures and prolonged drift during H15 hover (median physical speed about 0.110m/s with near-zero requested horizontal velocity). Choose 0.6 before any new training: a moderate correction below prior 0.8/1.2 teachers, while retaining train08 navigation. This is not a claim of an optimal or proven-stable gain.",
+    "prior_hover_success_counts": {
+      "train05_coefficient_0_8": [
+        14,
+        16
+      ],
+      "train06_coefficient_1_2": [
+        11,
+        16
+      ],
+      "train08_coefficient_0": [
+        9,
+        16
+      ]
+    },
+    "caveat": "These candidates also differ in training history/data. The counts are development evidence, not an isolated gain comparison."
+  },
+  "resources": {
+    "simulator_cpu_cores_max": 4,
+    "simulator_memory_max_bytes": 8589934592,
+    "nice": 10,
+    "concurrent_flights": 1,
+    "training": "Windows GPU, no WSL training; no flight concurrent with training",
+    "scope": "Project WSL process tree only; other user workloads and global WSL settings untouched"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "summary": [
+    {
+      "model": "v1.0",
+      "prompt_group": "runtime_english",
+      "outputs": 64,
+      "correct_goal": 34,
+      "correct_person": 34,
+      "stationary": 0,
+      "median_goal_angle_deg": 23.497773088427216,
+      "both_instructions_correct": 16,
+      "images": 32,
+      "whole_quartet_correct": 0,
+      "quartets": 16
+    },
+    {
+      "model": "v1.1",
+      "prompt_group": "runtime_english",
+      "outputs": 64,
+      "correct_goal": 64,
+      "correct_person": 64,
+      "stationary": 0,
+      "median_goal_angle_deg": 1.965558411637402,
+      "both_instructions_correct": 32,
+      "images": 32,
+      "whole_quartet_correct": 16,
+      "quartets": 16
+    }
+  ],
+  "probe_sha256": "b8ca74493d7bd7899329e3a1546ab5008c7f4cfee84cba64b932cd9fb7d2deba",
+  "script_sha256": "49f789fa39c1b5b2b9bc0b199b0a5c84e79f88004baae385fb63d4aedcaa7a82",
+  "all_outputs": 128
+}

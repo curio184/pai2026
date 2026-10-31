@@ -1,0 +1,44 @@
+{
+  "t": 62.95350000020958,
+  "message": "\u6307\u5b9a\u3057\u305f\u670d\u306e\u8272\u306e\u4eba\u7269\u3092\u78ba\u8a8d\u3057\u307e\u3057\u305f",
+  "target_color": "blue",
+  "upper_instruction": "\u9752\u3044\u670d\u306e\u4eba\u3092\u63a2\u3057\u3066",
+  "image": "notification.jpg",
+  "evidence": {
+    "id": 287,
+    "t": 62.75300000020862,
+    "image_file": "00287.jpg",
+    "image_sha256": "cc672a983da0e7c9751eeb833ecca53dabc615a2c857d8449d35648228aeaa24",
+    "person": {
+      "bbox": [
+        98.20724487304688,
+        0.33226776123046875,
+        212.64614868164062,
+        239.68875122070312
+      ],
+      "confidence": 0.9939887523651123,
+      "torso_roi": [
+        121,
+        43,
+        189,
+        143
+      ],
+      "clothing_color": "blue",
+      "blue_fraction": 0.884264705882353,
+      "red_fraction": 0.006029411764705882
+    }
+  },
+  "estimated_state": [
+    0.012378181495151287,
+    0.007762951023414357,
+    -0.012424447573721409,
+    0.975667268037796,
+    0.0006158943870104849,
+    0.005915528163313866,
+    -0.00046885013580322266,
+    0.0048330058343708515,
+    1.0
+  ],
+  "transport": "local ground-station record; no external message",
+  "person_identity_or_medical_state_inferred": false
+}

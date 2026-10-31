@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-10-31T09:17:19.048431+00:00",
+  "note": "The suite ran with the rebuild03 scorer, which rejects the rebuild04 revision tag before judging. Re-scored with scripts/score_rebuild04.py (same physical thresholds). Development layouts only.",
+  "cases": [
+    {
+      "id": "S01_dev01_blue",
+      "success_rescored": true,
+      "hold_s": 6.034499999857303,
+      "latency": {
+        "ok": true,
+        "deliveries": 183,
+        "min_age_s": 0.40075000000048977,
+        "max_age_s": 0.41249999999903864,
+        "median_age_s": 0.4010000000019147
+      }
+    },
+    {
+      "id": "S02_dev02_red",
+      "success_rescored": true,
+      "hold_s": 4.249999999899501,
+      "latency": {
+        "ok": true,
+        "deliveries": 173,
+        "min_age_s": 0.40075000000048977,
+        "max_age_s": 0.41249999999903864,
+        "median_age_s": 0.4010000000019147
+      }
+    },
+    {
+      "id": "S03_primitive_left",
+      "success_rescored": true,
+      "hold_s": null,
+      "latency": {
+        "ok": true,
+        "deliveries": 119,
+        "min_age_s": 0.40075000000048977,
+        "max_age_s": 0.41249999999903864,
+        "median_age_s": 0.4010000000019147
+      }
+    }
+  ]
+}

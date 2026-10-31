@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-10-28T16:53:38.241432+00:00",
+  "plan_sha256": "7f1a70276a06579ebd2bfa62f50114ad151196c752d41b10c2c4a6c8a68ba2d9",
+  "trainer_sha256": "4a78b82e102e57d22360dffb6cec6e2de569eb8efef54fc9117ad6bb979040bb",
+  "scripts": {
+    "train04_en.py": "4a78b82e102e57d22360dffb6cec6e2de569eb8efef54fc9117ad6bb979040bb",
+    "pipeline_train04_en.py": "ce66a85e4da5ca54162c6776aa5304579e1bc4ac8309630809ac1f141246d93d",
+    "build_dataset04_en.py": "7c22ff5fa6062fbcdbfdba4dd30440badfa2bd662d5ec9c61f01e4d36b781e3a",
+    "register_train04_en.py": "d4921b1d05877404c51531ac6a49a58e3d0f060cbae56a8deeda94c34dc9b019",
+    "teacher_braking_proposal.py": "ace22eeddfc94cacd470733550200b5d009201bd5507e7dea4869a4b7edf3774",
+    "prepare_english_runtime.py": "76b8bd64491c5f1dd7fa3d760eda9d7019e1aadee80764333241f355171d96e4",
+    "run_suite_english.py": "87868d9e0bb1e68bba80e5fdcc5a4884c6ae4ec38d7e2f48ab2587256965d680",
+    "run_round02_english.py": "0ea791b4b6c3d6184d1c26a4eb31fc2c276b8a6fb4c0c825007f7fb44e3a8fc2",
+    "run_suite.py": "2b1bf2068fce009300055e2436189ca4e1b8e95f490c492034cf05420856aa81",
+    "prepare_scenes_round02_english.py": "1f0afb70e5c474172dfadcfc136b1a4534db71137eac14b93883836eae2de103",
+    "render_probe_round02_english.py": "1a2893f3fdf16e4f61e383740458201a864db6ee67c6d9622f08953a4c89ef57",
+    "run_probe_round02_english.py": "40b763ce34807aa28957cb52b1206213d23aa4c5113b3800f428ac398be93f7c",
+    "plot_probe_round02_english.py": "cea65af550239432bd6e1f5f2349bb5ed32062e6fd53fd74d99e48565ece8e42",
+    "round_summary.py": "0a1b97c3ffb21c88ca7a190ad9d616eb8ba897bdc704bce0b14def5759d791d2",
+    "trial_index.py": "5e852a3ece22a679a6089b30516a280ec2044d0a59f27d01588e0adace2b28ae",
+    "verify_records.py": "b20636eadf2f9c2902a0454b7ed567c9601558147ac90b62fb0bbb8e23e6e25b"
+  },
+  "dataset_audit_sha256": "f08539127e4badc5d6a8932cb06ab86f9840d0744650b2f36a68bd52700868c6",
+  "round_protocol_sha256": "d022927d44c067bf2e7274152c06fba3114ffc146f0d02b225432eedd8630ebc",
+  "runtime_lock_sha256": "bcf00a186a70df2004f68e2f4eac13090a1191ac69cb0bd28af877952a250d69",
+  "english_transition_summary_sha256": "d070e03d72f30ec60fe97438f43573f350994dbb7a60beafa4f1d0cbefd3609f",
+  "preflight_audit_sha256": "5985c5258607de6585fee493ec595003de0effbc95a78302e7e36bd947f39c99",
+  "training_started": false
+}

@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-10-29T03:21:41.134298+00:00",
+  "reason": "User requested one E: project location instead of distributed C:/D: storage.",
+  "project_root": "<PROJECT_ROOT>",
+  "repository_root": "<WORK_ROOT>/repository",
+  "original_paths_retained_as_junctions": true,
+  "files_copied_and_sha256_verified": 74604,
+  "bytes_copied": 36748383511,
+  "migration_manifest_sha256": "db30d201187899d2a9ea3e963affad7cca079dc12e0eb69a9df553f3d411ed47",
+  "original_video_pdf_v10_unchanged": true,
+  "prior_trials_unchanged": true,
+  "frozen_runtime_lock_postmigration": "passed",
+  "wsl_physics_library_load_postmigration": "passed",
+  "new_policy_inference_or_flight_in_migration_check": false,
+  "future_final_comparison": "Both v1.0 and the selected candidate will use E: storage and the same frozen runner. Existing D: development trials remain distinct records.",
+  "fresh_round02_evaluation_started": false
+}

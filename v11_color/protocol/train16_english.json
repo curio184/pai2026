@@ -1,0 +1,170 @@
+{
+  "created_utc": "2026-10-30T09:47:16.555467+00:00",
+  "candidate": "train16_en",
+  "training": {
+    "initial_checkpoint": "v11_color/models/train15_en/final",
+    "initial_checkpoint_sha256": "8ed29d5689df50c96525bf0f10622500d20467a433f9b0246fc61f2fc3eb3c55",
+    "steps": 6000,
+    "seed": 2026103016,
+    "micro_batch": 4,
+    "gradient_accumulation": 2,
+    "learning_rate": 1e-05,
+    "vlm_layer_learning_rate": 0.0,
+    "train_vlm_text_layers": [],
+    "vision_encoder_frozen": true,
+    "optimizer": "AdamW",
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "epsilon": 1e-08,
+    "weight_decay": 1e-10,
+    "gradient_clip_norm": 10,
+    "warmup_steps": 200,
+    "final_learning_rate_fraction": 0.025,
+    "action_chunk": 32,
+    "action_dt_s": 0.1,
+    "checkpoint_selection": "final step only",
+    "recovery_selection": "latest saved recovery by step only, never validation score",
+    "teacher_stop_deadband_m": 0.02,
+    "teacher_gain": 1.4,
+    "sampling": "Same 25% color quartets, 25% navigation, 40% state calibration, 10% retained primitive schedule. State calibration uses one same-image quartet [v,-v,0,v/2] per microbatch; domains 25/25/50% and tasks 2..6 cycle. Common flow noise/time across the quartet; t=1 on even steps, sampled common time on odd steps. Other sampling unchanged.",
+    "prompt_variants": [
+      "original bilingual",
+      "Japanese only",
+      "English only"
+    ],
+    "prompt_probabilities": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "loss": "Flow matching on six normalized action channels, weights [8,8,1,4,1,1], divided by their sum. Runtime units and normalization unchanged.",
+    "data_images": 6000,
+    "retention_images": 2408,
+    "output": "models/train16_en",
+    "data": "Same dataset15 images, states, tasks and sampling. Relabel stationary horizontal targets only.",
+    "teacher_standoff_m": 1.0,
+    "scoring_standoff_m": 0.9,
+    "source_dataset_audit_sha256": "78819b3d4e5a8e08084b6f62ac76aa44d47cc9cd995600587a4c0a16fa3dc76c",
+    "primitive_sampling": "State calibration 40%, retained primitives 10%, navigation/color 50%.",
+    "frozen_backbone": "All vision-language parameters; train action expert and state/action projections only. Verify frozen parameter digest before and after training.",
+    "prompt_language": "English only",
+    "action_loss_weights": [
+      8.0,
+      8.0,
+      1.0,
+      4.0,
+      1.0,
+      1.0
+    ],
+    "image_domains": "Explicit per-image domains; new views are appended after the 6408 existing image IDs.",
+    "minimum_free_gib_before_training": 10.0,
+    "minimum_free_gib_during_training": 5.0,
+    "noise_schedule": "For steps1..6000 and micro0..1, fixed runtime Gaussian if (step+micro)%4<2, otherwise random; same50/50 as15.",
+    "runtime_noise_seed": 20261024,
+    "rationale": "Candidate15 still drifts during stationary flight while closely imitating its velocity-only teacher. Existing attitude inputs provide a leaky proxy for preceding acceleration requests. Test this training-only hypothesis; no runtime modification.",
+    "recovery_interval_steps": 2000,
+    "recovery_storage": "Unique recovery_stepNNNNN.pt plus SHA receipt every2000steps; no replacement or deletion of previous saves."
+  },
+  "previous_training_plan_sha256": "6288d3aef542ced5d648da231d5fdf660926934d2b686c09c957c9cff483f55a",
+  "prior_results": {
+    "development": [
+      8,
+      8
+    ],
+    "stress": [
+      9,
+      16
+    ],
+    "selected": false
+  },
+  "diagnosis_sha256": "31796b4facd90647714521e95d07afa108a707eaa88aa1390ad2e46347305013",
+  "teacher_source_sha256": "1ac86fd7b85ba6e01384e0b60082877d4f33c5474a1960d18e7f7528b962ab93",
+  "teacher": {
+    "scope": "Training labels only; frozen velocity-to-attitude controller already subtracts current estimated velocity.",
+    "hold_tasks": [
+      2,
+      4,
+      5,
+      6
+    ],
+    "navigation_velocity_damping": 0.5,
+    "navigation_position_coefficient": 1.4,
+    "horizontal_command_cap_m_s": 0.2,
+    "teacher_standoff_m": 1.0,
+    "scoring_standoff_m": 0.9,
+    "navigation_deadband_m": 0.02,
+    "nonhorizontal_labels": "All nonhorizontal, all navigation, and all landing labels remain byte-identical to15.",
+    "reason": "A leaky incremental-request approximation may reject sustained attitude-estimation disturbance while limiting delayed-feedback oscillation. Only a simplified linear model has been checked; actual flight success is unproven.",
+    "grounded_takeoff_horizontal_zero_below_m": 0.25,
+    "stationary_horizontal_command": "0.6*own[:2] - 0.9*9.81*tan(own[[5,4]]), norm cap0.2m/s, constant32steps. Zero unarmed or takeoff below0.25m.",
+    "yaw_deadband_rad": 0.03,
+    "yaw_gain": 0.8,
+    "yaw_cap_rad_s": 0.25,
+    "yaw_target_rule": "For armed rotation above0.8m: initial predicted yaw=own_yaw+1.0*own_yaw_rate. Iterate32 times at0.1s; rate=0 inside0.03rad else clip(0.8*(target-predicted_yaw), +/-0.25).",
+    "yaw_capture_lookahead_s": 1.0,
+    "navigation_yaw_gain": 0.8,
+    "navigation_yaw_deadband_rad": 0.05,
+    "navigation_yaw_cap_rad_s": 0.25,
+    "navigation_yaw_rule": "At each teacher step, predict position=p+R(heading)*own_xy_velocity*1s and heading=heading-own_clockwise_rate*1s. Apply the existing0.8 proportional yaw law,0.05rad deadband,0.25rad/s cap to predicted requested-person bearing. Body velocity and heading rollout remain consistent.",
+    "navigation_world_goal": "Same teacher goal: person position + [-1.0m,0] in the room plane. Scoring goal remains [-0.9m,0].",
+    "navigation_lookahead_s": 1.0,
+    "velocity_retention": 0.6,
+    "attitude_retention": 0.9,
+    "gravity_m_s2": 9.81,
+    "attitude_convention": "Inputs are autopilot FRD roll/pitch; output is forward/left velocity. No true bias, position, acceleration or history is added to model inputs."
+  },
+  "data": {
+    "source": "data/dataset15_en",
+    "source_audit_sha256": "78819b3d4e5a8e08084b6f62ac76aa44d47cc9cd995600587a4c0a16fa3dc76c",
+    "images": 8408,
+    "added_images": 0,
+    "layouts": 20,
+    "evaluation_images_or_states_used_for_training": 0,
+    "added_state_examples": 0,
+    "expected_total_examples": 236170,
+    "unchanged": "All image/state/task inputs, English prompts, sampling, loss, inference, navigation/landing/nonhorizontal labels, runtime, gains, detectors, manager and scoring.",
+    "training_yaw_coverage_audit_sha256": "e3289d4d4e05b690020bcc56338671f75199001dd8a85b4e0af4d1579339cced",
+    "training_navigation_geometry_audit_sha256": "bb97c400331db3d46a58c28c0562dcfd4de82d159fecc9ba59f85b0afc2761cb"
+  },
+  "round_protocol_sha256": "d022927d44c067bf2e7274152c06fba3114ffc146f0d02b225432eedd8630ebc",
+  "probe_protocol_sha256": "703d384f9712db24c09151ffbfcdb06605a7684295b4b5222592668a99226cf3",
+  "runtime_lock_sha256": "bcf00a186a70df2004f68e2f4eac13090a1191ac69cb0bd28af877952a250d69",
+  "original_protocol_sha256": "ed157f5a14536772d05a00cfe31c315f6b747d624da4b527e8ce5e64de5cd111",
+  "storage_amendment_sha256": "b23ee6aa3e9881d0817e88b35d6f12c6f8304ba28b9fa4094b4ab83a0beaddf0",
+  "fresh_final_policy_executions_before_training": 0,
+  "final_step_only": true,
+  "evaluation": "Unchanged: dev 8/8; exposed stress >=14/16, >=7/8 each color, >=3/4 each layout; regression 5/5; known failure 1/1; then fresh matched 16 per model and preregistered static probe.",
+  "hypotheses_not_results": [
+    "The stationary teacher uses velocity and attitude already provided to SmolVLA. The real-time controller, its gains and all six action meanings are unchanged.",
+    "Linear surrogate cases are not drone trials and cannot prove stability. All analytical trajectories are retained, including oscillatory cases.",
+    "There is no perfect bias estimate: the attitude term is a noisy, delayed proxy. Saturation and model approximation may still fail.",
+    "Navigation labels are preserved to isolate the stationary change; existing approach failures may remain. Training and a new seed also change behavior, so causality is not isolated.",
+    "All started suites finish; unchanged gates precede the untouched final round. Final step only; no evaluation images or states are added to training."
+  ],
+  "storage": {
+    "project_root": "<PROJECT_ROOT>",
+    "free_bytes_at_registration": 139811033088,
+    "training_must_wait_until_free_gib": 10.0,
+    "protected_final_models_and_all_trial_records_preserved": true
+  },
+  "registration_script_sha256": "d177e2a5fd025a35a509ea9cf8eafc922976b5d49d4788c66ed8c03376a0c5d6",
+  "full_suite_diagnosis_sha256": "1d6958866364800cc14badaeb80ca397763c80a41e348bed30910793e570e1d1",
+  "inherited_teacher_source_sha256": "68fa2a9d4913d0672860c87876618f45a8b654dc8cbbea9f8b93db580c61f9aa",
+  "bounded_execution_protocol_sha256": "2c0200d6cbec847bf42edc8e3d94a69e7d696d3fdab053ca5e56f836b346b238",
+  "resources": {
+    "simulator_cpu_cores_max": 4,
+    "simulator_memory_max_bytes": 8589934592,
+    "nice": 10,
+    "concurrent_flights": 1,
+    "training": "Windows GPU, no WSL training; no flight concurrent with training",
+    "scope": "Project WSL process tree only; other user workloads and global WSL settings untouched"
+  },
+  "analytical_evidence": {
+    "stationary_feedback_analysis01.json": "79233f9eb14c411f2a9575dabedc392345ea6571b40c84e94fb6846aa38d64e2",
+    "stationary_feedback_analysis02.json": "182f6cbad2362b0e70994bb429742174897727d897a7a3ff3f452971b6f4abab",
+    "train15_attitude_teacher_input_coverage.json": "1b205696d00f1b139ac88a3f9e63b13bc1dc3c16b6d899fefcdf3a352bec475c",
+    "stress_train15_en_stationary_full_v2.json": "8a53d9d29074beab5b612f70eb24ca4e7055190ea819b82785df934a914301da"
+  }
+}

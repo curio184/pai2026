@@ -1,0 +1,708 @@
+{
+  "created_utc": "2026-10-28T10:58:11.939311+00:00",
+  "goal": "Color-conditioned visual flight on held-out arrangements within the same room, not arbitrary rooms or unconstrained layouts",
+  "version": "v1.1 candidate; no publication without user approval",
+  "protected": {
+    "checkpoint_sha256": "d119adc57fa0c4681f4413b621d6321d27b000c6a3550c5b075bbbebc3d9a467",
+    "plant_sha256": "cc18ac01992633968e51486fff28d2027b65bb9ae45bb0acc7c2de7e8aecf71b",
+    "video_sha256": "9669ae47300089f327ac347f9e07efcd6c9e02c05cb7ef91212f779af404ed51",
+    "old_pdf_sha256": "7bf86e3ab13bc47b0a0f994698bc0d0c1d920648facbacf7ba5f9e16d4c80119"
+  },
+  "training": {
+    "initial_checkpoint": "outputs/smolvla_training_realism_precision_02/final",
+    "initial_checkpoint_sha256": "d119adc57fa0c4681f4413b621d6321d27b000c6a3550c5b075bbbebc3d9a467",
+    "steps": 8000,
+    "seed": 2026102802,
+    "micro_batch": 4,
+    "gradient_accumulation": 2,
+    "learning_rate": 5e-05,
+    "vlm_layer_learning_rate": 1e-05,
+    "train_vlm_text_layers": [
+      12,
+      13,
+      14,
+      15
+    ],
+    "vision_encoder_frozen": true,
+    "optimizer": "AdamW",
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "epsilon": 1e-08,
+    "weight_decay": 1e-10,
+    "gradient_clip_norm": 10,
+    "warmup_steps": 300,
+    "final_learning_rate_fraction": 0.025,
+    "action_chunk": 32,
+    "action_dt_s": 0.1,
+    "checkpoint_selection": "final step only",
+    "recovery_selection": "latest saved recovery by step only, never validation score",
+    "teacher_stop_deadband_m": 0.04,
+    "teacher_gain": 0.7,
+    "sampling": "Alternate counterfactual quartets (same pose/state, two shirt assignments x two instructions) and navigation-pair plus two primitive examples. New multi-layout navigation receives 90% of navigation-pair sampling. Preserve v1.0 primitive examples.",
+    "prompt_variants": [
+      "original bilingual",
+      "Japanese only",
+      "English only"
+    ],
+    "prompt_probabilities": [
+      0.5,
+      0.25,
+      0.25
+    ],
+    "loss": "Original flow matching; shared noise across paired counterfactuals; no oracle features in model batch",
+    "data_images": 4000,
+    "retention_images": 2408,
+    "output": "models/train01"
+  },
+  "train_layouts": [
+    {
+      "name": "train00",
+      "positions": [
+        [
+          2.7427863709933904,
+          -0.5341987833671386,
+          0.0
+        ],
+        [
+          2.8963629952240177,
+          0.8680083218199609,
+          0.0
+        ]
+      ],
+      "density": 0.004
+    },
+    {
+      "name": "train01",
+      "positions": [
+        [
+          3.6433771081003465,
+          -1.045700693538795,
+          0.0
+        ],
+        [
+          3.5024812018858666,
+          0.7568533641066787,
+          0.0
+        ]
+      ],
+      "density": 0.004
+    },
+    {
+      "name": "train02",
+      "positions": [
+        [
+          2.731856969477916,
+          0.9520431630753341,
+          0.0
+        ],
+        [
+          2.7431738369171708,
+          -0.6524504171205592,
+          0.0
+        ]
+      ],
+      "density": 0.004
+    },
+    {
+      "name": "train03",
+      "positions": [
+        [
+          3.203006710006027,
+          1.086273849192737,
+          0.0
+        ],
+        [
+          3.505389426525762,
+          -0.8294070683032286,
+          0.0
+        ]
+      ],
+      "density": 0.004
+    },
+    {
+      "name": "train04",
+      "positions": [
+        [
+          2.948035667187713,
+          0.5549293532354906,
+          0.0
+        ],
+        [
+          3.2905159551458594,
+          -0.9839302413713488,
+          0.0
+        ]
+      ],
+      "density": 0.004
+    },
+    {
+      "name": "train05",
+      "positions": [
+        [
+          3.4477275963250182,
+          -0.9127913387722353,
+          0.0
+        ],
+        [
+          2.844780278026266,
+          0.687447126834367,
+          0.0
+        ]
+      ],
+      "density": 0.004
+    },
+    {
+      "name": "train06",
+      "positions": [
+        [
+          2.948428404712237,
+          -0.569454467500705,
+          0.0
+        ],
+        [
+          2.741539451877208,
+          0.9511399848859932,
+          0.0
+        ]
+      ],
+      "density": 0.004
+    },
+    {
+      "name": "train07",
+      "positions": [
+        [
+          3.2419984899534713,
+          -0.794822505848893,
+          0.0
+        ],
+        [
+          3.1249087618938107,
+          0.6544601426657479,
+          0.0
+        ]
+      ],
+      "density": 0.004
+    },
+    {
+      "name": "train08",
+      "positions": [
+        [
+          3.406341641805166,
+          0.5426418258997656,
+          0.0
+        ],
+        [
+          3.612512052467207,
+          -0.6363473943740072,
+          0.0
+        ]
+      ],
+      "density": 0.004
+    },
+    {
+      "name": "train09",
+      "positions": [
+        [
+          2.9111526593238826,
+          0.6918461287418205,
+          0.0
+        ],
+        [
+          2.6554645312066163,
+          -0.8953169273268339,
+          0.0
+        ]
+      ],
+      "density": 0.004
+    },
+    {
+      "name": "train10",
+      "positions": [
+        [
+          3.244679459099169,
+          0.5449401080997215,
+          0.0
+        ],
+        [
+          3.2782668261150008,
+          -0.8705353437109755,
+          0.0
+        ]
+      ],
+      "density": 0.004
+    },
+    {
+      "name": "train11",
+      "positions": [
+        [
+          3.393681387670079,
+          -0.7384061331578058,
+          0.0
+        ],
+        [
+          3.2889544065969893,
+          0.7193691306572295,
+          0.0
+        ]
+      ],
+      "density": 0.004
+    },
+    {
+      "name": "train12",
+      "positions": [
+        [
+          3.558258115830865,
+          1.0639950785064851,
+          0.0
+        ],
+        [
+          3.2300298486435683,
+          -0.7592780869423528,
+          0.0
+        ]
+      ],
+      "density": 0.004
+    },
+    {
+      "name": "train13",
+      "positions": [
+        [
+          2.8374454992784237,
+          -1.0533817041206008,
+          0.0
+        ],
+        [
+          3.301516320663324,
+          1.0963063741944723,
+          0.0
+        ]
+      ],
+      "density": 0.004
+    },
+    {
+      "name": "train14",
+      "positions": [
+        [
+          2.8218033266512212,
+          1.0692358585078658,
+          0.0
+        ],
+        [
+          2.8172090714397986,
+          -0.7565409533352164,
+          0.0
+        ]
+      ],
+      "density": 0.004
+    },
+    {
+      "name": "train15",
+      "positions": [
+        [
+          2.7881839768669536,
+          -0.9837159833400883,
+          0.0
+        ],
+        [
+          3.384282720271909,
+          0.7665301736729,
+          0.0
+        ]
+      ],
+      "density": 0.004
+    },
+    {
+      "name": "train16",
+      "positions": [
+        [
+          3.0359779609306345,
+          -1.0093004842406523,
+          0.0
+        ],
+        [
+          3.082312655935535,
+          1.042020180720723,
+          0.0
+        ]
+      ],
+      "density": 0.004
+    },
+    {
+      "name": "train17",
+      "positions": [
+        [
+          2.8301526655097673,
+          -0.7574041507786404,
+          0.0
+        ],
+        [
+          2.685967555469908,
+          0.9280125321559736,
+          0.0
+        ]
+      ],
+      "density": 0.004
+    },
+    {
+      "name": "train18",
+      "positions": [
+        [
+          3.627435496319577,
+          -0.7803672563110724,
+          0.0
+        ],
+        [
+          3.159150645279427,
+          0.7404296021531509,
+          0.0
+        ]
+      ],
+      "density": 0.004
+    },
+    {
+      "name": "train19",
+      "positions": [
+        [
+          3.2732549716601786,
+          -0.8369832524916772,
+          0.0
+        ],
+        [
+          3.4583544190205844,
+          0.9871081487483857,
+          0.0
+        ]
+      ],
+      "density": 0.004
+    }
+  ],
+  "development_layouts": [
+    {
+      "name": "dev01",
+      "positions": [
+        [
+          3.35,
+          0.7,
+          0
+        ],
+        [
+          3.02,
+          -0.9,
+          0
+        ]
+      ],
+      "blue_actor": 1
+    },
+    {
+      "name": "dev02",
+      "positions": [
+        [
+          2.85,
+          0.92,
+          0
+        ],
+        [
+          3.4,
+          -0.68,
+          0
+        ]
+      ],
+      "blue_actor": 0
+    }
+  ],
+  "heldout_layouts": [
+    {
+      "name": "heldout01",
+      "positions": [
+        [
+          2.85,
+          0.62,
+          0
+        ],
+        [
+          3.55,
+          -0.98,
+          0
+        ]
+      ],
+      "blue_actor": 1
+    },
+    {
+      "name": "heldout02",
+      "positions": [
+        [
+          3.55,
+          0.98,
+          0
+        ],
+        [
+          2.85,
+          -0.62,
+          0
+        ]
+      ],
+      "blue_actor": 0
+    },
+    {
+      "name": "heldout03",
+      "positions": [
+        [
+          3.12,
+          0.92,
+          0
+        ],
+        [
+          3.52,
+          -0.52,
+          0
+        ]
+      ],
+      "blue_actor": 1
+    },
+    {
+      "name": "heldout04",
+      "positions": [
+        [
+          3.62,
+          0.55,
+          0
+        ],
+        [
+          2.75,
+          -1.05,
+          0
+        ]
+      ],
+      "blue_actor": 0
+    }
+  ],
+  "heldout_cases": [
+    {
+      "id": "H01",
+      "scene": "heldout01",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 2026102900,
+      "initial_offset": [
+        -0.002557593706438578,
+        -0.014303993343843573,
+        1.3856317669075855
+      ]
+    },
+    {
+      "id": "H02",
+      "scene": "heldout01",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 2026102901,
+      "initial_offset": [
+        -0.013428642444323256,
+        -0.018767907066576852,
+        3.554863929228807
+      ]
+    },
+    {
+      "id": "H03",
+      "scene": "heldout01",
+      "color": "red",
+      "repeat": 1,
+      "seed": 2026102902,
+      "initial_offset": [
+        -0.020657013939030123,
+        -0.026760415429799757,
+        -3.5010469473449746
+      ]
+    },
+    {
+      "id": "H04",
+      "scene": "heldout01",
+      "color": "red",
+      "repeat": 2,
+      "seed": 2026102903,
+      "initial_offset": [
+        -0.04660307871687144,
+        0.04467519360590276,
+        3.6603718705072392
+      ]
+    },
+    {
+      "id": "H05",
+      "scene": "heldout02",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 2026102904,
+      "initial_offset": [
+        -0.012733317850682102,
+        -0.046724568786721266,
+        -1.9939481562375372
+      ]
+    },
+    {
+      "id": "H06",
+      "scene": "heldout02",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 2026102905,
+      "initial_offset": [
+        -0.007701240332390925,
+        0.037756151766657656,
+        -0.7046096788654417
+      ]
+    },
+    {
+      "id": "H07",
+      "scene": "heldout02",
+      "color": "red",
+      "repeat": 1,
+      "seed": 2026102906,
+      "initial_offset": [
+        -0.037388754027060225,
+        -0.034705569154770556,
+        4.264464189628347
+      ]
+    },
+    {
+      "id": "H08",
+      "scene": "heldout02",
+      "color": "red",
+      "repeat": 2,
+      "seed": 2026102907,
+      "initial_offset": [
+        0.0013804040106399212,
+        0.041594331562265885,
+        -2.7415993677752413
+      ]
+    },
+    {
+      "id": "H09",
+      "scene": "heldout03",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 2026102908,
+      "initial_offset": [
+        -0.04066807007950229,
+        -0.047650892405108905,
+        -2.007165429357393
+      ]
+    },
+    {
+      "id": "H10",
+      "scene": "heldout03",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 2026102909,
+      "initial_offset": [
+        -0.042657953359022054,
+        -0.039202575385331645,
+        -3.865484783168883
+      ]
+    },
+    {
+      "id": "H11",
+      "scene": "heldout03",
+      "color": "red",
+      "repeat": 1,
+      "seed": 2026102910,
+      "initial_offset": [
+        -0.025619881950193338,
+        -0.015996128450237568,
+        3.7040983225286492
+      ]
+    },
+    {
+      "id": "H12",
+      "scene": "heldout03",
+      "color": "red",
+      "repeat": 2,
+      "seed": 2026102911,
+      "initial_offset": [
+        -0.031535785548644835,
+        -0.02799670122100355,
+        -4.958830596024242
+      ]
+    },
+    {
+      "id": "H13",
+      "scene": "heldout04",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 2026102912,
+      "initial_offset": [
+        0.009651306653070735,
+        0.03580023553783514,
+        -3.718825665476041
+      ]
+    },
+    {
+      "id": "H14",
+      "scene": "heldout04",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 2026102913,
+      "initial_offset": [
+        0.033616735607500475,
+        -0.006265445358707468,
+        1.2528474719944018
+      ]
+    },
+    {
+      "id": "H15",
+      "scene": "heldout04",
+      "color": "red",
+      "repeat": 1,
+      "seed": 2026102914,
+      "initial_offset": [
+        -0.04506699575878818,
+        -0.017322395793099833,
+        0.46747202372161123
+      ]
+    },
+    {
+      "id": "H16",
+      "scene": "heldout04",
+      "color": "red",
+      "repeat": 2,
+      "seed": 2026102915,
+      "initial_offset": [
+        0.045143192902863935,
+        0.023642748113272438,
+        -2.5729059318544154
+      ]
+    }
+  ],
+  "heldout_model_order": "Alternate v1.0/v1.1 per matched case; same poses and seeds",
+  "heldout_access": "No held-out inference/flight or outcome-based adjustment until final training is selected using development cases only",
+  "development_gate": "4/4 rescue flights (two dev scenes x two colors) and primitive regressions. If inadequate, retain all attempts, preregister further training before changes; never select intermediate checkpoint by score.",
+  "success_gate": {
+    "heldout_total": "at least 14/16",
+    "per_color": "at least 7/8",
+    "per_layout": "at least 3/4",
+    "regression": "all 9 specified cases succeed",
+    "statistics": "Report k/n and 95% Wilson intervals, all failures; 16 is a small fixed-room sample"
+  },
+  "regression_cases": [
+    "rescue_clear_blue",
+    "rescue_clear_red",
+    "rescue_fog_light_blue",
+    "rescue_fog_dense_blue",
+    "rescue_dust_blue",
+    "approach_blue",
+    "approach_red",
+    "right_then_left",
+    "left_only"
+  ],
+  "scoring": "Unmodified existing score_search.py / score_mission.py, 0.25m, horizontal speed <=0.08m/s for >=3s; other original checks unchanged",
+  "controller": "Original ArduPilot, gains, plant, action gate unchanged; test wrapper may set initial pose only before integration",
+  "runtime_inputs": "RGB, stage instruction, estimated own state only; simulator truth only rendering/sensor synthesis, teacher construction and post-flight scoring",
+  "optional_language_test": "Repeat counterfactual Japanese/bilingual probe for both models; report separately; main closed-loop runtime remains frozen bilingual prompts",
+  "storage": {
+    "drive": "D",
+    "free_bytes": 21847601152,
+    "estimated_incremental_peak_gb": 10,
+    "stop_before_free_gb": 5,
+    "policy": "Ask before moving existing data, never delete existing evidence"
+  },
+  "publication": "Prepare PDF and README plus evidence; no push/tag/submission; v1.0.0 and video unchanged"
+}

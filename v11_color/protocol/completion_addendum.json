@@ -1,0 +1,29 @@
+{
+  "recorded_before": "Any v1.1 flight or static policy evaluation; train01 is in progress",
+  "reason": "Closed-loop success alone must not substitute for evidence of VLA color/language dependence or repair of the known T3 failure.",
+  "original_plan_unchanged": true,
+  "static_probe_gate": {
+    "prompt_group": "runtime_bilingual",
+    "correct_goal_outputs_minimum": 60,
+    "outputs_required": 64,
+    "all_four_interventions_correct_minimum": 14,
+    "quartets_required": 16,
+    "japanese_only": "Report all results; not the frozen production prompt format and not a completion threshold"
+  },
+  "known_failure_retest": {
+    "case_id": "T3_blue_retest",
+    "scene": "known_swapped",
+    "color": "blue",
+    "kind": "search",
+    "model": "v1.1",
+    "runs": 1,
+    "initial_pose": "Original T3: x/y=0, heading=90 degrees; no jitter wrapper",
+    "plant_noise_seed": 20261023,
+    "policy_seed": 20261024,
+    "physics_sha256": "ae17ede93fa2bcbec60c75f179eee2e2b018bc87694749431009c4425dcbf296",
+    "comparison": "Preserved v1.0 T3_01 record versus one new final-model execution with the original scene, runtime, plant, and scoring",
+    "success_required": true,
+    "interpretation": "Known-failure regression, not an unseen-condition generalization claim or success-rate estimate"
+  },
+  "selection": "Run after the original development selection; no intermediate checkpoint selection. Retain all results. If these fail, do not claim the goal met or retune against the same held-out set while calling it untouched."
+}

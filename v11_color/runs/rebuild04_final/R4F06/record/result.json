@@ -1,0 +1,166 @@
+{
+  "search_start_observation": {
+    "id": 74,
+    "t": 34.886750000075565,
+    "image_file": "00074.jpg",
+    "image_sha256": "b6c7830da791a875bd969785e3f650cfbf7fe29cad5e2999ead8556131797078",
+    "perception": {
+      "persons": [],
+      "elapsed_s": 0.06016479997197166,
+      "model": "torchvision SSDlite320 MobileNet V3 Large",
+      "weights_url": "https://download.pytorch.org/models/ssdlite320_mobilenet_v3_large_coco-a79551df.pth",
+      "weights_sha256": "a79551df90c79834bcd3bb3845ef9d966b5449a3a9b2833ae8404778ca5d65d2",
+      "person_threshold": 0.65,
+      "torso_roi": [
+        0.2,
+        0.18,
+        0.8,
+        0.6
+      ],
+      "color_fraction_threshold": 0.2,
+      "color_margin": 0.12,
+      "source": "RGB only; no simulator metadata"
+    },
+    "estimated_state": [
+      0.0007278390257738917,
+      -0.013636926682396163,
+      -0.001852566609159112,
+      1.0192940384149551,
+      0.0016424334608018398,
+      0.008818678557872772,
+      -0.00010578741785138845,
+      0.0018713781610131264,
+      1.0
+    ]
+  },
+  "upper_instruction": "\u9752\u3044\u670d\u306e\u4eba\u3092\u63a2\u3057\u3066",
+  "discovery": {
+    "t": 47.71725000013683,
+    "upper_instruction": "\u9752\u3044\u670d\u306e\u4eba\u3092\u63a2\u3057\u3066",
+    "evidence": [
+      {
+        "id": 103,
+        "t": 46.514500000131086,
+        "image_file": "00103.jpg",
+        "image_sha256": "f4bb7a526ec47e37c7388ba5d952bda4bd47c3b0589eaba79c2f8ef31638e6f0",
+        "person": {
+          "bbox": [
+            204.0917510986328,
+            84.02417755126953,
+            239.30641174316406,
+            187.96176147460938
+          ],
+          "confidence": 0.9555826187133789,
+          "torso_roi": [
+            211,
+            102,
+            232,
+            146
+          ],
+          "clothing_color": "blue",
+          "blue_fraction": 0.9696969696969697,
+          "red_fraction": 0.0
+        }
+      },
+      {
+        "id": 104,
+        "t": 46.915500000133,
+        "image_file": "00104.jpg",
+        "image_sha256": "6cd003e916cbe15d3a23167e9b484371adacb3f4d6a5df4b0548ea24a721637e",
+        "person": {
+          "bbox": [
+            203.7685546875,
+            83.43781280517578,
+            239.2779541015625,
+            188.2144317626953
+          ],
+          "confidence": 0.9440333843231201,
+          "torso_roi": [
+            210,
+            102,
+            232,
+            146
+          ],
+          "clothing_color": "blue",
+          "blue_fraction": 0.9483471074380165,
+          "red_fraction": 0.0
+        }
+      },
+      {
+        "id": 105,
+        "t": 47.316250000134914,
+        "image_file": "00105.jpg",
+        "image_sha256": "32625258f451d2e023319b8a55a78cc3de2a30e9d111ee053a35d26619c28b30",
+        "person": {
+          "bbox": [
+            203.87374877929688,
+            83.38746643066406,
+            240.75048828125,
+            188.33001708984375
+          ],
+          "confidence": 0.9461808800697327,
+          "torso_roi": [
+            211,
+            102,
+            233,
+            146
+          ],
+          "clothing_color": "blue",
+          "blue_fraction": 0.9597107438016529,
+          "red_fraction": 0.0
+        }
+      }
+    ],
+    "scan_count": 1
+  },
+  "notification": null,
+  "mission_failure": "approach_or_report_timeout",
+  "first_observation": {
+    "id": 0,
+    "t": 5.017250000000386,
+    "image_file": "00000.jpg",
+    "image_sha256": "a5c5b768b44067408b3a0dfb23308f4cd2c95dab686e658a90b72b76ec588b9a",
+    "perception": {
+      "persons": [],
+      "elapsed_s": 0.0470301000168547,
+      "model": "torchvision SSDlite320 MobileNet V3 Large",
+      "weights_url": "https://download.pytorch.org/models/ssdlite320_mobilenet_v3_large_coco-a79551df.pth",
+      "weights_sha256": "a79551df90c79834bcd3bb3845ef9d966b5449a3a9b2833ae8404778ca5d65d2",
+      "person_threshold": 0.65,
+      "torso_roi": [
+        0.2,
+        0.18,
+        0.8,
+        0.6
+      ],
+      "color_fraction_threshold": 0.2,
+      "color_margin": 0.12,
+      "source": "RGB only; no simulator metadata"
+    }
+  },
+  "initial_heading_degrees": 90,
+  "ardupilot_commit": "38687117133582049734ebd39f8a7af6f487716a",
+  "controller_source_modified": false,
+  "flight_adapter_revision": "rebuild04",
+  "fixed_latency_s": 0.4,
+  "plan_tracker_used": false,
+  "mass_kg": 0.05,
+  "success_verified": false,
+  "profile": "blue",
+  "armed_at_s": 16.048499999985616,
+  "max_physical_altitude_m": 1.07132887840271,
+  "final_physical_altitude_m": 0.03189224377274513,
+  "stop_reason": "landed_and_disarmed",
+  "actual_rate_hz": 572,
+  "goal_altitude_m": 1.0,
+  "hover_scoring_band_m": [
+    0.75,
+    1.25
+  ],
+  "truth_navigation_enabled": false,
+  "sensor_model_calibrated": false,
+  "gains_searched": false,
+  "vla_used": true,
+  "chunk_execution_origin": "capture",
+  "note": "Requires independent physical-state scoring; reaching a scripted stage is not proof of task success."
+}

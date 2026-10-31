@@ -1,0 +1,212 @@
+{
+  "created_utc": "2026-10-28T18:40:39.880260+00:00",
+  "candidate": "train05_en",
+  "training": {
+    "initial_checkpoint": "v11_color/models/train04_en/final",
+    "initial_checkpoint_sha256": "3757185eac63e2bcd8b6d7b051d9e81fad74e605defd0d4792a1a47a584ce85d",
+    "steps": 8000,
+    "seed": 2026102907,
+    "micro_batch": 4,
+    "gradient_accumulation": 2,
+    "learning_rate": 2e-05,
+    "vlm_layer_learning_rate": 0.0,
+    "train_vlm_text_layers": [],
+    "vision_encoder_frozen": true,
+    "optimizer": "AdamW",
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "epsilon": 1e-08,
+    "weight_decay": 1e-10,
+    "gradient_clip_norm": 10,
+    "warmup_steps": 200,
+    "final_learning_rate_fraction": 0.025,
+    "action_chunk": 32,
+    "action_dt_s": 0.1,
+    "checkpoint_selection": "final step only",
+    "recovery_selection": "latest saved recovery by step only, never validation score",
+    "teacher_stop_deadband_m": 0.04,
+    "teacher_gain": 0.7,
+    "sampling": "Microbatch 0 alternates color quartets and four navigation rows. Quartets: 50% new views/50% retained quartets. Navigation rows: balanced colors, 70% original near-goal pools (equal randomized/retention domains), 30% visible new views. Microbatch 1 uses two opposite-velocity pairs except every fifth step, which retains takeoff, landing, turn and hover examples. Pair domains: 50% new views/25% original randomized/25% retained. Tasks cycle 2..6. Retained takeoff samples are 50% grounded. Color quartets share noise at t=1. Velocity pairs share noise/time within each pair, with t=1 on even steps and sampled time on odd steps.",
+    "prompt_variants": [
+      "original bilingual",
+      "Japanese only",
+      "English only"
+    ],
+    "prompt_probabilities": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "loss": "Flow matching on six normalized action channels, weights [8,8,1,1,1,1], divided by their sum; runtime units and normalization unchanged.",
+    "data_images": 6000,
+    "retention_images": 2408,
+    "output": "models/train05_en",
+    "data": "Existing 6408 images retained plus 2000 new training-only views; opposite-own-velocity pairs added without changing existing labels.",
+    "teacher_standoff_m": 1.0,
+    "scoring_standoff_m": 0.9,
+    "braking_coefficient": 0.8,
+    "braking_proposal_sha256": "ace22eeddfc94cacd470733550200b5d009201bd5507e7dea4869a4b7edf3774",
+    "source_dataset_audit_sha256": "f08539127e4badc5d6a8932cb06ab86f9840d0744650b2f36a68bd52700868c6",
+    "primitive_sampling": "40% of all examples are state pairs; 10% retained primitive examples; navigation is 50%.",
+    "frozen_backbone": "All vision-language parameters; train action expert and state/action projections only. Verify frozen parameter digest before and after training.",
+    "prompt_language": "English only",
+    "action_loss_weights": [
+      8.0,
+      8.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "image_domains": "Explicit per-image domains; new views are appended after the 6408 existing image IDs.",
+    "minimum_free_gib_before_training": 7.4,
+    "minimum_free_gib_during_training": 5.0
+  },
+  "data_generation": {
+    "seed": 2026102905,
+    "layouts_source": "protocol/plan.json:train_layouts",
+    "layouts": 20,
+    "pose_pairs_per_layout": 50,
+    "added_images": 2000,
+    "view_groups": {
+      "edge_or_rear_pairs_per_layout": 32,
+      "all_heading_pairs_per_layout": 18
+    },
+    "rear_edge": {
+      "x_m": [
+        -0.8,
+        0.4
+      ],
+      "y_m": [
+        -1.0,
+        1.0
+      ],
+      "height_m": [
+        0.9,
+        1.15
+      ],
+      "target_bearing_from_camera_degrees": [
+        25.0,
+        33.0
+      ],
+      "side": "alternating left/right",
+      "target_actor": "alternating geometry identities; both clothing assignments rendered"
+    },
+    "all_heading": {
+      "x_m": [
+        -0.6,
+        0.3
+      ],
+      "y_m": [
+        -0.6,
+        0.6
+      ],
+      "height_m": [
+        0.85,
+        1.2
+      ],
+      "yaw_radians": [
+        -3.141592653589793,
+        3.141592653589793
+      ]
+    },
+    "roll_pitch_radians": [
+      -0.02,
+      0.02
+    ],
+    "source_blend": "tmp/rescue_search/scenes/clear/scene.blend",
+    "source_blend_sha256": "93743dd2f808ceab731ca02445419440e96746a05f720bd01d981ea2a3d2e048",
+    "rendering": {
+      "engine": "Cycles CUDA",
+      "samples": 16,
+      "seed": 0,
+      "width": 320,
+      "height": 240,
+      "jpeg_quality": 70,
+      "density": 0.004
+    },
+    "existing_images": 6408,
+    "existing_samples": 73712,
+    "visibility_rule": "Existing visible() for navigation labels; never reject a rendered pose after seeing a model result",
+    "own_velocity_pairing": {
+      "tasks": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "armed_images_only": true,
+      "image_domains": [
+        "original randomized training views",
+        "retained v1.0 views",
+        "new training views"
+      ],
+      "pairs_per_image_per_task": 1,
+      "state_seed": 2026102906,
+      "radius_m_s": [
+        {
+          "probability": 0.2,
+          "value": 0.0
+        },
+        {
+          "probability": 0.5,
+          "uniform": [
+            0.02,
+            0.12
+          ]
+        },
+        {
+          "probability": 0.3,
+          "uniform": [
+            0.12,
+            0.35
+          ]
+        }
+      ],
+      "angle_radians": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "invariant": "Same image, prompt and other own-state values; horizontal velocity changes sign only",
+      "teacher": "Existing train04 teacher, including -0.8 times captured own velocity for tasks 2/4/5/6; landing unchanged"
+    },
+    "teacher_source_sha256": "31c5337f6332125ff26f55659b6826af2be86bcc1cbc2f994a9fd25efcf04ee0",
+    "base_dataset_audit_sha256": "f08539127e4badc5d6a8932cb06ab86f9840d0744650b2f36a68bd52700868c6",
+    "evaluation_images_or_states_as_training_inputs": 0
+  },
+  "original_protocol_sha256": "ed157f5a14536772d05a00cfe31c315f6b747d624da4b527e8ce5e64de5cd111",
+  "previous_training_plan_sha256": "7f1a70276a06579ebd2bfa62f50114ad151196c752d41b10c2c4a6c8a68ba2d9",
+  "previous_diagnosis_sha256": "1de044f9d49a5598b6729844632f3a248d63f3f625069235d8a7bcfc2366dd37",
+  "previous_result": {
+    "development": 8,
+    "development_n": 8,
+    "stress": 10,
+    "stress_n": 16,
+    "color_correct": 64,
+    "color_n": 64,
+    "selected": false
+  },
+  "round_protocol_sha256": "d022927d44c067bf2e7274152c06fba3114ffc146f0d02b225432eedd8630ebc",
+  "probe_protocol_sha256": "703d384f9712db24c09151ffbfcdb06605a7684295b4b5222592668a99226cf3",
+  "runtime_lock_sha256": "bcf00a186a70df2004f68e2f4eac13090a1191ac69cb0bd28af877952a250d69",
+  "reuse_final_round_reason": "Round 2 has never been exposed to policy inference or flight. Its layouts, seeds, counts and criteria remain unchanged.",
+  "final_step_only": true,
+  "fresh_final_policy_executions_before_training": 0,
+  "evaluation": "dev 8/8, exposed stress >=14/16 with >=7/8 per color and >=3/4 per layout, regression 5/5, known-failure 1/1, then fixed final-step selection and fresh matched 16 per model plus 64 color outputs.",
+  "frozen": [
+    "Runtime controller, gains, detector, mission manager, scorer, action units and English instructions"
+  ],
+  "hypotheses_not_proven": [
+    "Additional rear/edge and all-heading training images improve coverage.",
+    "Opposite-state pairs reduce appearance shortcuts and improve imitation of braking labels."
+  ],
+  "storage": {
+    "free_bytes": 6652235776,
+    "train03_move_approval_pending": true,
+    "preparation_only_until_training_space_requirement_met": true
+  },
+  "registration_script_sha256": "61437dd8d788ec53fc2edeaef7efd4cd30ba051ea69ffe91133d86ecb08c7614"
+}

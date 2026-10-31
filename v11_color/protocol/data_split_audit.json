@@ -1,0 +1,57 @@
+{
+  "separation": [
+    {
+      "split": "development_layouts",
+      "layout": "dev01",
+      "minimum_joint_distance_m": 0.3204776214550964,
+      "minimum_unordered_joint_distance_m": 0.25758222641713313,
+      "interpretation": "Euclidean distance in four-dimensional joint x/y positions; not distance to an individual person"
+    },
+    {
+      "split": "development_layouts",
+      "layout": "dev02",
+      "minimum_joint_distance_m": 0.4309177804605455,
+      "minimum_unordered_joint_distance_m": 0.33253242725094884,
+      "interpretation": "Euclidean distance in four-dimensional joint x/y positions; not distance to an individual person"
+    },
+    {
+      "split": "heldout_layouts",
+      "layout": "heldout01",
+      "minimum_joint_distance_m": 0.2849431477372183,
+      "minimum_unordered_joint_distance_m": 0.1398320746938309,
+      "interpretation": "Euclidean distance in four-dimensional joint x/y positions; not distance to an individual person"
+    },
+    {
+      "split": "heldout_layouts",
+      "layout": "heldout02",
+      "minimum_joint_distance_m": 0.41345427927736045,
+      "minimum_unordered_joint_distance_m": 0.41345427927736045,
+      "interpretation": "Euclidean distance in four-dimensional joint x/y positions; not distance to an individual person"
+    },
+    {
+      "split": "heldout_layouts",
+      "layout": "heldout03",
+      "minimum_joint_distance_m": 0.3612247355935618,
+      "minimum_unordered_joint_distance_m": 0.3363209699633086,
+      "interpretation": "Euclidean distance in four-dimensional joint x/y positions; not distance to an individual person"
+    },
+    {
+      "split": "heldout_layouts",
+      "layout": "heldout04",
+      "minimum_joint_distance_m": 0.67243179085963,
+      "minimum_unordered_joint_distance_m": 0.32908895306159225,
+      "interpretation": "Euclidean distance in four-dimensional joint x/y positions; not distance to an individual person"
+    }
+  ],
+  "training_image_counts": {
+    "both_centroids_in_fov": 1314,
+    "one_centroid_in_fov": 2218,
+    "no_centroid_in_fov": 126,
+    "low_or_ground": 342
+  },
+  "near_goal_visible_navigation_examples": 948,
+  "identical_pose_state_shirt_pairs": 2000,
+  "geometry_used_for_teacher_only": true,
+  "plan_sha256": "ed157f5a14536772d05a00cfe31c315f6b747d624da4b527e8ce5e64de5cd111",
+  "scope": "Held-out exact configurations within the same room and spatial range; not extrapolation to arbitrary layouts"
+}

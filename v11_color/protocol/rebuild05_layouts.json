@@ -1,0 +1,142 @@
+{
+  "created_utc": "2026-10-31T10:45:30.503383+00:00",
+  "layout_seed": 202610312000,
+  "heldout_layouts": [
+    {
+      "name": "heldout_r05_01",
+      "positions": [
+        [
+          3.4193606858446293,
+          1.0371637147631838,
+          0.0
+        ],
+        [
+          3.177878803783651,
+          -0.5337312734366806,
+          0.0
+        ]
+      ],
+      "blue_actor": 0
+    },
+    {
+      "name": "heldout_r05_02",
+      "positions": [
+        [
+          2.7177213292204327,
+          0.7199154533418158,
+          0.0
+        ],
+        [
+          2.9062992489642134,
+          -0.8771957065503967,
+          0.0
+        ]
+      ],
+      "blue_actor": 1
+    },
+    {
+      "name": "heldout_r05_03",
+      "positions": [
+        [
+          2.9973500679612446,
+          0.5321993375922518,
+          0.0
+        ],
+        [
+          3.1844590205364707,
+          -1.0530712460674387,
+          0.0
+        ]
+      ],
+      "blue_actor": 0
+    },
+    {
+      "name": "heldout_r05_04",
+      "positions": [
+        [
+          2.766489786432232,
+          0.6625901140741663,
+          0.0
+        ],
+        [
+          3.3929159837491873,
+          -0.6159116209137363,
+          0.0
+        ]
+      ],
+      "blue_actor": 1
+    }
+  ],
+  "layout_sampling": {
+    "x": [
+      2.65,
+      3.65
+    ],
+    "positive_y": [
+      0.52,
+      1.1
+    ],
+    "negative_y": [
+      -1.1,
+      -0.52
+    ],
+    "filtering": "None. Retain all four generated layouts.",
+    "shirt_assignment": "alternating actors"
+  },
+  "use": "Reserved rebuild05 evaluation only. Not used for training or development.",
+  "separation_report": [
+    {
+      "layout": "heldout_r05_01",
+      "nearest_any": {
+        "kind": "train",
+        "name": "train12",
+        "unordered_joint_distance_m": 0.2712996769250751
+      },
+      "nearest_training": {
+        "kind": "train",
+        "name": "train12",
+        "unordered_joint_distance_m": 0.2712996769250751
+      }
+    },
+    {
+      "layout": "heldout_r05_02",
+      "nearest_any": {
+        "kind": "previous_evaluation",
+        "name": "heldout_navfocus_04",
+        "unordered_joint_distance_m": 0.2011071074700415
+      },
+      "nearest_training": {
+        "kind": "train",
+        "name": "train17",
+        "unordered_joint_distance_m": 0.2538917394567771
+      }
+    },
+    {
+      "layout": "heldout_r05_03",
+      "nearest_any": {
+        "kind": "train",
+        "name": "train04",
+        "unordered_joint_distance_m": 0.13775745222643768
+      },
+      "nearest_training": {
+        "kind": "train",
+        "name": "train04",
+        "unordered_joint_distance_m": 0.13775745222643768
+      }
+    },
+    {
+      "layout": "heldout_r05_04",
+      "nearest_any": {
+        "kind": "previous_evaluation",
+        "name": "heldout_rebuild_02",
+        "unordered_joint_distance_m": 0.15626465692935437
+      },
+      "nearest_training": {
+        "kind": "train",
+        "name": "train05",
+        "unordered_joint_distance_m": 0.3128724211340802
+      }
+    }
+  ],
+  "script_sha256": "90d25d9990b61131d5925c1eecea4c4a30e587cefd26facfd3c211cc835feb39"
+}

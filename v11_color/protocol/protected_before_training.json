@@ -1,0 +1,17 @@
+﻿[
+    {
+        "sha256":  "d119adc57fa0c4681f4413b621d6321d27b000c6a3550c5b075bbbebc3d9a467",
+        "name":  "checkpoint_sha256",
+        "unchanged":  true
+    },
+    {
+        "sha256":  "9669ae47300089f327ac347f9e07efcd6c9e02c05cb7ef91212f779af404ed51",
+        "name":  "video_sha256",
+        "unchanged":  true
+    },
+    {
+        "sha256":  "7bf86e3ab13bc47b0a0f994698bc0d0c1d920648facbacf7ba5f9e16d4c80119",
+        "name":  "old_pdf_sha256",
+        "unchanged":  true
+    }
+]

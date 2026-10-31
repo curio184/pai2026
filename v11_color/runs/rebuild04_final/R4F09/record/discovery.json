@@ -1,0 +1,79 @@
+{
+  "t": 47.71725000013683,
+  "upper_instruction": "\u9752\u3044\u670d\u306e\u4eba\u3092\u63a2\u3057\u3066",
+  "evidence": [
+    {
+      "id": 103,
+      "t": 46.514500000131086,
+      "image_file": "00103.jpg",
+      "image_sha256": "aa97bfcdeac3cdeb1c9ad3d39385e2523084a0197d86411b278d8089d64953c3",
+      "person": {
+        "bbox": [
+          89.61212921142578,
+          72.12565612792969,
+          128.3629150390625,
+          187.85421752929688
+        ],
+        "confidence": 0.9412204027175903,
+        "torso_roi": [
+          97,
+          92,
+          120,
+          141
+        ],
+        "clothing_color": "blue",
+        "blue_fraction": 0.9494232475598935,
+        "red_fraction": 0.0
+      }
+    },
+    {
+      "id": 104,
+      "t": 46.915500000133,
+      "image_file": "00104.jpg",
+      "image_sha256": "87c72d6e4f65cfebc6c5da40eb5fc4389187198fbf8759841ac9650f39ee8fdf",
+      "person": {
+        "bbox": [
+          90.7265625,
+          70.98949432373047,
+          128.1608428955078,
+          188.87892150878906
+        ],
+        "confidence": 0.9334368109703064,
+        "torso_roi": [
+          98,
+          92,
+          120,
+          141
+        ],
+        "clothing_color": "blue",
+        "blue_fraction": 0.950834879406308,
+        "red_fraction": 0.0
+      }
+    },
+    {
+      "id": 105,
+      "t": 47.316250000134914,
+      "image_file": "00105.jpg",
+      "image_sha256": "6829d8f2e56cd2a895bf49a8435e7c91f14b585f27bab2ae552f576f02dfa00e",
+      "person": {
+        "bbox": [
+          90.83902740478516,
+          73.20331573486328,
+          129.1930694580078,
+          187.10755920410156
+        ],
+        "confidence": 0.7797541618347168,
+        "torso_roi": [
+          98,
+          93,
+          121,
+          141
+        ],
+        "clothing_color": "blue",
+        "blue_fraction": 0.9456521739130435,
+        "red_fraction": 0.0
+      }
+    }
+  ],
+  "scan_count": 1
+}

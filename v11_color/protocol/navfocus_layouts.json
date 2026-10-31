@@ -1,0 +1,87 @@
+{
+  "created_utc": "2026-10-30T11:15:07.550454+00:00",
+  "layout_seed": 2026103019,
+  "layout_sampling": {
+    "x": [
+      2.65,
+      3.65
+    ],
+    "positive_y": [
+      0.52,
+      1.1
+    ],
+    "negative_y": [
+      -1.1,
+      -0.52
+    ],
+    "shirt_assignment": "alternating actors; both instructions and two repetitions per layout",
+    "filtering": "none; all four generated layouts retained"
+  },
+  "heldout_layouts": [
+    {
+      "name": "heldout_navfocus_01",
+      "positions": [
+        [
+          3.1511960045455765,
+          0.8692403792515189,
+          0.0
+        ],
+        [
+          2.703082054498036,
+          -0.6847489520839373,
+          0.0
+        ]
+      ],
+      "blue_actor": 0
+    },
+    {
+      "name": "heldout_navfocus_02",
+      "positions": [
+        [
+          3.056009806879059,
+          0.7422861735912141,
+          0.0
+        ],
+        [
+          3.0173155386126598,
+          -0.5474486710798082,
+          0.0
+        ]
+      ],
+      "blue_actor": 1
+    },
+    {
+      "name": "heldout_navfocus_03",
+      "positions": [
+        [
+          3.4469927960868563,
+          0.5455641475572444,
+          0.0
+        ],
+        [
+          3.4070137573520975,
+          -0.9675897010639948,
+          0.0
+        ]
+      ],
+      "blue_actor": 0
+    },
+    {
+      "name": "heldout_navfocus_04",
+      "positions": [
+        [
+          2.659311966563598,
+          0.7913829651222477,
+          0.0
+        ],
+        [
+          2.773895825244166,
+          -0.7572201124651305,
+          0.0
+        ]
+      ],
+      "blue_actor": 1
+    }
+  ],
+  "reason": "The first four original-layout cases informed the role revision. Use fresh unfiltered layouts from the same distribution; no new training or physical threshold change."
+}

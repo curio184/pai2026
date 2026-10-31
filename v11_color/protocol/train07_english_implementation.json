@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-10-29T13:28:43.023075+00:00",
+  "plan_sha256": "3e8dbbbb347b057bf03d9cc71067ccd969e2549ddd836eb4252bf08f3fe26f62",
+  "trainer_sha256": "3470fe8d5a0c5aa9af5681a4b791c22bd5f09168bd8fa65f216f0b72f449ccd9",
+  "dataset_audit_sha256": "1b5899d636effaead43dfcc01debde01cc9c68b0dfd1ac2d7d126334f4c03a4c",
+  "runtime_lock_sha256": "bcf00a186a70df2004f68e2f4eac13090a1191ac69cb0bd28af877952a250d69",
+  "scripts": {
+    "train07_en.py": "3470fe8d5a0c5aa9af5681a4b791c22bd5f09168bd8fa65f216f0b72f449ccd9",
+    "build_dataset07_en.py": "9e2adc447110ebc3acc4c0dce84952de9cbfd0decf0bd72cffed4e8c397cecdb",
+    "register_train07_en.py": "7bee685ea48f2de52f276977e1e65452e31fb02226c335813cd53362c9dafa49",
+    "teacher_flight07.py": "8f23b30a1954f33ffcd7dcf6042858691c96da47197d4039082c23b18f8df349",
+    "preflight_train07_loss.py": "8d8b11569934aa45b6860cd1338c37c338b45dbb7696250309891154c42fba1e",
+    "pipeline_train07_en.py": "75d11142678c1111291c1afb627056832e7115b8812cb09fced41d20ff82db71",
+    "run_round02_english.py": "0ea791b4b6c3d6184d1c26a4eb31fc2c276b8a6fb4c0c825007f7fb44e3a8fc2",
+    "run_suite_english.py": "87868d9e0bb1e68bba80e5fdcc5a4884c6ae4ec38d7e2f48ab2587256965d680",
+    "verify_saved_training.py": "4dc9e453b68b6e893ce6c72b510a59578d007fe2218bf576aa668cb5f17fe263",
+    "verify_suite_records.py": "d9fbc7294c39af77d45c8505d1ca3b74916e5ff2f487d083c91a32bd9cc82250",
+    "phase_diagnostics.py": "122582511b285e48aba28f971f37eb8eb9a1cebb78733456ad83e868312794eb",
+    "failure_details.py": "30e4de8e7bef7a488371ddcffd2716b3fd5e1ad6d3c8094dd1f0afd94c0bbcb2",
+    "summarize_round02_english.py": "222354a89a2be7c5296108b6ea3f6d6e21b8bd8f267e3edba4db4f4d7563147d",
+    "trial_index_round02_english.py": "05a6b5abbd0046eb716876815e84c0160049e1337ff35ff9f007d6bcf2f26354",
+    "verify_records_round02_english.py": "052c93d29f45ab900e3adef1c3fb02c75e900b995923d34c8805f74a2b78faf1",
+    "render_probe_round02_english.py": "1a2893f3fdf16e4f61e383740458201a864db6ee67c6d9622f08953a4c89ef57",
+    "run_probe_round02_english.py": "40b763ce34807aa28957cb52b1206213d23aa4c5113b3800f428ac398be93f7c",
+    "plot_probe_round02_english.py": "cea65af550239432bd6e1f5f2349bb5ed32062e6fd53fd74d99e48565ece8e42",
+    "verify_probe_consistency.py": "97283a9dfe164dd2a03aaadd3488f790500411a4c7d515dc142eab41d6121348",
+    "verify_runtime_instructions.py": "54d90a1a7de05a0bd11f973717a74f7cf1ede0ba85b953213b378f5bee207ecc"
+  },
+  "training_started": false,
+  "final_evaluation_started": false
+}

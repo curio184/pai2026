@@ -1,0 +1,34 @@
+--- original/plant_search.cpp
++++ plant_search_jitter.cpp
+@@ -3,6 +3,11 @@
+ #include <algorithm>
+ #include <exception>
+ #include <cmath>
++#include <cstdlib>
++static double initial(const char* key, double fallback) {
++    const char* v = std::getenv(key); return v ? std::stod(v) : fallback;
++}
++
+ 
+ extern "C" {
+ void* sf_create(const char* model, float mass) {
+@@ -10,7 +15,7 @@
+     sils::Plant::Config c;
+     c.mass = mass;
+     c.noise.enable = true;
+-    c.noise.seed = 20261023;
++    c.noise.seed = static_cast<unsigned>(initial("V11_NOISE_SEED", 20261023));
+     c.noise.white_dt = 1.0f / 600.0f;
+     c.batt_model_enable = true;
+     // Engineering power allowance, not a measured camera assembly.
+@@ -18,7 +23,9 @@
+     if (!p->init(model, c)) { delete p; return nullptr; }
+     p->setStartHeight(0.033f);
+     // Frozen initial pose, before time integration. Look away from people.
+-    const double heading = 1.5707963267948966;
++    const double heading = (90.0 + initial("V11_HEADING_OFFSET_DEG", 0.0)) * 3.14159265358979323846 / 180.0;
++    p->data()->qpos[0] += initial("V11_START_X_OFFSET", 0.0);
++    p->data()->qpos[1] += initial("V11_START_Y_OFFSET", 0.0);
+     p->data()->qpos[3] = std::cos(heading/2);
+     p->data()->qpos[4] = 0;
+     p->data()->qpos[5] = 0;

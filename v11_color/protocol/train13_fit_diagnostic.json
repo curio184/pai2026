@@ -1,0 +1,694 @@
+{
+  "created_utc": "2026-10-30T06:10:38.390059+00:00",
+  "candidate": "train13_en",
+  "checkpoint_sha256": "c81ed6c23b6d891e45cee66c6155cd049fb3bd2cd0260983b39ddfcd90e933c0",
+  "dataset_audit_sha256": "7f3328276afcd68151f8036b0575d7f1be3897f87e80a872d9e7d946bf10ff4e",
+  "seed": 2026103014,
+  "selected": [
+    {
+      "sample_index": 6058,
+      "image_index": 735,
+      "task": 0,
+      "stratum": "near_goal"
+    },
+    {
+      "sample_index": 36976,
+      "image_index": 4481,
+      "task": 0,
+      "stratum": "near_goal"
+    },
+    {
+      "sample_index": 38227,
+      "image_index": 4627,
+      "task": 0,
+      "stratum": "near_goal"
+    },
+    {
+      "sample_index": 58669,
+      "image_index": 1775,
+      "task": 0,
+      "stratum": "near_goal"
+    },
+    {
+      "sample_index": 62875,
+      "image_index": 2923,
+      "task": 0,
+      "stratum": "near_goal"
+    },
+    {
+      "sample_index": 70412,
+      "image_index": 4858,
+      "task": 0,
+      "stratum": "near_goal"
+    },
+    {
+      "sample_index": 70622,
+      "image_index": 4926,
+      "task": 0,
+      "stratum": "near_goal"
+    },
+    {
+      "sample_index": 71646,
+      "image_index": 5444,
+      "task": 0,
+      "stratum": "near_goal"
+    },
+    {
+      "sample_index": 54472,
+      "image_index": 642,
+      "task": 0,
+      "stratum": "far_goal"
+    },
+    {
+      "sample_index": 56888,
+      "image_index": 1291,
+      "task": 0,
+      "stratum": "far_goal"
+    },
+    {
+      "sample_index": 59522,
+      "image_index": 2025,
+      "task": 0,
+      "stratum": "far_goal"
+    },
+    {
+      "sample_index": 61846,
+      "image_index": 2635,
+      "task": 0,
+      "stratum": "far_goal"
+    },
+    {
+      "sample_index": 62103,
+      "image_index": 2692,
+      "task": 0,
+      "stratum": "far_goal"
+    },
+    {
+      "sample_index": 68154,
+      "image_index": 4321,
+      "task": 0,
+      "stratum": "far_goal"
+    },
+    {
+      "sample_index": 69633,
+      "image_index": 4637,
+      "task": 0,
+      "stratum": "far_goal"
+    },
+    {
+      "sample_index": 72990,
+      "image_index": 6103,
+      "task": 0,
+      "stratum": "far_goal"
+    },
+    {
+      "sample_index": 11302,
+      "image_index": 1373,
+      "task": 1,
+      "stratum": "near_goal"
+    },
+    {
+      "sample_index": 54854,
+      "image_index": 750,
+      "task": 1,
+      "stratum": "near_goal"
+    },
+    {
+      "sample_index": 56423,
+      "image_index": 1161,
+      "task": 1,
+      "stratum": "near_goal"
+    },
+    {
+      "sample_index": 57674,
+      "image_index": 1506,
+      "task": 1,
+      "stratum": "near_goal"
+    },
+    {
+      "sample_index": 60103,
+      "image_index": 2158,
+      "task": 1,
+      "stratum": "near_goal"
+    },
+    {
+      "sample_index": 67898,
+      "image_index": 4272,
+      "task": 1,
+      "stratum": "near_goal"
+    },
+    {
+      "sample_index": 68227,
+      "image_index": 4337,
+      "task": 1,
+      "stratum": "near_goal"
+    },
+    {
+      "sample_index": 70367,
+      "image_index": 4843,
+      "task": 1,
+      "stratum": "near_goal"
+    },
+    {
+      "sample_index": 52425,
+      "image_index": 72,
+      "task": 1,
+      "stratum": "far_goal"
+    },
+    {
+      "sample_index": 62391,
+      "image_index": 2808,
+      "task": 1,
+      "stratum": "far_goal"
+    },
+    {
+      "sample_index": 66670,
+      "image_index": 4011,
+      "task": 1,
+      "stratum": "far_goal"
+    },
+    {
+      "sample_index": 68856,
+      "image_index": 4472,
+      "task": 1,
+      "stratum": "far_goal"
+    },
+    {
+      "sample_index": 68892,
+      "image_index": 4480,
+      "task": 1,
+      "stratum": "far_goal"
+    },
+    {
+      "sample_index": 69395,
+      "image_index": 4587,
+      "task": 1,
+      "stratum": "far_goal"
+    },
+    {
+      "sample_index": 72173,
+      "image_index": 5759,
+      "task": 1,
+      "stratum": "far_goal"
+    },
+    {
+      "sample_index": 74819,
+      "image_index": 7373,
+      "task": 1,
+      "stratum": "far_goal"
+    },
+    {
+      "sample_index": 18051,
+      "image_index": 2193,
+      "task": 2,
+      "stratum": "unarmed"
+    },
+    {
+      "sample_index": 32679,
+      "image_index": 3977,
+      "task": 2,
+      "stratum": "unarmed"
+    },
+    {
+      "sample_index": 45628,
+      "image_index": 5580,
+      "task": 2,
+      "stratum": "unarmed"
+    },
+    {
+      "sample_index": 45825,
+      "image_index": 5607,
+      "task": 2,
+      "stratum": "unarmed"
+    },
+    {
+      "sample_index": 46649,
+      "image_index": 5712,
+      "task": 2,
+      "stratum": "unarmed"
+    },
+    {
+      "sample_index": 47702,
+      "image_index": 5847,
+      "task": 2,
+      "stratum": "unarmed"
+    },
+    {
+      "sample_index": 48941,
+      "image_index": 6006,
+      "task": 2,
+      "stratum": "unarmed"
+    },
+    {
+      "sample_index": 49585,
+      "image_index": 6089,
+      "task": 2,
+      "stratum": "unarmed"
+    },
+    {
+      "sample_index": 15677,
+      "image_index": 1903,
+      "task": 2,
+      "stratum": "armed"
+    },
+    {
+      "sample_index": 85820,
+      "image_index": 1019,
+      "task": 2,
+      "stratum": "armed"
+    },
+    {
+      "sample_index": 132610,
+      "image_index": 5966,
+      "task": 2,
+      "stratum": "armed"
+    },
+    {
+      "sample_index": 142451,
+      "image_index": 7048,
+      "task": 2,
+      "stratum": "armed"
+    },
+    {
+      "sample_index": 165371,
+      "image_index": 956,
+      "task": 2,
+      "stratum": "armed"
+    },
+    {
+      "sample_index": 166330,
+      "image_index": 1058,
+      "task": 2,
+      "stratum": "armed"
+    },
+    {
+      "sample_index": 176100,
+      "image_index": 2065,
+      "task": 2,
+      "stratum": "armed"
+    },
+    {
+      "sample_index": 191220,
+      "image_index": 3625,
+      "task": 2,
+      "stratum": "armed"
+    },
+    {
+      "sample_index": 79822,
+      "image_index": 401,
+      "task": 3,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 147383,
+      "image_index": 7541,
+      "task": 3,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 149802,
+      "image_index": 7783,
+      "task": 3,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 162503,
+      "image_index": 663,
+      "task": 3,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 186102,
+      "image_index": 3095,
+      "task": 3,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 194522,
+      "image_index": 3961,
+      "task": 3,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 210303,
+      "image_index": 5633,
+      "task": 3,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 217612,
+      "image_index": 6552,
+      "task": 3,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 38417,
+      "image_index": 4649,
+      "task": 3,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 76222,
+      "image_index": 29,
+      "task": 3,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 106972,
+      "image_index": 3200,
+      "task": 3,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 112902,
+      "image_index": 3811,
+      "task": 3,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 130723,
+      "image_index": 5705,
+      "task": 3,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 148963,
+      "image_index": 7699,
+      "task": 3,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 153323,
+      "image_index": 8135,
+      "task": 3,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 177463,
+      "image_index": 2207,
+      "task": 3,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 49438,
+      "image_index": 6068,
+      "task": 4,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 86484,
+      "image_index": 1085,
+      "task": 4,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 90784,
+      "image_index": 1527,
+      "task": 4,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 91805,
+      "image_index": 1635,
+      "task": 4,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 93525,
+      "image_index": 1813,
+      "task": 4,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 106745,
+      "image_index": 3171,
+      "task": 4,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 109884,
+      "image_index": 3497,
+      "task": 4,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 150304,
+      "image_index": 7833,
+      "task": 4,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 37356,
+      "image_index": 4525,
+      "task": 4,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 43025,
+      "image_index": 5221,
+      "task": 4,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 93074,
+      "image_index": 1762,
+      "task": 4,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 105644,
+      "image_index": 3061,
+      "task": 4,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 121314,
+      "image_index": 4658,
+      "task": 4,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 140644,
+      "image_index": 6867,
+      "task": 4,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 147094,
+      "image_index": 7512,
+      "task": 4,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 150294,
+      "image_index": 7832,
+      "task": 4,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 8282,
+      "image_index": 1006,
+      "task": 5,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 29733,
+      "image_index": 3620,
+      "task": 5,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 46164,
+      "image_index": 5650,
+      "task": 5,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 114036,
+      "image_index": 3924,
+      "task": 5,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 128326,
+      "image_index": 5399,
+      "task": 5,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 156117,
+      "image_index": 6,
+      "task": 5,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 181127,
+      "image_index": 2581,
+      "task": 5,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 220376,
+      "image_index": 6828,
+      "task": 5,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 11018,
+      "image_index": 1337,
+      "task": 5,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 26329,
+      "image_index": 3201,
+      "task": 5,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 34801,
+      "image_index": 4227,
+      "task": 5,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 37026,
+      "image_index": 4486,
+      "task": 5,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 95496,
+      "image_index": 2016,
+      "task": 5,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 120056,
+      "image_index": 4532,
+      "task": 5,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 144056,
+      "image_index": 7208,
+      "task": 5,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 152267,
+      "image_index": 8029,
+      "task": 5,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 86238,
+      "image_index": 1060,
+      "task": 6,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 108699,
+      "image_index": 3372,
+      "task": 6,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 111009,
+      "image_index": 3615,
+      "task": 6,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 124178,
+      "image_index": 4944,
+      "task": 6,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 166628,
+      "image_index": 1087,
+      "task": 6,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 176499,
+      "image_index": 2104,
+      "task": 6,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 180338,
+      "image_index": 2500,
+      "task": 6,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 196938,
+      "image_index": 4208,
+      "task": 6,
+      "stratum": "low_estimated_speed"
+    },
+    {
+      "sample_index": 84878,
+      "image_index": 918,
+      "task": 6,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 89888,
+      "image_index": 1437,
+      "task": 6,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 111849,
+      "image_index": 3699,
+      "task": 6,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 125748,
+      "image_index": 5101,
+      "task": 6,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 129609,
+      "image_index": 5559,
+      "task": 6,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 142768,
+      "image_index": 7079,
+      "task": 6,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 144209,
+      "image_index": 7223,
+      "task": 6,
+      "stratum": "higher_estimated_speed"
+    },
+    {
+      "sample_index": 198339,
+      "image_index": 4348,
+      "task": 6,
+      "stratum": "higher_estimated_speed"
+    }
+  ],
+  "prompt_variant": 2,
+  "runtime_noise_seed": 20261024,
+  "inference_steps": [
+    10,
+    1
+  ],
+  "inference_scope": "Ten steps reproduces deployed inference. One step is an offline diagnostic only; no inference-step choice will be made for runtime and no flight settings are changed.",
+  "selection": "Eight samples from each of two predefined strata per task, sampled without replacement from audited training data before policy inference. No evaluation image/state is used.",
+  "metrics": "Per-axis absolute error against the stored teacher chunk in physical units, first10 and full32 means; first10 horizontal vector RMSE; all112 outputs retained for both step counts.",
+  "limitations": "Training-set fit diagnostic, not held-out performance, not a flight result, and not a unique causal explanation. Unobserved runtime states can still fail.",
+  "runner_sha256": "fdb2fc1e30e7236eb55918d984e814fc43a487694297186f663cc7039475c6f5",
+  "registration_script_sha256": "f6e0869f45631ea4f99165bc2e0f1a1de74c21c69f666e4ab4e57123776ac328",
+  "resource_rule": "Run after the current flight pipeline is terminal; Windows GPU only. No optimization or model writes."
+}

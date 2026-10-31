@@ -1,0 +1,87 @@
+{
+  "success": true,
+  "profile": "blue",
+  "scoring_uses_truth_after_flight": true,
+  "learned_policy_provenance": true,
+  "checkpoints": [
+    "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26"
+  ],
+  "takeoff": true,
+  "policy_requests": {
+    "takeoff": false,
+    "land": false
+  },
+  "grounded_disarmed_motors_off": true,
+  "goal_holds": {
+    "blue": {
+      "goal_scene_xy_m": [
+        2.3410745738240735,
+        0.8084203589462445
+      ],
+      "minimum_goal_distance_m": 0.10719992435138376,
+      "physical_hold": {
+        "duration_s": 3.9695000000189538,
+        "end_s": 51.67500000015573
+      }
+    },
+    "red": {
+      "goal_scene_xy_m": [
+        2.2455626580655523,
+        -0.6848188536753865
+      ],
+      "minimum_goal_distance_m": 1.439040706017241,
+      "physical_hold": {
+        "duration_s": 0.0,
+        "end_s": null
+      }
+    }
+  },
+  "rotations": {
+    "right": {
+      "completed": false
+    },
+    "left": {
+      "completed": false
+    }
+  },
+  "minimum_person_clearance_m": 1.0013646888496315,
+  "explicit_hover_instruction_hold": {
+    "duration_s": 5.232500000024984,
+    "end_s": 35.07550000007647
+  },
+  "watchdog_landing": false,
+  "maximum_height_m": 1.1011817455291748,
+  "observation_age_s": {
+    "mean": 0.29888289408396734,
+    "p95": 0.3892500000018586,
+    "max": 0.39425000000071897
+  },
+  "limits": {
+    "goal_tolerance_m": 0.25,
+    "horizontal_speed_m_s": 0.08,
+    "hold_s": 3,
+    "altitude_m": [
+      0.8,
+      1.25
+    ],
+    "minimum_person_clearance_m": 0.45,
+    "rotation_tolerance_deg": 10
+  },
+  "note": "Simulator task evidence only; real hardware feasibility is a separate required gate.",
+  "original_provenance_contract_success": false,
+  "primitive_requests": {
+    "takeoff": true,
+    "land": true
+  },
+  "vla_approach_completion_fresh": true,
+  "vla_continuous_actions_preserved": true,
+  "fixed_latency": {
+    "ok": true,
+    "deliveries": 258,
+    "min_age_s": 0.20025000000024473,
+    "max_age_s": 0.20699999999951757,
+    "median_age_s": 0.20050000000095736
+  },
+  "scoring_contract": "rebuild04: original physical thresholds unchanged; VLA chunk step executed unchanged with fixed 0.2 s simulated latency.",
+  "original_contract_record": "physical_score_original_contract.json"
+}

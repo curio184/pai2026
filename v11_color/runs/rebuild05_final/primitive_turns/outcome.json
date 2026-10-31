@@ -1,0 +1,19 @@
+{
+  "id": "primitive_turns",
+  "model": "v1.1",
+  "case": {
+    "id": "primitive_turns",
+    "kind": "primitive",
+    "scene": "clear",
+    "profile": "turns",
+    "model": "v1.1",
+    "group": "video_regression"
+  },
+  "flight_started": true,
+  "success": true,
+  "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\primitive_turns\\record",
+  "runner_exit": 0,
+  "checks": null,
+  "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+  "wall_s": 242.40600000001723
+}

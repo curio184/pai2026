@@ -1,0 +1,90 @@
+{
+  "created_utc": "2026-10-28T16:47:22.908797+00:00",
+  "candidate": "train04_en",
+  "training": {
+    "initial_checkpoint": "v11_color/models/train03/final",
+    "initial_checkpoint_sha256": "22f07e7b5b72af541cca8bdb2e2b55075d3e0d9e680730b012341c6f7552c4b8",
+    "steps": 6000,
+    "seed": 2026102904,
+    "micro_batch": 4,
+    "gradient_accumulation": 2,
+    "learning_rate": 2e-05,
+    "vlm_layer_learning_rate": 0.0,
+    "train_vlm_text_layers": [],
+    "vision_encoder_frozen": true,
+    "optimizer": "AdamW",
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "epsilon": 1e-08,
+    "weight_decay": 1e-10,
+    "gradient_clip_norm": 10,
+    "warmup_steps": 200,
+    "final_learning_rate_fraction": 0.025,
+    "action_chunk": 32,
+    "action_dt_s": 0.1,
+    "checkpoint_selection": "final step only",
+    "recovery_selection": "latest saved recovery by step only, never validation score",
+    "teacher_stop_deadband_m": 0.04,
+    "teacher_gain": 0.7,
+    "sampling": "Alternate a counterfactual quartet and four near-goal navigation samples in microbatch 0; microbatch 1 has two navigation samples (80% near-goal) and two retained primitives. Every independent navigation sample chooses new/retained domain with equal probability, balanced blue/red. Approximately 45% near-goal, 25% counterfactual, 5% other navigation, 25% primitives.",
+    "prompt_variants": [
+      "original bilingual",
+      "Japanese only",
+      "English only"
+    ],
+    "prompt_probabilities": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "loss": "Original flow matching; shared noise across paired counterfactuals; no oracle features in model batch",
+    "data_images": 4000,
+    "retention_images": 2408,
+    "output": "models/train04_en",
+    "data": "Same 6408 images and 73712 states; captured-state braking labels from dataset04 recipe. Only English prompt variant is sampled.",
+    "teacher_standoff_m": 1.0,
+    "scoring_standoff_m": 0.9,
+    "braking_coefficient": 0.8,
+    "braking_proposal_sha256": "ace22eeddfc94cacd470733550200b5d009201bd5507e7dea4869a4b7edf3774",
+    "source_dataset_audit_sha256": "5353f606b59e18e563c7e440cb8bedc6213deb28a5baf8e3083741cf004eee62",
+    "primitive_sampling": "Equal probability of original and randomized training-image domains; balanced tasks 2 through 6. Navigation/counterfactual sampling unchanged.",
+    "frozen_backbone": "All vision-language parameters; train action expert and state/action projections only. Verify frozen parameter digest before and after training.",
+    "prompt_language": "English only"
+  },
+  "original_protocol_sha256": "ed157f5a14536772d05a00cfe31c315f6b747d624da4b527e8ce5e64de5cd111",
+  "previous_training_plan_sha256": "1446102a46967dae213218898a5078ae16f39cbfaef2962d33521f2d7750bcfb",
+  "round_protocol_sha256": "d022927d44c067bf2e7274152c06fba3114ffc146f0d02b225432eedd8630ebc",
+  "probe_protocol_sha256": "703d384f9712db24c09151ffbfcdb06605a7684295b4b5222592668a99226cf3",
+  "previous_attempt": {
+    "candidate": "train03",
+    "heldout_successes": 6,
+    "heldout_n": 16,
+    "baseline_successes": 2,
+    "baseline_n": 16,
+    "bilingual_static_correct": 64,
+    "bilingual_static_n": 64,
+    "whole_quartets": 16,
+    "known_failure_replay": true,
+    "all_records_verification_sha256": "4a1fd2c6e05e97710229be2dd03448cc8ee67ad3da4d67b6af25b217f4ce0878",
+    "phase_diagnostic_sha256": "3918cf4ec82edd604e12da55d367ebde3f6bfa8fc7ede38be2ff10a54dce62a1"
+  },
+  "diagnosis": "Color interventions pass, but full-mission stability fails under jitter/noise. Teacher horizontal requests during hover/turn are always zero. State-dependent braking is a hypothesis to test, not a proven unique cause.",
+  "teacher_change": "For armed tasks 2,4,5,6: constant horizontal request -0.8 times captured estimated velocity across each chunk, norm limited to 0.2 m/s. Navigation, landing, yaw, vertical and request labels are unchanged.",
+  "frozen": [
+    "Runtime code, controller gains, detector, success criteria, all original development and held-out layouts/seeds, static-probe conditions and thresholds"
+  ],
+  "evaluation": "Final-step weights only. Original development 8/8, exposed round-1 stress >=14/16 with >=7/8 per color and >=3/4 per layout, original rescue regression 5/5, known T3 replay 1/1. No round-2 policy inference or flight until a checkpoint is fixed.",
+  "fresh_final_conditions_policy_executions_before_training": 0,
+  "weights_selection": "Exactly 6000 optimizer steps from completed train03 final; no intermediate checkpoint selection",
+  "storage": {
+    "free_bytes": 11060203520,
+    "stop_free_gb": 5,
+    "previous_models_archived_with_user_approval": true
+  },
+  "supersedes_unstarted_training_plan_sha256": "8c591a5b8c30c69c957a709f7eb3df21f602bf1d8943a1725805013f228e777f",
+  "user_amendment": "English-only model instructions. No Japanese-only performance claim is required.",
+  "additional_start_gate": "English transition diagnostic of train03 must meet 60/64 directions and 14/16 whole quartets before this frozen-backbone training recipe is used.",
+  "runtime_exception": "Prompt text only, with byte-diff and AST equivalence after normalizing the seven instruction constants; all other frozen runtime components unchanged."
+}

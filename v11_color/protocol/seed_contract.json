@@ -1,0 +1,8 @@
+{
+  "phase": "Recorded before all v1.1 development and held-out flights",
+  "heldout_initial_pose_and_native_plant_noise": "Per-case seed and offsets from plan.json; identical for v1.0 and v1.1 within each matched case",
+  "optical_flow_and_range_sensor_noise": 20261023,
+  "policy_initialization_and_fixed_flow_noise": 20261024,
+  "unchanged_original_runtime": true,
+  "limitations": "The mission's optical-flow/range RNG is fixed across cases; only native plant noise and initial pose vary per held-out case. Wall-clock inference/render latency is recorded but is not controlled to be identical. No claim of bit-identical full simulator trajectories across machines. ArduPilot parameters and binary remain unchanged."
+}

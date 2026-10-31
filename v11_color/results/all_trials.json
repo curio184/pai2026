@@ -1,0 +1,1994 @@
+{
+  "plan_sha256": "ed157f5a14536772d05a00cfe31c315f6b747d624da4b527e8ce5e64de5cd111",
+  "completion_addendum_sha256": "83e2481938b24963ed334c8d349fec359f0f9f753718e040dc2cedf62415adf4",
+  "all_executed_cases": [
+    {
+      "suite": "dev_train01",
+      "case": {
+        "id": "dev01_blue",
+        "kind": "search",
+        "scene": "dev01",
+        "color": "blue",
+        "model": "v1.1"
+      },
+      "record": "runs/dev_train01/dev01_blue_v1.1",
+      "success": false,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 0.9422499999777187,
+      "min_goal_distance_m": 0.1311355609707323,
+      "other_min_goal_distance_m": 1.032460341118074,
+      "min_person_clearance_m": 0.6063267262702593,
+      "score_path": "runs/dev_train01/dev01_blue_v1.1/record/search_score.json",
+      "score_sha256": "9c1ff2e23c9a01fa4c67121f37a434a29286bfcd87fd8ccff6e6d3edeb36f2a2",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "dev_train01",
+      "case": {
+        "id": "dev01_red",
+        "kind": "search",
+        "scene": "dev01",
+        "color": "red",
+        "model": "v1.1"
+      },
+      "record": "runs/dev_train01/dev01_red_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 6.134749999854932,
+      "min_goal_distance_m": 0.18041858804873925,
+      "other_min_goal_distance_m": 1.4045338360937414,
+      "min_person_clearance_m": 0.7805193255828715,
+      "score_path": "runs/dev_train01/dev01_red_v1.1/record/search_score.json",
+      "score_sha256": "cf40c739132bd2e71d4eafc904027413e3f2e8177cf468a16efe83d44b1e6a00",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "dev_train01",
+      "case": {
+        "id": "dev02_blue",
+        "kind": "search",
+        "scene": "dev02",
+        "color": "blue",
+        "model": "v1.1"
+      },
+      "record": "runs/dev_train01/dev02_blue_v1.1",
+      "success": false,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 3.348000000015986,
+      "min_goal_distance_m": 0.005040340806709778,
+      "other_min_goal_distance_m": 1.1675497568590119,
+      "min_person_clearance_m": 0.42067009292065577,
+      "score_path": "runs/dev_train01/dev02_blue_v1.1/record/search_score.json",
+      "score_sha256": "99429e9c565ad959fc02a3845fd5af711a3c0532d6ea0bbd1bf542a6de4f9c8a",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": "target_lost_after_discovery"
+    },
+    {
+      "suite": "dev_train01",
+      "case": {
+        "id": "dev02_red",
+        "kind": "search",
+        "scene": "dev02",
+        "color": "red",
+        "model": "v1.1"
+      },
+      "record": "runs/dev_train01/dev02_red_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 3.6284999999141974,
+      "min_goal_distance_m": 0.03892455506188448,
+      "other_min_goal_distance_m": 0.8199858184958309,
+      "min_person_clearance_m": 0.5465944281396096,
+      "score_path": "runs/dev_train01/dev02_red_v1.1/record/search_score.json",
+      "score_sha256": "d4035f89872f36ee48ee76a536ae5cab0748815bebd9cf904bcb7622f47204e3",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "dev_train01",
+      "case": {
+        "id": "primitive_blue",
+        "kind": "primitive",
+        "scene": "clear",
+        "profile": "blue",
+        "model": "v1.1"
+      },
+      "record": "runs/dev_train01/primitive_blue_v1.1",
+      "success": false,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 3.6687500000175177,
+      "min_goal_distance_m": 0.12824132604265254,
+      "other_min_goal_distance_m": 0.887639364964305,
+      "min_person_clearance_m": 0.37526076188700075,
+      "score_path": "runs/dev_train01/primitive_blue_v1.1/record/physical_score.json",
+      "score_sha256": "8805320846203e407250dd47e48022b9eaa9fbdaab444ff997a3cfb5c33fb613",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "dev_train01",
+      "case": {
+        "id": "primitive_red",
+        "kind": "primitive",
+        "scene": "clear",
+        "profile": "red",
+        "model": "v1.1"
+      },
+      "record": "runs/dev_train01/primitive_red_v1.1",
+      "success": false,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 1.7842500000085195,
+      "min_goal_distance_m": 0.1571671470554738,
+      "other_min_goal_distance_m": 1.6241131347024422,
+      "min_person_clearance_m": 0.5529549145886096,
+      "score_path": "runs/dev_train01/primitive_red_v1.1/record/physical_score.json",
+      "score_sha256": "8a6af118f7e26d61d574bd9ddb0efb767dee3f83218992d87c3f1b8a512f841c",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "dev_train01",
+      "case": {
+        "id": "primitive_turns",
+        "kind": "primitive",
+        "scene": "clear",
+        "profile": "turns",
+        "model": "v1.1"
+      },
+      "record": "runs/dev_train01/primitive_turns_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "min_person_clearance_m": 1.9102218085845277,
+      "score_path": "runs/dev_train01/primitive_turns_v1.1/record/physical_score.json",
+      "score_sha256": "9ea6b09636e16407fce6e8eb82d25458509638dbdd869bbe151638a66b37589e",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "dev_train01",
+      "case": {
+        "id": "primitive_left",
+        "kind": "primitive",
+        "scene": "clear",
+        "profile": "left",
+        "model": "v1.1"
+      },
+      "record": "runs/dev_train01/primitive_left_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "min_person_clearance_m": 2.7895237084850546,
+      "score_path": "runs/dev_train01/primitive_left_v1.1/record/physical_score.json",
+      "score_sha256": "4f5a01069c0986b4ec40bebdf11e4be3f0f8d5d818e87c22c2d0a02eaace0717",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "dev_train02",
+      "case": {
+        "id": "dev01_blue",
+        "kind": "search",
+        "scene": "dev01",
+        "color": "blue",
+        "model": "v1.1"
+      },
+      "record": "runs/dev_train02/dev01_blue_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 4.0094999999420935,
+      "min_goal_distance_m": 0.09453495836392722,
+      "other_min_goal_distance_m": 1.138503174994267,
+      "min_person_clearance_m": 0.5424422544326282,
+      "score_path": "runs/dev_train02/dev01_blue_v1.1/record/search_score.json",
+      "score_sha256": "dd185987998ba1efd31ebc1d358a3f97d13f49e5b0c540ac9599da4f203fcf9a",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "dev_train02",
+      "case": {
+        "id": "dev01_red",
+        "kind": "search",
+        "scene": "dev01",
+        "color": "red",
+        "model": "v1.1"
+      },
+      "record": "runs/dev_train02/dev01_red_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 3.8490000000183784,
+      "min_goal_distance_m": 0.03451597959572561,
+      "other_min_goal_distance_m": 1.568738160206813,
+      "min_person_clearance_m": 0.5226176557886272,
+      "score_path": "runs/dev_train02/dev01_red_v1.1/record/search_score.json",
+      "score_sha256": "f95f5ce99e59219d608e09fcc9099e2e1de28da761b4118261827352516b1d67",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "dev_train02",
+      "case": {
+        "id": "dev02_blue",
+        "kind": "search",
+        "scene": "dev02",
+        "color": "blue",
+        "model": "v1.1"
+      },
+      "record": "runs/dev_train02/dev02_blue_v1.1",
+      "success": false,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 3.909499999985485,
+      "min_goal_distance_m": 0.07558928024345617,
+      "other_min_goal_distance_m": 1.4782717317882372,
+      "min_person_clearance_m": 0.4331938265173788,
+      "score_path": "runs/dev_train02/dev02_blue_v1.1/record/search_score.json",
+      "score_sha256": "a45e8f7c9e154be42ceda1a56f07d9ef975b62a835a29344b9400fe0cda5dc04",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "dev_train02",
+      "case": {
+        "id": "dev02_red",
+        "kind": "search",
+        "scene": "dev02",
+        "color": "red",
+        "model": "v1.1"
+      },
+      "record": "runs/dev_train02/dev02_red_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 3.8692499999085044,
+      "min_goal_distance_m": 0.061924706973088835,
+      "other_min_goal_distance_m": 0.9445302068103968,
+      "min_person_clearance_m": 0.5617969244569403,
+      "score_path": "runs/dev_train02/dev02_red_v1.1/record/search_score.json",
+      "score_sha256": "d133936e0000804976de1139ff1a6a6f48a74d07bebadbbd388a9e45bfbc92eb",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "dev_train02",
+      "case": {
+        "id": "primitive_blue",
+        "kind": "primitive",
+        "scene": "clear",
+        "profile": "blue",
+        "model": "v1.1"
+      },
+      "record": "runs/dev_train02/primitive_blue_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 4.3305000000206775,
+      "min_goal_distance_m": 0.1157566078531907,
+      "other_min_goal_distance_m": 0.9610432445869723,
+      "min_person_clearance_m": 0.6205617968527388,
+      "score_path": "runs/dev_train02/primitive_blue_v1.1/record/physical_score.json",
+      "score_sha256": "e0122ba01ec4d81b387608beb95535c90b29432af74451f62bcb1e3041df7344",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "dev_train02",
+      "case": {
+        "id": "primitive_red",
+        "kind": "primitive",
+        "scene": "clear",
+        "profile": "red",
+        "model": "v1.1"
+      },
+      "record": "runs/dev_train02/primitive_red_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 5.152250000024601,
+      "min_goal_distance_m": 0.07095949935852572,
+      "other_min_goal_distance_m": 1.4212485368539645,
+      "min_person_clearance_m": 0.6319813814228712,
+      "score_path": "runs/dev_train02/primitive_red_v1.1/record/physical_score.json",
+      "score_sha256": "ee01425911544ed08acb694208f40a4c6d1e440cf47cf3bdad7c78634c5afacb",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "dev_train02",
+      "case": {
+        "id": "primitive_turns",
+        "kind": "primitive",
+        "scene": "clear",
+        "profile": "turns",
+        "model": "v1.1"
+      },
+      "record": "runs/dev_train02/primitive_turns_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "min_person_clearance_m": 1.698776399524215,
+      "score_path": "runs/dev_train02/primitive_turns_v1.1/record/physical_score.json",
+      "score_sha256": "e7f3e7c45c9a29cffd4f935b1010bace5b8dde730fa1d13fa281c17aea2b31b6",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "dev_train02",
+      "case": {
+        "id": "primitive_left",
+        "kind": "primitive",
+        "scene": "clear",
+        "profile": "left",
+        "model": "v1.1"
+      },
+      "record": "runs/dev_train02/primitive_left_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "min_person_clearance_m": 2.619947017981218,
+      "score_path": "runs/dev_train02/primitive_left_v1.1/record/physical_score.json",
+      "score_sha256": "b4adf49890d30b0c209e23e4e8ccc6f246cc7a69a07873fbe07ef4a49158b9be",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "dev_train03",
+      "case": {
+        "id": "dev01_blue",
+        "kind": "search",
+        "scene": "dev01",
+        "color": "blue",
+        "model": "v1.1"
+      },
+      "record": "runs/dev_train03/dev01_blue_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 5.833999999862044,
+      "min_goal_distance_m": 0.033533723474875536,
+      "other_min_goal_distance_m": 1.1051558347862347,
+      "min_person_clearance_m": 0.6961561921217997,
+      "score_path": "runs/dev_train03/dev01_blue_v1.1/record/search_score.json",
+      "score_sha256": "83918f35aa3b80c8898615c1df771270fde09f8ba4585c30870698fa68cebcc6",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "dev_train03",
+      "case": {
+        "id": "dev01_red",
+        "kind": "search",
+        "scene": "dev01",
+        "color": "red",
+        "model": "v1.1"
+      },
+      "record": "runs/dev_train03/dev01_red_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 3.749000000017901,
+      "min_goal_distance_m": 0.010991452925912581,
+      "other_min_goal_distance_m": 1.5230440811220216,
+      "min_person_clearance_m": 0.6747149787676013,
+      "score_path": "runs/dev_train03/dev01_red_v1.1/record/search_score.json",
+      "score_sha256": "1342ff4adf75d58a37bfe95cb5d45330945aac9f6fc954a92f9f049a942a6159",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "dev_train03",
+      "case": {
+        "id": "dev02_blue",
+        "kind": "search",
+        "scene": "dev02",
+        "color": "blue",
+        "model": "v1.1"
+      },
+      "record": "runs/dev_train03/dev02_blue_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 3.869250000018475,
+      "min_goal_distance_m": 0.02970028321625032,
+      "other_min_goal_distance_m": 1.580241444574684,
+      "min_person_clearance_m": 0.6677936491246694,
+      "score_path": "runs/dev_train03/dev02_blue_v1.1/record/search_score.json",
+      "score_sha256": "dd9f980305757027ea14c0421f8c416804917124b1c4f603c1e4af19c1b7b988",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "dev_train03",
+      "case": {
+        "id": "dev02_red",
+        "kind": "search",
+        "scene": "dev02",
+        "color": "red",
+        "model": "v1.1"
+      },
+      "record": "runs/dev_train03/dev02_red_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 3.8092499999103637,
+      "min_goal_distance_m": 0.08203045819968452,
+      "other_min_goal_distance_m": 0.7559112720232971,
+      "min_person_clearance_m": 0.6487639115182002,
+      "score_path": "runs/dev_train03/dev02_red_v1.1/record/search_score.json",
+      "score_sha256": "b4d4f1057b15527ebed639059702ba79674270867433f25c2b7c4fdef4741c30",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "dev_train03",
+      "case": {
+        "id": "primitive_blue",
+        "kind": "primitive",
+        "scene": "clear",
+        "profile": "blue",
+        "model": "v1.1"
+      },
+      "record": "runs/dev_train03/primitive_blue_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 4.550750000021729,
+      "min_goal_distance_m": 0.05252968081733408,
+      "other_min_goal_distance_m": 0.9429413046751152,
+      "min_person_clearance_m": 0.695027364642425,
+      "score_path": "runs/dev_train03/primitive_blue_v1.1/record/physical_score.json",
+      "score_sha256": "4bd385c7c20cac2da8dafb59aa244937a1372fce75be3f4940f1d43eb1841356",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "dev_train03",
+      "case": {
+        "id": "primitive_red",
+        "kind": "primitive",
+        "scene": "clear",
+        "profile": "red",
+        "model": "v1.1"
+      },
+      "record": "runs/dev_train03/primitive_red_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 4.931750000023548,
+      "min_goal_distance_m": 0.029441881210057936,
+      "other_min_goal_distance_m": 1.4379993653744936,
+      "min_person_clearance_m": 0.7339645398227719,
+      "score_path": "runs/dev_train03/primitive_red_v1.1/record/physical_score.json",
+      "score_sha256": "9ba1ebe994c27691270536a5c812c42c55210abe5ad7447b5bab5b05a65b772a",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "dev_train03",
+      "case": {
+        "id": "primitive_turns",
+        "kind": "primitive",
+        "scene": "clear",
+        "profile": "turns",
+        "model": "v1.1"
+      },
+      "record": "runs/dev_train03/primitive_turns_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "min_person_clearance_m": 1.6085768730633228,
+      "score_path": "runs/dev_train03/primitive_turns_v1.1/record/physical_score.json",
+      "score_sha256": "2cd4e6538fb031664e8770122093a07c1446fe3c07fe9dcab7fb68e7c82612d1",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "dev_train03",
+      "case": {
+        "id": "primitive_left",
+        "kind": "primitive",
+        "scene": "clear",
+        "profile": "left",
+        "model": "v1.1"
+      },
+      "record": "runs/dev_train03/primitive_left_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "min_person_clearance_m": 2.5781103968438734,
+      "score_path": "runs/dev_train03/primitive_left_v1.1/record/physical_score.json",
+      "score_sha256": "0c55963a84e9db40e8c2260aa2d635d73d4b3ece1f50e1575711d1bb6683566f",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H01",
+        "scene": "heldout01",
+        "color": "blue",
+        "repeat": 1,
+        "seed": 2026102900,
+        "initial_offset": [
+          -0.002557593706438578,
+          -0.014303993343843573,
+          1.3856317669075855
+        ],
+        "kind": "search",
+        "model": "v1.0",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H01_v1.0",
+      "success": false,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 0.0,
+      "min_goal_distance_m": 1.4867768869606295,
+      "other_min_goal_distance_m": 0.08600074958709716,
+      "min_person_clearance_m": 0.8065746964555803,
+      "score_path": "runs/heldout_train03/H01_v1.0/record/search_score.json",
+      "score_sha256": "3ad43478c8f9418d6814a102c6a894501c0f174d81dca751af7664ca1851e02d",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H01",
+        "scene": "heldout01",
+        "color": "blue",
+        "repeat": 1,
+        "seed": 2026102900,
+        "initial_offset": [
+          -0.002557593706438578,
+          -0.014303993343843573,
+          1.3856317669075855
+        ],
+        "kind": "search",
+        "model": "v1.1",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H01_v1.1",
+      "success": false,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 0.0,
+      "min_goal_distance_m": 2.822876292830696,
+      "other_min_goal_distance_m": 2.053003339629671,
+      "min_person_clearance_m": 2.935457543990629,
+      "score_path": "runs/heldout_train03/H01_v1.1/record/search_score.json",
+      "score_sha256": "3dd7c12ea186431fb633378002ef685242f291d5ff4cb82eb642a6497bcf6262",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": "target_not_found"
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H02",
+        "scene": "heldout01",
+        "color": "blue",
+        "repeat": 2,
+        "seed": 2026102901,
+        "initial_offset": [
+          -0.013428642444323256,
+          -0.018767907066576852,
+          3.554863929228807
+        ],
+        "kind": "search",
+        "model": "v1.1",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H02_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 3.989499999905661,
+      "min_goal_distance_m": 0.014628322039520997,
+      "other_min_goal_distance_m": 0.8760957584414468,
+      "min_person_clearance_m": 0.6913270454858367,
+      "score_path": "runs/heldout_train03/H02_v1.1/record/search_score.json",
+      "score_sha256": "58fed765f34974f85eeb3bfca0b2303b7269a7b405cae14a9de6df6a3f5c1ed6",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H02",
+        "scene": "heldout01",
+        "color": "blue",
+        "repeat": 2,
+        "seed": 2026102901,
+        "initial_offset": [
+          -0.013428642444323256,
+          -0.018767907066576852,
+          3.554863929228807
+        ],
+        "kind": "search",
+        "model": "v1.0",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H02_v1.0",
+      "success": false,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 0.0,
+      "min_goal_distance_m": 1.5692391230883342,
+      "other_min_goal_distance_m": 0.059497960719859036,
+      "min_person_clearance_m": 0.270891926219363,
+      "score_path": "runs/heldout_train03/H02_v1.0/record/search_score.json",
+      "score_sha256": "b9e977c950c1df97c1dabed544322af0093238a7155c294d7f8d80f3ea92460e",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": "target_lost_after_discovery"
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H03",
+        "scene": "heldout01",
+        "color": "red",
+        "repeat": 1,
+        "seed": 2026102902,
+        "initial_offset": [
+          -0.020657013939030123,
+          -0.026760415429799757,
+          -3.5010469473449746
+        ],
+        "kind": "search",
+        "model": "v1.0",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H03_v1.0",
+      "success": false,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 0.0,
+      "min_goal_distance_m": 0.5247857902046436,
+      "other_min_goal_distance_m": 0.7172224217938008,
+      "min_person_clearance_m": 0.9137490054647189,
+      "score_path": "runs/heldout_train03/H03_v1.0/record/search_score.json",
+      "score_sha256": "90dc2ae4b36f9473a2348238a58ff978c1cede1e33bf22400c3f1748eceff445",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": "target_lost_after_discovery"
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H03",
+        "scene": "heldout01",
+        "color": "red",
+        "repeat": 1,
+        "seed": 2026102902,
+        "initial_offset": [
+          -0.020657013939030123,
+          -0.026760415429799757,
+          -3.5010469473449746
+        ],
+        "kind": "search",
+        "model": "v1.1",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H03_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 4.089749999994893,
+      "min_goal_distance_m": 0.022702701870393572,
+      "other_min_goal_distance_m": 1.7688189951858684,
+      "min_person_clearance_m": 0.8129346397491362,
+      "score_path": "runs/heldout_train03/H03_v1.1/record/search_score.json",
+      "score_sha256": "55e52c25d246cbfb75fda046f2342c0147b399bc6bd97f3320845301dff46b25",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H04",
+        "scene": "heldout01",
+        "color": "red",
+        "repeat": 2,
+        "seed": 2026102903,
+        "initial_offset": [
+          -0.04660307871687144,
+          0.04467519360590276,
+          3.6603718705072392
+        ],
+        "kind": "search",
+        "model": "v1.1",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H04_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 3.7689999999580337,
+      "min_goal_distance_m": 0.1580465003337059,
+      "other_min_goal_distance_m": 1.5359567161246117,
+      "min_person_clearance_m": 0.8005399954160064,
+      "score_path": "runs/heldout_train03/H04_v1.1/record/search_score.json",
+      "score_sha256": "217fca9f0a1fdd906c1d35eba73c9b86e51372f354eb89169b40fff7b4772f84",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H04",
+        "scene": "heldout01",
+        "color": "red",
+        "repeat": 2,
+        "seed": 2026102903,
+        "initial_offset": [
+          -0.04660307871687144,
+          0.04467519360590276,
+          3.6603718705072392
+        ],
+        "kind": "search",
+        "model": "v1.0",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H04_v1.0",
+      "success": false,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 0.0,
+      "min_goal_distance_m": 0.8568749529441807,
+      "other_min_goal_distance_m": 0.5700484090406993,
+      "min_person_clearance_m": 1.0661410875522135,
+      "score_path": "runs/heldout_train03/H04_v1.0/record/search_score.json",
+      "score_sha256": "58c7c7ad63b8866a657e0754cdafbadfac5dd6ee0d56942d1434cd5388f4aeec",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": "target_lost_after_discovery"
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H05",
+        "scene": "heldout02",
+        "color": "blue",
+        "repeat": 1,
+        "seed": 2026102904,
+        "initial_offset": [
+          -0.012733317850682102,
+          -0.046724568786721266,
+          -1.9939481562375372
+        ],
+        "kind": "search",
+        "model": "v1.0",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H05_v1.0",
+      "success": false,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 5.833749999915476,
+      "min_goal_distance_m": 0.09973790762980761,
+      "other_min_goal_distance_m": 1.2557710296198137,
+      "min_person_clearance_m": 0.686098236439355,
+      "score_path": "runs/heldout_train03/H05_v1.0/record/search_score.json",
+      "score_sha256": "eea89d7484c7e474d5c7d492a6bff8ecf208c7d0203da25067aaeb9e08ce414b",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H05",
+        "scene": "heldout02",
+        "color": "blue",
+        "repeat": 1,
+        "seed": 2026102904,
+        "initial_offset": [
+          -0.012733317850682102,
+          -0.046724568786721266,
+          -1.9939481562375372
+        ],
+        "kind": "search",
+        "model": "v1.1",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H05_v1.1",
+      "success": false,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 6.515499999848643,
+      "min_goal_distance_m": 0.0068149380951095595,
+      "other_min_goal_distance_m": 1.0400311150659798,
+      "min_person_clearance_m": 0.8020043387488622,
+      "score_path": "runs/heldout_train03/H05_v1.1/record/search_score.json",
+      "score_sha256": "255f39c6317e33d551856a16db3c985a26b641a84bb52a4a5b9909f50bce54a1",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H06",
+        "scene": "heldout02",
+        "color": "blue",
+        "repeat": 2,
+        "seed": 2026102905,
+        "initial_offset": [
+          -0.007701240332390925,
+          0.037756151766657656,
+          -0.7046096788654417
+        ],
+        "kind": "search",
+        "model": "v1.1",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H06_v1.1",
+      "success": false,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 0.0,
+      "min_goal_distance_m": 2.3393737308796547,
+      "other_min_goal_distance_m": 0.6630605893809631,
+      "min_person_clearance_m": 0.8415045639113554,
+      "score_path": "runs/heldout_train03/H06_v1.1/record/search_score.json",
+      "score_sha256": "80cc507f3ee76b03d0a50b1fc09bf653a406fab3e126eb4d916f03d70c4c4187",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": "mission_deadline"
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H06",
+        "scene": "heldout02",
+        "color": "blue",
+        "repeat": 2,
+        "seed": 2026102905,
+        "initial_offset": [
+          -0.007701240332390925,
+          0.037756151766657656,
+          -0.7046096788654417
+        ],
+        "kind": "search",
+        "model": "v1.0",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H06_v1.0",
+      "success": false,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 0.0,
+      "min_goal_distance_m": 2.4133212597782907,
+      "other_min_goal_distance_m": 0.7111617287295171,
+      "min_person_clearance_m": 0.9277755907562691,
+      "score_path": "runs/heldout_train03/H06_v1.0/record/search_score.json",
+      "score_sha256": "69f48443ab4b58deda6d253929b427cb5757832cf2f6b1e6e33fd8a27bc1649e",
+      "stop_reason": "unexpected_disarm",
+      "mission_failure": "autopilot_landed_before_mission_completion"
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H07",
+        "scene": "heldout02",
+        "color": "red",
+        "repeat": 1,
+        "seed": 2026102906,
+        "initial_offset": [
+          -0.037388754027060225,
+          -0.034705569154770556,
+          4.264464189628347
+        ],
+        "kind": "search",
+        "model": "v1.0",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H07_v1.0",
+      "success": false,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 4.270249999899022,
+      "min_goal_distance_m": 0.09561785025224537,
+      "other_min_goal_distance_m": 1.2589181660483726,
+      "min_person_clearance_m": 0.7321513962128415,
+      "score_path": "runs/heldout_train03/H07_v1.0/record/search_score.json",
+      "score_sha256": "6a493d5e76f6ed855aedceb1f6086328d3f8b4a41821ac1c7cb989ce3a4eceab",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H07",
+        "scene": "heldout02",
+        "color": "red",
+        "repeat": 1,
+        "seed": 2026102906,
+        "initial_offset": [
+          -0.037388754027060225,
+          -0.034705569154770556,
+          4.264464189628347
+        ],
+        "kind": "search",
+        "model": "v1.1",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H07_v1.1",
+      "success": false,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 4.310249999898076,
+      "min_goal_distance_m": 0.02612722575744706,
+      "other_min_goal_distance_m": 1.30129461402106,
+      "min_person_clearance_m": 0.813606508546042,
+      "score_path": "runs/heldout_train03/H07_v1.1/record/search_score.json",
+      "score_sha256": "d076bdca34bb00140e452da0817a705ca0e5059f1b9c2735455e7f5087600af0",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H08",
+        "scene": "heldout02",
+        "color": "red",
+        "repeat": 2,
+        "seed": 2026102907,
+        "initial_offset": [
+          0.0013804040106399212,
+          0.041594331562265885,
+          -2.7415993677752413
+        ],
+        "kind": "search",
+        "model": "v1.1",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H08_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 4.751499999887642,
+      "min_goal_distance_m": 0.02548318107403065,
+      "other_min_goal_distance_m": 1.319396088433531,
+      "min_person_clearance_m": 0.5963165749933119,
+      "score_path": "runs/heldout_train03/H08_v1.1/record/search_score.json",
+      "score_sha256": "a12ea0991a71bbde08462a02e5b70564e54734b003aa65765cb3fc3677774464",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H08",
+        "scene": "heldout02",
+        "color": "red",
+        "repeat": 2,
+        "seed": 2026102907,
+        "initial_offset": [
+          0.0013804040106399212,
+          0.041594331562265885,
+          -2.7415993677752413
+        ],
+        "kind": "search",
+        "model": "v1.0",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H08_v1.0",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 4.129750000019719,
+      "min_goal_distance_m": 0.09517756664032946,
+      "other_min_goal_distance_m": 1.4942343924298331,
+      "min_person_clearance_m": 0.5807291607359998,
+      "score_path": "runs/heldout_train03/H08_v1.0/record/search_score.json",
+      "score_sha256": "3b564ecfea77c5602e0571e8af61fe4d5047e74c12af9062b086e6c473b9a120",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H09",
+        "scene": "heldout03",
+        "color": "blue",
+        "repeat": 1,
+        "seed": 2026102908,
+        "initial_offset": [
+          -0.04066807007950229,
+          -0.047650892405108905,
+          -2.007165429357393
+        ],
+        "kind": "search",
+        "model": "v1.0",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H09_v1.0",
+      "success": false,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 0.0,
+      "min_goal_distance_m": 0.35003324140030245,
+      "other_min_goal_distance_m": 0.3589440661240662,
+      "min_person_clearance_m": 0.5961519251892937,
+      "score_path": "runs/heldout_train03/H09_v1.0/record/search_score.json",
+      "score_sha256": "38048a10b5bdad472d5c8b641785c052aa17b2b93f37023db3088dac466d00db",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H09",
+        "scene": "heldout03",
+        "color": "blue",
+        "repeat": 1,
+        "seed": 2026102908,
+        "initial_offset": [
+          -0.04066807007950229,
+          -0.047650892405108905,
+          -2.007165429357393
+        ],
+        "kind": "search",
+        "model": "v1.1",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H09_v1.1",
+      "success": false,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 6.515499999845929,
+      "min_goal_distance_m": 0.03580662473172004,
+      "other_min_goal_distance_m": 1.2743982146429107,
+      "min_person_clearance_m": 0.867133724343563,
+      "score_path": "runs/heldout_train03/H09_v1.1/record/search_score.json",
+      "score_sha256": "7765c85f8799796a0273fc00ab85d7f88949efdfe1ba29034299d354d92bb9fb",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H10",
+        "scene": "heldout03",
+        "color": "blue",
+        "repeat": 2,
+        "seed": 2026102909,
+        "initial_offset": [
+          -0.042657953359022054,
+          -0.039202575385331645,
+          -3.865484783168883
+        ],
+        "kind": "search",
+        "model": "v1.1",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H10_v1.1",
+      "success": false,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 2.245499999946901,
+      "min_goal_distance_m": 0.03463118811336347,
+      "other_min_goal_distance_m": 1.2769644422351238,
+      "min_person_clearance_m": 0.8065078335388861,
+      "score_path": "runs/heldout_train03/H10_v1.1/record/search_score.json",
+      "score_sha256": "b41ea6d91cdaef958989e1729adec3ef8f507d8ade88b51efa34dff096f37622",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H10",
+        "scene": "heldout03",
+        "color": "blue",
+        "repeat": 2,
+        "seed": 2026102909,
+        "initial_offset": [
+          -0.042657953359022054,
+          -0.039202575385331645,
+          -3.865484783168883
+        ],
+        "kind": "search",
+        "model": "v1.0",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H10_v1.0",
+      "success": false,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 0.0,
+      "min_goal_distance_m": 1.2788422888609856,
+      "other_min_goal_distance_m": 0.01049200279548424,
+      "min_person_clearance_m": 0.3007202413436871,
+      "score_path": "runs/heldout_train03/H10_v1.0/record/search_score.json",
+      "score_sha256": "c5fa323f6aeb7699d8e164f474d20e9e17e4ee983af7c8b1ff995ca06fcf7068",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": "target_lost_after_discovery"
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H11",
+        "scene": "heldout03",
+        "color": "red",
+        "repeat": 1,
+        "seed": 2026102910,
+        "initial_offset": [
+          -0.025619881950193338,
+          -0.015996128450237568,
+          3.7040983225286492
+        ],
+        "kind": "search",
+        "model": "v1.0",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H11_v1.0",
+      "success": false,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 0.0,
+      "min_goal_distance_m": 0.6333452253174238,
+      "other_min_goal_distance_m": 0.6018455950062207,
+      "min_person_clearance_m": 0.38737799787655897,
+      "score_path": "runs/heldout_train03/H11_v1.0/record/search_score.json",
+      "score_sha256": "13e100d29fe226c08c6e4ac90e6af3acc92680ebb6331f132807d34ff9467394",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": "target_lost_after_discovery"
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H11",
+        "scene": "heldout03",
+        "color": "red",
+        "repeat": 1,
+        "seed": 2026102910,
+        "initial_offset": [
+          -0.025619881950193338,
+          -0.015996128450237568,
+          3.7040983225286492
+        ],
+        "kind": "search",
+        "model": "v1.1",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H11_v1.1",
+      "success": false,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 4.290249999898549,
+      "min_goal_distance_m": 0.03679064715059013,
+      "other_min_goal_distance_m": 1.4534304152792406,
+      "min_person_clearance_m": 0.7414476853557379,
+      "score_path": "runs/heldout_train03/H11_v1.1/record/search_score.json",
+      "score_sha256": "aac0bac6826f37a8c41c4534cb2a1d4d7beda75a661b00fb50e49cf7a190b5e1",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H12",
+        "scene": "heldout03",
+        "color": "red",
+        "repeat": 2,
+        "seed": 2026102911,
+        "initial_offset": [
+          -0.031535785548644835,
+          -0.02799670122100355,
+          -4.958830596024242
+        ],
+        "kind": "search",
+        "model": "v1.1",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H12_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 4.009499999905188,
+      "min_goal_distance_m": 0.08402676326865373,
+      "other_min_goal_distance_m": 1.4573451459057731,
+      "min_person_clearance_m": 0.9708196125549692,
+      "score_path": "runs/heldout_train03/H12_v1.1/record/search_score.json",
+      "score_sha256": "123653215fd80a25292b06572687ed7d4e07f1b5b445364367150fb3470fb497",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H12",
+        "scene": "heldout03",
+        "color": "red",
+        "repeat": 2,
+        "seed": 2026102911,
+        "initial_offset": [
+          -0.031535785548644835,
+          -0.02799670122100355,
+          -4.958830596024242
+        ],
+        "kind": "search",
+        "model": "v1.0",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H12_v1.0",
+      "success": false,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 0.0,
+      "min_goal_distance_m": 1.6820756706838982,
+      "other_min_goal_distance_m": 1.9257555432695337,
+      "min_person_clearance_m": 2.496770896445488,
+      "score_path": "runs/heldout_train03/H12_v1.0/record/search_score.json",
+      "score_sha256": "0ef822b1b163ff8d73152c8e8bd5a93abc9c87cfbbcf022f9673c35b91640929",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": "target_not_found"
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H13",
+        "scene": "heldout04",
+        "color": "blue",
+        "repeat": 1,
+        "seed": 2026102912,
+        "initial_offset": [
+          0.009651306653070735,
+          0.03580023553783514,
+          -3.718825665476041
+        ],
+        "kind": "search",
+        "model": "v1.0",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H13_v1.0",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 6.395249999848772,
+      "min_goal_distance_m": 0.12060378461040684,
+      "other_min_goal_distance_m": 1.6217639659162535,
+      "min_person_clearance_m": 0.6786533926562737,
+      "score_path": "runs/heldout_train03/H13_v1.0/record/search_score.json",
+      "score_sha256": "783e7e0c6cdcfa45ebe40e33deac88c5621f41a7c521ebec352db53c5ec43cdf",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H13",
+        "scene": "heldout04",
+        "color": "blue",
+        "repeat": 1,
+        "seed": 2026102912,
+        "initial_offset": [
+          0.009651306653070735,
+          0.03580023553783514,
+          -3.718825665476041
+        ],
+        "kind": "search",
+        "model": "v1.1",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H13_v1.1",
+      "success": false,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 3.6084999999146703,
+      "min_goal_distance_m": 0.0046248330960494445,
+      "other_min_goal_distance_m": 1.5093626529765412,
+      "min_person_clearance_m": 0.7386513328040285,
+      "score_path": "runs/heldout_train03/H13_v1.1/record/search_score.json",
+      "score_sha256": "89a60f5128cfb08680acc2414babef87e02bee3a0b23a805fc702bf594ddbdec",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H14",
+        "scene": "heldout04",
+        "color": "blue",
+        "repeat": 2,
+        "seed": 2026102913,
+        "initial_offset": [
+          0.033616735607500475,
+          -0.006265445358707468,
+          1.2528474719944018
+        ],
+        "kind": "search",
+        "model": "v1.1",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H14_v1.1",
+      "success": false,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 0.0,
+      "min_goal_distance_m": 0.2867956087884606,
+      "other_min_goal_distance_m": 0.017164384454694412,
+      "min_person_clearance_m": 0.45907193145644426,
+      "score_path": "runs/heldout_train03/H14_v1.1/record/search_score.json",
+      "score_sha256": "1c59c6f1d13eff5ce9d5ee2a1ca5b5ff36ac1ab7269f3eae65d973e29e8c3500",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": "mission_deadline"
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H14",
+        "scene": "heldout04",
+        "color": "blue",
+        "repeat": 2,
+        "seed": 2026102913,
+        "initial_offset": [
+          0.033616735607500475,
+          -0.006265445358707468,
+          1.2528474719944018
+        ],
+        "kind": "search",
+        "model": "v1.0",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H14_v1.0",
+      "success": false,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 4.350499999897124,
+      "min_goal_distance_m": 0.015523290355151214,
+      "other_min_goal_distance_m": 1.4417293013558719,
+      "min_person_clearance_m": 0.8484137468626428,
+      "score_path": "runs/heldout_train03/H14_v1.0/record/search_score.json",
+      "score_sha256": "748febcce25adf48e9ecea86920b95bf599d24cbd0f85e65da44e2046b51a0eb",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H15",
+        "scene": "heldout04",
+        "color": "red",
+        "repeat": 1,
+        "seed": 2026102914,
+        "initial_offset": [
+          -0.04506699575878818,
+          -0.017322395793099833,
+          0.46747202372161123
+        ],
+        "kind": "search",
+        "model": "v1.0",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H15_v1.0",
+      "success": false,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 0.08024999999810234,
+      "min_goal_distance_m": 0.20879007662231439,
+      "other_min_goal_distance_m": 1.9957354073868512,
+      "min_person_clearance_m": 0.8275678407164954,
+      "score_path": "runs/heldout_train03/H15_v1.0/record/search_score.json",
+      "score_sha256": "dbf5e82f676dc08bfb54be23d8beb68f5c0cd60712c7dd994be89fa984213784",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H15",
+        "scene": "heldout04",
+        "color": "red",
+        "repeat": 1,
+        "seed": 2026102914,
+        "initial_offset": [
+          -0.04506699575878818,
+          -0.017322395793099833,
+          0.46747202372161123
+        ],
+        "kind": "search",
+        "model": "v1.1",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H15_v1.1",
+      "success": false,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 0.0,
+      "min_goal_distance_m": 1.6948450153702619,
+      "other_min_goal_distance_m": 0.3301820108388273,
+      "min_person_clearance_m": 0.4722355568817508,
+      "score_path": "runs/heldout_train03/H15_v1.1/record/search_score.json",
+      "score_sha256": "f846f9ac4d5bb1a6ab7a8d39027dd84ebbb75c06c71faa0e8f15b08548f68bd9",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": "mission_deadline"
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H16",
+        "scene": "heldout04",
+        "color": "red",
+        "repeat": 2,
+        "seed": 2026102915,
+        "initial_offset": [
+          0.045143192902863935,
+          0.023642748113272438,
+          -2.5729059318544154
+        ],
+        "kind": "search",
+        "model": "v1.1",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H16_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 4.310249999898076,
+      "min_goal_distance_m": 0.03307019871162285,
+      "other_min_goal_distance_m": 1.265008422022016,
+      "min_person_clearance_m": 0.606534337492666,
+      "score_path": "runs/heldout_train03/H16_v1.1/record/search_score.json",
+      "score_sha256": "b116c3ee5e7b33959f58c9897f98115225c143e1003ec152a4a374a0e8cbebf0",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "heldout_train03",
+      "case": {
+        "id": "H16",
+        "scene": "heldout04",
+        "color": "red",
+        "repeat": 2,
+        "seed": 2026102915,
+        "initial_offset": [
+          0.045143192902863935,
+          0.023642748113272438,
+          -2.5729059318544154
+        ],
+        "kind": "search",
+        "model": "v1.0",
+        "jitter": true
+      },
+      "record": "runs/heldout_train03/H16_v1.0",
+      "success": false,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 4.250249999900504,
+      "min_goal_distance_m": 0.12077183783025892,
+      "other_min_goal_distance_m": 1.1568058942520156,
+      "min_person_clearance_m": 0.3984738774660131,
+      "score_path": "runs/heldout_train03/H16_v1.0/record/search_score.json",
+      "score_sha256": "631b355aa92b34da024503959d2d78a3b4340a6dc7edfc430127bf891389ad6d",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "known_failure_train03",
+      "case": {
+        "scene": "known_swapped",
+        "color": "blue",
+        "kind": "search",
+        "model": "v1.1",
+        "id": "T3_blue_retest"
+      },
+      "record": "runs/known_failure_train03/T3_blue_retest_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 6.735999999840715,
+      "min_goal_distance_m": 0.015237955763119277,
+      "other_min_goal_distance_m": 0.901128199744712,
+      "min_person_clearance_m": 0.7819608552854942,
+      "score_path": "runs/known_failure_train03/T3_blue_retest_v1.1/record/search_score.json",
+      "score_sha256": "daf44388edd54a0f3a932a5e49964ba8b717d14a693c1abbc2f08b6b50d191d8",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "regression_train03",
+      "case": {
+        "id": "clear_blue",
+        "kind": "search",
+        "scene": "clear",
+        "color": "blue",
+        "model": "v1.1"
+      },
+      "record": "runs/regression_train03/clear_blue_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 3.8092500000181886,
+      "min_goal_distance_m": 0.037333488860023085,
+      "other_min_goal_distance_m": 1.4252239925723083,
+      "min_person_clearance_m": 0.6674782547793499,
+      "score_path": "runs/regression_train03/clear_blue_v1.1/record/search_score.json",
+      "score_sha256": "619ef98f597b89b2b1eea35acf3213408a56dcb21977095b1cafa77c85476c50",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "regression_train03",
+      "case": {
+        "id": "clear_red",
+        "kind": "search",
+        "scene": "clear",
+        "color": "red",
+        "model": "v1.1"
+      },
+      "record": "runs/regression_train03/clear_red_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 4.871500000004325,
+      "min_goal_distance_m": 0.01122991194068148,
+      "other_min_goal_distance_m": 1.135655934835238,
+      "min_person_clearance_m": 0.6535274219498459,
+      "score_path": "runs/regression_train03/clear_red_v1.1/record/search_score.json",
+      "score_sha256": "4aa54cc6c87c49a3d545ca971d0827c6be0a39442f291c6617e8f4b06ef09aed",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "regression_train03",
+      "case": {
+        "id": "fog_light_blue",
+        "kind": "search",
+        "scene": "fog_light",
+        "color": "blue",
+        "model": "v1.1"
+      },
+      "record": "runs/regression_train03/fog_light_blue_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 3.9092500000099903,
+      "min_goal_distance_m": 0.10641135263807397,
+      "other_min_goal_distance_m": 1.367172122592539,
+      "min_person_clearance_m": 0.6471882337195194,
+      "score_path": "runs/regression_train03/fog_light_blue_v1.1/record/search_score.json",
+      "score_sha256": "b13ba65660aecc71b561da512d8026b0994f2f1a7ab89ac2d0569f996e05bdf1",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "regression_train03",
+      "case": {
+        "id": "fog_dense_blue",
+        "kind": "search",
+        "scene": "fog_dense",
+        "color": "blue",
+        "model": "v1.1"
+      },
+      "record": "runs/regression_train03/fog_dense_blue_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 3.749000000017901,
+      "min_goal_distance_m": 0.09071680860396827,
+      "other_min_goal_distance_m": 1.3524734551365103,
+      "min_person_clearance_m": 0.7474403965084571,
+      "score_path": "runs/regression_train03/fog_dense_blue_v1.1/record/search_score.json",
+      "score_sha256": "ff7acf0106b331b07721c5e3c941649d6090c5f87a257d8f7a799237df8a9543",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "regression_train03",
+      "case": {
+        "id": "dust_blue",
+        "kind": "search",
+        "scene": "dust",
+        "color": "blue",
+        "model": "v1.1"
+      },
+      "record": "runs/regression_train03/dust_blue_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 3.9292500000187616,
+      "min_goal_distance_m": 0.05915241434441516,
+      "other_min_goal_distance_m": 1.3831156624134262,
+      "min_person_clearance_m": 0.7133197990802435,
+      "score_path": "runs/regression_train03/dust_blue_v1.1/record/search_score.json",
+      "score_sha256": "47751aaef6a2cc60ef3eef329c3b69df4c6e743a08ddbdfd0d58910e508f021a",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    }
+  ],
+  "not_executed_cases": [],
+  "heldout_statistics": [
+    {
+      "model": "v1.0",
+      "group": "all",
+      "key": null,
+      "k": 2,
+      "n": 16,
+      "wilson95": [
+        0.03497748774324047,
+        0.36022827265758695
+      ]
+    },
+    {
+      "model": "v1.0",
+      "group": "color",
+      "key": "blue",
+      "k": 1,
+      "n": 8,
+      "wilson95": [
+        0.02241749145005667,
+        0.4708881822128535
+      ]
+    },
+    {
+      "model": "v1.0",
+      "group": "color",
+      "key": "red",
+      "k": 1,
+      "n": 8,
+      "wilson95": [
+        0.02241749145005667,
+        0.4708881822128535
+      ]
+    },
+    {
+      "model": "v1.0",
+      "group": "layout",
+      "key": "heldout01",
+      "k": 0,
+      "n": 4,
+      "wilson95": [
+        0.0,
+        0.4898908364545973
+      ]
+    },
+    {
+      "model": "v1.0",
+      "group": "layout",
+      "key": "heldout02",
+      "k": 1,
+      "n": 4,
+      "wilson95": [
+        0.04558726080970055,
+        0.6993581574175981
+      ]
+    },
+    {
+      "model": "v1.0",
+      "group": "layout",
+      "key": "heldout03",
+      "k": 0,
+      "n": 4,
+      "wilson95": [
+        0.0,
+        0.4898908364545973
+      ]
+    },
+    {
+      "model": "v1.0",
+      "group": "layout",
+      "key": "heldout04",
+      "k": 1,
+      "n": 4,
+      "wilson95": [
+        0.04558726080970055,
+        0.6993581574175981
+      ]
+    },
+    {
+      "model": "v1.1",
+      "group": "all",
+      "key": null,
+      "k": 6,
+      "n": 16,
+      "wilson95": [
+        0.18481232558863633,
+        0.6135895945449727
+      ]
+    },
+    {
+      "model": "v1.1",
+      "group": "color",
+      "key": "blue",
+      "k": 1,
+      "n": 8,
+      "wilson95": [
+        0.02241749145005667,
+        0.4708881822128535
+      ]
+    },
+    {
+      "model": "v1.1",
+      "group": "color",
+      "key": "red",
+      "k": 5,
+      "n": 8,
+      "wilson95": [
+        0.30574239460262737,
+        0.8631557141764026
+      ]
+    },
+    {
+      "model": "v1.1",
+      "group": "layout",
+      "key": "heldout01",
+      "k": 3,
+      "n": 4,
+      "wilson95": [
+        0.30064184258240184,
+        0.9544127391902995
+      ]
+    },
+    {
+      "model": "v1.1",
+      "group": "layout",
+      "key": "heldout02",
+      "k": 1,
+      "n": 4,
+      "wilson95": [
+        0.04558726080970055,
+        0.6993581574175981
+      ]
+    },
+    {
+      "model": "v1.1",
+      "group": "layout",
+      "key": "heldout03",
+      "k": 1,
+      "n": 4,
+      "wilson95": [
+        0.04558726080970055,
+        0.6993581574175981
+      ]
+    },
+    {
+      "model": "v1.1",
+      "group": "layout",
+      "key": "heldout04",
+      "k": 1,
+      "n": 4,
+      "wilson95": [
+        0.04558726080970055,
+        0.6993581574175981
+      ]
+    }
+  ],
+  "regression_cases": [
+    {
+      "suite": "dev_train03",
+      "case": {
+        "id": "primitive_blue",
+        "kind": "primitive",
+        "scene": "clear",
+        "profile": "blue",
+        "model": "v1.1"
+      },
+      "record": "runs/dev_train03/primitive_blue_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 4.550750000021729,
+      "min_goal_distance_m": 0.05252968081733408,
+      "other_min_goal_distance_m": 0.9429413046751152,
+      "min_person_clearance_m": 0.695027364642425,
+      "score_path": "runs/dev_train03/primitive_blue_v1.1/record/physical_score.json",
+      "score_sha256": "4bd385c7c20cac2da8dafb59aa244937a1372fce75be3f4940f1d43eb1841356",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "dev_train03",
+      "case": {
+        "id": "primitive_red",
+        "kind": "primitive",
+        "scene": "clear",
+        "profile": "red",
+        "model": "v1.1"
+      },
+      "record": "runs/dev_train03/primitive_red_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 4.931750000023548,
+      "min_goal_distance_m": 0.029441881210057936,
+      "other_min_goal_distance_m": 1.4379993653744936,
+      "min_person_clearance_m": 0.7339645398227719,
+      "score_path": "runs/dev_train03/primitive_red_v1.1/record/physical_score.json",
+      "score_sha256": "9ba1ebe994c27691270536a5c812c42c55210abe5ad7447b5bab5b05a65b772a",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "dev_train03",
+      "case": {
+        "id": "primitive_turns",
+        "kind": "primitive",
+        "scene": "clear",
+        "profile": "turns",
+        "model": "v1.1"
+      },
+      "record": "runs/dev_train03/primitive_turns_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "min_person_clearance_m": 1.6085768730633228,
+      "score_path": "runs/dev_train03/primitive_turns_v1.1/record/physical_score.json",
+      "score_sha256": "2cd4e6538fb031664e8770122093a07c1446fe3c07fe9dcab7fb68e7c82612d1",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "dev_train03",
+      "case": {
+        "id": "primitive_left",
+        "kind": "primitive",
+        "scene": "clear",
+        "profile": "left",
+        "model": "v1.1"
+      },
+      "record": "runs/dev_train03/primitive_left_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "min_person_clearance_m": 2.5781103968438734,
+      "score_path": "runs/dev_train03/primitive_left_v1.1/record/physical_score.json",
+      "score_sha256": "0c55963a84e9db40e8c2260aa2d635d73d4b3ece1f50e1575711d1bb6683566f",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "regression_train03",
+      "case": {
+        "id": "clear_blue",
+        "kind": "search",
+        "scene": "clear",
+        "color": "blue",
+        "model": "v1.1"
+      },
+      "record": "runs/regression_train03/clear_blue_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 3.8092500000181886,
+      "min_goal_distance_m": 0.037333488860023085,
+      "other_min_goal_distance_m": 1.4252239925723083,
+      "min_person_clearance_m": 0.6674782547793499,
+      "score_path": "runs/regression_train03/clear_blue_v1.1/record/search_score.json",
+      "score_sha256": "619ef98f597b89b2b1eea35acf3213408a56dcb21977095b1cafa77c85476c50",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "regression_train03",
+      "case": {
+        "id": "clear_red",
+        "kind": "search",
+        "scene": "clear",
+        "color": "red",
+        "model": "v1.1"
+      },
+      "record": "runs/regression_train03/clear_red_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 4.871500000004325,
+      "min_goal_distance_m": 0.01122991194068148,
+      "other_min_goal_distance_m": 1.135655934835238,
+      "min_person_clearance_m": 0.6535274219498459,
+      "score_path": "runs/regression_train03/clear_red_v1.1/record/search_score.json",
+      "score_sha256": "4aa54cc6c87c49a3d545ca971d0827c6be0a39442f291c6617e8f4b06ef09aed",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "regression_train03",
+      "case": {
+        "id": "fog_light_blue",
+        "kind": "search",
+        "scene": "fog_light",
+        "color": "blue",
+        "model": "v1.1"
+      },
+      "record": "runs/regression_train03/fog_light_blue_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 3.9092500000099903,
+      "min_goal_distance_m": 0.10641135263807397,
+      "other_min_goal_distance_m": 1.367172122592539,
+      "min_person_clearance_m": 0.6471882337195194,
+      "score_path": "runs/regression_train03/fog_light_blue_v1.1/record/search_score.json",
+      "score_sha256": "b13ba65660aecc71b561da512d8026b0994f2f1a7ab89ac2d0569f996e05bdf1",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "regression_train03",
+      "case": {
+        "id": "fog_dense_blue",
+        "kind": "search",
+        "scene": "fog_dense",
+        "color": "blue",
+        "model": "v1.1"
+      },
+      "record": "runs/regression_train03/fog_dense_blue_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 3.749000000017901,
+      "min_goal_distance_m": 0.09071680860396827,
+      "other_min_goal_distance_m": 1.3524734551365103,
+      "min_person_clearance_m": 0.7474403965084571,
+      "score_path": "runs/regression_train03/fog_dense_blue_v1.1/record/search_score.json",
+      "score_sha256": "ff7acf0106b331b07721c5e3c941649d6090c5f87a257d8f7a799237df8a9543",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    },
+    {
+      "suite": "regression_train03",
+      "case": {
+        "id": "dust_blue",
+        "kind": "search",
+        "scene": "dust",
+        "color": "blue",
+        "model": "v1.1"
+      },
+      "record": "runs/regression_train03/dust_blue_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 3.9292500000187616,
+      "min_goal_distance_m": 0.05915241434441516,
+      "other_min_goal_distance_m": 1.3831156624134262,
+      "min_person_clearance_m": 0.7133197990802435,
+      "score_path": "runs/regression_train03/dust_blue_v1.1/record/search_score.json",
+      "score_sha256": "47751aaef6a2cc60ef3eef329c3b69df4c6e743a08ddbdfd0d58910e508f021a",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    }
+  ],
+  "preregistered_goal_met": false,
+  "closed_loop_gate_met": false,
+  "color_intervention_gate_met": true,
+  "known_failure_retest_passed": true,
+  "known_failure_cases": [
+    {
+      "suite": "known_failure_train03",
+      "case": {
+        "scene": "known_swapped",
+        "color": "blue",
+        "kind": "search",
+        "model": "v1.1",
+        "id": "T3_blue_retest"
+      },
+      "record": "runs/known_failure_train03/T3_blue_retest_v1.1",
+      "success": true,
+      "error": null,
+      "flight_started": true,
+      "hold_s": 6.735999999840715,
+      "min_goal_distance_m": 0.015237955763119277,
+      "other_min_goal_distance_m": 0.901128199744712,
+      "min_person_clearance_m": 0.7819608552854942,
+      "score_path": "runs/known_failure_train03/T3_blue_retest_v1.1/record/search_score.json",
+      "score_sha256": "daf44388edd54a0f3a932a5e49964ba8b717d14a693c1abbc2f08b6b50d191d8",
+      "stop_reason": "landed_and_disarmed",
+      "mission_failure": null
+    }
+  ],
+  "limits": [
+    "One room, two static avatar identities; held-out layouts lie in the same constrained spatial range as training.",
+    "Small, correlated simulator sample; Wilson intervals describe these Bernoulli trials, not deployment reliability.",
+    "Runtime still uses original bilingual stage prompts. Detector and mission manager are not replaced by VLA.",
+    "No physical drone flight, arbitrary rooms, or unbounded layout claims."
+  ],
+  "video_model": "v1.0, unchanged"
+}

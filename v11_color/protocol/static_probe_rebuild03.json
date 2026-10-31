@@ -1,0 +1,864 @@
+{
+  "created_utc": "2026-10-30T16:57:47.419682+00:00",
+  "purpose": "Fresh reserved final layouts. Same image with both prompts, and both shirt assignments. Viewpoints fixed before rendering; no output-based filtering.",
+  "frames": [
+    {
+      "id": 0,
+      "scene": "heldout_rebuild_01",
+      "view": 0,
+      "blue_actor": 0,
+      "qpos": [
+        0.4,
+        0,
+        1.0,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 1,
+      "scene": "heldout_rebuild_01",
+      "view": 0,
+      "blue_actor": 1,
+      "qpos": [
+        0.4,
+        0,
+        1.0,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "scene": "heldout_rebuild_01",
+      "view": 1,
+      "blue_actor": 0,
+      "qpos": [
+        0.6,
+        0.05,
+        1.02,
+        0.9999500004166653,
+        0,
+        0,
+        0.009999833334166664
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.02,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "scene": "heldout_rebuild_01",
+      "view": 1,
+      "blue_actor": 1,
+      "qpos": [
+        0.6,
+        0.05,
+        1.02,
+        0.9999500004166653,
+        0,
+        0,
+        0.009999833334166664
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.02,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "scene": "heldout_rebuild_01",
+      "view": 2,
+      "blue_actor": 0,
+      "qpos": [
+        0.7,
+        -0.05,
+        0.95,
+        0.9999500004166653,
+        0,
+        0,
+        -0.009999833334166664
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        0.95,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 5,
+      "scene": "heldout_rebuild_01",
+      "view": 2,
+      "blue_actor": 1,
+      "qpos": [
+        0.7,
+        -0.05,
+        0.95,
+        0.9999500004166653,
+        0,
+        0,
+        -0.009999833334166664
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        0.95,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 6,
+      "scene": "heldout_rebuild_01",
+      "view": 3,
+      "blue_actor": 0,
+      "qpos": [
+        0.8,
+        0,
+        1.08,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.08,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 7,
+      "scene": "heldout_rebuild_01",
+      "view": 3,
+      "blue_actor": 1,
+      "qpos": [
+        0.8,
+        0,
+        1.08,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.08,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 8,
+      "scene": "heldout_rebuild_02",
+      "view": 0,
+      "blue_actor": 0,
+      "qpos": [
+        0.4,
+        0,
+        1.0,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 9,
+      "scene": "heldout_rebuild_02",
+      "view": 0,
+      "blue_actor": 1,
+      "qpos": [
+        0.4,
+        0,
+        1.0,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 10,
+      "scene": "heldout_rebuild_02",
+      "view": 1,
+      "blue_actor": 0,
+      "qpos": [
+        0.6,
+        0.05,
+        1.02,
+        0.9999500004166653,
+        0,
+        0,
+        0.009999833334166664
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.02,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 11,
+      "scene": "heldout_rebuild_02",
+      "view": 1,
+      "blue_actor": 1,
+      "qpos": [
+        0.6,
+        0.05,
+        1.02,
+        0.9999500004166653,
+        0,
+        0,
+        0.009999833334166664
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.02,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 12,
+      "scene": "heldout_rebuild_02",
+      "view": 2,
+      "blue_actor": 0,
+      "qpos": [
+        0.7,
+        -0.05,
+        0.95,
+        0.9999500004166653,
+        0,
+        0,
+        -0.009999833334166664
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        0.95,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 13,
+      "scene": "heldout_rebuild_02",
+      "view": 2,
+      "blue_actor": 1,
+      "qpos": [
+        0.7,
+        -0.05,
+        0.95,
+        0.9999500004166653,
+        0,
+        0,
+        -0.009999833334166664
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        0.95,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 14,
+      "scene": "heldout_rebuild_02",
+      "view": 3,
+      "blue_actor": 0,
+      "qpos": [
+        0.8,
+        0,
+        1.08,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.08,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 15,
+      "scene": "heldout_rebuild_02",
+      "view": 3,
+      "blue_actor": 1,
+      "qpos": [
+        0.8,
+        0,
+        1.08,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.08,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 16,
+      "scene": "heldout_rebuild_03",
+      "view": 0,
+      "blue_actor": 0,
+      "qpos": [
+        0.4,
+        0,
+        1.0,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 17,
+      "scene": "heldout_rebuild_03",
+      "view": 0,
+      "blue_actor": 1,
+      "qpos": [
+        0.4,
+        0,
+        1.0,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 18,
+      "scene": "heldout_rebuild_03",
+      "view": 1,
+      "blue_actor": 0,
+      "qpos": [
+        0.6,
+        0.05,
+        1.02,
+        0.9999500004166653,
+        0,
+        0,
+        0.009999833334166664
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.02,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 19,
+      "scene": "heldout_rebuild_03",
+      "view": 1,
+      "blue_actor": 1,
+      "qpos": [
+        0.6,
+        0.05,
+        1.02,
+        0.9999500004166653,
+        0,
+        0,
+        0.009999833334166664
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.02,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 20,
+      "scene": "heldout_rebuild_03",
+      "view": 2,
+      "blue_actor": 0,
+      "qpos": [
+        0.7,
+        -0.05,
+        0.95,
+        0.9999500004166653,
+        0,
+        0,
+        -0.009999833334166664
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        0.95,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 21,
+      "scene": "heldout_rebuild_03",
+      "view": 2,
+      "blue_actor": 1,
+      "qpos": [
+        0.7,
+        -0.05,
+        0.95,
+        0.9999500004166653,
+        0,
+        0,
+        -0.009999833334166664
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        0.95,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 22,
+      "scene": "heldout_rebuild_03",
+      "view": 3,
+      "blue_actor": 0,
+      "qpos": [
+        0.8,
+        0,
+        1.08,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.08,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 23,
+      "scene": "heldout_rebuild_03",
+      "view": 3,
+      "blue_actor": 1,
+      "qpos": [
+        0.8,
+        0,
+        1.08,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.08,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 24,
+      "scene": "heldout_rebuild_04",
+      "view": 0,
+      "blue_actor": 0,
+      "qpos": [
+        0.4,
+        0,
+        1.0,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 25,
+      "scene": "heldout_rebuild_04",
+      "view": 0,
+      "blue_actor": 1,
+      "qpos": [
+        0.4,
+        0,
+        1.0,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 26,
+      "scene": "heldout_rebuild_04",
+      "view": 1,
+      "blue_actor": 0,
+      "qpos": [
+        0.6,
+        0.05,
+        1.02,
+        0.9999500004166653,
+        0,
+        0,
+        0.009999833334166664
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.02,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 27,
+      "scene": "heldout_rebuild_04",
+      "view": 1,
+      "blue_actor": 1,
+      "qpos": [
+        0.6,
+        0.05,
+        1.02,
+        0.9999500004166653,
+        0,
+        0,
+        0.009999833334166664
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.02,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 28,
+      "scene": "heldout_rebuild_04",
+      "view": 2,
+      "blue_actor": 0,
+      "qpos": [
+        0.7,
+        -0.05,
+        0.95,
+        0.9999500004166653,
+        0,
+        0,
+        -0.009999833334166664
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        0.95,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 29,
+      "scene": "heldout_rebuild_04",
+      "view": 2,
+      "blue_actor": 1,
+      "qpos": [
+        0.7,
+        -0.05,
+        0.95,
+        0.9999500004166653,
+        0,
+        0,
+        -0.009999833334166664
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        0.95,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 30,
+      "scene": "heldout_rebuild_04",
+      "view": 3,
+      "blue_actor": 0,
+      "qpos": [
+        0.8,
+        0,
+        1.08,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.08,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 31,
+      "scene": "heldout_rebuild_04",
+      "view": 3,
+      "blue_actor": 1,
+      "qpos": [
+        0.8,
+        0,
+        1.08,
+        1.0,
+        0,
+        0,
+        0.0
+      ],
+      "state": [
+        0,
+        0,
+        0,
+        1.08,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "inference_gate": "selected_rebuild03.json must exist; final weights/runtime fixed before any inference",
+  "models": [
+    "v1.0",
+    "v1.1"
+  ],
+  "prompts": {
+    "runtime_english": [
+      "Approach the person wearing blue and stop.",
+      "Approach the person wearing red and stop."
+    ]
+  },
+  "action_summary": "Mean of first 10 steps of horizontal velocity in body frame, then rotate to world for posthoc scoring",
+  "stationary_speed_m_s": 0.02,
+  "primary": "Angle to requested goal smaller than angle to other goal; stationary or exact tie counts as failure",
+  "secondary": "Angle to requested person smaller than angle to other person, median goal angle for nonstationary outputs; all frames retained",
+  "paired": "Both instructions must choose correctly in the same image; separately count quartets correct under both shirt assignments and both instructions",
+  "figure_ids": [
+    0,
+    1,
+    8,
+    9
+  ],
+  "limit": "Correlated synthetic views in a single room; not independent flight trials and not a confidence estimate for arbitrary scenes",
+  "round_protocol_sha256": "6717ef5effb2a3907a35b652d334c39c200687cf1925a708e97ec569bd6b271a",
+  "source_camera_and_metric_protocol_sha256": "7f0bf0ea6ebef7ba6715d18d0dbc40030ba2b1fd99c63c948ae87710d05d1e3a",
+  "supersedes_unexecuted_protocol_sha256": "9ef7847000ce135101df2177f06a90373158807ca2c52444c1cb65e874816e91"
+}

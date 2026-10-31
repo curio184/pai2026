@@ -1,0 +1,39 @@
+{
+  "id": "R4F06",
+  "model": "v1.1",
+  "case": {
+    "id": "R4F06",
+    "scene": "heldout_r04_02",
+    "color": "blue",
+    "repeat": 2,
+    "seed": 202610317005,
+    "initial_offset": [
+      -0.03605028039339291,
+      0.04841832678397785,
+      -2.314882123595673
+    ],
+    "kind": "search",
+    "jitter": true,
+    "group": "matched_unseen",
+    "model": "v1.1"
+  },
+  "flight_started": true,
+  "success": false,
+  "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild04_final\\R4F06\\record",
+  "runner_exit": 0,
+  "checks": {
+    "physical_flight": true,
+    "initial_target_absent": true,
+    "airborne_initial_target_absent": true,
+    "search_rotation_completed": true,
+    "three_image_discovery": true,
+    "original_image_notification": false,
+    "discovery_notification_landing_order": false,
+    "all_camera_hashes_match": true,
+    "no_mission_failure": false,
+    "search_start_geometry_out_of_view": true,
+    "normal_end": true
+  },
+  "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+  "wall_s": 234.64100000000326
+}

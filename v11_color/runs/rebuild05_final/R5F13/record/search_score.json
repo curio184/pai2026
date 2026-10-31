@@ -1,0 +1,125 @@
+{
+  "success": true,
+  "checks": {
+    "physical_flight": true,
+    "initial_target_absent": true,
+    "airborne_initial_target_absent": true,
+    "search_rotation_completed": true,
+    "three_image_discovery": true,
+    "original_image_notification": true,
+    "discovery_notification_landing_order": true,
+    "all_camera_hashes_match": true,
+    "no_mission_failure": true,
+    "search_start_geometry_out_of_view": true,
+    "normal_end": true
+  },
+  "checkpoint_sha256": [
+    "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26"
+  ],
+  "discovery_time_s": 47.316250000134914,
+  "notification_time_s": 67.449250000133,
+  "completion_time_s": 73.04600000000066,
+  "camera_frame_count": 337,
+  "initial_view_geometry": {
+    "target_box_outside_horizontal_fov": true,
+    "capture_time": 35.08725000007652,
+    "matched_trace_time": 35.09550000007656,
+    "camera_hfov_degrees": 79.59936058370869,
+    "target_box_half_width_m": 0.35,
+    "target_box_height_m": 1.9,
+    "postflight_truth_only": true,
+    "input_image": "00149.jpg"
+  },
+  "physical": {
+    "success": true,
+    "profile": "blue",
+    "scoring_uses_truth_after_flight": true,
+    "learned_policy_provenance": true,
+    "checkpoints": [
+      "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26"
+    ],
+    "takeoff": true,
+    "policy_requests": {
+      "takeoff": false,
+      "land": false
+    },
+    "grounded_disarmed_motors_off": true,
+    "goal_holds": {
+      "blue": {
+        "goal_scene_xy_m": [
+          2.4929159837491874,
+          -0.6159116209137363
+        ],
+        "minimum_goal_distance_m": 0.14862481179096146,
+        "physical_hold": {
+          "duration_s": 4.069749999929272,
+          "end_s": 67.17200000013956
+        }
+      },
+      "red": {
+        "goal_scene_xy_m": [
+          1.8664897864322323,
+          0.6625901140741663
+        ],
+        "minimum_goal_distance_m": 1.1965418696124268,
+        "physical_hold": {
+          "duration_s": 0.0,
+          "end_s": null
+        }
+      }
+    },
+    "rotations": {
+      "right": {
+        "clockwise_rotation_deg": 88.35713287982922,
+        "expected_deg": 90,
+        "stopped": true,
+        "completed": true
+      },
+      "left": {
+        "completed": false
+      }
+    },
+    "minimum_person_clearance_m": 1.0364016308736579,
+    "explicit_hover_instruction_hold": {
+      "duration_s": 5.39275000002575,
+      "end_s": 35.276000000077424
+    },
+    "watchdog_landing": false,
+    "maximum_height_m": 1.0939929485321045,
+    "observation_age_s": {
+      "mean": 0.2998432618962244,
+      "p95": 0.3892500000018586,
+      "max": 0.4092499999903225
+    },
+    "limits": {
+      "goal_tolerance_m": 0.25,
+      "horizontal_speed_m_s": 0.08,
+      "hold_s": 3,
+      "altitude_m": [
+        0.8,
+        1.25
+      ],
+      "minimum_person_clearance_m": 0.45,
+      "rotation_tolerance_deg": 10
+    },
+    "note": "Simulator task evidence only; real hardware feasibility is a separate required gate.",
+    "original_provenance_contract_success": false,
+    "primitive_requests": {
+      "takeoff": true,
+      "land": true
+    },
+    "vla_approach_completion_fresh": true,
+    "vla_continuous_actions_preserved": true,
+    "fixed_latency": {
+      "ok": true,
+      "deliveries": 337,
+      "min_age_s": 0.20025000000024473,
+      "max_age_s": 0.20699999999951757,
+      "median_age_s": 0.20050000000095736
+    },
+    "scoring_contract": "rebuild04: original physical thresholds unchanged; VLA chunk step executed unchanged with fixed 0.2 s simulated latency.",
+    "original_contract_record": "physical_score_original_contract.json"
+  },
+  "source": "offline audit after flight; no simulator truth sent to perception or VLA",
+  "limits": "One room with stationary people; no identity or medical-state recognition; simulated optical conditions uncalibrated"
+}

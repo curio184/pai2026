@@ -1,0 +1,39 @@
+{
+  "id": "R5F11",
+  "model": "v1.1",
+  "case": {
+    "id": "R5F11",
+    "scene": "heldout_r05_03",
+    "color": "red",
+    "repeat": 1,
+    "seed": 202610318010,
+    "initial_offset": [
+      -0.04640810747387604,
+      -0.016005277376507608,
+      4.538758981444063
+    ],
+    "kind": "search",
+    "jitter": true,
+    "group": "matched_unseen",
+    "model": "v1.1"
+  },
+  "flight_started": true,
+  "success": true,
+  "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F11\\record",
+  "runner_exit": 0,
+  "checks": {
+    "physical_flight": true,
+    "initial_target_absent": true,
+    "airborne_initial_target_absent": true,
+    "search_rotation_completed": true,
+    "three_image_discovery": true,
+    "original_image_notification": true,
+    "discovery_notification_landing_order": true,
+    "all_camera_hashes_match": true,
+    "no_mission_failure": true,
+    "search_start_geometry_out_of_view": true,
+    "normal_end": true
+  },
+  "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+  "wall_s": 290.045999999973
+}

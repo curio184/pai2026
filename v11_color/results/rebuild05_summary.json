@@ -1,0 +1,765 @@
+{
+  "configuration": "rebuild05",
+  "protocol_sha256": "28a6e7612ec898e48baf3b3239e52a836287b84ab09846596f1fb0e8d14d6dbd",
+  "cases": [
+    {
+      "id": "R5F01",
+      "group": "matched_unseen",
+      "scene": "heldout_r05_01",
+      "color": "blue",
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F01\\record",
+      "hold_s": 5.653249999970463,
+      "latency": {
+        "ok": true,
+        "deliveries": 332,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.11858471244273398
+    },
+    {
+      "id": "R5F02",
+      "group": "matched_unseen",
+      "scene": "heldout_r05_01",
+      "color": "blue",
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F02\\record",
+      "hold_s": 3.9894999999562444,
+      "latency": {
+        "ok": true,
+        "deliveries": 332,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.09914589377692962
+    },
+    {
+      "id": "R5F03",
+      "group": "matched_unseen",
+      "scene": "heldout_r05_01",
+      "color": "red",
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F03\\record",
+      "hold_s": 5.513250000007389,
+      "latency": {
+        "ok": true,
+        "deliveries": 327,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.10113951625193113
+    },
+    {
+      "id": "R5F04",
+      "group": "matched_unseen",
+      "scene": "heldout_r05_01",
+      "color": "red",
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F04\\record",
+      "hold_s": 4.089750000003448,
+      "latency": {
+        "ok": true,
+        "deliveries": 327,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.1401709363469659
+    },
+    {
+      "id": "R5F05",
+      "group": "matched_unseen",
+      "scene": "heldout_r05_02",
+      "color": "blue",
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F05\\record",
+      "hold_s": 5.032000000024027,
+      "latency": {
+        "ok": true,
+        "deliveries": 313,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.04844052446267845
+    },
+    {
+      "id": "R5F06",
+      "group": "matched_unseen",
+      "scene": "heldout_r05_02",
+      "color": "blue",
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F06\\record",
+      "hold_s": 4.009499999987106,
+      "latency": {
+        "ok": true,
+        "deliveries": 327,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.0861766055559237
+    },
+    {
+      "id": "R5F07",
+      "group": "matched_unseen",
+      "scene": "heldout_r05_02",
+      "color": "red",
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F07\\record",
+      "hold_s": 3.9895000000190493,
+      "latency": {
+        "ok": true,
+        "deliveries": 303,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.11570598777175897
+    },
+    {
+      "id": "R5F08",
+      "group": "matched_unseen",
+      "scene": "heldout_r05_02",
+      "color": "red",
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F08\\record",
+      "hold_s": 7.618249999980975,
+      "latency": {
+        "ok": true,
+        "deliveries": 332,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.12178531881155126
+    },
+    {
+      "id": "R5F09",
+      "group": "matched_unseen",
+      "scene": "heldout_r05_03",
+      "color": "blue",
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F09\\record",
+      "hold_s": 3.9295000000187628,
+      "latency": {
+        "ok": true,
+        "deliveries": 308,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.06345323783305898
+    },
+    {
+      "id": "R5F10",
+      "group": "matched_unseen",
+      "scene": "heldout_r05_03",
+      "color": "blue",
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F10\\record",
+      "hold_s": 5.553249999985937,
+      "latency": {
+        "ok": true,
+        "deliveries": 332,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.0841160299153616
+    },
+    {
+      "id": "R5F11",
+      "group": "matched_unseen",
+      "scene": "heldout_r05_03",
+      "color": "red",
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F11\\record",
+      "hold_s": 4.169749999944003,
+      "latency": {
+        "ok": true,
+        "deliveries": 337,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.08077817078192653
+    },
+    {
+      "id": "R5F12",
+      "group": "matched_unseen",
+      "scene": "heldout_r05_03",
+      "color": "red",
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F12\\record",
+      "hold_s": 8.23974999987454,
+      "latency": {
+        "ok": true,
+        "deliveries": 352,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.09909240615246899
+    },
+    {
+      "id": "R5F13",
+      "group": "matched_unseen",
+      "scene": "heldout_r05_04",
+      "color": "blue",
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F13\\record",
+      "hold_s": 4.069749999929272,
+      "latency": {
+        "ok": true,
+        "deliveries": 337,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.14862481179096146
+    },
+    {
+      "id": "R5F14",
+      "group": "matched_unseen",
+      "scene": "heldout_r05_04",
+      "color": "blue",
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F14\\record",
+      "hold_s": 8.399999999882716,
+      "latency": {
+        "ok": true,
+        "deliveries": 352,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.10978599358860254
+    },
+    {
+      "id": "R5F15",
+      "group": "matched_unseen",
+      "scene": "heldout_r05_04",
+      "color": "red",
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F15\\record",
+      "hold_s": 8.339749999984988,
+      "latency": {
+        "ok": true,
+        "deliveries": 352,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.09326921665329806
+    },
+    {
+      "id": "R5F16",
+      "group": "matched_unseen",
+      "scene": "heldout_r05_04",
+      "color": "red",
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F16\\record",
+      "hold_s": 3.8892500000185706,
+      "latency": {
+        "ok": true,
+        "deliveries": 308,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.04688195486108435
+    },
+    {
+      "id": "primitive_blue",
+      "group": "video_regression",
+      "scene": "clear",
+      "color": "blue",
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\primitive_blue\\record",
+      "hold_s": 3.9695000000189538,
+      "latency": {
+        "ok": true,
+        "deliveries": 258,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.10719992435138376
+    },
+    {
+      "id": "primitive_red",
+      "group": "video_regression",
+      "scene": "clear",
+      "color": "red",
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\primitive_red\\record",
+      "hold_s": 4.009500000019145,
+      "latency": {
+        "ok": true,
+        "deliveries": 253,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.11393854171044485
+    },
+    {
+      "id": "primitive_turns",
+      "group": "video_regression",
+      "scene": "clear",
+      "color": null,
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\primitive_turns\\record",
+      "hold_s": null,
+      "latency": {
+        "ok": true,
+        "deliveries": 298,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": null,
+      "minimum_goal_distance_m": null
+    },
+    {
+      "id": "primitive_left",
+      "group": "video_regression",
+      "scene": "clear",
+      "color": null,
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\primitive_left\\record",
+      "hold_s": null,
+      "latency": {
+        "ok": true,
+        "deliveries": 238,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": null,
+      "minimum_goal_distance_m": null
+    },
+    {
+      "id": "search_clear_blue",
+      "group": "video_regression",
+      "scene": "clear",
+      "color": "blue",
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\search_clear_blue\\record",
+      "hold_s": 3.9895000000190493,
+      "latency": {
+        "ok": true,
+        "deliveries": 318,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.08992500281738933
+    },
+    {
+      "id": "search_clear_red",
+      "group": "video_regression",
+      "scene": "clear",
+      "color": "red",
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\search_clear_red\\record",
+      "hold_s": 4.270250000003166,
+      "latency": {
+        "ok": true,
+        "deliveries": 327,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.051158494905283076
+    },
+    {
+      "id": "search_fog_light_blue",
+      "group": "video_regression",
+      "scene": "fog_light",
+      "color": "blue",
+      "success": false,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\search_fog_light_blue\\record",
+      "hold_s": 2.7665000000132096,
+      "latency": {
+        "ok": true,
+        "deliveries": 322,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.10014751229046763
+    },
+    {
+      "id": "search_fog_dense_blue",
+      "group": "video_regression",
+      "scene": "fog_dense",
+      "color": "blue",
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\search_fog_dense_blue\\record",
+      "hold_s": 3.8492500000183796,
+      "latency": {
+        "ok": true,
+        "deliveries": 318,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.13321315162207853
+    },
+    {
+      "id": "search_dust_blue",
+      "group": "video_regression",
+      "scene": "dust",
+      "color": "blue",
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\search_dust_blue\\record",
+      "hold_s": 5.673500000005312,
+      "latency": {
+        "ok": true,
+        "deliveries": 327,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.10738499168206439
+    },
+    {
+      "id": "known_T3_blue",
+      "group": "known_failure",
+      "scene": "known_swapped",
+      "color": "blue",
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\known_T3_blue\\record",
+      "hold_s": 5.072000000024218,
+      "latency": {
+        "ok": true,
+        "deliveries": 322,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.07968728051864059
+    }
+  ],
+  "video_cases": [
+    {
+      "id": "primitive_blue",
+      "group": "video_regression",
+      "scene": "clear",
+      "color": "blue",
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\primitive_blue\\record",
+      "hold_s": 3.9695000000189538,
+      "latency": {
+        "ok": true,
+        "deliveries": 258,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.10719992435138376
+    },
+    {
+      "id": "primitive_red",
+      "group": "video_regression",
+      "scene": "clear",
+      "color": "red",
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\primitive_red\\record",
+      "hold_s": 4.009500000019145,
+      "latency": {
+        "ok": true,
+        "deliveries": 253,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.11393854171044485
+    },
+    {
+      "id": "primitive_turns",
+      "group": "video_regression",
+      "scene": "clear",
+      "color": null,
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\primitive_turns\\record",
+      "hold_s": null,
+      "latency": {
+        "ok": true,
+        "deliveries": 298,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": null,
+      "minimum_goal_distance_m": null
+    },
+    {
+      "id": "primitive_left",
+      "group": "video_regression",
+      "scene": "clear",
+      "color": null,
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\primitive_left\\record",
+      "hold_s": null,
+      "latency": {
+        "ok": true,
+        "deliveries": 238,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": null,
+      "minimum_goal_distance_m": null
+    },
+    {
+      "id": "search_clear_blue",
+      "group": "video_regression",
+      "scene": "clear",
+      "color": "blue",
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\search_clear_blue\\record",
+      "hold_s": 3.9895000000190493,
+      "latency": {
+        "ok": true,
+        "deliveries": 318,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.08992500281738933
+    },
+    {
+      "id": "search_clear_red",
+      "group": "video_regression",
+      "scene": "clear",
+      "color": "red",
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\search_clear_red\\record",
+      "hold_s": 4.270250000003166,
+      "latency": {
+        "ok": true,
+        "deliveries": 327,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.051158494905283076
+    },
+    {
+      "id": "search_fog_light_blue",
+      "group": "video_regression",
+      "scene": "fog_light",
+      "color": "blue",
+      "success": false,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\search_fog_light_blue\\record",
+      "hold_s": 2.7665000000132096,
+      "latency": {
+        "ok": true,
+        "deliveries": 322,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.10014751229046763
+    },
+    {
+      "id": "search_fog_dense_blue",
+      "group": "video_regression",
+      "scene": "fog_dense",
+      "color": "blue",
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\search_fog_dense_blue\\record",
+      "hold_s": 3.8492500000183796,
+      "latency": {
+        "ok": true,
+        "deliveries": 318,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.13321315162207853
+    },
+    {
+      "id": "search_dust_blue",
+      "group": "video_regression",
+      "scene": "dust",
+      "color": "blue",
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\search_dust_blue\\record",
+      "hold_s": 5.673500000005312,
+      "latency": {
+        "ok": true,
+        "deliveries": 327,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.10738499168206439
+    }
+  ],
+  "known_failure_cases": [
+    {
+      "id": "known_T3_blue",
+      "group": "known_failure",
+      "scene": "known_swapped",
+      "color": "blue",
+      "success": true,
+      "error": null,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\known_T3_blue\\record",
+      "hold_s": 5.072000000024218,
+      "latency": {
+        "ok": true,
+        "deliveries": 322,
+        "min_age_s": 0.20025000000024473,
+        "max_age_s": 0.20699999999951757,
+        "median_age_s": 0.20050000000095736
+      },
+      "vla_preserved": true,
+      "minimum_goal_distance_m": 0.07968728051864059
+    }
+  ],
+  "heldout": {
+    "blue": 8,
+    "red": 8,
+    "total": 16,
+    "by_layout": {
+      "heldout_r05_01": 4,
+      "heldout_r05_02": 4,
+      "heldout_r05_03": 4,
+      "heldout_r05_04": 4
+    },
+    "hold_min": 3.8892500000185706,
+    "hold_max": 8.399999999882716,
+    "sentence": "4配置とも4回すべて成功し、停止は3.9〜8.4秒続いた。"
+  },
+  "gate": {
+    "heldout_total": true,
+    "each_color": true,
+    "each_layout": true,
+    "video": false
+  },
+  "gate_passed": false,
+  "latency": {
+    "inference_median": 0.26600000000325963,
+    "inference_p90": 0.5,
+    "inference_n": 1047,
+    "source": "vla_worker inference_s during the four primitive flights (renderer idle while inferring)"
+  },
+  "delivery_age_range": [
+    0.20025000000024473,
+    0.20699999999951757
+  ],
+  "probe": {
+    "correct": 64,
+    "outputs": 64,
+    "median_deg": 1.9644994402281895,
+    "v10_correct": 33
+  },
+  "probe_figure": {
+    "frame_id": 1,
+    "image": "<PROJECT_ROOT>\\v11_color\\probe_rebuild05\\images\\00001.jpg",
+    "drone_xy": [
+      0.4,
+      0
+    ],
+    "arrows": [
+      {
+        "color": "blue",
+        "target_xy": [
+          2.277878803783651,
+          -0.5337312734366806
+        ],
+        "world_horizontal": [
+          0.18162432312965393,
+          -0.04075714945793152
+        ],
+        "correct": true
+      },
+      {
+        "color": "red",
+        "target_xy": [
+          2.5193606858446294,
+          1.0371637147631838
+        ],
+        "world_horizontal": [
+          0.16244597733020782,
+          0.07016259431838989
+        ],
+        "correct": true
+      }
+    ]
+  }
+}

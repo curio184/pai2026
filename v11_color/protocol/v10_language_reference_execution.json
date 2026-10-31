@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-10-30T18:11:18.712457+00:00",
+  "protocol_sha256": "7fd866a3810cbe1344cb2215dcde3d400b2973d8138bb0dce92f32c5fc334069",
+  "runner_sha256": "c05fc624104174107b3bda93168a9f8150fbcb312ed4a18640bc0fa6a5fc9156",
+  "verifier_sha256": "663bab11505f2b93117c9134a119c472fb5c77265423a9bccc00b0e0aa32ea4b",
+  "outputs": 64,
+  "flight_count": 0,
+  "models": [
+    "v1.0"
+  ],
+  "num_steps": 5,
+  "gpu_scheduling": "Run only after all42 original cases and all16 teacher-compatible reference cases have ended.",
+  "amended_utc": "2026-10-30T18:57:43.459570+00:00",
+  "amendment": "Verifier report names the tested v1.0 checkpoint instead of the main v1.1 selection. No cases, images, prompts, noise, model, inference or metric changes. Before first inference."
+}

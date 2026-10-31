@@ -1,0 +1,153 @@
+{
+  "created_utc": "2026-10-29T20:58:15.507216+00:00",
+  "candidate": "train12_en",
+  "training": {
+    "initial_checkpoint": "v11_color/models/train11_en/final",
+    "initial_checkpoint_sha256": "69e012e308c87fa728cad38b6c06fe32a8466863179b54815a5e4df950f5bd1c",
+    "steps": 6000,
+    "seed": 2026103012,
+    "micro_batch": 4,
+    "gradient_accumulation": 2,
+    "learning_rate": 1e-05,
+    "vlm_layer_learning_rate": 0.0,
+    "train_vlm_text_layers": [],
+    "vision_encoder_frozen": true,
+    "optimizer": "AdamW",
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "epsilon": 1e-08,
+    "weight_decay": 1e-10,
+    "gradient_clip_norm": 10,
+    "warmup_steps": 200,
+    "final_learning_rate_fraction": 0.025,
+    "action_chunk": 32,
+    "action_dt_s": 0.1,
+    "checkpoint_selection": "final step only",
+    "recovery_selection": "latest saved recovery by step only, never validation score",
+    "teacher_stop_deadband_m": 0.02,
+    "teacher_gain": 1.4,
+    "sampling": "Same 25% color quartets, 25% navigation, 40% state calibration, 10% retained primitive schedule. State calibration uses one same-image quartet [v,-v,0,v/2] per microbatch; domains 25/25/50% and tasks 2..6 cycle. Common flow noise/time across the quartet; t=1 on even steps, sampled common time on odd steps. Other sampling unchanged.",
+    "prompt_variants": [
+      "original bilingual",
+      "Japanese only",
+      "English only"
+    ],
+    "prompt_probabilities": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "loss": "Flow matching on six normalized action channels, weights [8,8,1,4,1,1], divided by their sum. Runtime units and normalization unchanged.",
+    "data_images": 6000,
+    "retention_images": 2408,
+    "output": "models/train12_en",
+    "data": "Same dataset10 images and states. Relabel stationary horizontal braking and airborne rotation yaw only.",
+    "teacher_standoff_m": 1.0,
+    "scoring_standoff_m": 0.9,
+    "braking_coefficient": 1.2,
+    "source_dataset_audit_sha256": "444a4b8abfbc85a9faad4c825f8a3049a950a95f8797e3592b4eeae7ee9fcbe8",
+    "primitive_sampling": "State calibration 40%, retained primitives 10%, navigation/color 50%.",
+    "frozen_backbone": "All vision-language parameters; train action expert and state/action projections only. Verify frozen parameter digest before and after training.",
+    "prompt_language": "English only",
+    "action_loss_weights": [
+      8.0,
+      8.0,
+      1.0,
+      4.0,
+      1.0,
+      1.0
+    ],
+    "image_domains": "Explicit per-image domains; new views are appended after the 6408 existing image IDs.",
+    "minimum_free_gib_before_training": 7.4,
+    "minimum_free_gib_during_training": 5.0,
+    "noise_schedule": "For step=1..6000 and micro=0..1, use the frozen runtime Gaussian realization if (step+micro)%4<2, otherwise fresh random noise. 50% each. Existing common-noise quartet rules and flow-time schedule unchanged.",
+    "runtime_noise_seed": 20261024,
+    "rationale": "Address observed horizontal drift and rotation overshoot with training-only target changes. Preserve navigation and landing labels. No runtime or score changes."
+  },
+  "previous_training_plan_sha256": "57f0cab0ea89d5d7180e62e994e3f323d4026f741d82cf3276047b8632d6d182",
+  "prior_results": {
+    "development": [
+      8,
+      8
+    ],
+    "stress": [
+      12,
+      16
+    ],
+    "selected": false
+  },
+  "diagnosis_sha256": "e7f3107ddbf4d2e00d7ac32bcbe796ce97c1b4cec0cdd4b794d942bb0f726e4c",
+  "teacher_source_sha256": "7868f29be7e0590cde8726956adb008d6a173e7b3f9f14f22270bac5cf3c8eff",
+  "teacher": {
+    "scope": "Training labels only; frozen velocity-to-attitude controller already subtracts current estimated velocity.",
+    "hold_tasks": [
+      2,
+      4,
+      5,
+      6
+    ],
+    "navigation_velocity_damping": 0.5,
+    "navigation_position_coefficient": 1.4,
+    "horizontal_command_cap_m_s": 0.2,
+    "teacher_standoff_m": 1.0,
+    "scoring_standoff_m": 0.9,
+    "navigation_deadband_m": 0.02,
+    "nonhorizontal_labels": "Preserve all except yaw for rotation tasks 4/5 when captured state is armed and altitude >0.8m.",
+    "reason": "H06/H11 insufficient physical hover with horizontal drift; H12 overshot scan and target near frame edge; H16 acquired red then lost it at right edge while drifting. Median capture-to-first-execution latency across16 development cases is0.9105s. Navigation error may persist; improvement is a hypothesis.",
+    "braking_coefficient": 1.2,
+    "grounded_takeoff_horizontal_zero_below_m": 0.25,
+    "stationary_horizontal_command": "-1.2 * input estimated horizontal velocity; norm cap0.2m/s, constant32 steps. Zero unarmed or takeoff below0.25m.",
+    "yaw_deadband_rad": 0.03,
+    "yaw_gain": 0.8,
+    "yaw_cap_rad_s": 0.25,
+    "yaw_target_rule": "For armed rotation above0.8m: initial predicted yaw=own_yaw+1.0*own_yaw_rate. Iterate32 times at0.1s; rate=0 inside0.03rad else clip(0.8*(target-predicted_yaw), +/-0.25).",
+    "yaw_capture_lookahead_s": 1.0
+  },
+  "data": {
+    "source": "data/dataset10_en",
+    "source_audit_sha256": "444a4b8abfbc85a9faad4c825f8a3049a950a95f8797e3592b4eeae7ee9fcbe8",
+    "images": 8408,
+    "added_images": 0,
+    "layouts": 20,
+    "evaluation_images_or_states_used_for_training": 0,
+    "added_state_examples": 0,
+    "expected_total_examples": 236170,
+    "unchanged": "All image/state/task input arrays, English prompts, sampling pools, flow-time/noise schedules, loss weights, navigation/landing labels, runtime and scoring.",
+    "training_yaw_coverage_audit_sha256": "e3289d4d4e05b690020bcc56338671f75199001dd8a85b4e0af4d1579339cced"
+  },
+  "round_protocol_sha256": "d022927d44c067bf2e7274152c06fba3114ffc146f0d02b225432eedd8630ebc",
+  "probe_protocol_sha256": "703d384f9712db24c09151ffbfcdb06605a7684295b4b5222592668a99226cf3",
+  "runtime_lock_sha256": "bcf00a186a70df2004f68e2f4eac13090a1191ac69cb0bd28af877952a250d69",
+  "original_protocol_sha256": "ed157f5a14536772d05a00cfe31c315f6b747d624da4b527e8ce5e64de5cd111",
+  "storage_amendment_sha256": "b23ee6aa3e9881d0817e88b35d6f12c6f8304ba28b9fa4094b4ab83a0beaddf0",
+  "fresh_final_policy_executions_before_training": 0,
+  "final_step_only": true,
+  "evaluation": "Unchanged: dev 8/8; exposed stress >=14/16, >=7/8 each color, >=3/4 each layout; regression 5/5; known failure 1/1; then fresh matched 16 per model and preregistered static probe.",
+  "hypotheses_not_results": [
+    "Stronger training-only horizontal braking may reduce drift in stationary phases. No gain of the runtime controller is changed.",
+    "Yaw training labels anticipate1.0s delay using own yaw rate and cap teacher yaw at0.25rad/s; runtime cap remains0.35rad/s.",
+    "H16 also shows navigation-direction error; these target changes may not fix it. All subsequent runs, including failures, remain reportable.",
+    "No development images or states become training examples. Fresh round02 remains unexposed.",
+    "Multiple teacher changes plus continuation training prevent isolated causal attribution."
+  ],
+  "storage": {
+    "project_root": "<PROJECT_ROOT>",
+    "free_bytes_at_registration": 7406641152,
+    "inactive_record_compression_status_sha256": "a9fde0e7c1e4187e8d46c05a5c1c475bcbdd50e362e5b93afa45249ef8b995d9",
+    "training_must_wait_until_free_gib": 7.4
+  },
+  "registration_script_sha256": "030e139d3f57c999b07b532a6820fb81f0b52c8dabd31bf2b1fa797a0c3adfdd",
+  "full_suite_diagnosis_sha256": "16013482b85c1ccb88fd11c0917a83ebcee53843de81c267768080eb1bdc3a28",
+  "inherited_teacher_source_sha256": "8471e8119239ca38da0f107e4b247b8c8bcf3bb6087151b50a371a42de5aa83c",
+  "bounded_execution_protocol_sha256": "2c0200d6cbec847bf42edc8e3d94a69e7d696d3fdab053ca5e56f836b346b238",
+  "resources": {
+    "simulator_cpu_cores_max": 4,
+    "simulator_memory_max_bytes": 8589934592,
+    "nice": 10,
+    "concurrent_flights": 1,
+    "training": "Windows GPU, no WSL training; no flight concurrent with training",
+    "scope": "Project WSL process tree only; other user workloads and global WSL settings untouched"
+  }
+}

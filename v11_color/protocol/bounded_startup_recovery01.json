@@ -1,0 +1,196 @@
+{
+  "created_utc": "2026-10-29T15:53:10.337123+00:00",
+  "reason": "WSL service connection timeout before bounded wrapper/simulator started; WSL responded again without restarting it.",
+  "original_folder": "runs/dev_train08_en_capped/primitive_red_v1.1",
+  "preserved_folder": "runs/dev_train08_en_capped/primitive_red_v1.1_startup_failed01",
+  "original_files_sha256": {
+    "command.json": "89f4f9a7d37907e4ec6f21bf9227a7078ea5b5e1316e9260a3705e3ee20ba036",
+    "manifest.json": "176a9af033b2283d9dc49b7af0dbce8f8307a0284758ce119d5d7a6c2be7a71e",
+    "outcome.json": "51deaf5a6588bc339d4c85683d298d35492959e6227e8266183503f4b47cbd73",
+    "renderer.log": "dbe8e7fe84a39bc3f70d71fc8b875752e320e8ca7e00011ea33a273a3f2ae569",
+    "renderer_ready.json": "4878091d8b765123b4dbf948f25f2b80039a82c05d27e42989e9ed2622ac1ab8",
+    "runner.log": "fd1b12fb71c7a976eb3985cac2e2cf71a18996f97e0924c6cbc33345ceea0a72",
+    "worker.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "worker_ready.json": "825280e512d7e7f91d23659be1c1ea154e825fd7352a274a38fcde1b1f5d4bfa"
+  },
+  "original_summary": {
+    "completed": 6,
+    "planned": 8,
+    "successes": 5,
+    "cases": [
+      {
+        "id": "dev01_blue",
+        "model": "v1.1",
+        "case": {
+          "id": "dev01_blue",
+          "kind": "search",
+          "scene": "dev01",
+          "color": "blue",
+          "model": "v1.1",
+          "round_protocol_sha256": "d022927d44c067bf2e7274152c06fba3114ffc146f0d02b225432eedd8630ebc"
+        },
+        "flight_started": true,
+        "success": true,
+        "record": "<PROJECT_ROOT>\\v11_color\\runs\\dev_train08_en_capped\\dev01_blue_v1.1\\record",
+        "runner_exit": 0,
+        "checks": {
+          "physical_flight": true,
+          "initial_target_absent": true,
+          "airborne_initial_target_absent": true,
+          "search_rotation_completed": true,
+          "three_image_discovery": true,
+          "original_image_notification": true,
+          "discovery_notification_landing_order": true,
+          "all_camera_hashes_match": true,
+          "no_mission_failure": true,
+          "search_start_geometry_out_of_view": true,
+          "normal_end": true
+        },
+        "checkpoint_sha256": "d05f827977038b376358d99703ef361d8a23fda296eb7985df881394e8fa0e38"
+      },
+      {
+        "id": "dev01_red",
+        "model": "v1.1",
+        "case": {
+          "id": "dev01_red",
+          "kind": "search",
+          "scene": "dev01",
+          "color": "red",
+          "model": "v1.1",
+          "round_protocol_sha256": "d022927d44c067bf2e7274152c06fba3114ffc146f0d02b225432eedd8630ebc"
+        },
+        "flight_started": true,
+        "success": true,
+        "record": "<PROJECT_ROOT>\\v11_color\\runs\\dev_train08_en_capped\\dev01_red_v1.1\\record",
+        "runner_exit": 0,
+        "checks": {
+          "physical_flight": true,
+          "initial_target_absent": true,
+          "airborne_initial_target_absent": true,
+          "search_rotation_completed": true,
+          "three_image_discovery": true,
+          "original_image_notification": true,
+          "discovery_notification_landing_order": true,
+          "all_camera_hashes_match": true,
+          "no_mission_failure": true,
+          "search_start_geometry_out_of_view": true,
+          "normal_end": true
+        },
+        "checkpoint_sha256": "d05f827977038b376358d99703ef361d8a23fda296eb7985df881394e8fa0e38"
+      },
+      {
+        "id": "dev02_blue",
+        "model": "v1.1",
+        "case": {
+          "id": "dev02_blue",
+          "kind": "search",
+          "scene": "dev02",
+          "color": "blue",
+          "model": "v1.1",
+          "round_protocol_sha256": "d022927d44c067bf2e7274152c06fba3114ffc146f0d02b225432eedd8630ebc"
+        },
+        "flight_started": true,
+        "success": true,
+        "record": "<PROJECT_ROOT>\\v11_color\\runs\\dev_train08_en_capped\\dev02_blue_v1.1\\record",
+        "runner_exit": 0,
+        "checks": {
+          "physical_flight": true,
+          "initial_target_absent": true,
+          "airborne_initial_target_absent": true,
+          "search_rotation_completed": true,
+          "three_image_discovery": true,
+          "original_image_notification": true,
+          "discovery_notification_landing_order": true,
+          "all_camera_hashes_match": true,
+          "no_mission_failure": true,
+          "search_start_geometry_out_of_view": true,
+          "normal_end": true
+        },
+        "checkpoint_sha256": "d05f827977038b376358d99703ef361d8a23fda296eb7985df881394e8fa0e38"
+      },
+      {
+        "id": "dev02_red",
+        "model": "v1.1",
+        "case": {
+          "id": "dev02_red",
+          "kind": "search",
+          "scene": "dev02",
+          "color": "red",
+          "model": "v1.1",
+          "round_protocol_sha256": "d022927d44c067bf2e7274152c06fba3114ffc146f0d02b225432eedd8630ebc"
+        },
+        "flight_started": true,
+        "success": true,
+        "record": "<PROJECT_ROOT>\\v11_color\\runs\\dev_train08_en_capped\\dev02_red_v1.1\\record",
+        "runner_exit": 0,
+        "checks": {
+          "physical_flight": true,
+          "initial_target_absent": true,
+          "airborne_initial_target_absent": true,
+          "search_rotation_completed": true,
+          "three_image_discovery": true,
+          "original_image_notification": true,
+          "discovery_notification_landing_order": true,
+          "all_camera_hashes_match": true,
+          "no_mission_failure": true,
+          "search_start_geometry_out_of_view": true,
+          "normal_end": true
+        },
+        "checkpoint_sha256": "d05f827977038b376358d99703ef361d8a23fda296eb7985df881394e8fa0e38"
+      },
+      {
+        "id": "primitive_blue",
+        "model": "v1.1",
+        "case": {
+          "id": "primitive_blue",
+          "kind": "primitive",
+          "scene": "clear",
+          "profile": "blue",
+          "model": "v1.1",
+          "round_protocol_sha256": "d022927d44c067bf2e7274152c06fba3114ffc146f0d02b225432eedd8630ebc"
+        },
+        "flight_started": true,
+        "success": true,
+        "record": "<PROJECT_ROOT>\\v11_color\\runs\\dev_train08_en_capped\\primitive_blue_v1.1\\record",
+        "runner_exit": 0,
+        "checks": null,
+        "checkpoint_sha256": "d05f827977038b376358d99703ef361d8a23fda296eb7985df881394e8fa0e38"
+      },
+      {
+        "id": "primitive_red",
+        "model": "v1.1",
+        "case": {
+          "id": "primitive_red",
+          "kind": "primitive",
+          "scene": "clear",
+          "profile": "red",
+          "model": "v1.1",
+          "round_protocol_sha256": "d022927d44c067bf2e7274152c06fba3114ffc146f0d02b225432eedd8630ebc"
+        },
+        "flight_started": true,
+        "success": false,
+        "record": "<PROJECT_ROOT>\\v11_color\\runs\\dev_train08_en_capped\\primitive_red_v1.1\\record",
+        "runner_exit": 4294967295,
+        "error": "RuntimeError('Flight runner returned 4294967295')"
+      }
+    ]
+  },
+  "original_summary_sha256": "5034017bac5810a6b532b471b5033f0d7c3b4f18a510f71dd2481edc7d552443",
+  "original_outcome_flight_started": true,
+  "correction": "flight_started in the launcher means subprocess launch was requested. No resource_limits.json or record directory was created; the Linux wrapper and flight did not start.",
+  "flight_started": false,
+  "model_inference_started": false,
+  "normal_performance_trial": false,
+  "recovery_script": "resume_train08_capped_startup01.py",
+  "recovery_script_sha256": "90e325ac2f233cfa1f64433da5886f50b3d0af25c23b121609f7b6f3c2e969a4",
+  "original_pipeline_sha256": "4023d32dbda319f28302288fc7d8bd5c8fe7e8312ca4c66014db11c91572323f",
+  "resource_protocol_sha256": "2c0200d6cbec847bf42edc8e3d94a69e7d696d3fdab053ca5e56f836b346b238",
+  "candidate": "train08_en_capped",
+  "checkpoint_sha256": "d05f827977038b376358d99703ef361d8a23fda296eb7985df881394e8fa0e38",
+  "conditions_changed": false,
+  "model_changed": false,
+  "criteria_changed": false,
+  "continuation": "Reuse the five completed outcomes without rerunning them; execute the three remaining predefined cases once. Preserve any further infrastructure error and stop for diagnosis.",
+  "windows_worker_and_renderer_cleaned_by_runner": true,
+  "global_wsl_restart": false
+}

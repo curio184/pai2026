@@ -1,0 +1,85 @@
+{
+  "created_utc": "2026-10-30T16:42:31.682186+00:00",
+  "scope": "Existing development frames only; six prior stopping cases, two preregistered times each. No final holdout data.",
+  "steps": [
+    10,
+    5,
+    2
+  ],
+  "frames": [
+    {
+      "case": "NFH01",
+      "offset": 5.0,
+      "record": "runs/navfocus_final/NFH01_v1.1/record",
+      "image": "00060.jpg"
+    },
+    {
+      "case": "NFH01",
+      "offset": 0.5,
+      "record": "runs/navfocus_final/NFH01_v1.1/record",
+      "image": "00065.jpg"
+    },
+    {
+      "case": "NFH04",
+      "offset": 5.0,
+      "record": "runs/navfocus_final/NFH04_v1.1/record",
+      "image": "00065.jpg"
+    },
+    {
+      "case": "NFH04",
+      "offset": 0.5,
+      "record": "runs/navfocus_final/NFH04_v1.1/record",
+      "image": "00070.jpg"
+    },
+    {
+      "case": "NFH07",
+      "offset": 5.0,
+      "record": "runs/navfocus_final/NFH07_v1.1/record",
+      "image": "00061.jpg"
+    },
+    {
+      "case": "NFH07",
+      "offset": 0.5,
+      "record": "runs/navfocus_final/NFH07_v1.1/record",
+      "image": "00066.jpg"
+    },
+    {
+      "case": "NFH13",
+      "offset": 5.0,
+      "record": "runs/navfocus_final/NFH13_v1.1/record",
+      "image": "00066.jpg"
+    },
+    {
+      "case": "NFH13",
+      "offset": 0.5,
+      "record": "runs/navfocus_final/NFH13_v1.1/record",
+      "image": "00071.jpg"
+    },
+    {
+      "case": "NFH14",
+      "offset": 5.0,
+      "record": "runs/navfocus_final/NFH14_v1.1/record",
+      "image": "00070.jpg"
+    },
+    {
+      "case": "NFH14",
+      "offset": 0.5,
+      "record": "runs/navfocus_final/NFH14_v1.1/record",
+      "image": "00075.jpg"
+    },
+    {
+      "case": "NFH16",
+      "offset": 5.0,
+      "record": "runs/navfocus_final/NFH16_v1.1/record",
+      "image": "00056.jpg"
+    },
+    {
+      "case": "NFH16",
+      "offset": 0.5,
+      "record": "runs/navfocus_final/NFH16_v1.1/record",
+      "image": "00060.jpg"
+    }
+  ],
+  "selection": "Choose fastest candidate with max decoded endpoint deviation <=.025m from10 steps and identical stop_planned flags on all12 frames. Never selects weights.",
+  "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26"
+}

@@ -1,0 +1,7 @@
+{
+  "candidate": "train16_en",
+  "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+  "configuration": "rebuild05",
+  "flow_steps": 5,
+  "created_utc": "2026-10-31T10:45:48.907308+00:00"
+}

@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-10-29T15:22:17.171014+00:00",
+  "kind": "infrastructure failure before flight",
+  "flight_started": false,
+  "inference_started": false,
+  "case": {
+    "id": "dev01_blue",
+    "kind": "search",
+    "scene": "dev01",
+    "color": "blue",
+    "model": "v1.1",
+    "round_protocol_sha256": "d022927d44c067bf2e7274152c06fba3114ffc146f0d02b225432eedd8630ebc"
+  },
+  "original_empty_directory": "runs\\dev_train08_en\\dev01_blue_v1.1",
+  "preserved_directory": "runs\\dev_train08_en\\dev01_blue_v1.1_startup_failed01",
+  "original_directory_created": 1793286986.3014846,
+  "original_log_sha256": "e2f15eda010adeb14bef18febe3a63161959ce213b1f505ed255ba28f9dfd780",
+  "original_status": {
+    "stage": "pipeline_error",
+    "updated_utc": "2026-10-29T15:17:26.566758+00:00",
+    "error": "RuntimeError('dev returned 1; attempt preserved')"
+  },
+  "checkpoint_sha256": "d05f827977038b376358d99703ef361d8a23fda296eb7985df881394e8fa0e38",
+  "resume_script_sha256": "fd20c8375e1f0d41706e23699f2bd57d86389927d540fff7ee23e9d19f0d1a1d",
+  "unchanged_suite_plan_sha256": "1be2e58632b5069912a86855527492e3bb5a272b8986f283a9df03acd589edfb",
+  "runtime_lock_sha256": "bcf00a186a70df2004f68e2f4eac13090a1191ac69cb0bd28af877952a250d69",
+  "resolution": "WSL read-only wake/check succeeded; original ArduPilot SHA unchanged. No restart or file-content repair.",
+  "scope": "One explicit recovery. No flight/inference occurred in the failed startup. No score, model, runtime, criteria or planned case changes. Not counted as a flight success or flight failure; listed separately."
+}

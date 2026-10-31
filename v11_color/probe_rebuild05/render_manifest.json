@@ -1,0 +1,8 @@
+{
+  "script_sha256": "aa338532d23831007a6796db5b82476d216a7d0d5d7654dd1acef305434c4062",
+  "probe_plan_sha256": "ca7557186dc7a0967360d8e546a3da5031eb6e6dd5e65b7d63b9adb6f45ada13",
+  "frames": 32,
+  "samples": 16,
+  "width": 320,
+  "height": 240
+}

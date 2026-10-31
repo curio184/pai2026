@@ -1,0 +1,7 @@
+﻿{
+    "recorded_utc":  "2026-10-28T11:13:02.1651923Z",
+    "status":  "Before any v1.1 optimizer step or flight",
+    "navigation_pair":  "One blue example and one red example sampled independently, including close single-person views. Domain selected 90 percent new and 10 percent old. Same-image and shirt counterfactuals are enforced in alternating quartet batches.",
+    "flow_time":  "Quartets share noise at time 1; independent examples use the original sampled flow time.",
+    "justification":  "Preflight review found that restricting all navigation to both-person-visible pairs would omit the close-range stopping examples. This implements the existing plan without using any v1.1 results."
+}

@@ -1,0 +1,648 @@
+{
+  "created_utc": "2026-10-30T11:15:07.550454+00:00",
+  "deadline_utc": "2026-10-30T13:06:29.263+00:00",
+  "candidate": "train16_en",
+  "configuration": "navfocus",
+  "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+  "old_checkpoint_sha256": "d119adc57fa0c4681f4413b621d6321d27b000c6a3550c5b075bbbebc3d9a467",
+  "authorization": "User explicitly authorized role division and new fixed validation after control_v11 failures. VLA retains person choice, approach, deceleration and stop; ordinary control owns planned primitives.",
+  "selection": "Single fixed final6000 checkpoint of already started train16; no evaluation of intermediate checkpoints; no further model selection.",
+  "original_round_protocol_sha256": "d022927d44c067bf2e7274152c06fba3114ffc146f0d02b225432eedd8630ebc",
+  "runtime_lock_sha256": "1b6f9a819f4e1ca19045c1c77ff3d9d7079c3e67a65e8fa288ff001f299396d6",
+  "contract_checks_sha256": null,
+  "static_probe_plan_sha256": "2d959527830dafe9c15892f01be4d7781f902fe0ef205abf67c6049157d0f411",
+  "scripts": {
+    "prepare_scenes_navfocus.py": "0577cd97b6e806c0391b3d0844cef91b220809f49208c8b9d6d87bfc92e6d425",
+    "render_probe_navfocus.py": "cf2b35cb8b18b3db62ab93b44f6236b80feebbb245f43d35368a88267849ee56",
+    "run_probe_navfocus.py": "eb1a83691ea7755dfc4c7b97d2faf083a13affb0651d94710b074a2089b9a1d3",
+    "plot_probe_navfocus.py": "1f486869641b4bc3fb340a0aac4f552755d51df169e80a1b7c8f843aff8ed85a",
+    "run_suite_navfocus.py": "96cf2178fdf3de1e21472b958ef7c26fe205277058de926a12da2fefe1770608",
+    "run_navfocus_final.py": "42a19556f50885346a4d31445df62df6d954917b7895dc522464d31ad18255e0",
+    "score_navfocus.py": "502f475e6012534ed124ace441de0cfa9efc36f02935344ebb8b24aa05a924c4",
+    "prepare_navfocus_validation.py": "1512d37d7bf37de83d947cf3219208d6701dae10dc5d6ed496e2e7c964c0ab14",
+    "integrate_navfocus.py": "5b223263711282a4abbe1fbfba2b1012458589a50042927b3639fdef62add8e6",
+    "flight_primitives_navfocus.py": "d1f674068317ff59ccd85e362917bc437dbe4fbc1f3fe29edfe5f6cad2cd3e90",
+    "bounded_wsl.py": "66acf3ecb8ed8b1ba4c4ed4dc1f406c62d11ac596d9ddb43b160641843a7a5b0",
+    "bounded_wsl_entry.py": "f800d1ac46ece28520e18514a573a19c6f46b0ce3c664c6857c865b606b113a0"
+  },
+  "cases": [
+    {
+      "id": "NFH01",
+      "scene": "heldout_navfocus_01",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 2026103100,
+      "initial_offset": [
+        -0.004942084365373148,
+        -0.01930814859664608,
+        -3.191356735401788
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH01",
+      "scene": "heldout_navfocus_01",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 2026103100,
+      "initial_offset": [
+        -0.004942084365373148,
+        -0.01930814859664608,
+        -3.191356735401788
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH02",
+      "scene": "heldout_navfocus_01",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 2026103101,
+      "initial_offset": [
+        -0.02054791314652319,
+        0.015514869745926196,
+        -1.0669997563715325
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH02",
+      "scene": "heldout_navfocus_01",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 2026103101,
+      "initial_offset": [
+        -0.02054791314652319,
+        0.015514869745926196,
+        -1.0669997563715325
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH03",
+      "scene": "heldout_navfocus_01",
+      "color": "red",
+      "repeat": 1,
+      "seed": 2026103102,
+      "initial_offset": [
+        0.02108351474856264,
+        -0.006588432553338429,
+        1.170783653750557
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH03",
+      "scene": "heldout_navfocus_01",
+      "color": "red",
+      "repeat": 1,
+      "seed": 2026103102,
+      "initial_offset": [
+        0.02108351474856264,
+        -0.006588432553338429,
+        1.170783653750557
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH04",
+      "scene": "heldout_navfocus_01",
+      "color": "red",
+      "repeat": 2,
+      "seed": 2026103103,
+      "initial_offset": [
+        0.020129115888072147,
+        -0.03147512467513479,
+        -2.683587509700487
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH04",
+      "scene": "heldout_navfocus_01",
+      "color": "red",
+      "repeat": 2,
+      "seed": 2026103103,
+      "initial_offset": [
+        0.020129115888072147,
+        -0.03147512467513479,
+        -2.683587509700487
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH05",
+      "scene": "heldout_navfocus_02",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 2026103104,
+      "initial_offset": [
+        0.01667956634855737,
+        -0.0343911764770494,
+        4.48434511942483
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH05",
+      "scene": "heldout_navfocus_02",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 2026103104,
+      "initial_offset": [
+        0.01667956634855737,
+        -0.0343911764770494,
+        4.48434511942483
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH06",
+      "scene": "heldout_navfocus_02",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 2026103105,
+      "initial_offset": [
+        0.005721425646366629,
+        0.046281769288862754,
+        -0.4906327180385519
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH06",
+      "scene": "heldout_navfocus_02",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 2026103105,
+      "initial_offset": [
+        0.005721425646366629,
+        0.046281769288862754,
+        -0.4906327180385519
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH07",
+      "scene": "heldout_navfocus_02",
+      "color": "red",
+      "repeat": 1,
+      "seed": 2026103106,
+      "initial_offset": [
+        -0.01172428947756686,
+        0.03568947065215154,
+        3.1904459474106357
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH07",
+      "scene": "heldout_navfocus_02",
+      "color": "red",
+      "repeat": 1,
+      "seed": 2026103106,
+      "initial_offset": [
+        -0.01172428947756686,
+        0.03568947065215154,
+        3.1904459474106357
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH08",
+      "scene": "heldout_navfocus_02",
+      "color": "red",
+      "repeat": 2,
+      "seed": 2026103107,
+      "initial_offset": [
+        -0.03444236265532205,
+        0.03135791474479499,
+        4.015887021791258
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH08",
+      "scene": "heldout_navfocus_02",
+      "color": "red",
+      "repeat": 2,
+      "seed": 2026103107,
+      "initial_offset": [
+        -0.03444236265532205,
+        0.03135791474479499,
+        4.015887021791258
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH09",
+      "scene": "heldout_navfocus_03",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 2026103108,
+      "initial_offset": [
+        0.04274177303858198,
+        -0.040553556975330834,
+        4.559649102181847
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH09",
+      "scene": "heldout_navfocus_03",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 2026103108,
+      "initial_offset": [
+        0.04274177303858198,
+        -0.040553556975330834,
+        4.559649102181847
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH10",
+      "scene": "heldout_navfocus_03",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 2026103109,
+      "initial_offset": [
+        -0.02249162971353269,
+        0.005664755654180065,
+        2.226128471710769
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH10",
+      "scene": "heldout_navfocus_03",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 2026103109,
+      "initial_offset": [
+        -0.02249162971353269,
+        0.005664755654180065,
+        2.226128471710769
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH11",
+      "scene": "heldout_navfocus_03",
+      "color": "red",
+      "repeat": 1,
+      "seed": 2026103110,
+      "initial_offset": [
+        0.03072188787316353,
+        0.021174008775330336,
+        -3.015694359527048
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH11",
+      "scene": "heldout_navfocus_03",
+      "color": "red",
+      "repeat": 1,
+      "seed": 2026103110,
+      "initial_offset": [
+        0.03072188787316353,
+        0.021174008775330336,
+        -3.015694359527048
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH12",
+      "scene": "heldout_navfocus_03",
+      "color": "red",
+      "repeat": 2,
+      "seed": 2026103111,
+      "initial_offset": [
+        0.04090721661622583,
+        -0.01363038980836661,
+        -2.134424340103398
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH12",
+      "scene": "heldout_navfocus_03",
+      "color": "red",
+      "repeat": 2,
+      "seed": 2026103111,
+      "initial_offset": [
+        0.04090721661622583,
+        -0.01363038980836661,
+        -2.134424340103398
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH13",
+      "scene": "heldout_navfocus_04",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 2026103112,
+      "initial_offset": [
+        -0.00481288868596582,
+        -0.011111181652437886,
+        1.5984954162672178
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH13",
+      "scene": "heldout_navfocus_04",
+      "color": "blue",
+      "repeat": 1,
+      "seed": 2026103112,
+      "initial_offset": [
+        -0.00481288868596582,
+        -0.011111181652437886,
+        1.5984954162672178
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH14",
+      "scene": "heldout_navfocus_04",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 2026103113,
+      "initial_offset": [
+        0.04522883761627172,
+        -0.030931710878307317,
+        4.074094789647349
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH14",
+      "scene": "heldout_navfocus_04",
+      "color": "blue",
+      "repeat": 2,
+      "seed": 2026103113,
+      "initial_offset": [
+        0.04522883761627172,
+        -0.030931710878307317,
+        4.074094789647349
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH15",
+      "scene": "heldout_navfocus_04",
+      "color": "red",
+      "repeat": 1,
+      "seed": 2026103114,
+      "initial_offset": [
+        -0.046781248324165664,
+        0.020740675072035836,
+        -2.3171724125348048
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH15",
+      "scene": "heldout_navfocus_04",
+      "color": "red",
+      "repeat": 1,
+      "seed": 2026103114,
+      "initial_offset": [
+        -0.046781248324165664,
+        0.020740675072035836,
+        -2.3171724125348048
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH16",
+      "scene": "heldout_navfocus_04",
+      "color": "red",
+      "repeat": 2,
+      "seed": 2026103115,
+      "initial_offset": [
+        -0.03480328347000068,
+        0.036105235868858,
+        -0.27762342340536605
+      ],
+      "kind": "search",
+      "model": "v1.1",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "NFH16",
+      "scene": "heldout_navfocus_04",
+      "color": "red",
+      "repeat": 2,
+      "seed": 2026103115,
+      "initial_offset": [
+        -0.03480328347000068,
+        0.036105235868858,
+        -0.27762342340536605
+      ],
+      "kind": "search",
+      "model": "v1.0",
+      "jitter": true,
+      "group": "matched_unseen"
+    },
+    {
+      "id": "primitive_blue",
+      "kind": "primitive",
+      "scene": "clear",
+      "profile": "blue",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "primitive_red",
+      "kind": "primitive",
+      "scene": "clear",
+      "profile": "red",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "primitive_turns",
+      "kind": "primitive",
+      "scene": "clear",
+      "profile": "turns",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "primitive_left",
+      "kind": "primitive",
+      "scene": "clear",
+      "profile": "left",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "search_clear_blue",
+      "kind": "search",
+      "scene": "clear",
+      "color": "blue",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "search_clear_red",
+      "kind": "search",
+      "scene": "clear",
+      "color": "red",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "search_fog_light_blue",
+      "kind": "search",
+      "scene": "fog_light",
+      "color": "blue",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "search_fog_dense_blue",
+      "kind": "search",
+      "scene": "fog_dense",
+      "color": "blue",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "search_dust_blue",
+      "kind": "search",
+      "scene": "dust",
+      "color": "blue",
+      "model": "v1.1",
+      "group": "video_regression"
+    },
+    {
+      "id": "known_T3_blue",
+      "kind": "search",
+      "scene": "known_swapped",
+      "color": "blue",
+      "model": "v1.1",
+      "group": "known_failure"
+    }
+  ],
+  "passing": {
+    "unseen_v11_at_least": 14,
+    "unseen_v11_total": 16,
+    "per_color_at_least": 7,
+    "per_color_total": 8,
+    "per_layout_at_least": 3,
+    "per_layout_total": 4,
+    "video_regression": 9,
+    "known_failure": 1,
+    "static_correct_directions_at_least": 60,
+    "static_total": 64,
+    "static_whole_quartets_at_least": 14,
+    "static_whole_quartets_total": 16
+  },
+  "physical_criteria": "Original physical thresholds preserved. Request provenance is honestly changed to planned primitives, not policy. Original scorer result retained. Fresh VLA stop intent and unchanged four continuous VLA approach channels additionally required.",
+  "original_development_suites": "Old exposed dev/stress attempts all retained. They are not run again to select another candidate. This new fixed-system confirmation replaces exploratory iteration, not its historical outcomes or scoring.",
+  "fair_comparison": "Both model versions use identical new control code, English prompts, scene, start and sensor seeds. Compare models within this configuration; do not attribute improvement over old-controller v1.0 exclusively to learning.",
+  "all_outcomes": "Run all42 even if performance fails. Infrastructure errors and interrupted attempts remain; no automatic retry. No post-result changes.",
+  "limitations": "One room, two stationary person appearances, fixed supported English stage commands; no arbitrary-language, unknown-room or real-flight claim.",
+  "no_truth_to_runtime": true,
+  "no_video_changes": true,
+  "no_publication": true,
+  "layout_protocol_sha256": "8219a45f658b290617adadd0ffbbedc5b7ec0d5e198cd44fa805dfb99206d69b",
+  "prior_failed_batch": "runs/control_v11_final/batch_closed.json",
+  "no_more_training": true,
+  "no_post_result_configuration_changes": true
+}

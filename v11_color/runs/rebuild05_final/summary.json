@@ -1,0 +1,892 @@
+{
+  "cases": [
+    {
+      "id": "R5F01",
+      "model": "v1.1",
+      "case": {
+        "id": "R5F01",
+        "scene": "heldout_r05_01",
+        "color": "blue",
+        "repeat": 1,
+        "seed": 202610318000,
+        "initial_offset": [
+          0.028346079352805587,
+          -0.020981356731550084,
+          4.260227410199107
+        ],
+        "kind": "search",
+        "jitter": true,
+        "group": "matched_unseen",
+        "model": "v1.1"
+      },
+      "flight_started": true,
+      "success": true,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F01\\record",
+      "runner_exit": 0,
+      "checks": {
+        "physical_flight": true,
+        "initial_target_absent": true,
+        "airborne_initial_target_absent": true,
+        "search_rotation_completed": true,
+        "three_image_discovery": true,
+        "original_image_notification": true,
+        "discovery_notification_landing_order": true,
+        "all_camera_hashes_match": true,
+        "no_mission_failure": true,
+        "search_start_geometry_out_of_view": true,
+        "normal_end": true
+      },
+      "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+      "wall_s": 297.0320000000065
+    },
+    {
+      "id": "R5F02",
+      "model": "v1.1",
+      "case": {
+        "id": "R5F02",
+        "scene": "heldout_r05_01",
+        "color": "blue",
+        "repeat": 2,
+        "seed": 202610318001,
+        "initial_offset": [
+          0.014722981821798514,
+          -0.04380025975528227,
+          1.851138967185002
+        ],
+        "kind": "search",
+        "jitter": true,
+        "group": "matched_unseen",
+        "model": "v1.1"
+      },
+      "flight_started": true,
+      "success": true,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F02\\record",
+      "runner_exit": 0,
+      "checks": {
+        "physical_flight": true,
+        "initial_target_absent": true,
+        "airborne_initial_target_absent": true,
+        "search_rotation_completed": true,
+        "three_image_discovery": true,
+        "original_image_notification": true,
+        "discovery_notification_landing_order": true,
+        "all_camera_hashes_match": true,
+        "no_mission_failure": true,
+        "search_start_geometry_out_of_view": true,
+        "normal_end": true
+      },
+      "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+      "wall_s": 285.73399999999674
+    },
+    {
+      "id": "R5F03",
+      "model": "v1.1",
+      "case": {
+        "id": "R5F03",
+        "scene": "heldout_r05_01",
+        "color": "red",
+        "repeat": 1,
+        "seed": 202610318002,
+        "initial_offset": [
+          0.010361425512279199,
+          0.029107044355120057,
+          3.0931662267527464
+        ],
+        "kind": "search",
+        "jitter": true,
+        "group": "matched_unseen",
+        "model": "v1.1"
+      },
+      "flight_started": true,
+      "success": true,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F03\\record",
+      "runner_exit": 0,
+      "checks": {
+        "physical_flight": true,
+        "initial_target_absent": true,
+        "airborne_initial_target_absent": true,
+        "search_rotation_completed": true,
+        "three_image_discovery": true,
+        "original_image_notification": true,
+        "discovery_notification_landing_order": true,
+        "all_camera_hashes_match": true,
+        "no_mission_failure": true,
+        "search_start_geometry_out_of_view": true,
+        "normal_end": true
+      },
+      "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+      "wall_s": 277.094000000041
+    },
+    {
+      "id": "R5F04",
+      "model": "v1.1",
+      "case": {
+        "id": "R5F04",
+        "scene": "heldout_r05_01",
+        "color": "red",
+        "repeat": 2,
+        "seed": 202610318003,
+        "initial_offset": [
+          0.016604792253316222,
+          0.002023922452318673,
+          -3.387818495915267
+        ],
+        "kind": "search",
+        "jitter": true,
+        "group": "matched_unseen",
+        "model": "v1.1"
+      },
+      "flight_started": true,
+      "success": true,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F04\\record",
+      "runner_exit": 0,
+      "checks": {
+        "physical_flight": true,
+        "initial_target_absent": true,
+        "airborne_initial_target_absent": true,
+        "search_rotation_completed": true,
+        "three_image_discovery": true,
+        "original_image_notification": true,
+        "discovery_notification_landing_order": true,
+        "all_camera_hashes_match": true,
+        "no_mission_failure": true,
+        "search_start_geometry_out_of_view": true,
+        "normal_end": true
+      },
+      "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+      "wall_s": 281.68800000002375
+    },
+    {
+      "id": "R5F05",
+      "model": "v1.1",
+      "case": {
+        "id": "R5F05",
+        "scene": "heldout_r05_02",
+        "color": "blue",
+        "repeat": 1,
+        "seed": 202610318004,
+        "initial_offset": [
+          0.0282703368346236,
+          0.0034980492757521603,
+          -1.8960317634067914
+        ],
+        "kind": "search",
+        "jitter": true,
+        "group": "matched_unseen",
+        "model": "v1.1"
+      },
+      "flight_started": true,
+      "success": true,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F05\\record",
+      "runner_exit": 0,
+      "checks": {
+        "physical_flight": true,
+        "initial_target_absent": true,
+        "airborne_initial_target_absent": true,
+        "search_rotation_completed": true,
+        "three_image_discovery": true,
+        "original_image_notification": true,
+        "discovery_notification_landing_order": true,
+        "all_camera_hashes_match": true,
+        "no_mission_failure": true,
+        "search_start_geometry_out_of_view": true,
+        "normal_end": true
+      },
+      "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+      "wall_s": 272.1719999999623
+    },
+    {
+      "id": "R5F06",
+      "model": "v1.1",
+      "case": {
+        "id": "R5F06",
+        "scene": "heldout_r05_02",
+        "color": "blue",
+        "repeat": 2,
+        "seed": 202610318005,
+        "initial_offset": [
+          0.039467977214757075,
+          -0.007721659046448261,
+          -0.293417241378398
+        ],
+        "kind": "search",
+        "jitter": true,
+        "group": "matched_unseen",
+        "model": "v1.1"
+      },
+      "flight_started": true,
+      "success": true,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F06\\record",
+      "runner_exit": 0,
+      "checks": {
+        "physical_flight": true,
+        "initial_target_absent": true,
+        "airborne_initial_target_absent": true,
+        "search_rotation_completed": true,
+        "three_image_discovery": true,
+        "original_image_notification": true,
+        "discovery_notification_landing_order": true,
+        "all_camera_hashes_match": true,
+        "no_mission_failure": true,
+        "search_start_geometry_out_of_view": true,
+        "normal_end": true
+      },
+      "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+      "wall_s": 278.9530000000377
+    },
+    {
+      "id": "R5F07",
+      "model": "v1.1",
+      "case": {
+        "id": "R5F07",
+        "scene": "heldout_r05_02",
+        "color": "red",
+        "repeat": 1,
+        "seed": 202610318006,
+        "initial_offset": [
+          0.017450758708138114,
+          0.045249692940180206,
+          -3.171114224391145
+        ],
+        "kind": "search",
+        "jitter": true,
+        "group": "matched_unseen",
+        "model": "v1.1"
+      },
+      "flight_started": true,
+      "success": true,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F07\\record",
+      "runner_exit": 0,
+      "checks": {
+        "physical_flight": true,
+        "initial_target_absent": true,
+        "airborne_initial_target_absent": true,
+        "search_rotation_completed": true,
+        "three_image_discovery": true,
+        "original_image_notification": true,
+        "discovery_notification_landing_order": true,
+        "all_camera_hashes_match": true,
+        "no_mission_failure": true,
+        "search_start_geometry_out_of_view": true,
+        "normal_end": true
+      },
+      "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+      "wall_s": 263.719000000041
+    },
+    {
+      "id": "R5F08",
+      "model": "v1.1",
+      "case": {
+        "id": "R5F08",
+        "scene": "heldout_r05_02",
+        "color": "red",
+        "repeat": 2,
+        "seed": 202610318007,
+        "initial_offset": [
+          0.00405410076913916,
+          -0.010619241829791293,
+          3.0067565368751197
+        ],
+        "kind": "search",
+        "jitter": true,
+        "group": "matched_unseen",
+        "model": "v1.1"
+      },
+      "flight_started": true,
+      "success": true,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F08\\record",
+      "runner_exit": 0,
+      "checks": {
+        "physical_flight": true,
+        "initial_target_absent": true,
+        "airborne_initial_target_absent": true,
+        "search_rotation_completed": true,
+        "three_image_discovery": true,
+        "original_image_notification": true,
+        "discovery_notification_landing_order": true,
+        "all_camera_hashes_match": true,
+        "no_mission_failure": true,
+        "search_start_geometry_out_of_view": true,
+        "normal_end": true
+      },
+      "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+      "wall_s": 292.35899999999674
+    },
+    {
+      "id": "R5F09",
+      "model": "v1.1",
+      "case": {
+        "id": "R5F09",
+        "scene": "heldout_r05_03",
+        "color": "blue",
+        "repeat": 1,
+        "seed": 202610318008,
+        "initial_offset": [
+          0.0420636649294857,
+          0.00811391090003323,
+          -2.183029691516507
+        ],
+        "kind": "search",
+        "jitter": true,
+        "group": "matched_unseen",
+        "model": "v1.1"
+      },
+      "flight_started": true,
+      "success": true,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F09\\record",
+      "runner_exit": 0,
+      "checks": {
+        "physical_flight": true,
+        "initial_target_absent": true,
+        "airborne_initial_target_absent": true,
+        "search_rotation_completed": true,
+        "three_image_discovery": true,
+        "original_image_notification": true,
+        "discovery_notification_landing_order": true,
+        "all_camera_hashes_match": true,
+        "no_mission_failure": true,
+        "search_start_geometry_out_of_view": true,
+        "normal_end": true
+      },
+      "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+      "wall_s": 274.40600000001723
+    },
+    {
+      "id": "R5F10",
+      "model": "v1.1",
+      "case": {
+        "id": "R5F10",
+        "scene": "heldout_r05_03",
+        "color": "blue",
+        "repeat": 2,
+        "seed": 202610318009,
+        "initial_offset": [
+          -0.008875550257594497,
+          0.03853860688220016,
+          -3.3442063878285735
+        ],
+        "kind": "search",
+        "jitter": true,
+        "group": "matched_unseen",
+        "model": "v1.1"
+      },
+      "flight_started": true,
+      "success": true,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F10\\record",
+      "runner_exit": 0,
+      "checks": {
+        "physical_flight": true,
+        "initial_target_absent": true,
+        "airborne_initial_target_absent": true,
+        "search_rotation_completed": true,
+        "three_image_discovery": true,
+        "original_image_notification": true,
+        "discovery_notification_landing_order": true,
+        "all_camera_hashes_match": true,
+        "no_mission_failure": true,
+        "search_start_geometry_out_of_view": true,
+        "normal_end": true
+      },
+      "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+      "wall_s": 295.28100000001723
+    },
+    {
+      "id": "R5F11",
+      "model": "v1.1",
+      "case": {
+        "id": "R5F11",
+        "scene": "heldout_r05_03",
+        "color": "red",
+        "repeat": 1,
+        "seed": 202610318010,
+        "initial_offset": [
+          -0.04640810747387604,
+          -0.016005277376507608,
+          4.538758981444063
+        ],
+        "kind": "search",
+        "jitter": true,
+        "group": "matched_unseen",
+        "model": "v1.1"
+      },
+      "flight_started": true,
+      "success": true,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F11\\record",
+      "runner_exit": 0,
+      "checks": {
+        "physical_flight": true,
+        "initial_target_absent": true,
+        "airborne_initial_target_absent": true,
+        "search_rotation_completed": true,
+        "three_image_discovery": true,
+        "original_image_notification": true,
+        "discovery_notification_landing_order": true,
+        "all_camera_hashes_match": true,
+        "no_mission_failure": true,
+        "search_start_geometry_out_of_view": true,
+        "normal_end": true
+      },
+      "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+      "wall_s": 290.045999999973
+    },
+    {
+      "id": "R5F12",
+      "model": "v1.1",
+      "case": {
+        "id": "R5F12",
+        "scene": "heldout_r05_03",
+        "color": "red",
+        "repeat": 2,
+        "seed": 202610318011,
+        "initial_offset": [
+          0.012787732824855999,
+          -0.034286802258260696,
+          -0.013460271291938497
+        ],
+        "kind": "search",
+        "jitter": true,
+        "group": "matched_unseen",
+        "model": "v1.1"
+      },
+      "flight_started": true,
+      "success": true,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F12\\record",
+      "runner_exit": 0,
+      "checks": {
+        "physical_flight": true,
+        "initial_target_absent": true,
+        "airborne_initial_target_absent": true,
+        "search_rotation_completed": true,
+        "three_image_discovery": true,
+        "original_image_notification": true,
+        "discovery_notification_landing_order": true,
+        "all_camera_hashes_match": true,
+        "no_mission_failure": true,
+        "search_start_geometry_out_of_view": true,
+        "normal_end": true
+      },
+      "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+      "wall_s": 293.01600000000326
+    },
+    {
+      "id": "R5F13",
+      "model": "v1.1",
+      "case": {
+        "id": "R5F13",
+        "scene": "heldout_r05_04",
+        "color": "blue",
+        "repeat": 1,
+        "seed": 202610318012,
+        "initial_offset": [
+          0.023380854318676675,
+          0.019349096619116393,
+          4.7071783286696025
+        ],
+        "kind": "search",
+        "jitter": true,
+        "group": "matched_unseen",
+        "model": "v1.1"
+      },
+      "flight_started": true,
+      "success": true,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F13\\record",
+      "runner_exit": 0,
+      "checks": {
+        "physical_flight": true,
+        "initial_target_absent": true,
+        "airborne_initial_target_absent": true,
+        "search_rotation_completed": true,
+        "three_image_discovery": true,
+        "original_image_notification": true,
+        "discovery_notification_landing_order": true,
+        "all_camera_hashes_match": true,
+        "no_mission_failure": true,
+        "search_start_geometry_out_of_view": true,
+        "normal_end": true
+      },
+      "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+      "wall_s": 286.06199999997625
+    },
+    {
+      "id": "R5F14",
+      "model": "v1.1",
+      "case": {
+        "id": "R5F14",
+        "scene": "heldout_r05_04",
+        "color": "blue",
+        "repeat": 2,
+        "seed": 202610318013,
+        "initial_offset": [
+          -0.02457814493037851,
+          -0.04645776263850624,
+          4.794544724810073
+        ],
+        "kind": "search",
+        "jitter": true,
+        "group": "matched_unseen",
+        "model": "v1.1"
+      },
+      "flight_started": true,
+      "success": true,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F14\\record",
+      "runner_exit": 0,
+      "checks": {
+        "physical_flight": true,
+        "initial_target_absent": true,
+        "airborne_initial_target_absent": true,
+        "search_rotation_completed": true,
+        "three_image_discovery": true,
+        "original_image_notification": true,
+        "discovery_notification_landing_order": true,
+        "all_camera_hashes_match": true,
+        "no_mission_failure": true,
+        "search_start_geometry_out_of_view": true,
+        "normal_end": true
+      },
+      "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+      "wall_s": 294.344000000041
+    },
+    {
+      "id": "R5F15",
+      "model": "v1.1",
+      "case": {
+        "id": "R5F15",
+        "scene": "heldout_r05_04",
+        "color": "red",
+        "repeat": 1,
+        "seed": 202610318014,
+        "initial_offset": [
+          -0.03341224813201234,
+          0.004282469923568233,
+          3.8331158064377515
+        ],
+        "kind": "search",
+        "jitter": true,
+        "group": "matched_unseen",
+        "model": "v1.1"
+      },
+      "flight_started": true,
+      "success": true,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F15\\record",
+      "runner_exit": 0,
+      "checks": {
+        "physical_flight": true,
+        "initial_target_absent": true,
+        "airborne_initial_target_absent": true,
+        "search_rotation_completed": true,
+        "three_image_discovery": true,
+        "original_image_notification": true,
+        "discovery_notification_landing_order": true,
+        "all_camera_hashes_match": true,
+        "no_mission_failure": true,
+        "search_start_geometry_out_of_view": true,
+        "normal_end": true
+      },
+      "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+      "wall_s": 298.81300000002375
+    },
+    {
+      "id": "R5F16",
+      "model": "v1.1",
+      "case": {
+        "id": "R5F16",
+        "scene": "heldout_r05_04",
+        "color": "red",
+        "repeat": 2,
+        "seed": 202610318015,
+        "initial_offset": [
+          0.006962549355176172,
+          -0.018202021290285454,
+          3.4513586621991283
+        ],
+        "kind": "search",
+        "jitter": true,
+        "group": "matched_unseen",
+        "model": "v1.1"
+      },
+      "flight_started": true,
+      "success": true,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\R5F16\\record",
+      "runner_exit": 0,
+      "checks": {
+        "physical_flight": true,
+        "initial_target_absent": true,
+        "airborne_initial_target_absent": true,
+        "search_rotation_completed": true,
+        "three_image_discovery": true,
+        "original_image_notification": true,
+        "discovery_notification_landing_order": true,
+        "all_camera_hashes_match": true,
+        "no_mission_failure": true,
+        "search_start_geometry_out_of_view": true,
+        "normal_end": true
+      },
+      "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+      "wall_s": 264.405999999959
+    },
+    {
+      "id": "primitive_blue",
+      "model": "v1.1",
+      "case": {
+        "id": "primitive_blue",
+        "kind": "primitive",
+        "scene": "clear",
+        "profile": "blue",
+        "model": "v1.1",
+        "group": "video_regression"
+      },
+      "flight_started": true,
+      "success": true,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\primitive_blue\\record",
+      "runner_exit": 0,
+      "checks": null,
+      "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+      "wall_s": 219.15600000001723
+    },
+    {
+      "id": "primitive_red",
+      "model": "v1.1",
+      "case": {
+        "id": "primitive_red",
+        "kind": "primitive",
+        "scene": "clear",
+        "profile": "red",
+        "model": "v1.1",
+        "group": "video_regression"
+      },
+      "flight_started": true,
+      "success": true,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\primitive_red\\record",
+      "runner_exit": 0,
+      "checks": null,
+      "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+      "wall_s": 214.64100000000326
+    },
+    {
+      "id": "primitive_turns",
+      "model": "v1.1",
+      "case": {
+        "id": "primitive_turns",
+        "kind": "primitive",
+        "scene": "clear",
+        "profile": "turns",
+        "model": "v1.1",
+        "group": "video_regression"
+      },
+      "flight_started": true,
+      "success": true,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\primitive_turns\\record",
+      "runner_exit": 0,
+      "checks": null,
+      "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+      "wall_s": 242.40600000001723
+    },
+    {
+      "id": "primitive_left",
+      "model": "v1.1",
+      "case": {
+        "id": "primitive_left",
+        "kind": "primitive",
+        "scene": "clear",
+        "profile": "left",
+        "model": "v1.1",
+        "group": "video_regression"
+      },
+      "flight_started": true,
+      "success": true,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\primitive_left\\record",
+      "runner_exit": 0,
+      "checks": null,
+      "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+      "wall_s": 207.40700000000652
+    },
+    {
+      "id": "search_clear_blue",
+      "model": "v1.1",
+      "case": {
+        "id": "search_clear_blue",
+        "kind": "search",
+        "scene": "clear",
+        "color": "blue",
+        "model": "v1.1",
+        "group": "video_regression"
+      },
+      "flight_started": true,
+      "success": true,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\search_clear_blue\\record",
+      "runner_exit": 0,
+      "checks": {
+        "physical_flight": true,
+        "initial_target_absent": true,
+        "airborne_initial_target_absent": true,
+        "search_rotation_completed": true,
+        "three_image_discovery": true,
+        "original_image_notification": true,
+        "discovery_notification_landing_order": true,
+        "all_camera_hashes_match": true,
+        "no_mission_failure": true,
+        "search_start_geometry_out_of_view": true,
+        "normal_end": true
+      },
+      "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+      "wall_s": 269.46899999998277
+    },
+    {
+      "id": "search_clear_red",
+      "model": "v1.1",
+      "case": {
+        "id": "search_clear_red",
+        "kind": "search",
+        "scene": "clear",
+        "color": "red",
+        "model": "v1.1",
+        "group": "video_regression"
+      },
+      "flight_started": true,
+      "success": true,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\search_clear_red\\record",
+      "runner_exit": 0,
+      "checks": {
+        "physical_flight": true,
+        "initial_target_absent": true,
+        "airborne_initial_target_absent": true,
+        "search_rotation_completed": true,
+        "three_image_discovery": true,
+        "original_image_notification": true,
+        "discovery_notification_landing_order": true,
+        "all_camera_hashes_match": true,
+        "no_mission_failure": true,
+        "search_start_geometry_out_of_view": true,
+        "normal_end": true
+      },
+      "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+      "wall_s": 282.59399999998277
+    },
+    {
+      "id": "search_fog_light_blue",
+      "model": "v1.1",
+      "case": {
+        "id": "search_fog_light_blue",
+        "kind": "search",
+        "scene": "fog_light",
+        "color": "blue",
+        "model": "v1.1",
+        "group": "video_regression"
+      },
+      "flight_started": true,
+      "success": false,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\search_fog_light_blue\\record",
+      "runner_exit": 0,
+      "checks": {
+        "physical_flight": false,
+        "initial_target_absent": true,
+        "airborne_initial_target_absent": true,
+        "search_rotation_completed": true,
+        "three_image_discovery": true,
+        "original_image_notification": true,
+        "discovery_notification_landing_order": true,
+        "all_camera_hashes_match": true,
+        "no_mission_failure": true,
+        "search_start_geometry_out_of_view": true,
+        "normal_end": true
+      },
+      "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+      "wall_s": 276.079000000027
+    },
+    {
+      "id": "search_fog_dense_blue",
+      "model": "v1.1",
+      "case": {
+        "id": "search_fog_dense_blue",
+        "kind": "search",
+        "scene": "fog_dense",
+        "color": "blue",
+        "model": "v1.1",
+        "group": "video_regression"
+      },
+      "flight_started": true,
+      "success": true,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\search_fog_dense_blue\\record",
+      "runner_exit": 0,
+      "checks": {
+        "physical_flight": true,
+        "initial_target_absent": true,
+        "airborne_initial_target_absent": true,
+        "search_rotation_completed": true,
+        "three_image_discovery": true,
+        "original_image_notification": true,
+        "discovery_notification_landing_order": true,
+        "all_camera_hashes_match": true,
+        "no_mission_failure": true,
+        "search_start_geometry_out_of_view": true,
+        "normal_end": true
+      },
+      "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+      "wall_s": 277.2970000000205
+    },
+    {
+      "id": "search_dust_blue",
+      "model": "v1.1",
+      "case": {
+        "id": "search_dust_blue",
+        "kind": "search",
+        "scene": "dust",
+        "color": "blue",
+        "model": "v1.1",
+        "group": "video_regression"
+      },
+      "flight_started": true,
+      "success": true,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\search_dust_blue\\record",
+      "runner_exit": 0,
+      "checks": {
+        "physical_flight": true,
+        "initial_target_absent": true,
+        "airborne_initial_target_absent": true,
+        "search_rotation_completed": true,
+        "three_image_discovery": true,
+        "original_image_notification": true,
+        "discovery_notification_landing_order": true,
+        "all_camera_hashes_match": true,
+        "no_mission_failure": true,
+        "search_start_geometry_out_of_view": true,
+        "normal_end": true
+      },
+      "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+      "wall_s": 284.68699999997625
+    },
+    {
+      "id": "known_T3_blue",
+      "model": "v1.1",
+      "case": {
+        "id": "known_T3_blue",
+        "kind": "search",
+        "scene": "known_swapped",
+        "color": "blue",
+        "model": "v1.1",
+        "group": "known_failure"
+      },
+      "flight_started": true,
+      "success": true,
+      "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild05_final\\known_T3_blue\\record",
+      "runner_exit": 0,
+      "checks": {
+        "physical_flight": true,
+        "initial_target_absent": true,
+        "airborne_initial_target_absent": true,
+        "search_rotation_completed": true,
+        "three_image_discovery": true,
+        "original_image_notification": true,
+        "discovery_notification_landing_order": true,
+        "all_camera_hashes_match": true,
+        "no_mission_failure": true,
+        "search_start_geometry_out_of_view": true,
+        "normal_end": true
+      },
+      "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+      "wall_s": 286.75
+    }
+  ],
+  "completed": 26,
+  "planned": 26
+}

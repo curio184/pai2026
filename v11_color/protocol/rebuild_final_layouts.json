@@ -1,0 +1,91 @@
+{
+  "created_utc": "2026-10-30T16:12:28.240576+00:00",
+  "layout_seed": 202610310601,
+  "heldout_layouts": [
+    {
+      "name": "heldout_rebuild_01",
+      "positions": [
+        [
+          3.3261796870596134,
+          0.6696169197006718,
+          0.0
+        ],
+        [
+          3.414584328188262,
+          -0.8496001293344838,
+          0.0
+        ]
+      ],
+      "blue_actor": 0
+    },
+    {
+      "name": "heldout_rebuild_02",
+      "positions": [
+        [
+          2.7013864773925524,
+          0.561314157626288,
+          0.0
+        ],
+        [
+          3.486328544599065,
+          -0.5813070507189173,
+          0.0
+        ]
+      ],
+      "blue_actor": 1
+    },
+    {
+      "name": "heldout_rebuild_03",
+      "positions": [
+        [
+          3.2342753089470273,
+          0.9740486774919661,
+          0.0
+        ],
+        [
+          3.3420836931101707,
+          -0.9530759398859874,
+          0.0
+        ]
+      ],
+      "blue_actor": 0
+    },
+    {
+      "name": "heldout_rebuild_04",
+      "positions": [
+        [
+          2.807145200165891,
+          1.0763012180549296,
+          0.0
+        ],
+        [
+          2.7088082047697393,
+          -0.5480502022132601,
+          0.0
+        ]
+      ],
+      "blue_actor": 1
+    }
+  ],
+  "layout_sampling": {
+    "x": [
+      2.65,
+      3.65
+    ],
+    "positive_y": [
+      0.52,
+      1.1
+    ],
+    "negative_y": [
+      -1.1,
+      -0.52
+    ],
+    "filtering": "None. Retain all four generated layouts.",
+    "shirt_assignment": "alternating actors"
+  },
+  "use": "Reserved final evaluation only. Not to be rendered/inferred for development or added to training.",
+  "final_runs": "both models, both colors, two repetitions per layout, fixed start jitter seeds; register exact cases and implementation before flights.",
+  "physical_acceptance": "Unchanged <=.25m, <=.08m/s for >=3s, all other existing physical and task criteria retained.",
+  "threshold": "v1.1 >=14/16, each color>=7/8, each layout>=3/4; video9/9 and knownswap1/1.",
+  "prior_layouts_status": "Previous heldout_navfocus layouts now development, not fresh final evidence."
+}

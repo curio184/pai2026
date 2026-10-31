@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-10-28T18:40:39.880260+00:00",
+  "plan_sha256": "cb3f36038a0d5fbd0d3d4eac71ce76d1afc894dbba69d5855072690036716e3a",
+  "frames_sha256": "9beeeebd0d6a6835c476a2fd936b8f4efc821e9b5acd2255a95f86a79efd2343",
+  "images": 2000,
+  "paired_poses": 1000,
+  "visibility_counts": {
+    "both_visible": 724,
+    "one_visible": 770,
+    "none_visible": 506
+  },
+  "rejection_or_model_based_selection": false,
+  "rendered": false,
+  "trained": false
+}

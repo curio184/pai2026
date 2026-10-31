@@ -1,0 +1,17 @@
+{
+  "id": "S03_primitive_left",
+  "model": "v1.1",
+  "case": {
+    "id": "S03_primitive_left",
+    "kind": "primitive",
+    "scene": "clear",
+    "profile": "left",
+    "group": "smoke_dev"
+  },
+  "flight_started": true,
+  "success": false,
+  "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild04_smoke\\S03_primitive_left\\record",
+  "runner_exit": 0,
+  "error": "RuntimeError('Scorer failed; see scoring.log')",
+  "wall_s": 152.09299999999348
+}

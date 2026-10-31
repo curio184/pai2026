@@ -1,0 +1,12 @@
+{
+  "recorded_utc": "2026-10-28T13:15:12.119384+00:00",
+  "files": {
+    "protocol\\train02.json": "a86ce9228f8ccaa900351600fb733bb027534332644bb3cae9df0e81a35cc1a3",
+    "scripts\\train02.py": "7457b94ccd6b87f2004dbd482f4a93b95ce42553c4764d228543243f73929702",
+    "scripts\\build_dataset02.py": "14302ac01ee570e2cecf561b47081bef010fa2216a67effc4d598edbff69d476",
+    "scripts\\pipeline_train02.py": "61156f581af96c4c29e89b35eda846eb4133edfd10676b33fda098b696a47e3c",
+    "data\\dataset02\\audit.json": "675a9cf0fbeb4002ca06a6b030486263b1c7dce118c140fce692c8dff1adf3a9"
+  },
+  "training_started": false,
+  "heldout_inference_or_flights": 0
+}

@@ -1,0 +1,136 @@
+{
+  "created_utc": "2026-10-29T03:24:44.238630+00:00",
+  "candidate": "train06_en",
+  "training": {
+    "initial_checkpoint": "v11_color/models/train05_en/final",
+    "initial_checkpoint_sha256": "9a73251d85eb1415839738c9717af944362d99b4bed8459e9715f429ef31eef6",
+    "steps": 10000,
+    "seed": 2026102908,
+    "micro_batch": 4,
+    "gradient_accumulation": 2,
+    "learning_rate": 1.5e-05,
+    "vlm_layer_learning_rate": 0.0,
+    "train_vlm_text_layers": [],
+    "vision_encoder_frozen": true,
+    "optimizer": "AdamW",
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "epsilon": 1e-08,
+    "weight_decay": 1e-10,
+    "gradient_clip_norm": 10,
+    "warmup_steps": 200,
+    "final_learning_rate_fraction": 0.025,
+    "action_chunk": 32,
+    "action_dt_s": 0.1,
+    "checkpoint_selection": "final step only",
+    "recovery_selection": "latest saved recovery by step only, never validation score",
+    "teacher_stop_deadband_m": 0.04,
+    "teacher_gain": 0.7,
+    "sampling": "Same 25% color quartets, 25% navigation, 40% state calibration, 10% retained primitive schedule. State calibration uses one same-image quartet [v,-v,0,v/2] per microbatch; domains 25/25/50% and tasks 2..6 cycle. Common flow noise/time across the quartet; t=1 on even steps, sampled common time on odd steps. Other sampling unchanged.",
+    "prompt_variants": [
+      "original bilingual",
+      "Japanese only",
+      "English only"
+    ],
+    "prompt_probabilities": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "loss": "Flow matching on six normalized action channels, weights [8,8,1,1,1,1], divided by their sum; runtime units and normalization unchanged.",
+    "data_images": 6000,
+    "retention_images": 2408,
+    "output": "models/train06_en",
+    "data": "Same 8408 images; relabeled horizontal teacher; zero and half-velocity anchors added to existing state pairs.",
+    "teacher_standoff_m": 1.0,
+    "scoring_standoff_m": 0.9,
+    "braking_coefficient": 0.8,
+    "braking_proposal_sha256": "ace22eeddfc94cacd470733550200b5d009201bd5507e7dea4869a4b7edf3774",
+    "source_dataset_audit_sha256": "98e76a6653e05d8f13f653b50fe64cb24dc9c988726c445722716e5fa4c3dd12",
+    "primitive_sampling": "State calibration 40%, retained primitives 10%, navigation/color 50%.",
+    "frozen_backbone": "All vision-language parameters; train action expert and state/action projections only. Verify frozen parameter digest before and after training.",
+    "prompt_language": "English only",
+    "action_loss_weights": [
+      8.0,
+      8.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "image_domains": "Explicit per-image domains; new views are appended after the 6408 existing image IDs.",
+    "minimum_free_gib_before_training": 7.4,
+    "minimum_free_gib_during_training": 5.0
+  },
+  "previous_training_plan_sha256": "cb3f36038a0d5fbd0d3d4eac71ce76d1afc894dbba69d5855072690036716e3a",
+  "prior_results": {
+    "development": [
+      8,
+      8
+    ],
+    "stress": [
+      11,
+      16
+    ],
+    "failed_cases": [
+      "H06",
+      "H09",
+      "H11",
+      "H14",
+      "H15"
+    ],
+    "selected": false
+  },
+  "diagnosis_sha256": "445562f7e56ebbf351978eb665db2afb6dcffd148edda3ae92b7932672dba4fb",
+  "teacher_source_sha256": "42eaa264e6b0141ca75079632e642fbe5ec355ee7877538a7441cfd515e5c9d8",
+  "teacher": {
+    "scope": "Training labels only; no runtime controller/gain/scorer changes.",
+    "takeoff_horizontal_zero_below_estimated_altitude_m": 0.25,
+    "airborne_hold_braking_coefficient": 1.2,
+    "hold_tasks": [
+      2,
+      4,
+      5,
+      6
+    ],
+    "navigation_velocity_damping": 0.5,
+    "navigation_position_coefficient": 0.7,
+    "horizontal_command_cap_m_s": 0.2,
+    "teacher_standoff_m": 1.0,
+    "scoring_standoff_m": 0.9,
+    "navigation_deadband_m": 0.04,
+    "nonhorizontal_labels": "Retain source labels byte-for-byte.",
+    "reason": "Development logs show delayed initial settling and insufficient goal hold. Grounded velocity estimates must not request horizontal takeoff motion; approach labels now include deceleration."
+  },
+  "data": {
+    "source": "data/dataset05_en",
+    "source_audit_sha256": "98e76a6653e05d8f13f653b50fe64cb24dc9c988726c445722716e5fa4c3dd12",
+    "images": 8408,
+    "added_images": 0,
+    "layouts": 20,
+    "evaluation_images_or_states_used_for_training": 0,
+    "state_calibration": "For every existing opposite-horizontal-velocity pair, append zero and half of the first velocity; preserve the image, task and other seven state values.",
+    "added_state_examples": 80120,
+    "expected_total_examples": 236170,
+    "unchanged": "Pixels, layout split, instructions, action units, all nonhorizontal labels for existing examples."
+  },
+  "round_protocol_sha256": "d022927d44c067bf2e7274152c06fba3114ffc146f0d02b225432eedd8630ebc",
+  "probe_protocol_sha256": "703d384f9712db24c09151ffbfcdb06605a7684295b4b5222592668a99226cf3",
+  "runtime_lock_sha256": "bcf00a186a70df2004f68e2f4eac13090a1191ac69cb0bd28af877952a250d69",
+  "original_protocol_sha256": "ed157f5a14536772d05a00cfe31c315f6b747d624da4b527e8ce5e64de5cd111",
+  "storage_amendment_sha256": "b23ee6aa3e9881d0817e88b35d6f12c6f8304ba28b9fa4094b4ab83a0beaddf0",
+  "fresh_final_policy_executions_before_training": 0,
+  "final_step_only": true,
+  "evaluation": "Unchanged: dev 8/8; exposed stress >=14/16, >=7/8 each color, >=3/4 each layout; regression 5/5; known failure 1/1; then fresh matched 16 per model and preregistered static probe.",
+  "hypotheses_not_results": [
+    "Teacher changes and state anchors improve settling; not an isolated ablation.",
+    "The H15 detector-confirmation failure may remain; detector/mission logic is frozen."
+  ],
+  "storage": {
+    "project_root": "<PROJECT_ROOT>",
+    "free_bytes": 16494370816
+  },
+  "registration_script_sha256": "d1d8899d606f017c8ee292d96cd4064e0a5e7face521634afb9499911def6cce"
+}

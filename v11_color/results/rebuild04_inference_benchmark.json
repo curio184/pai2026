@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-31T10:35:38.980381+00:00",
+  "gpu": "NVIDIA GeForce RTX 3080",
+  "num_steps": 5,
+  "calls": 200,
+  "median_s": 0.256582449976122,
+  "p10_s": 0.24587959999917075,
+  "p90_s": 0.46698369999649003,
+  "p99_s": 0.496512999990955,
+  "max_s": 0.5028646999853663,
+  "image": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild04_final\\R4F01\\record\\observations\\00040.jpg",
+  "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+  "note": "GPU otherwise idle (no Blender running). Times are bimodal (~0.25 s and ~0.47 s); cause not investigated. Not used in the report (the user chose to state the latency as an assumed 0.2 s)."
+}

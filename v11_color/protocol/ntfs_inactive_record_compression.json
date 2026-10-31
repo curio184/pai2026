@@ -1,0 +1,2149 @@
+{
+  "created_utc": "2026-10-29T20:47:54.428438+00:00",
+  "operation": "Native NTFS transparent compression with compact.exe /C /Q, exact files only.",
+  "script_sha256": "59e376cfe642e60357929942ec912f2c97f0deb9dbf5e1ae157a7e3901e7ea55",
+  "files": [
+    {
+      "path": "v11_color/models/train10_en/final/model.safetensors",
+      "bytes": 1197789224,
+      "allocated_bytes": 1197789224,
+      "expected_sha256": "418b6a770ab947e3bb5ac6d9abc8a778e07e2a2fa8ffcc2131d7a4288b93cbfc"
+    },
+    {
+      "path": "v11_color/models/train11_en/final/model.safetensors",
+      "bytes": 1197789224,
+      "allocated_bytes": 1197789224,
+      "expected_sha256": "69e012e308c87fa728cad38b6c06fe32a8466863179b54815a5e4df950f5bd1c"
+    },
+    {
+      "path": "v11_color/logs/render_full.log",
+      "bytes": 52821022,
+      "allocated_bytes": 52821022,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/civic_movie_render.log",
+      "bytes": 31296160,
+      "allocated_bytes": 31296160,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/logs/render_train05.log",
+      "bytes": 25372858,
+      "allocated_bytes": 25372858,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/world_render.log",
+      "bytes": 23278490,
+      "allocated_bytes": 23278490,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/render_final.log",
+      "bytes": 22249006,
+      "allocated_bytes": 22249006,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/civic_dataset_renderer.log",
+      "bytes": 20031222,
+      "allocated_bytes": 20031222,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/realism_movie/render.log",
+      "bytes": 17891728,
+      "allocated_bytes": 17891728,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/intro_atmosphere/render.log",
+      "bytes": 14846100,
+      "allocated_bytes": 14846100,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/runs/eval01/fog_dense_blue/trace.jsonl",
+      "bytes": 12660787,
+      "allocated_bytes": 12660787,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/archive_replay/rescue-drone-vla/rescue_search/runs/eval01/fog_dense_blue/trace.jsonl",
+      "bytes": 12660787,
+      "allocated_bytes": 12660787,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/archive_replay/rescue-drone-vla/rescue_search/runs/eval01/fog_light_blue/trace.jsonl",
+      "bytes": 12651354,
+      "allocated_bytes": 12651354,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/runs/eval01/fog_light_blue/trace.jsonl",
+      "bytes": 12651354,
+      "allocated_bytes": 12651354,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/archive_replay/rescue-drone-vla/rescue_search/runs/eval01/clear_blue/trace.jsonl",
+      "bytes": 12650495,
+      "allocated_bytes": 12650495,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/runs/eval01/clear_blue/trace.jsonl",
+      "bytes": 12650495,
+      "allocated_bytes": 12650495,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/intro_slow/scene_render.log",
+      "bytes": 10979194,
+      "allocated_bytes": 10979194,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/vla_data_realism_01/renderer.log",
+      "bytes": 10517922,
+      "allocated_bytes": 10517922,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train08_en_capped/H07_v1.1/record/trace.jsonl",
+      "bytes": 9260014,
+      "allocated_bytes": 9260014,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/premium_studio_animation.log",
+      "bytes": 9253346,
+      "allocated_bytes": 9253346,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/runs/eval01/dust_blue/trace.jsonl",
+      "bytes": 9023364,
+      "allocated_bytes": 9023364,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/archive_replay/rescue-drone-vla/rescue_search/runs/eval01/dust_blue/trace.jsonl",
+      "bytes": 9023364,
+      "allocated_bytes": 9023364,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H15_v1.1/record/trace.jsonl",
+      "bytes": 9002959,
+      "allocated_bytes": 9002959,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train06_en/H06_v1.1/record/trace.jsonl",
+      "bytes": 8994142,
+      "allocated_bytes": 8994142,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H14_v1.1/record/trace.jsonl",
+      "bytes": 8984299,
+      "allocated_bytes": 8984299,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train08_en_capped/H15_v1.1/record/trace.jsonl",
+      "bytes": 8938374,
+      "allocated_bytes": 8938374,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train05_en/H06_v1.1/record/trace.jsonl",
+      "bytes": 8935499,
+      "allocated_bytes": 8935499,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train04_en/H12_v1.1/record/trace.jsonl",
+      "bytes": 8934180,
+      "allocated_bytes": 8934180,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H06_v1.1/record/trace.jsonl",
+      "bytes": 8930046,
+      "allocated_bytes": 8930046,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H01_v1.1/record/trace.jsonl",
+      "bytes": 8714033,
+      "allocated_bytes": 8714033,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H12_v1.0/record/trace.jsonl",
+      "bytes": 8662388,
+      "allocated_bytes": 8662388,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train04_en/H15_v1.1/record/trace.jsonl",
+      "bytes": 8558023,
+      "allocated_bytes": 8558023,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train10_en/H12_v1.1/record/trace.jsonl",
+      "bytes": 8370499,
+      "allocated_bytes": 8370499,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/archive_replay/rescue-drone-vla/rescue_search/runs/eval02/fog_light_blue/trace.jsonl",
+      "bytes": 8359876,
+      "allocated_bytes": 8359876,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/runs/eval02/fog_light_blue/trace.jsonl",
+      "bytes": 8359876,
+      "allocated_bytes": 8359876,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train05_en/H15_v1.1/record/trace.jsonl",
+      "bytes": 8208315,
+      "allocated_bytes": 8208315,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train08_en_capped/H01_v1.1/record/trace.jsonl",
+      "bytes": 7861121,
+      "allocated_bytes": 7861121,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train10_en/H06_v1.1/record/trace.jsonl",
+      "bytes": 7823556,
+      "allocated_bytes": 7823556,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train09_en/primitive_turns_v1.1/record/trace.jsonl",
+      "bytes": 7687269,
+      "allocated_bytes": 7687269,
+      "expected_sha256": null
+    },
+    {
+      "path": "validation_v1_1/results/T2/raw_outputs.jsonl",
+      "bytes": 7579246,
+      "allocated_bytes": 7579246,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H12_v1.1/record/trace.jsonl",
+      "bytes": 7512275,
+      "allocated_bytes": 7512275,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/inference_revision_01/left/trace.jsonl",
+      "bytes": 7385984,
+      "allocated_bytes": 7385984,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/final_policy_02/red/trace.jsonl",
+      "bytes": 7370478,
+      "allocated_bytes": 7370478,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/final_policy_evidence/red/trace.jsonl",
+      "bytes": 7370478,
+      "allocated_bytes": 7370478,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/trained_revision_02/turns/trace.jsonl",
+      "bytes": 7364435,
+      "allocated_bytes": 7364435,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/inference_revision_01/turns/trace.jsonl",
+      "bytes": 7358477,
+      "allocated_bytes": 7358477,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/final_policy_evidence/turns/trace.jsonl",
+      "bytes": 7356354,
+      "allocated_bytes": 7356354,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/final_policy_02/turns/trace.jsonl",
+      "bytes": 7356354,
+      "allocated_bytes": 7356354,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/civic_baseline_01/left/trace.jsonl",
+      "bytes": 7343098,
+      "allocated_bytes": 7343098,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/final_policy_01/turns/trace.jsonl",
+      "bytes": 7022830,
+      "allocated_bytes": 7022830,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/final_policy_01/red/trace.jsonl",
+      "bytes": 7022830,
+      "allocated_bytes": 7022830,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train10_en/H01_v1.1/record/trace.jsonl",
+      "bytes": 6986653,
+      "allocated_bytes": 6986653,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H09_v1.1/record/trace.jsonl",
+      "bytes": 6797477,
+      "allocated_bytes": 6797477,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/runs/dev01/clear_blue/trace.jsonl",
+      "bytes": 6747161,
+      "allocated_bytes": 6747161,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/archive_replay/rescue-drone-vla/rescue_search/runs/dev01/clear_blue/trace.jsonl",
+      "bytes": 6747161,
+      "allocated_bytes": 6747161,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train05_en/H01_v1.1/record/trace.jsonl",
+      "bytes": 6650354,
+      "allocated_bytes": 6650354,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H11_v1.0/record/trace.jsonl",
+      "bytes": 6498690,
+      "allocated_bytes": 6498690,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train08_en_capped/H13_v1.1/record/trace.jsonl",
+      "bytes": 6475218,
+      "allocated_bytes": 6475218,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train01/dev02_blue_v1.1/record/trace.jsonl",
+      "bytes": 6454429,
+      "allocated_bytes": 6454429,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/red_movie/render.log",
+      "bytes": 6351602,
+      "allocated_bytes": 6351602,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train08_en_capped/H14_v1.1/record/trace.jsonl",
+      "bytes": 6342129,
+      "allocated_bytes": 6342129,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train04_en/H13_v1.1/record/trace.jsonl",
+      "bytes": 6339330,
+      "allocated_bytes": 6339330,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H14_v1.0/record/trace.jsonl",
+      "bytes": 6272764,
+      "allocated_bytes": 6272764,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H08_v1.1/record/trace.jsonl",
+      "bytes": 6265476,
+      "allocated_bytes": 6265476,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train09_en/dev01_blue_v1.1/record/trace.jsonl",
+      "bytes": 6228037,
+      "allocated_bytes": 6228037,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H01_v1.0/record/trace.jsonl",
+      "bytes": 6227247,
+      "allocated_bytes": 6227247,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H15_v1.0/record/trace.jsonl",
+      "bytes": 6215725,
+      "allocated_bytes": 6215725,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H11_v1.1/record/trace.jsonl",
+      "bytes": 6205776,
+      "allocated_bytes": 6205776,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train04_en/H01_v1.1/record/trace.jsonl",
+      "bytes": 6161422,
+      "allocated_bytes": 6161422,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train04_en/H05_v1.1/record/trace.jsonl",
+      "bytes": 6155148,
+      "allocated_bytes": 6155148,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/intro_pan/render_refined.log",
+      "bytes": 6102114,
+      "allocated_bytes": 6102114,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train04_en/H06_v1.1/record/trace.jsonl",
+      "bytes": 6086910,
+      "allocated_bytes": 6086910,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H04_v1.0/record/trace.jsonl",
+      "bytes": 6080289,
+      "allocated_bytes": 6080289,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train06_en/H02_v1.1/record/trace.jsonl",
+      "bytes": 6077502,
+      "allocated_bytes": 6077502,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train06_en/H01_v1.1/record/trace.jsonl",
+      "bytes": 6077052,
+      "allocated_bytes": 6077052,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train04_en/H10_v1.1/record/trace.jsonl",
+      "bytes": 6000054,
+      "allocated_bytes": 6000054,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/final_policy_01/blue/trace.jsonl",
+      "bytes": 5941865,
+      "allocated_bytes": 5941865,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/final_policy_evidence/blue/trace.jsonl",
+      "bytes": 5941865,
+      "allocated_bytes": 5941865,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train08_en_capped/dev01_blue_v1.1/record/trace.jsonl",
+      "bytes": 5941829,
+      "allocated_bytes": 5941829,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train01/dev01_red_v1.1/record/trace.jsonl",
+      "bytes": 5936168,
+      "allocated_bytes": 5936168,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train08_en_capped/H11_v1.1/record/trace.jsonl",
+      "bytes": 5921402,
+      "allocated_bytes": 5921402,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H03_v1.0/record/trace.jsonl",
+      "bytes": 5884577,
+      "allocated_bytes": 5884577,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/inference_revision_01/red/trace.jsonl",
+      "bytes": 5880082,
+      "allocated_bytes": 5880082,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train10_en/H05_v1.1/record/trace.jsonl",
+      "bytes": 5877795,
+      "allocated_bytes": 5877795,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train10_en/H10_v1.1/record/trace.jsonl",
+      "bytes": 5858898,
+      "allocated_bytes": 5858898,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train05_en/H14_v1.1/record/trace.jsonl",
+      "bytes": 5854079,
+      "allocated_bytes": 5854079,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H06_v1.0/record/trace.jsonl",
+      "bytes": 5818434,
+      "allocated_bytes": 5818434,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/known_failure_train03/T3_blue_retest_v1.1/record/trace.jsonl",
+      "bytes": 5802762,
+      "allocated_bytes": 5802762,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train05_en/H05_v1.1/record/trace.jsonl",
+      "bytes": 5802676,
+      "allocated_bytes": 5802676,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train08_en_capped/H04_v1.1/record/trace.jsonl",
+      "bytes": 5800960,
+      "allocated_bytes": 5800960,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train06_en/H14_v1.1/record/trace.jsonl",
+      "bytes": 5786109,
+      "allocated_bytes": 5786109,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H13_v1.0/record/trace.jsonl",
+      "bytes": 5783488,
+      "allocated_bytes": 5783488,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train06_en/H16_v1.1/record/trace.jsonl",
+      "bytes": 5762507,
+      "allocated_bytes": 5762507,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train03/dev01_blue_v1.1/record/trace.jsonl",
+      "bytes": 5739756,
+      "allocated_bytes": 5739756,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train01/dev01_blue_v1.1/record/trace.jsonl",
+      "bytes": 5739417,
+      "allocated_bytes": 5739417,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H10_v1.0/record/trace.jsonl",
+      "bytes": 5727153,
+      "allocated_bytes": 5727153,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train05_en/H02_v1.1/record/trace.jsonl",
+      "bytes": 5725201,
+      "allocated_bytes": 5725201,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train05_en/H10_v1.1/record/trace.jsonl",
+      "bytes": 5713840,
+      "allocated_bytes": 5713840,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train04_en/H14_v1.1/record/trace.jsonl",
+      "bytes": 5711062,
+      "allocated_bytes": 5711062,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H16_v1.1/record/trace.jsonl",
+      "bytes": 5703008,
+      "allocated_bytes": 5703008,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train05_en/dev01_blue_v1.1/record/trace.jsonl",
+      "bytes": 5671551,
+      "allocated_bytes": 5671551,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H02_v1.0/record/trace.jsonl",
+      "bytes": 5667492,
+      "allocated_bytes": 5667492,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H02_v1.1/record/trace.jsonl",
+      "bytes": 5661052,
+      "allocated_bytes": 5661052,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H05_v1.1/record/trace.jsonl",
+      "bytes": 5657849,
+      "allocated_bytes": 5657849,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H10_v1.1/record/trace.jsonl",
+      "bytes": 5655063,
+      "allocated_bytes": 5655063,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train10_en/H14_v1.1/record/trace.jsonl",
+      "bytes": 5637853,
+      "allocated_bytes": 5637853,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train05_en/H11_v1.1/record/trace.jsonl",
+      "bytes": 5634188,
+      "allocated_bytes": 5634188,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train05_en/dev02_red_v1.1/record/trace.jsonl",
+      "bytes": 5596309,
+      "allocated_bytes": 5596309,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train10_en/dev02_red_v1.1/record/trace.jsonl",
+      "bytes": 5594323,
+      "allocated_bytes": 5594323,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H09_v1.0/record/trace.jsonl",
+      "bytes": 5590189,
+      "allocated_bytes": 5590189,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train06_en/H09_v1.1/record/trace.jsonl",
+      "bytes": 5582291,
+      "allocated_bytes": 5582291,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train10_en/H15_v1.1/record/trace.jsonl",
+      "bytes": 5577506,
+      "allocated_bytes": 5577506,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train05_en/H07_v1.1/record/trace.jsonl",
+      "bytes": 5574605,
+      "allocated_bytes": 5574605,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train05_en/H04_v1.1/record/trace.jsonl",
+      "bytes": 5569259,
+      "allocated_bytes": 5569259,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train08_en_capped/H16_v1.1/record/trace.jsonl",
+      "bytes": 5564159,
+      "allocated_bytes": 5564159,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train04_en/H16_v1.1/record/trace.jsonl",
+      "bytes": 5559570,
+      "allocated_bytes": 5559570,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/left_instruction_01/left/trace.jsonl",
+      "bytes": 5545518,
+      "allocated_bytes": 5545518,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/final_policy_evidence/left/trace.jsonl",
+      "bytes": 5545518,
+      "allocated_bytes": 5545518,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/archive_replay/rescue-drone-vla/rescue_search/runs/eval02/dust_blue/trace.jsonl",
+      "bytes": 5541146,
+      "allocated_bytes": 5541146,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/runs/eval02/dust_blue/trace.jsonl",
+      "bytes": 5541146,
+      "allocated_bytes": 5541146,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train04_en/dev02_blue_v1.1/record/trace.jsonl",
+      "bytes": 5526527,
+      "allocated_bytes": 5526527,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train01/dev02_red_v1.1/record/trace.jsonl",
+      "bytes": 5524863,
+      "allocated_bytes": 5524863,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train08_en_capped/H02_v1.1/record/trace.jsonl",
+      "bytes": 5524715,
+      "allocated_bytes": 5524715,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train10_en/H02_v1.1/record/trace.jsonl",
+      "bytes": 5519984,
+      "allocated_bytes": 5519984,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train05_en/H09_v1.1/record/trace.jsonl",
+      "bytes": 5514260,
+      "allocated_bytes": 5514260,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train10_en/H09_v1.1/record/trace.jsonl",
+      "bytes": 5510762,
+      "allocated_bytes": 5510762,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train06_en/H07_v1.1/record/trace.jsonl",
+      "bytes": 5510118,
+      "allocated_bytes": 5510118,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train06_en/H11_v1.1/record/trace.jsonl",
+      "bytes": 5505149,
+      "allocated_bytes": 5505149,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train06_en/H10_v1.1/record/trace.jsonl",
+      "bytes": 5504994,
+      "allocated_bytes": 5504994,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H07_v1.0/record/trace.jsonl",
+      "bytes": 5504203,
+      "allocated_bytes": 5504203,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H07_v1.1/record/trace.jsonl",
+      "bytes": 5503315,
+      "allocated_bytes": 5503315,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H13_v1.1/record/trace.jsonl",
+      "bytes": 5494893,
+      "allocated_bytes": 5494893,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H16_v1.0/record/trace.jsonl",
+      "bytes": 5491679,
+      "allocated_bytes": 5491679,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train10_en/H16_v1.1/record/trace.jsonl",
+      "bytes": 5491102,
+      "allocated_bytes": 5491102,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train05_en/H08_v1.1/record/trace.jsonl",
+      "bytes": 5484392,
+      "allocated_bytes": 5484392,
+      "expected_sha256": null
+    },
+    {
+      "path": "validation_v1_1/runs/T3_01/record/trace.jsonl",
+      "bytes": 5467668,
+      "allocated_bytes": 5467668,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train06_en/dev01_blue_v1.1/record/trace.jsonl",
+      "bytes": 5463875,
+      "allocated_bytes": 5463875,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train03/dev02_red_v1.1/record/trace.jsonl",
+      "bytes": 5461443,
+      "allocated_bytes": 5461443,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train02/dev02_red_v1.1/record/trace.jsonl",
+      "bytes": 5459011,
+      "allocated_bytes": 5459011,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train07_en/dev01_blue_v1.1/record/trace.jsonl",
+      "bytes": 5458732,
+      "allocated_bytes": 5458732,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train04_en/dev01_blue_v1.1/record/trace.jsonl",
+      "bytes": 5457382,
+      "allocated_bytes": 5457382,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train04_en/H02_v1.1/record/trace.jsonl",
+      "bytes": 5450107,
+      "allocated_bytes": 5450107,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H05_v1.0/record/trace.jsonl",
+      "bytes": 5449754,
+      "allocated_bytes": 5449754,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train06_en/H15_v1.1/record/trace.jsonl",
+      "bytes": 5438802,
+      "allocated_bytes": 5438802,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H04_v1.1/record/trace.jsonl",
+      "bytes": 5437603,
+      "allocated_bytes": 5437603,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train04_en/H07_v1.1/record/trace.jsonl",
+      "bytes": 5431151,
+      "allocated_bytes": 5431151,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train02/dev01_blue_v1.1/record/trace.jsonl",
+      "bytes": 5397443,
+      "allocated_bytes": 5397443,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train10_en/dev01_blue_v1.1/record/trace.jsonl",
+      "bytes": 5394639,
+      "allocated_bytes": 5394639,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train08_en_capped/H06_v1.1/record/trace.jsonl",
+      "bytes": 5391178,
+      "allocated_bytes": 5391178,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train08_en_capped/H10_v1.1/record/trace.jsonl",
+      "bytes": 5373343,
+      "allocated_bytes": 5373343,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train05_en/H12_v1.1/record/trace.jsonl",
+      "bytes": 5364192,
+      "allocated_bytes": 5364192,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train06_en/H12_v1.1/record/trace.jsonl",
+      "bytes": 5364060,
+      "allocated_bytes": 5364060,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/archive_replay/rescue-drone-vla/rescue_search/runs/eval02/fog_dense_blue/trace.jsonl",
+      "bytes": 5332452,
+      "allocated_bytes": 5332452,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/runs/eval02/fog_dense_blue/trace.jsonl",
+      "bytes": 5332452,
+      "allocated_bytes": 5332452,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train08_en_capped/H05_v1.1/record/trace.jsonl",
+      "bytes": 5306263,
+      "allocated_bytes": 5306263,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H03_v1.1/record/trace.jsonl",
+      "bytes": 5301469,
+      "allocated_bytes": 5301469,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train04_en/H11_v1.1/record/trace.jsonl",
+      "bytes": 5290573,
+      "allocated_bytes": 5290573,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/civic_baseline_01/turns/trace.jsonl",
+      "bytes": 5289809,
+      "allocated_bytes": 5289809,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train06_en/H04_v1.1/record/trace.jsonl",
+      "bytes": 5288823,
+      "allocated_bytes": 5288823,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train05_en/H13_v1.1/record/trace.jsonl",
+      "bytes": 5287276,
+      "allocated_bytes": 5287276,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train05_en/H16_v1.1/record/trace.jsonl",
+      "bytes": 5277643,
+      "allocated_bytes": 5277643,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/archive_replay/rescue-drone-vla/rescue_search/runs/eval02/clear_blue/trace.jsonl",
+      "bytes": 5265118,
+      "allocated_bytes": 5265118,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/runs/eval02/clear_blue/trace.jsonl",
+      "bytes": 5265118,
+      "allocated_bytes": 5265118,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train06_en/dev02_red_v1.1/record/trace.jsonl",
+      "bytes": 5257115,
+      "allocated_bytes": 5257115,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train07_en/dev02_red_v1.1/record/trace.jsonl",
+      "bytes": 5252343,
+      "allocated_bytes": 5252343,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/regression_train03/fog_light_blue_v1.1/record/trace.jsonl",
+      "bytes": 5252139,
+      "allocated_bytes": 5252139,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train08_en_capped/dev01_red_v1.1/record/trace.jsonl",
+      "bytes": 5242146,
+      "allocated_bytes": 5242146,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train02/dev02_blue_v1.1/record/trace.jsonl",
+      "bytes": 5238051,
+      "allocated_bytes": 5238051,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train06_en/H03_v1.1/record/trace.jsonl",
+      "bytes": 5232523,
+      "allocated_bytes": 5232523,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train06_en/H05_v1.1/record/trace.jsonl",
+      "bytes": 5228360,
+      "allocated_bytes": 5228360,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train04_en/H04_v1.1/record/trace.jsonl",
+      "bytes": 5225422,
+      "allocated_bytes": 5225422,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train10_en/H11_v1.1/record/trace.jsonl",
+      "bytes": 5223786,
+      "allocated_bytes": 5223786,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train06_en/H13_v1.1/record/trace.jsonl",
+      "bytes": 5215131,
+      "allocated_bytes": 5215131,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/realism_confirmed_02/turns/trace.jsonl",
+      "bytes": 5214815,
+      "allocated_bytes": 5214815,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train10_en/H04_v1.1/record/trace.jsonl",
+      "bytes": 5213370,
+      "allocated_bytes": 5213370,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train06_en/H08_v1.1/record/trace.jsonl",
+      "bytes": 5212891,
+      "allocated_bytes": 5212891,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train03/primitive_turns_v1.1/record/trace.jsonl",
+      "bytes": 5211131,
+      "allocated_bytes": 5211131,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train08_en_capped/dev02_red_v1.1/record/trace.jsonl",
+      "bytes": 5182162,
+      "allocated_bytes": 5182162,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train09_en/dev01_red_v1.1/record/trace.jsonl",
+      "bytes": 5178170,
+      "allocated_bytes": 5178170,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/regression_train03/clear_red_v1.1/record/trace.jsonl",
+      "bytes": 5177820,
+      "allocated_bytes": 5177820,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train04_en/H09_v1.1/record/trace.jsonl",
+      "bytes": 5171486,
+      "allocated_bytes": 5171486,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train08_en_capped/H03_v1.1/record/trace.jsonl",
+      "bytes": 5165484,
+      "allocated_bytes": 5165484,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train10_en/H03_v1.1/record/trace.jsonl",
+      "bytes": 5161742,
+      "allocated_bytes": 5161742,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train10_en/H07_v1.1/record/trace.jsonl",
+      "bytes": 5151267,
+      "allocated_bytes": 5151267,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train10_en/H13_v1.1/record/trace.jsonl",
+      "bytes": 5149644,
+      "allocated_bytes": 5149644,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train02/primitive_turns_v1.1/record/trace.jsonl",
+      "bytes": 5146515,
+      "allocated_bytes": 5146515,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train09_en/dev02_red_v1.1/record/trace.jsonl",
+      "bytes": 5118531,
+      "allocated_bytes": 5118531,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/archive_replay/rescue-drone-vla/rescue_search/runs/eval03/clear_blue/trace.jsonl",
+      "bytes": 5115916,
+      "allocated_bytes": 5115916,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/publication_review/archive_extract/rescue_search/runs/eval03/clear_blue/trace.jsonl",
+      "bytes": 5115916,
+      "allocated_bytes": 5115916,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/publication_review/replay/current/eval03/clear_blue/trace.jsonl",
+      "bytes": 5115916,
+      "allocated_bytes": 5115916,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/runs/eval03/clear_blue/trace.jsonl",
+      "bytes": 5115916,
+      "allocated_bytes": 5115916,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/publication_review/replay/archive/eval03/clear_blue/trace.jsonl",
+      "bytes": 5115916,
+      "allocated_bytes": 5115916,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train02/dev01_red_v1.1/record/trace.jsonl",
+      "bytes": 5113334,
+      "allocated_bytes": 5113334,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train06_en/dev02_blue_v1.1/record/trace.jsonl",
+      "bytes": 5109397,
+      "allocated_bytes": 5109397,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train10_en/dev01_red_v1.1/record/trace.jsonl",
+      "bytes": 5108560,
+      "allocated_bytes": 5108560,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/regression_train03/fog_dense_blue_v1.1/record/trace.jsonl",
+      "bytes": 5107874,
+      "allocated_bytes": 5107874,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train08_en_capped/H09_v1.1/record/trace.jsonl",
+      "bytes": 5101093,
+      "allocated_bytes": 5101093,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train08_en_capped/dev02_blue_v1.1/record/trace.jsonl",
+      "bytes": 5097978,
+      "allocated_bytes": 5097978,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train08_en_capped/H12_v1.1/record/trace.jsonl",
+      "bytes": 5090419,
+      "allocated_bytes": 5090419,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train04_en/H03_v1.1/record/trace.jsonl",
+      "bytes": 5089160,
+      "allocated_bytes": 5089160,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train05_en/H03_v1.1/record/trace.jsonl",
+      "bytes": 5087003,
+      "allocated_bytes": 5087003,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/runs/eval_red01/clear_red/trace.jsonl",
+      "bytes": 5045791,
+      "allocated_bytes": 5045791,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/publication_review/replay/current/eval_red01/clear_red/trace.jsonl",
+      "bytes": 5045791,
+      "allocated_bytes": 5045791,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/publication_review/archive_extract/rescue_search/runs/eval03/dust_blue/trace.jsonl",
+      "bytes": 5041883,
+      "allocated_bytes": 5041883,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/publication_review/replay/current/eval03/dust_blue/trace.jsonl",
+      "bytes": 5041883,
+      "allocated_bytes": 5041883,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/publication_review/replay/archive/eval03/dust_blue/trace.jsonl",
+      "bytes": 5041883,
+      "allocated_bytes": 5041883,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/archive_replay/rescue-drone-vla/rescue_search/runs/eval03/dust_blue/trace.jsonl",
+      "bytes": 5041883,
+      "allocated_bytes": 5041883,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/runs/eval03/dust_blue/trace.jsonl",
+      "bytes": 5041883,
+      "allocated_bytes": 5041883,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train04_en/dev02_red_v1.1/record/trace.jsonl",
+      "bytes": 5041735,
+      "allocated_bytes": 5041735,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/regression_train03/dust_blue_v1.1/record/trace.jsonl",
+      "bytes": 5040652,
+      "allocated_bytes": 5040652,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train03/dev01_red_v1.1/record/trace.jsonl",
+      "bytes": 5038484,
+      "allocated_bytes": 5038484,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train05_en/dev01_red_v1.1/record/trace.jsonl",
+      "bytes": 5032821,
+      "allocated_bytes": 5032821,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/heldout_train03/H08_v1.0/record/trace.jsonl",
+      "bytes": 5011127,
+      "allocated_bytes": 5011127,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train04_en/primitive_turns_v1.1/record/trace.jsonl",
+      "bytes": 5008491,
+      "allocated_bytes": 5008491,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/publication_review/replay/current/eval03/fog_dense_blue/trace.jsonl",
+      "bytes": 4972827,
+      "allocated_bytes": 4972827,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/archive_replay/rescue-drone-vla/rescue_search/runs/eval03/fog_dense_blue/trace.jsonl",
+      "bytes": 4972827,
+      "allocated_bytes": 4972827,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/publication_review/archive_extract/rescue_search/runs/eval03/fog_dense_blue/trace.jsonl",
+      "bytes": 4972827,
+      "allocated_bytes": 4972827,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/publication_review/replay/archive/eval03/fog_dense_blue/trace.jsonl",
+      "bytes": 4972827,
+      "allocated_bytes": 4972827,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/runs/eval03/fog_dense_blue/trace.jsonl",
+      "bytes": 4972827,
+      "allocated_bytes": 4972827,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train07_en/dev01_red_v1.1/record/trace.jsonl",
+      "bytes": 4970507,
+      "allocated_bytes": 4970507,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/publication_review/replay/current/eval03/fog_light_blue/trace.jsonl",
+      "bytes": 4970425,
+      "allocated_bytes": 4970425,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/archive_replay/rescue-drone-vla/rescue_search/runs/eval03/fog_light_blue/trace.jsonl",
+      "bytes": 4970425,
+      "allocated_bytes": 4970425,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/publication_review/archive_extract/rescue_search/runs/eval03/fog_light_blue/trace.jsonl",
+      "bytes": 4970425,
+      "allocated_bytes": 4970425,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/publication_review/replay/archive/eval03/fog_light_blue/trace.jsonl",
+      "bytes": 4970425,
+      "allocated_bytes": 4970425,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/runs/eval03/fog_light_blue/trace.jsonl",
+      "bytes": 4970425,
+      "allocated_bytes": 4970425,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train04_en/dev01_red_v1.1/record/trace.jsonl",
+      "bytes": 4969347,
+      "allocated_bytes": 4969347,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train07_en/dev02_blue_v1.1/record/trace.jsonl",
+      "bytes": 4965880,
+      "allocated_bytes": 4965880,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train10_en/H08_v1.1/record/trace.jsonl",
+      "bytes": 4938156,
+      "allocated_bytes": 4938156,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train08_en_capped/H08_v1.1/record/trace.jsonl",
+      "bytes": 4938040,
+      "allocated_bytes": 4938040,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train01/primitive_turns_v1.1/record/trace.jsonl",
+      "bytes": 4932126,
+      "allocated_bytes": 4932126,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train06_en/dev01_red_v1.1/record/trace.jsonl",
+      "bytes": 4903579,
+      "allocated_bytes": 4903579,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train09_en/dev02_blue_v1.1/record/trace.jsonl",
+      "bytes": 4897895,
+      "allocated_bytes": 4897895,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train05_en/dev02_blue_v1.1/record/trace.jsonl",
+      "bytes": 4896015,
+      "allocated_bytes": 4896015,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/realism_trained_01/turns/trace.jsonl",
+      "bytes": 4862962,
+      "allocated_bytes": 4862962,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/regression_train03/clear_blue_v1.1/record/trace.jsonl",
+      "bytes": 4830862,
+      "allocated_bytes": 4830862,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train10_en/dev02_blue_v1.1/record/trace.jsonl",
+      "bytes": 4826877,
+      "allocated_bytes": 4826877,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/archive_replay/rescue-drone-vla/outputs/ardupilot/realism_precision_03/turns/trace.jsonl",
+      "bytes": 4796014,
+      "allocated_bytes": 4796014,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/realism_precision_03/turns/trace.jsonl",
+      "bytes": 4796014,
+      "allocated_bytes": 4796014,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/github_submission/rescue-drone-vla/outputs/ardupilot/realism_precision_03/turns/trace.jsonl",
+      "bytes": 4796014,
+      "allocated_bytes": 4796014,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train03/dev02_blue_v1.1/record/trace.jsonl",
+      "bytes": 4762986,
+      "allocated_bytes": 4762986,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/stress_train04_en/H08_v1.1/record/trace.jsonl",
+      "bytes": 4726225,
+      "allocated_bytes": 4726225,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train06_en/primitive_turns_v1.1/record/trace.jsonl",
+      "bytes": 4722106,
+      "allocated_bytes": 4722106,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/inference_revision_04/turns/trace.jsonl",
+      "bytes": 4653399,
+      "allocated_bytes": 4653399,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train08_en_capped/primitive_turns_v1.1/record/trace.jsonl",
+      "bytes": 4644903,
+      "allocated_bytes": 4644903,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/realism_baseline_01/turns/trace.jsonl",
+      "bytes": 4579838,
+      "allocated_bytes": 4579838,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/inference_revision_03/turns/trace.jsonl",
+      "bytes": 4579625,
+      "allocated_bytes": 4579625,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train10_en/primitive_turns_v1.1/record/trace.jsonl",
+      "bytes": 4571011,
+      "allocated_bytes": 4571011,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train08_en/dev01_blue_v1.1/record/trace.jsonl",
+      "bytes": 4528089,
+      "allocated_bytes": 4528089,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/civic_baseline_01/blue/trace.jsonl",
+      "bytes": 4503385,
+      "allocated_bytes": 4503385,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train01/primitive_blue_v1.1/record/trace.jsonl",
+      "bytes": 4425150,
+      "allocated_bytes": 4425150,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train05_en/primitive_turns_v1.1/record/trace.jsonl",
+      "bytes": 4366903,
+      "allocated_bytes": 4366903,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train07_en/primitive_turns_v1.1/record/trace.jsonl",
+      "bytes": 4363670,
+      "allocated_bytes": 4363670,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/realism_precision_03/blue/trace.jsonl",
+      "bytes": 4296126,
+      "allocated_bytes": 4296126,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/archive_replay/rescue-drone-vla/outputs/ardupilot/realism_precision_03/blue/trace.jsonl",
+      "bytes": 4296126,
+      "allocated_bytes": 4296126,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/github_submission/rescue-drone-vla/outputs/ardupilot/realism_precision_03/blue/trace.jsonl",
+      "bytes": 4296126,
+      "allocated_bytes": 4296126,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train01/primitive_red_v1.1/record/trace.jsonl",
+      "bytes": 4291732,
+      "allocated_bytes": 4291732,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train06_en/primitive_blue_v1.1/record/trace.jsonl",
+      "bytes": 4290898,
+      "allocated_bytes": 4290898,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train04_en/primitive_blue_v1.1/record/trace.jsonl",
+      "bytes": 4290193,
+      "allocated_bytes": 4290193,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train05_en/primitive_blue_v1.1/record/trace.jsonl",
+      "bytes": 4289198,
+      "allocated_bytes": 4289198,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train09_en/primitive_blue_v1.1/record/trace.jsonl",
+      "bytes": 4286033,
+      "allocated_bytes": 4286033,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train10_en/primitive_blue_v1.1/record/trace.jsonl",
+      "bytes": 4282241,
+      "allocated_bytes": 4282241,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/inference_revision_01/blue/trace.jsonl",
+      "bytes": 4245525,
+      "allocated_bytes": 4245525,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/civic_trained_01/turns/trace.jsonl",
+      "bytes": 4224288,
+      "allocated_bytes": 4224288,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train03/primitive_blue_v1.1/record/trace.jsonl",
+      "bytes": 4221220,
+      "allocated_bytes": 4221220,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/github_submission/rescue-drone-vla/outputs/ardupilot/realism_precision_03/red/trace.jsonl",
+      "bytes": 4156217,
+      "allocated_bytes": 4156217,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/archive_replay/rescue-drone-vla/outputs/ardupilot/realism_precision_03/red/trace.jsonl",
+      "bytes": 4156217,
+      "allocated_bytes": 4156217,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/realism_precision_03/red/trace.jsonl",
+      "bytes": 4156217,
+      "allocated_bytes": 4156217,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train02/primitive_blue_v1.1/record/trace.jsonl",
+      "bytes": 4152131,
+      "allocated_bytes": 4152131,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train05_en/primitive_red_v1.1/record/trace.jsonl",
+      "bytes": 4151676,
+      "allocated_bytes": 4151676,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/realism_baseline_01/red/trace.jsonl",
+      "bytes": 4150082,
+      "allocated_bytes": 4150082,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train02/primitive_red_v1.1/record/trace.jsonl",
+      "bytes": 4084719,
+      "allocated_bytes": 4084719,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train04_en/primitive_red_v1.1/record/trace.jsonl",
+      "bytes": 4079830,
+      "allocated_bytes": 4079830,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/realism_confirmed_02/blue/trace.jsonl",
+      "bytes": 4079067,
+      "allocated_bytes": 4079067,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train07_en/primitive_blue_v1.1/record/trace.jsonl",
+      "bytes": 4078106,
+      "allocated_bytes": 4078106,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train08_en_capped/primitive_blue_v1.1/record/trace.jsonl",
+      "bytes": 4077240,
+      "allocated_bytes": 4077240,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/realism_baseline_01/blue/trace.jsonl",
+      "bytes": 4076508,
+      "allocated_bytes": 4076508,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train01/primitive_left_v1.1/record/trace.jsonl",
+      "bytes": 4024584,
+      "allocated_bytes": 4024584,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/civic_trained_01/blue/trace.jsonl",
+      "bytes": 4015579,
+      "allocated_bytes": 4015579,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train03/primitive_red_v1.1/record/trace.jsonl",
+      "bytes": 4014740,
+      "allocated_bytes": 4014740,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train09_en/primitive_red_v1.1/record/trace.jsonl",
+      "bytes": 4013477,
+      "allocated_bytes": 4013477,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train07_en/primitive_red_v1.1/record/trace.jsonl",
+      "bytes": 3949928,
+      "allocated_bytes": 3949928,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/realism_confirmed_02/red/trace.jsonl",
+      "bytes": 3947515,
+      "allocated_bytes": 3947515,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train06_en/primitive_red_v1.1/record/trace.jsonl",
+      "bytes": 3945199,
+      "allocated_bytes": 3945199,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/realism_trained_01/red/trace.jsonl",
+      "bytes": 3945017,
+      "allocated_bytes": 3945017,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/inference_revision_04/blue/trace.jsonl",
+      "bytes": 3943761,
+      "allocated_bytes": 3943761,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/civic_baseline_01/red/trace.jsonl",
+      "bytes": 3942750,
+      "allocated_bytes": 3942750,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/realism_trained_01/blue/trace.jsonl",
+      "bytes": 3941993,
+      "allocated_bytes": 3941993,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train10_en/primitive_red_v1.1/record/trace.jsonl",
+      "bytes": 3941353,
+      "allocated_bytes": 3941353,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train02/primitive_left_v1.1/record/trace.jsonl",
+      "bytes": 3881986,
+      "allocated_bytes": 3881986,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/inference_revision_03/blue/trace.jsonl",
+      "bytes": 3880810,
+      "allocated_bytes": 3880810,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/archive_replay/rescue-drone-vla/outputs/ardupilot/realism_precision_03/left/trace.jsonl",
+      "bytes": 3879784,
+      "allocated_bytes": 3879784,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/realism_precision_03/left/trace.jsonl",
+      "bytes": 3879784,
+      "allocated_bytes": 3879784,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/github_submission/rescue-drone-vla/outputs/ardupilot/realism_precision_03/left/trace.jsonl",
+      "bytes": 3879784,
+      "allocated_bytes": 3879784,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train08_en_capped/primitive_red_v1.1/record/trace.jsonl",
+      "bytes": 3873469,
+      "allocated_bytes": 3873469,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/inference_revision_03/red/trace.jsonl",
+      "bytes": 3816349,
+      "allocated_bytes": 3816349,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/civic_trained_01/red/trace.jsonl",
+      "bytes": 3805605,
+      "allocated_bytes": 3805605,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train09_en/primitive_left_v1.1/record/trace.jsonl",
+      "bytes": 3803855,
+      "allocated_bytes": 3803855,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/trained_revision_02/blue/trace.jsonl",
+      "bytes": 3771180,
+      "allocated_bytes": 3771180,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train08_en_capped/primitive_left_v1.1/record/trace.jsonl",
+      "bytes": 3736934,
+      "allocated_bytes": 3736934,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train07_en/primitive_left_v1.1/record/trace.jsonl",
+      "bytes": 3736293,
+      "allocated_bytes": 3736293,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/inference_revision_04/red/trace.jsonl",
+      "bytes": 3734819,
+      "allocated_bytes": 3734819,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train06_en/primitive_left_v1.1/record/trace.jsonl",
+      "bytes": 3733727,
+      "allocated_bytes": 3733727,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/realism_trained_01/left/trace.jsonl",
+      "bytes": 3666236,
+      "allocated_bytes": 3666236,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/realism_confirmed_02/left/trace.jsonl",
+      "bytes": 3663125,
+      "allocated_bytes": 3663125,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train04_en/primitive_left_v1.1/record/trace.jsonl",
+      "bytes": 3660320,
+      "allocated_bytes": 3660320,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/trained_revision_02/red/trace.jsonl",
+      "bytes": 3636324,
+      "allocated_bytes": 3636324,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train10_en/primitive_left_v1.1/record/trace.jsonl",
+      "bytes": 3588079,
+      "allocated_bytes": 3588079,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/inference_revision_03/left/trace.jsonl",
+      "bytes": 3540000,
+      "allocated_bytes": 3540000,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/inference_revision_04/left/trace.jsonl",
+      "bytes": 3525176,
+      "allocated_bytes": 3525176,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train05_en/primitive_left_v1.1/record/trace.jsonl",
+      "bytes": 3525161,
+      "allocated_bytes": 3525161,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/runs/dev_train03/primitive_left_v1.1/record/trace.jsonl",
+      "bytes": 3524205,
+      "allocated_bytes": 3524205,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/realism_baseline_01/left/trace.jsonl",
+      "bytes": 3520480,
+      "allocated_bytes": 3520480,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/civic_trained_01/left/trace.jsonl",
+      "bytes": 3454170,
+      "allocated_bytes": 3454170,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/runtime_link_fault_01/trace.jsonl",
+      "bytes": 3138428,
+      "allocated_bytes": 3138428,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/rotation_01/trace.jsonl",
+      "bytes": 2629896,
+      "allocated_bytes": 2629896,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/realism_movie/projection.json",
+      "bytes": 2519998,
+      "allocated_bytes": 2519998,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/payload_50g_baseline/trace.jsonl",
+      "bytes": 2498193,
+      "allocated_bytes": 2498193,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/mission_01/trace.jsonl",
+      "bytes": 2493772,
+      "allocated_bytes": 2493772,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/demo_movie/trail_projection.json",
+      "bytes": 2439594,
+      "allocated_bytes": 2439594,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/intro_pan/render.log",
+      "bytes": 2408734,
+      "allocated_bytes": 2408734,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/civic_movie/projection.json",
+      "bytes": 2209009,
+      "allocated_bytes": 2209009,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/intro_environment_render.log",
+      "bytes": 1977010,
+      "allocated_bytes": 1977010,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/flight_check_02/trace.jsonl",
+      "bytes": 1747597,
+      "allocated_bytes": 1747597,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/civic_establish_final.log",
+      "bytes": 1599600,
+      "allocated_bytes": 1599600,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/realism_confirmed_02/optical_renderer.log",
+      "bytes": 1573876,
+      "allocated_bytes": 1573876,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/runs/eval01/fog_dense_blue/vla_link_events.json",
+      "bytes": 1541162,
+      "allocated_bytes": 1541162,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/archive_replay/rescue-drone-vla/rescue_search/runs/eval01/fog_dense_blue/vla_link_events.json",
+      "bytes": 1541162,
+      "allocated_bytes": 1541162,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/runs/eval01/fog_light_blue/vla_link_events.json",
+      "bytes": 1518606,
+      "allocated_bytes": 1518606,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/archive_replay/rescue-drone-vla/rescue_search/runs/eval01/fog_light_blue/vla_link_events.json",
+      "bytes": 1518606,
+      "allocated_bytes": 1518606,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/render_preview.log",
+      "bytes": 1511158,
+      "allocated_bytes": 1511158,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/realism_trained_01/optical_renderer.log",
+      "bytes": 1505832,
+      "allocated_bytes": 1505832,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/realism_baseline_01/optical_renderer.log",
+      "bytes": 1498930,
+      "allocated_bytes": 1498930,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/archive_replay/rescue-drone-vla/rescue_search/runs/eval01/clear_blue/vla_link_events.json",
+      "bytes": 1494088,
+      "allocated_bytes": 1494088,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/runs/eval01/clear_blue/vla_link_events.json",
+      "bytes": 1494088,
+      "allocated_bytes": 1494088,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/civic_trained_01/optical_renderer.log",
+      "bytes": 1480548,
+      "allocated_bytes": 1480548,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/data/dataset09_en/image_sources.json",
+      "bytes": 1471885,
+      "allocated_bytes": 1471885,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/data/dataset06_en/image_sources.json",
+      "bytes": 1471885,
+      "allocated_bytes": 1471885,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/data/dataset10_en/image_sources.json",
+      "bytes": 1471885,
+      "allocated_bytes": 1471885,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/data/dataset07_en/image_sources.json",
+      "bytes": 1471885,
+      "allocated_bytes": 1471885,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/data/dataset05_en/image_sources.json",
+      "bytes": 1471885,
+      "allocated_bytes": 1471885,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/data/dataset08_en/image_sources.json",
+      "bytes": 1471885,
+      "allocated_bytes": 1471885,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/protocol/training_frames.json",
+      "bytes": 1427127,
+      "allocated_bytes": 1427127,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/realism_precision_03/optical_renderer.log",
+      "bytes": 1413814,
+      "allocated_bytes": 1413814,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/civic_baseline_01/optical_renderer.log",
+      "bytes": 1316500,
+      "allocated_bytes": 1316500,
+      "expected_sha256": null
+    },
+    {
+      "path": "outputs/ardupilot/flight_check_01/trace.jsonl",
+      "bytes": 1263282,
+      "allocated_bytes": 1263282,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/red_movie/trail_projection.json",
+      "bytes": 1242284,
+      "allocated_bytes": 1242284,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/protocol/train05_training_frames.json",
+      "bytes": 1180951,
+      "allocated_bytes": 1180951,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/probe/outputs/raw_outputs.jsonl",
+      "bytes": 1153959,
+      "allocated_bytes": 1153959,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/runs/eval01/fog_dense_blue_render.log",
+      "bytes": 1140887,
+      "allocated_bytes": 1140887,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/runs/eval01/fog_light_blue_render.log",
+      "bytes": 1130053,
+      "allocated_bytes": 1130053,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/runs/eval01/clear_blue_render.log",
+      "bytes": 1115671,
+      "allocated_bytes": 1115671,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/runs/eval01/dust_blue/vla_link_events.json",
+      "bytes": 1079521,
+      "allocated_bytes": 1079521,
+      "expected_sha256": null
+    },
+    {
+      "path": "tmp/rescue_search/archive_replay/rescue-drone-vla/rescue_search/runs/eval01/dust_blue/vla_link_events.json",
+      "bytes": 1079521,
+      "allocated_bytes": 1079521,
+      "expected_sha256": null
+    },
+    {
+      "path": "v11_color/reports/train01_development_diagnostic.json",
+      "bytes": 1056992,
+      "allocated_bytes": 1056992,
+      "expected_sha256": null
+    }
+  ],
+  "target_free_gib": 8,
+  "limits": {
+    "cpu_affinity": [
+      0,
+      1
+    ],
+    "priority": "BELOW_NORMAL",
+    "concurrent_files": 1
+  },
+  "excludes": [
+    "submitted v1.0 weights",
+    "all videos, images, PDF and audio",
+    "train11 flight records",
+    "active files"
+  ],
+  "precondition": "All train11 trials and pipeline processing finished; no project training/flight workers.",
+  "integrity": "SHA-256 before and after every file; preserve byte contents and all paths; no deletion or movement.",
+  "free_bytes_before_registration": 6256664576
+}

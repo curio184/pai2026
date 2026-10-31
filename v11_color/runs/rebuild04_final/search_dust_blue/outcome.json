@@ -1,0 +1,31 @@
+{
+  "id": "search_dust_blue",
+  "model": "v1.1",
+  "case": {
+    "id": "search_dust_blue",
+    "kind": "search",
+    "scene": "dust",
+    "color": "blue",
+    "model": "v1.1",
+    "group": "video_regression"
+  },
+  "flight_started": true,
+  "success": true,
+  "record": "<PROJECT_ROOT>\\v11_color\\runs\\rebuild04_final\\search_dust_blue\\record",
+  "runner_exit": 0,
+  "checks": {
+    "physical_flight": true,
+    "initial_target_absent": true,
+    "airborne_initial_target_absent": true,
+    "search_rotation_completed": true,
+    "three_image_discovery": true,
+    "original_image_notification": true,
+    "discovery_notification_landing_order": true,
+    "all_camera_hashes_match": true,
+    "no_mission_failure": true,
+    "search_start_geometry_out_of_view": true,
+    "normal_end": true
+  },
+  "checkpoint_sha256": "83ad870ea46901861bcb4d58f94fa4f04d24602a1442210913d4a19d74589f26",
+  "wall_s": 160.51500000001397
+}

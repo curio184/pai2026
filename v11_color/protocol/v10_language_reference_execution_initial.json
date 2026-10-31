@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-10-30T18:11:18.712457+00:00",
+  "protocol_sha256": "7fd866a3810cbe1344cb2215dcde3d400b2973d8138bb0dce92f32c5fc334069",
+  "runner_sha256": "c05fc624104174107b3bda93168a9f8150fbcb312ed4a18640bc0fa6a5fc9156",
+  "verifier_sha256": "9a672c918ef2f5a8780fa087bbfc25e9965fa059f75ed4de02a9d82cde5492b1",
+  "outputs": 64,
+  "flight_count": 0,
+  "models": [
+    "v1.0"
+  ],
+  "num_steps": 5,
+  "gpu_scheduling": "Run only after all42 original cases and all16 teacher-compatible reference cases have ended."
+}

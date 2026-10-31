@@ -1,0 +1,38 @@
+--- run_suite_english.py
++++ run_suite_bounded.py
+@@ -1,6 +1,7 @@
+ """Immutable flight cases. No automatic reruns or score-based threshold changes."""
+ import os,sys,json,time,hashlib,subprocess,datetime,argparse,shutil
+ from pathlib import Path
++from bounded_wsl import bounded_command
+ W=Path(__file__).resolve().parents[1];P=W.parent
+ PY=Path('<USER_HOME>/AppData/Local/Temp/physical_ai_drone_smolvla/venv/Scripts/python.exe')
+ BLENDER='C:/Program Files/Blender Foundation/Blender 3.1/blender.exe'
+@@ -64,6 +65,7 @@
+         command=['wsl','-d','Ubuntu-22.04','--exec','env','RESCUE_PROJECT_ROOT='+lp(P),*extras,LINPY,lp(W/'runtime_english/search_mission.py' if search else W/'runtime_english/ardupilot_bridge/rescue_mission.py'),'--build',lp(build) if search else OLD_BUILD,'--scene',lp(xml) if search else OLD_BUILD+'/rescue_scene.xml','--output',lp(out/'record'),'--chunk-origin','split']
+         if search:command+=['--instruction','青い服の人を探して' if case['color']=='blue' else '赤い服の人を探して']
+         else:command+=['--profile',case['profile']]
++        command=bounded_command(command,out)
+         write(out/'command.json',command);result['flight_started']=True
+         with (out/'runner.log').open('w',encoding='utf-8') as log:run=subprocess.run(command,env=env,stdout=log,stderr=subprocess.STDOUT,timeout=360)
+         result['runner_exit']=run.returncode
+--- run_round02_english.py
++++ run_round02_bounded.py
+@@ -1,7 +1,7 @@
+ """Round-2 orchestration only; use the frozen flight runner and scorers."""
+ import argparse,datetime,json,shutil
+ from pathlib import Path
+-from run_suite_english import W,P,sha,write,run_case
++from run_suite_bounded import W,P,sha,write,run_case
+ def read(p):return json.loads(p.read_text(encoding='utf-8'))
+ def stress_pass(summary):
+     rows=summary['cases']
+@@ -49,7 +49,7 @@
+     name=('heldout_round02_english' if a.suite=='heldout' else a.suite)+'_'+a.candidate
+     suite=W/'runs'/name;suite.mkdir(parents=True,exist_ok=True)
+     meta=dict(cases=cases,checkpoint_sha256=trained['checkpoint_sha256'],round_protocol_sha256=sha(W/'protocol/round02_english.json'),
+-        base_protocol_sha256=sha(W/'protocol/plan.json'),script_sha256=sha(Path(__file__)),frozen_runner_sha256=sha(W/'scripts/run_suite_english.py'),runtime_lock_sha256=sha(W/'protocol/runtime_english_lock.json'))
++        base_protocol_sha256=sha(W/'protocol/plan.json'),script_sha256=sha(Path(__file__)),frozen_runner_sha256=sha(W/'scripts/run_suite_bounded.py'),original_runner_sha256=sha(W/'scripts/run_suite_english.py'),resource_wrapper_sha256=sha(W/'scripts/bounded_wsl_entry.py'),runtime_lock_sha256=sha(W/'protocol/runtime_english_lock.json'))
+     if (suite/'suite_plan.json').exists():assert read(suite/'suite_plan.json')==meta
+     else:write(suite/'suite_plan.json',meta)
+     outcomes=[]
